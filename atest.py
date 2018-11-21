@@ -10,11 +10,23 @@ alltags = []
 urllist1 = []
 urllist2 = []
 
-eachurl = 'http://www.townofguilderland.org/pages/guilderlandny_hr/index?_sm_au_=iVV8Z8Lp1WfFsNV6'
+
+eachurl = 'http://www.townofunion.com/index.php/departments/human-resources'
 
 # Get html from url
+try:
+	html0 = urllib.request.urlopen(eachurl)
 
-html = urllib.request.urlopen(eachurl, data=None, headers={ 'User-Agent' : 'Mozilla/5.0' })
+	html = html0.geturl()
+
+except Exception as e: 
+	a = str(e)
+	if a.startswith('HTTP Error 403'):
+		print('caught it')
+	else:
+		print('iiiiiii')
+
+
 charset_encoding = html.info().get_content_charset()
 
 if charset_encoding == None:
