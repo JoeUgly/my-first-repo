@@ -3,13 +3,14 @@
 # Description: Search the provided webpages for keyword and attempt crawling.
 
 # To do: 
-# Phase 1:
+# Phase 1: basic function
 # keyword search
 # crawl function
-# Phase 2:
+# proper html fetching
+# Phase 2: basic optimization
 # prevent dups and checked pages
 # blacklist
-# Phase 3:
+# Phase 3: advanced features
 # parellelization
 # user-defined levels of crawling
 # Phase 4: GUI
@@ -27,6 +28,7 @@ urllistprefilter = []
 urllistgood = set()
 alltags = set()
 
+# Get portal URLs from file
 civfile = open('/home/joepers/code/current/civ_crawl/civil_ny')
 for civline in civfile:
 	allcivurls.append(civline)
@@ -44,31 +46,26 @@ for eachcivurl in allcivurls:
 	try:
 		html = urllib.request.urlopen(eachcivurl)
 	except:
-		print('url request error at', eachcivurl)
+		print('error 1: url request at', eachcivurl)
 		errorurls.append(eachcivurl)
 		continue
 
-	# Decode if necessasry
+	# Decode if necessary
 	charset_encoding = html.info().get_content_charset()
+	print('Char encoding =', charset_encoding)
 
-	if charset_encoding == None:
-		print('No char encoding detected.')
-		#html = html.read().decode(errors='ignore')
-		try:
-			html = html.read().decode()
-		except:
-			print('Decode error at ', eachcivurl)
-			errorurls.append(eachcivurl)
-			continue
-	else:
-		print('Char encoding =', charset_encoding)
-		html = html.read().decode(charset_encoding)
+        #html = html.read().decode(errors='ignore')
+        try:
+                dechtml = html.read().decode(charset_encoding)
+        except:
+                print('error 2: decode at ', eachcivurl)
+                errorurls.append(eachcivurl)
+                continue
 
-	html1 = html.lower()
+	html1 = dechtml.lower()
 
 	# Search for keyword on page
 	keycheck = html1.find('correction officer')
-	#keycheck = keycheck1.lower()
 
 	# Add to the keywordurl set
 	if keycheck != -1:
@@ -80,7 +77,6 @@ for eachcivurl in allcivurls:
 	# Seperate html into lines using <a delimiter
 	htmllines = html1.split('<a')
 	#htmllines.sort
-
 
 	# End lines using </a> delimiter and add to alltags set
 	for eachhtmlline in htmllines:
@@ -104,54 +100,47 @@ for eachcivurl in allcivurls:
 	for tag in alltags:
 		if any(x in tag for x in jobwords):
 
-			# If tag uses double quotes
-			if tag.count('"') > 0:
+                        ## split by href first?
+                        # Determine if double or single quote comes first in tag
+                        dqloc = tag.find('"')
+                        sqloc = tag.find("'")
+                        
+                        if dqloc < sqloc:
+                                if dqloc > -1:
+                                        quovar = '"'
+                                else: quovar = "'"
+                        elif dqloc < sqloc:
+                                if sqloc > -1:
+                                        quovar = "'"
+                                else: quovar = '"'
+                        else:
+                                print('error 3: tag quote at ', tag)
 		        
-	        # Append only the url to the list
+                                # Append only the url to the list
+				if tag.count('href=') > 0:
+                                        try:
+                                                urlline0 = tag.split('href=')[1]
+                                                urlline = urlline0.split(quovar)[0]
 
-				if tag.count('href="') > 0:
-				#try:
-		
-					urlline0 = tag.split('href="')[1]
-					urlline = urlline0.split('"')[0]
-					print(tag, urlline)
+                                                # Convert any rel paths to abs
+                                                abspath = urllib.parse.urljoin(domain, urlline)
+                                                urllistprefilter.append(abspath)
+                                                print('tag = ', tag, 'urlline = ', urlline, 'absp = ', abspath)
 
-					# Convert any rel paths to abs
-					abspath = urllib.parse.urljoin(domain, urlline)
-					urllistprefilter.append(abspath)
 
-				#except:
-					#print('error 1', tag)
+                                        except:
+                                                print('error 4: url split at ', tag)
 
 				    # Exclude if the tag contains a bunkword
 					try:
 						if not any(x in tag for x in bunkwords):
 							urllistgood.add(abspath)
 					except:
-						print('error 2', tag)
+						print('error 5: at ', tag)
 				else:
-					print('no href')
+					print('error 6: no "href=" at ', tag)
 
 
-		    # If tag uses single quotes
-			elif tag.count("'") > 0:
-		                  
-		        # Append only the url to the list
-				try:
-					urlline = tag.split("'")[1]
-
-					# Convert any rel paths to abs
-					abspath = urllib.parse.urljoin(domain, urlline)
-					urllistprefilter.append(abspath)
-				except:
-					print('error 3', tag)
-
-		        # Exclude if the tag contains a bunkword
-				try:
-					if not any(x in tag for x in bunkwords):
-						urllistgood.add(abspath)
-				except:
-					print('error 4', tag)
 
 
 	print('============= Begin crawl ==============', abspath)
@@ -163,33 +152,22 @@ for eachcivurl in allcivurls:
 		try:
 			abspathhtml = urllib.request.urlopen(workingurl)
 		except:
-			print('url request error at', abspath)
+			print('error 1: url request at', abspath)
 			errorurls.append(abspath)
 			continue
 
 		# Decode if necessasry
 		charset_encoding = abspathhtml.info().get_content_charset()
 
-		if charset_encoding == None:
-			print('No char encoding detected.')
-			#html = html.read().decode(errors='ignore')
-			try:
-				abspathhtml = abspathhtml.read().decode()
-			except:
-				print('Decode error at ', abspath)
-				errorurls.append(abspath)
-				continue
-		else:
-			print('Char encoding =', charset_encoding)
-
+                #html = html.read().decode(errors='ignore')
 		try:
-			abspathhtml = abspathhtml.read().decode(charset_encoding)
+			decabspathhtml = abspathhtml.read().decode(charset_encoding)
 		except:
-			print('Decode error 2 at ', abspath)
+			print('error 2: decode at ', abspath)
 			errorurls.append(abspath)
 			continue
 
-		abspathhtml1 = abspathhtml.lower()
+		abspathhtml1 = decabspathhtml.lower()
 
 		# Search for keyword on page
 		keycheck = abspathhtml1.find('correction officer')
@@ -210,13 +188,12 @@ for eachcivurl in allcivurls:
 	print('\n\n~~~~~~~~~~~~ urllistprefilter length =', len(urllistprefilter), ' ~~~~~~~~~~~~\n', urllistprefilter)
 	 
 	print('\n\n~~~~~~~~~~~~ urllistgood length =', len(urllistgood), ' ~~~~~~~~~~~~\n', urllistgood)
-
 		
 
 
-print('\n\n############### ', len(keywordurlset), ' matches found at: ', keywordurlset)
+print('\n\n ################## ', len(keywordurlset), ' matches found at: \n', keywordurlset)
 
-print('\n\n', len(errorurls), ' errors found at: ', errorurls)
+print('\n\n', len(errorurls), ' errors found at: \n', errorurls)
 
 
 
