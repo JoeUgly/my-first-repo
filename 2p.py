@@ -30,19 +30,24 @@ user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 F
 allcivurls = []
 errorurls = {}
 abspath = 'aaa'
-#blacklist = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\port.txt''')
+blacklisth = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\blacklist.txt''')
+blacklist = blacklisth.read()
+print(blacklist)
 
 keywordurlset = set()
 urllistprefilter = []
+urllist1 = []
+urllist2 = []
 urllistgood = set()
 alltags = set()
+checkedurls = set()
 
 # Clear errorlog
 f = open("errorlog.txt", "w")
 f.write('')
 
 # Get portal URLs from file
-civfile = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\port.txt''')
+civfile = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\2civil.txt''')
 for civline in civfile:
     allcivurls.append(civline)
 
@@ -101,6 +106,9 @@ for eachcivurl in allcivurls:
     else:
         print('\n~~~ Not today ~~~\n')
 
+    # Add to checked pages set
+    checkedurls.add(eachcivurl)
+    
 
     # Seperate html into lines using <a delimiter
     htmllines = html1.split('<a ')
@@ -128,63 +136,61 @@ for eachcivurl in allcivurls:
     for tag in alltags:
         if any(xxx in tag for xxx in jobwords):
 
-            ## split by href first?
-            # Determine if double or single quote comes first in tag
-            dqloc = tag.find('"')
-            sqloc = tag.find("'")
-            print('\n', dqloc, sqloc)
-
-            if dqloc < sqloc:
-                if dqloc > -1:
-                    quovar = '"'
-                else: quovar = "'"
-            elif dqloc > sqloc:
-                if sqloc > -1:
-                    quovar = "'"
-                else: quovar = '"'
-            else:
-                print('error 3: tag quote at ', tag)
-                errorurls[tag] = 'error 3: tag quote'
-
             # Append only the url to the list
             if tag.count('href=') > 0:
                 try:
                     urlline0 = tag.split('href=')[1]
-                    urlline = urlline0.split(quovar)[1]
 
-                    # Convert any rel paths to abs
-                    abspath = urllib.parse.urljoin(domain, urlline)
-                    urllistprefilter.append(abspath)
-                    print('tag = ', tag, '\nurlline0 = ', urlline0, '\nurlline = ', urlline,  '\nabsp = ', abspath)
+                    # Determine if double or single quote comes first in tag
+                    dqloc = urlline0.find('"')
+                    sqloc = urlline0.find("'")
+
+                    if dqloc < sqloc:
+                        if dqloc > -1:
+                            quovar = '"'
+                        else: quovar = "'"
+                    elif dqloc > sqloc:
+                        if sqloc > -1:
+                            quovar = "'"
+                        else: quovar = '"'
+                    else:
+                        print('error 3: tag quote at ', tag)
+                        errorurls[tag] = 'error 3: tag quote'
 
                 except Exception as errex:
                     print('error 4: url split at ', tag)
                     errorurls[tag] = 'error 4', errex
 
-                # Exclude if the tag contains a bunkword
-                try:
-                    if not any(yyy in tag for yyy in bunkwords):
-                        urllistgood.add(abspath)
-                except Exception as errex:
-                    print('error 5: at ', tag)
-                    errorurls[tag] = 'error 5', errex
+                    
+                urlline = urlline0.split(quovar)[1]
 
-                # Exclude if the abspath is on the Blacklist
-                #if not any(zzz in abspath for zzz in blacklist):
-                        #urllistgood.add(abspath)
+                # Convert any rel paths to abs
+                abspath = urllib.parse.urljoin(domain, urlline)
+                urllistprefilter.append(abspath)
+
+                # Exclude if the tag contains a bunkword
+                if not any(yyy in tag for yyy in bunkwords):
+                    urllist1.append(abspath)
+
+                    # Exclude if the abspath is on the Blacklist
+                    if not abspath in blacklist:
+                        urllist2.append(abspath)
+
+                        # Exclude if the abspath is a checked page
+                        if not abspath in checkedurls:
+                            urllistgood.add(abspath)                
 
             ## error 6 should not be an error
             else:
-                print('error 6: no "href=" at ', tag)
+                print('error 5: no "href=" at ', tag)
                 errorurls[tag] = 'error 6: no href='
+    try:
+        print('tag = ', tag, '\nurlline = ', urlline, '\nabsp = ', abspath, '\nul1= ', len(urllist1), '\nul2 = ', len(urllist2), '\nulg = ', len(urllistgood))
+    except:
+        print('error 6:')
 
-
-
-
-    print('urlg =', urllistgood)
     for workingurl in urllistgood:
-
-        print('============= Begin crawl ==============', workingurl)
+        print('------------- Begin crawl -------------\n', workingurl)
 
         # Get html from url
         try:
@@ -223,6 +229,9 @@ for eachcivurl in allcivurls:
         else:
             print('\n~~~ Not today ~~~\n')
 
+        # Add to checked pages set
+        checkedurls.add(workingurl)
+
 
 
 
@@ -234,18 +243,18 @@ for eachcivurl in allcivurls:
 
 
 
-print('\n\n ################## ', len(keywordurlset), ' matches found at: \n', keywordurlset)
+    print('\n\n ################## ', len(keywordurlset), ' matches found at: \n', keywordurlset)
 
 
 
 
-# Display and write errorlog
-writeerrors = open("errorlog.txt", "a")
-print('\n\n', len(errorurls), ' errors found at: \n',)
-for k, v in errorurls.items():
-    print(v, '::', k, '\n')
-    vk = str((v, '::', k))
-    writeerrors.write(vk + '\n')
+    # Display and write errorlog
+    writeerrors = open("errorlog.txt", "a")
+    print('\n\n', len(errorurls), ' errors found at: \n',)
+    for k, v in errorurls.items():
+        print(v, '::', k, '\n')
+        vk = str((v, '::', k))
+        writeerrors.write(vk + '\n')
 
 
 

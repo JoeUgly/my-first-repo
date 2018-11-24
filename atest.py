@@ -11,7 +11,7 @@ urllist1 = []
 urllist2 = []
 
 
-eachurl = 'http://www.townofunion.com/index.php/departments/human-resources'
+eachurl = 'https://labor.ny.gov/stats/cslist.shtm'
 
 # Get html from url
 try:
