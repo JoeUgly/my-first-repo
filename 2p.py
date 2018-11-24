@@ -32,7 +32,6 @@ errorurls = {}
 abspath = 'aaa'
 blacklisth = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\blacklist.txt''')
 blacklist = blacklisth.read()
-print(blacklist)
 
 keywordurlset = set()
 urllistprefilter = []
@@ -53,6 +52,8 @@ for civline in civfile:
 
 for eachcivurl in allcivurls:
     alltags.clear()
+    urllist1.clear()
+    urllist2.clear()
     urllistgood.clear()
     urllistprefilter.clear()
     print('\n\n\n\n ====================== Start =====================\n', eachcivurl)
