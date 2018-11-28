@@ -25,7 +25,7 @@
 from datetime import datetime
 startTime = datetime.now()
 
-import urllib.request, urllib.parse, urllib.error, os
+import urllib.request, urllib.parse, urllib.error, os, platform
 
 keyword = 'plant operator'
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
@@ -51,18 +51,37 @@ urllistgood = set()
 alltags = set()
 checkedurls = set()
 
-
+## change to pathlib
+# Set OS
+osname = platform.system()
 
 # Clear errorlog
-f = open("/home/joepers/code/current/civ_crawl/errorlog", "w")
+if osname == 'Windows':
+    f = open("C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt", "w")
+elif osname == 'Linux':
+    f = open("/home/joepers/code/current/civ_crawl/errorlog", "w")
+elif osname == 'Darwin':
+    f = open("/home/joepers/code/current/civ_crawl/errorlog", "w")
+else:
+    print('Unknown OS platform. Exiting...')
+    exit()
+    
 f.write('')
 
 # Get portal URLs from file
-civfile = open(r'''/home/joepers/code/current/civ_crawl/civil_ny''')
+if osname == 'Windows':
+    civfile = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\civil_ny.txt''')
+elif osname == 'Linux':
+    civfile = open(r'''/home/joepers/code/current/civ_crawl/civil_ny''')
+elif osname == 'Darwin':
+    civfile = open(r'''/home/joepers/code/current/civ_crawl/civil_ny''')
+
+# Store portal urls as a list
 for civline in civfile:
     allcivurls.append(civline)
 numcivurls = len(allcivurls)
 
+# Begin fetching
 for eachcivurl in allcivurls:
     alltags.clear()
     urllist1.clear()
@@ -266,7 +285,7 @@ for eachcivurl in allcivurls:
         # Add to the keywordurl set
         if keyword in decworkinghtml1:
             print('\n~~~~~~ Keyword match ~~~~~~\n')
-            if domainlimit[domain] < 12:
+            if domainlimit[domain] < 10:
                 keywordurlset.add(workingurl)
                 domainlimit[domain] += 1
             else:
@@ -285,7 +304,15 @@ for i in sorted(list(keywordurlset)):
     print(i + '\n')
 
 # Display and write errorlog
-writeerrors = open("/home/joepers/code/current/civ_crawl/errorlog", "a")
+if osname == 'Windows':
+    writeerrors = open("C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt", "a")
+if osname == 'Linux':
+    writeerrors = open("/home/joepers/code/current/civ_crawl/errorlog", "a")
+if osname == 'Darwin':
+    writeerrors = open("/home/joepers/code/current/civ_crawl/errorlog", "a")
+else:
+    print('Unknown OS platform')
+
 print('\n\n', len(errorurls), ' errors found at: \n',)
 for k, v in errorurls.items():
     print(v, '::', k, '\n')
@@ -293,7 +320,8 @@ for k, v in errorurls.items():
     writeerrors.write(vk + '\n\n')
 
 # Stop timer
-print('churls = ', len(checkedurls), 'Number of pages checked = ', pagecount, '\nDuration = ', datetime.now() - startTime)
+duration = datetime.now() - startTime
+print('churls = ', len(checkedurls), 'Number of pages checked = ', pagecount, '\nDuration = ', duration.seconds)
 
 
 
