@@ -87,7 +87,7 @@ for eachcivurl in allcivurls:
         
     except Exception as errex:
         print('error 1: url request at', eachcivurl)
-        errorurls[eachcivurl] = 'error 1', errex
+        errorurls[eachcivurl] = 'error 1:', errex
         continue
 
     # Decode if necessary
@@ -100,7 +100,7 @@ for eachcivurl in allcivurls:
             dechtml = html.read().decode()
         except Exception as errex:
             print('error 2: decode at ', eachcivurl, str(errex)[:99])
-            errorurls[eachcivurl] = 'error 2', str(errex)[:99]
+            errorurls[eachcivurl] = 'error 2:', str(errex)[:99]
             continue
 
     else:
@@ -108,7 +108,7 @@ for eachcivurl in allcivurls:
             dechtml = html.read().decode(charset_encoding)
         except Exception as errex:
             print('error 2: decode at ', eachcivurl, str(errex)[:99])
-            errorurls[eachcivurl] = 'error 2', str(errex)[:99]
+            errorurls[eachcivurl] = 'error 2:', str(errex)[:99]
             continue
 
     dechtml1 = dechtml.lower()
@@ -236,7 +236,7 @@ for eachcivurl in allcivurls:
             #workinghtml = urllib.request.urlopen(workingurl)
         except Exception as errex:
             print('error 7: url request at', workingurl, errex)
-            errorurls[workingurl] = 'error 7', errex
+            errorurls[workingurl] = 'error 7:', errex
             continue
 
         # Decode if necessasry
@@ -246,14 +246,14 @@ for eachcivurl in allcivurls:
                 decworkinghtml = html.read().decode(errors='ignore')
             except Exception as errex:
                 print('error 8: decode at ', workingurl, str(errex)[:99])
-                errorurls[workingurl] = 'error 8', str(errex)[:99]
+                errorurls[workingurl] = 'error 8:', str(errex)[:99]
                 continue
         else:
             try:
                 decworkinghtml = workinghtml.read().decode(charset_encoding)
             except Exception as errex:
                 print('error 9: decode at ', workingurl, str(errex)[:99])
-                errorurls[workingurl] = 'error 9', str(errex)[:99]
+                errorurls[workingurl] = 'error 9:', str(errex)[:99]
                 continue
 
         decworkinghtml1 = decworkinghtml.lower()
