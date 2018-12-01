@@ -10,7 +10,7 @@
 # prevent dups and checked pages +
 # error log +
 # open in browser
-# limit 10 results per domain +
+# limit 10 results per domain. Overload to seperate set?
 # multiple keywords
 # Phase 3: Advanced features
 # parellelization
@@ -25,18 +25,32 @@
 from datetime import datetime
 startTime = datetime.now()
 
-import urllib.request, urllib.parse, urllib.error, os
+import urllib.request, urllib.parse, urllib.error, os, platform
 
 keyword = 'plant operator'
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
 progresscount = 0
 pagecount = 0
 
-
 allcivurls = []
 errorurls = {}
 abspath = None
-blacklisthand = open(r'''/home/joepers/code/current/civ_crawl/blacklist''')
+
+# Set OS
+osname = platform.system()
+
+if osname == 'Windows':
+    blacklisthand = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\blacklist.txt''')
+elif osname == 'Linux':
+    blacklisthand = open(r'''/home/joepers/code/current/civ_crawl/blacklist''')
+elif osname == 'Darwin':
+    blacklisthand = open(r'''/home/joepers/code/current/civ_crawl/blacklist''')
+else:
+    print(osname, 'Unknown OS platform. Exiting...')
+    exit()
+
+
+
 blacklist = blacklisthand.read()
 
 ## review and print this somewhere
@@ -51,18 +65,32 @@ urllistgood = set()
 alltags = set()
 checkedurls = set()
 
-
+## change to pathlib
 
 # Clear errorlog
-f = open("/home/joepers/code/current/civ_crawl/errorlog", "w")
+if osname == 'Windows':
+    f = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "w")
+elif osname == 'Linux':
+    f = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "w")
+elif osname == 'Darwin':
+    f = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "w")
+    
 f.write('')
 
 # Get portal URLs from file
-civfile = open(r'''/home/joepers/code/current/civ_crawl/civil_ny''')
+if osname == 'Windows':
+    civfile = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\sar.txt''')
+elif osname == 'Linux':
+    civfile = open(r'''/home/joepers/code/current/civ_crawl/civil_ny''')
+elif osname == 'Darwin':
+    civfile = open(r'''/home/joepers/code/current/civ_crawl/civil_ny''')
+
+# Store portal urls as a list
 for civline in civfile:
     allcivurls.append(civline)
 numcivurls = len(allcivurls)
 
+# Begin fetching
 for eachcivurl in allcivurls:
     alltags.clear()
     urllist1.clear()
@@ -208,7 +236,7 @@ for eachcivurl in allcivurls:
     excludedbybl = list(set(urllist1) - set(urllist2))
     excludedbydups = list(set(urllist2) - set(urllistgood))
 
-    print('excluded by bunkwords = ', excludedbybw, '\nexcluded by blacklist = ', excludedbybl, '\nexcluded by dups = ', excludedbydups)
+    print('excluded by bunkwords = ', len(excludedbybw), excludedbybw, '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups)
     #print('ul2 = ', urllist2, 'ulg = ', urllistgood)
 
 
@@ -265,8 +293,8 @@ for eachcivurl in allcivurls:
 
         # Add to the keywordurl set
         if keyword in decworkinghtml1:
-            print('\n~~~~~~ Keyword match ~~~~~~\n')
-            if domainlimit[domain] < 12:
+            print('\n~~~~~~ Keyword match ~~~~~~\n', keyword, decworkinghtml1)
+            if domainlimit[domain] < 10:
                 keywordurlset.add(workingurl)
                 domainlimit[domain] += 1
             else:
@@ -285,7 +313,13 @@ for i in sorted(list(keywordurlset)):
     print(i + '\n')
 
 # Display and write errorlog
-writeerrors = open("/home/joepers/code/current/civ_crawl/errorlog", "a")
+if osname == 'Windows':
+    writeerrors = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "a")
+if osname == 'Linux':
+    writeerrors = open(r'''/home/joepers/code/current/civ_crawl/''', "a")
+if osname == 'Darwin':
+    writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
+
 print('\n\n', len(errorurls), ' errors found at: \n',)
 for k, v in errorurls.items():
     print(v, '::', k, '\n')
@@ -293,7 +327,8 @@ for k, v in errorurls.items():
     writeerrors.write(vk + '\n\n')
 
 # Stop timer
-print('churls = ', len(checkedurls), 'Number of pages checked = ', pagecount, '\nDuration = ', datetime.now() - startTime)
+duration = datetime.now() - startTime
+print('churls = ', len(checkedurls), 'Number of pages checked = ', pagecount, '\nDuration = ', duration.seconds)
 
 
 
