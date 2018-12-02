@@ -22,15 +22,15 @@
 #error 3,4,6 - 9
 
 # Start timer
-from datetime import datetime
-startTime = datetime.now()
+import datetime
+startTime = datetime.datetime.now()
 
 import urllib.request, urllib.parse, urllib.error, os, platform
+from threading import Thread
 
 keyword = 'plant operator'
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
-progresscount = 0
-pagecount = 0
+
 
 allcivurls = []
 errorurls = {}
@@ -90,8 +90,18 @@ for civline in civfile:
     allcivurls.append(civline)
 numcivurls = len(allcivurls)
 
-# Begin fetching
-for eachcivurl in allcivurls:
+
+
+
+
+
+
+def fetch_url(eachcivurl):
+
+
+    # Begin fetching
+    progresscount = 0
+    pagecount = 0
     alltags.clear()
     urllist1.clear()
     urllist2.clear()
@@ -102,7 +112,7 @@ for eachcivurl in allcivurls:
     pagecount += 1
     domain = eachcivurl.rsplit('/', 1)[0]
     domainlimit[domain] = 0
-    print('Progress =', progresscount, 'of', numcivurls, '\ndomain = ', domain)
+    #print('Progress =', progresscount, 'of', numcivurls, '\ndomain = ', domain)
 
     # Get html from url
     try:
@@ -116,7 +126,7 @@ for eachcivurl in allcivurls:
     except Exception as errex:
         print('error 1: url request at', eachcivurl)
         errorurls[eachcivurl] = 'error 1:', errex
-        continue
+
 
     # Decode if necessary
     charset_encoding = html.info().get_content_charset()
@@ -129,7 +139,7 @@ for eachcivurl in allcivurls:
         except Exception as errex:
             print('error 2: decode at ', eachcivurl, str(errex)[:99])
             errorurls[eachcivurl] = 'error 2:', str(errex)[:99]
-            continue
+
 
     else:
         try:
@@ -137,7 +147,7 @@ for eachcivurl in allcivurls:
         except Exception as errex:
             print('error 2: decode at ', eachcivurl, str(errex)[:99])
             errorurls[eachcivurl] = 'error 2:', str(errex)[:99]
-            continue
+
 
     dechtml1 = dechtml.lower()
 
@@ -236,7 +246,7 @@ for eachcivurl in allcivurls:
     excludedbybl = list(set(urllist1) - set(urllist2))
     excludedbydups = list(set(urllist2) - set(urllistgood))
 
-    print('excluded by bunkwords = ', len(excludedbybw), excludedbybw, '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups)
+    print('excluded by bunkwords = ', len(excludedbybw), '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups)
     #print('ul2 = ', urllist2, 'ulg = ', urllistgood)
 
 
@@ -316,7 +326,7 @@ for i in sorted(list(keywordurlset)):
 if osname == 'Windows':
     writeerrors = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "a")
 if osname == 'Linux':
-    writeerrors = open(r'''/home/joepers/code/current/civ_crawl/''', "a")
+    writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
 if osname == 'Darwin':
     writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
 
@@ -327,12 +337,14 @@ for k, v in errorurls.items():
     writeerrors.write(vk + '\n\n')
 
 # Stop timer
-duration = datetime.now() - startTime
-print('churls = ', len(checkedurls), 'Number of pages checked = ', pagecount, '\nDuration = ', duration.seconds)
+duration = datetime.datetime.now() - startTime
+#print('churls = ', len(checkedurls), 'Number of pages checked = ', pagecount, '\nDuration = ', duration.seconds)
 
 
 
-
+for eachcivurl in allcivurls:
+    t = Thread(target=fetch_url, args=(eachcivurl,))
+    t.start()
 
 
 

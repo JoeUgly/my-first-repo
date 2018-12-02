@@ -52,11 +52,13 @@ else
 statearr+=("$state")
 fi
 
+# Use local file to get county urls
 if [[ $state =~ "-f" ]]
 then
 countyurlarr="$statearr"
-else
 
+# Use internet to get county urls
+else
 echo -e \\n Retrieving county websites ... \\n
 
 # Get relative wiki county url
@@ -128,11 +130,6 @@ echo \ Estimated time to completion = $(bc <<< "$prevnumofpages/($ppspsprev*$she
 # Set number of levels to crawl
 echo -e \\n\\n Enter number of levels to crawl
 read CRAWLLEVELS
-
-
-
-
-
 
 
 
