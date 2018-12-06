@@ -4,15 +4,14 @@
 
 # To do:
 # Phase 1: Basic function +
-# proper html parsing - 404 and 403 error 7 +
+# proper html parsing - 404 and 403 error 7
 # spoof user agent +
 # Phase 2: Basic optimization +
 # prevent dups and checked pages +
-# error log +
 # open in browser
 # limit 10 results per domain. Overload to seperate set?
-# multiple keywords
 # Phase 3: Advanced features
+# multiple keywords
 # parellelization
 # user-defined levels of crawling
 # Phase 4: Distribution
@@ -29,9 +28,10 @@ import urllib.request, urllib.parse, urllib.error, os, platform, time
 from threading import Thread
 import threading
 
-keyword = 'plant operator'
-user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
+keyword = ['plant operator']
+num_threads = 20
 
+print('len(keyword)777777777777777 =', len(keyword))
 
 # Set OS
 osname = platform.system()
@@ -89,7 +89,6 @@ for civline0 in civfile:
 
 
 numcivurls = len(allcivurls)
-num_threads = 20
 block_size = int(numcivurls / num_threads + 1)
 block_count = 0
 block_begin = 0
@@ -97,6 +96,8 @@ block_end = block_size
 urlblock = {}
 pagecount = 0
 errorurls = {}
+user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
+
 
 
 
@@ -143,6 +144,7 @@ def crawler(urlblock, thread_ID, pagecount):
         except Exception as errex:
             print('error 1: url request at', eachcivurl)
             errorurls[eachcivurl] = 'error 1:', errex
+            checkedurls.add(eachcivurl)
             continue
 
         # Decode if necessary
@@ -157,6 +159,7 @@ def crawler(urlblock, thread_ID, pagecount):
             except Exception as errex:
                 print('error 2: decode at ', eachcivurl)
                 errorurls[eachcivurl] = 'error 2:', str(errex)[:999]
+                checkedurls.add(eachcivurl)
                 continue
         else:
             try:
@@ -164,12 +167,14 @@ def crawler(urlblock, thread_ID, pagecount):
             except Exception as errex:
                 print('error 2: decode at ', eachcivurl)
                 errorurls[eachcivurl] = 'error 2:', str(errex)[:999]
+                checkedurls.add(eachcivurl)
                 continue
 
         dechtml1 = dechtml.lower()
 
         # Search for keyword on page
-        if keyword in dechtml1:
+        if any(zzzz in dechtml1 for zzzz in keyword):
+        #if keyword in dechtml1:
             print('\n~~~~~~ Keyword match ~~~~~~\n')
             keywordurlset.add(eachcivurl)
         #else:
@@ -250,7 +255,6 @@ def crawler(urlblock, thread_ID, pagecount):
         excludedbybw = list(set(urllistprefilter) - set(urllist1))
         excludedbybl = list(set(urllist1) - set(urllist2))
         excludedbydups = list(set(urllist2) - set(urllistgood[eachcivurl]))
-        #excludedbydups = 'aaa'
 
 
         print('excluded by bunkwords = ', len(excludedbybw), '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups)
@@ -285,6 +289,7 @@ def crawler(urlblock, thread_ID, pagecount):
             except Exception as errex:
                 print('error 7: url request at', workingurl)
                 errorurls[workingurl] = 'error 7:', errex
+                checkedurls.add(workingurl)
                 continue
 
             # Decode if necessasry
@@ -297,6 +302,7 @@ def crawler(urlblock, thread_ID, pagecount):
                 except Exception as errex:
                     print('error 8: decode at ', workingurl)
                     errorurls[workingurl] = 'error 8:', str(errex)[:999]
+                    checkedurls.add(workingurl)
                     continue
             else:
                 try:
@@ -304,13 +310,16 @@ def crawler(urlblock, thread_ID, pagecount):
                 except Exception as errex:
                     print('error 9: decode at ', workingurl)
                     errorurls[workingurl] = 'error 9:', str(errex)[:999]
+                    checkedurls.add(workingurl)
                     continue
 
             decworkinghtml1 = decworkinghtml.lower()
 
+            # may need if statement for one or multi keywords
             # Search for keyword on page
-            if keyword in decworkinghtml1:
-                print('\n~~~~~~ Keyword match ~~~~~~\n')
+
+            if any(zzz in decworkinghtml1 for zzz in keyword):
+                print('\n~~~~~~ Keyword match ~~~~~~\n', decworkinghtml1)
 ## review                
                 domainlimitset[domain] = {}
                 if len(domainlimitset[domain]) < 10:
@@ -324,7 +333,6 @@ def crawler(urlblock, thread_ID, pagecount):
             # Add to checked pages set
             checkedurls.add(workingurl)
 
-    pagecount += pagecount
 
     print('End of function', thread_ID, '\n\n pagecount = ', pagecount)
 
@@ -362,6 +370,7 @@ for ooo in range(block_count):
 
 # Display results
 print('\n\n\n\n\n ########################## ', len(keywordurlset), ' matches found ', '##########################\n')
+    
 for i in sorted(list(keywordurlset)):
     print(i + '\n')
 
@@ -374,6 +383,10 @@ elif osname == 'Linux':
 for kk in keywordurlset:
     kws = str(kk + '\n')
     writeresults.write(kws)
+
+# Display domain limit exceedances
+#if len(domainlimitset) > 0:
+#print(len(domainlimitset.keys()), 'Domain limit exceedances at:', domainlimitset)
 
 
 # Display errors
