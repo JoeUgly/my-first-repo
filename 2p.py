@@ -4,29 +4,26 @@
 
 # To do:
 # Phase 1: Basic function +
-# proper html parsing - 404 and 403 error 4
-# spoof user agent +
+# proper html parsing - 404 and 403 error 4 +
 # Phase 2: Basic optimization +
-# prevent dups and checked pages +
-# open in browser
-# limit 10 results per baseurl. Overload to seperate set?
+# limit results per baseurl. Overload to seperate set. +
+# lock global vars
+# pathlib
 # Phase 3: Advanced features
-# multiple keywords
 # parellelization
 # user-defined levels of crawling
 # Phase 4: Distribution
 # enable cross-platform
 # Phase 5: GUI
 
-#error 3, 5, 6,8
+#error 3, 5, 6, 8
 
 # Start timer
 import datetime
 startTime = datetime.datetime.now()
 
-import urllib.request, urllib.parse, urllib.error, os, platform, time
-from threading import Thread
-import threading
+import urllib.request, urllib.parse, urllib.error, os, platform, threading, webbrowser
+
 
 
 keyword = ['plant operator', 'librarian']
@@ -96,6 +93,7 @@ block_begin = 0
 block_end = block_size
 urlblock = {}
 errorurls = {}
+baseurllimitset = {}
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
 
 
@@ -113,10 +111,10 @@ def crawler(urlblock, thread_ID):
 
         # Skip checked pages
         if eachcivurl in checkedurls:
+            print('Skipping', eachcivurl)
             continue
 
         eachcivurl = eachcivurl.lower()
-        baseurllimitset = {}
         baseurllimitset.clear
         urllistgood = {}
         urllistgood.clear
@@ -232,6 +230,10 @@ def crawler(urlblock, thread_ID):
 
                     # Convert any rel paths to abs
                     abspath = urllib.parse.urljoin(baseurl, urlline)
+
+                    # Remove queries and fragments from url
+                    abspath = abspath.split('?')[0].split('#')[0]
+                    abspath = abspath.lower()
                     urllistprefilter.append(abspath)
 
                     # Exclude if the tag contains a bunkword
@@ -244,10 +246,6 @@ def crawler(urlblock, thread_ID):
 
                             # Exclude if the abspath is a checked page
                             if not abspath in checkedurls:
-                                
-                                # Remove queries and fragments from url
-                                abspath = abspath.split('?')[0].split('#')[0]
-                                abspath = abspath.lower()
 
                                 # Remove trailing slash
                                 if abspath.endswith('/'):
@@ -331,7 +329,7 @@ def crawler(urlblock, thread_ID):
                 if len(baseurllimitset[baseurl]) < baseurllimit:
                     keywordurlset.add(workingurl)
                 else:
-                    print('Match omitted. baseurl limit reached.')
+                    print('Match omitted. Baseurl limit exceeded.')
                     baseurllimitset[baseurl].add(workingurl)
             #else:
                 #print('~~~ No match ~~~\n')
@@ -370,51 +368,58 @@ for ooo in range(block_count):
     t[wait_count].join()
     print('Waiting for threads ...', wait_count)
     wait_count += 1
+print(' ==========================================================')
 
 
 
-
-# Display results
-print('\n\n\n\n\n ########################## ', len(keywordurlset), ' matches found ', '##########################\n')
-    
-for i in sorted(list(keywordurlset)):
-    print(i + '\n')
-
-# Write results
+# Write results and errorlog
 if osname == 'Windows':
-    writeresults = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "a")            
+    writeresults = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "a")
+    writeerrors = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "a")
+
 elif osname == 'Linux':
     writeresults = open(r'''/home/joepers/code/current/civ_crawl/results''', "a")
+    writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
     
 for kk in keywordurlset:
     kws = str(kk + '\n')
     writeresults.write(kws)
 
-# Display baseurl limit exceedances
-#if len(baseurllimitset) > 0:
-#    print('baseurl limit exceedances at:', baseurllimitset)
-
-
-# Display errors
-print('\n\n', len(errorurls), 'errors found\n\n')
-
-# Write errorlog
-if osname == 'Windows':
-    writeerrors = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "a")
-if osname == 'Linux':
-    writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
-if osname == 'Darwin':
-    writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
-
 for k, v in errorurls.items():
     vk = str((v, '::', k))
     writeerrors.write(vk + '\n\n')
 
+# Calculate error rate
+error_rate = len(errorurls) / len(checkedurls)
+if error_rate < 0.01:
+    error_rate_desc = '(low)'
+elif error_rate < 0.1:
+    error_rate_desc = '(medium)'
+else:
+    error_rate_desc = '(high)'
 
-# Stop timer
+# Stop timer and display stats
 duration = datetime.datetime.now() - startTime
-print('churls = ', len(checkedurls), '\nDuration = ', duration.seconds, 'seconds\n\n')
+print('\n\n\nPages checked =', len(checkedurls), '\nDuration =', duration.seconds, 'seconds', '\nErrors detected =', len(errorurls), error_rate_desc)
 
+
+
+# Display results
+print('\n\n\n   ################ ', len(keywordurlset), ' matches found ', ' ################\n')
+for i in sorted(list(keywordurlset)):
+    print(i + '\n')
+
+# Display baseurl limit exceedances
+if len(baseurllimitset.values()) > 1:
+    print('Baseurl limit exceedances at:\n', baseurllimitset)
+    writeresults.write('\n\nBaseurl limit exceedances at:\n' + str(baseurllimitset))
+
+# Open in browser
+if len(keywordurlset) > 0:
+    browserresp = input('\n\nOpen all results in browser?\ny/n\n')
+    if browserresp.lower() == 'y' or browserresp.lower() == 'yes':
+        for eachbrowserresult in keywordurlset:
+            webbrowser.open(eachbrowserresult)
 
 
 
