@@ -4,12 +4,12 @@
 
 # To do:
 # Phase 1: Basic function +
-# proper html parsing - 404 and 403 error 7
+# proper html parsing - 404 and 403 error 4
 # spoof user agent +
 # Phase 2: Basic optimization +
 # prevent dups and checked pages +
 # open in browser
-# limit 10 results per domain. Overload to seperate set?
+# limit 10 results per baseurl. Overload to seperate set?
 # Phase 3: Advanced features
 # multiple keywords
 # parellelization
@@ -18,7 +18,7 @@
 # enable cross-platform
 # Phase 5: GUI
 
-#error 3,4,6,8,9
+#error 3, 5, 6,8
 
 # Start timer
 import datetime
@@ -28,10 +28,11 @@ import urllib.request, urllib.parse, urllib.error, os, platform, time
 from threading import Thread
 import threading
 
-keyword = ['plant operator']
-num_threads = 20
 
-print('len(keyword)777777777777777 =', len(keyword))
+keyword = ['plant operator', 'librarian']
+num_threads = 30
+baseurllimit = 5
+
 
 # Set OS
 osname = platform.system()
@@ -94,7 +95,6 @@ block_count = 0
 block_begin = 0
 block_end = block_size
 urlblock = {}
-pagecount = 0
 errorurls = {}
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
 
@@ -103,7 +103,7 @@ user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 F
 
 
 ######  Define the crawling function  ######
-def crawler(urlblock, thread_ID, pagecount):
+def crawler(urlblock, thread_ID):
     print('\n\n\n\n ============================= Start function ============================')
     print('thread_ID = ', thread_ID, '\nurlblock length =', len(urlblock), '\n', urlblock, '\n')
     progresscount = 1
@@ -115,8 +115,9 @@ def crawler(urlblock, thread_ID, pagecount):
         if eachcivurl in checkedurls:
             continue
 
-        domainlimitset = {}
-        domainlimitset.clear
+        eachcivurl = eachcivurl.lower()
+        baseurllimitset = {}
+        baseurllimitset.clear
         urllistgood = {}
         urllistgood.clear
         urllistgood.setdefault(eachcivurl, [])
@@ -132,8 +133,7 @@ def crawler(urlblock, thread_ID, pagecount):
 
         print('\n\n ~~~~~~~~~~~~~~~~~~~~~~~~~~ Next civurl ~~~~~~~~~~~~~~~~~~~~~~~~~~     Progress = ', progresscount, 'of', block_size, 'thread_ID =', thread_ID, '\n', eachcivurl)
         progresscount += 1
-        pagecount += 1
-        domain = eachcivurl.rsplit('/', 1)[0]
+        baseurl = eachcivurl
 
         # Get html from url
         try:           
@@ -174,11 +174,13 @@ def crawler(urlblock, thread_ID, pagecount):
 
         # Search for keyword on page
         if any(zzzz in dechtml1 for zzzz in keyword):
-        #if keyword in dechtml1:
             print('\n~~~~~~ Keyword match ~~~~~~\n')
+            
+            # Remove trailing slash
+            if eachcivurl.endswith('/'):
+                eachcivurl = eachcivurl.rsplit('/', 1)[0]
+
             keywordurlset.add(eachcivurl)
-        #else:
-            #print('\n~~~ No match ~~~')
 
         # Add to checked pages set
         checkedurls.add(eachcivurl)
@@ -225,14 +227,11 @@ def crawler(urlblock, thread_ID, pagecount):
                         if sqloc > -1:
                             quovar = "'"
                         else: quovar = '"'
-                    else:
-                        print('error 3: tag quote at ', tag)
-                        errorurls[tag] = 'error 3: tag quote'
                     
                     urlline = urlline0.split(quovar)[1]
 
                     # Convert any rel paths to abs
-                    abspath = urllib.parse.urljoin(domain, urlline)
+                    abspath = urllib.parse.urljoin(baseurl, urlline)
                     urllistprefilter.append(abspath)
 
                     # Exclude if the tag contains a bunkword
@@ -245,8 +244,17 @@ def crawler(urlblock, thread_ID, pagecount):
 
                             # Exclude if the abspath is a checked page
                             if not abspath in checkedurls:
-                                urllistgood.setdefault(eachcivurl, []).append(abspath)             
+                                
+                                # Remove queries and fragments from url
+                                abspath = abspath.split('?')[0].split('#')[0]
+                                abspath = abspath.lower()
 
+                                # Remove trailing slash
+                                if abspath.endswith('/'):
+                                    abspath = abspath.rsplit('/', 1)[0]
+                                
+                                urllistgood.setdefault(eachcivurl, []).append(abspath)
+                                           
             else:
                 #errorurls[tag] = 'error 5: no "href="'
                 continue
@@ -254,17 +262,18 @@ def crawler(urlblock, thread_ID, pagecount):
         # Show excluded urls
         excludedbybw = list(set(urllistprefilter) - set(urllist1))
         excludedbybl = list(set(urllist1) - set(urllist2))
-        excludedbydups = list(set(urllist2) - set(urllistgood[eachcivurl]))
-
-
-        print('excluded by bunkwords = ', len(excludedbybw), '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups)
-
-
         try:
-            print('\nul1nbw = ', len(urllist1), '\nul2nbl = ', len(urllist2), '\nulgndups = ', len(urllistgood[eachcivurl]))
-        except:
-            print('error 6:')
-            errorurls[eachcivurl] = 'error 6:'
+            excludedbydups = list(set(urllist2) - set(urllistgood[eachcivurl]))
+
+            print('excluded by bunkwords = ', len(excludedbybw), '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups, '\nul1nbw = ', len(urllist1), '\nul2nbl = ', len(urllist2), '\nulgndups = ', len(urllistgood[eachcivurl]))
+
+        except Exception as errex:
+            print('error 3: url request at', abspath)
+            errorurls[abspath] = 'error 3:', errex
+            
+
+
+
 
 
         # Begin crawl
@@ -277,7 +286,6 @@ def crawler(urlblock, thread_ID, pagecount):
                 print('Skipping', workingurl)
                 continue
         
-            pagecount += 1
             print('\n',workingurl)
 
             # Get html from url
@@ -287,8 +295,8 @@ def crawler(urlblock, thread_ID, pagecount):
                 workinghtml = urllib.request.urlopen(workingrequest)
 
             except Exception as errex:
-                print('error 7: url request at', workingurl)
-                errorurls[workingurl] = 'error 7:', errex
+                print('error 4: url request at', workingurl)
+                errorurls[workingurl] = 'error 4:', errex
                 checkedurls.add(workingurl)
                 continue
 
@@ -315,18 +323,16 @@ def crawler(urlblock, thread_ID, pagecount):
 
             decworkinghtml1 = decworkinghtml.lower()
 
-            # may need if statement for one or multi keywords
             # Search for keyword on page
-
             if any(zzz in decworkinghtml1 for zzz in keyword):
-                print('\n~~~~~~ Keyword match ~~~~~~\n', decworkinghtml1)
+                print('\n~~~~~~ Keyword match ~~~~~~\n')
 ## review                
-                domainlimitset[domain] = {}
-                if len(domainlimitset[domain]) < 10:
+                baseurllimitset[baseurl] = {}
+                if len(baseurllimitset[baseurl]) < baseurllimit:
                     keywordurlset.add(workingurl)
                 else:
-                    print('Match omitted. Domain limit reached.')
-                    domainlimitset[domain].add(workingurl)
+                    print('Match omitted. baseurl limit reached.')
+                    baseurllimitset[baseurl].add(workingurl)
             #else:
                 #print('~~~ No match ~~~\n')
 
@@ -334,7 +340,7 @@ def crawler(urlblock, thread_ID, pagecount):
             checkedurls.add(workingurl)
 
 
-    print('End of function', thread_ID, '\n\n pagecount = ', pagecount)
+    print('End of function', thread_ID)
 
 
 ####   End of function   ####
@@ -351,7 +357,7 @@ while block_count <= num_threads:
     
     # Assign blocks to new threads until empty
     if urlblock[block_count]:
-        t[block_count] = threading.Thread(target=crawler, args=(urlblock[block_count], block_count, pagecount))
+        t[block_count] = threading.Thread(target=crawler, args=(urlblock[block_count], block_count))
         t[block_count].start()
         block_begin += block_size
         block_end += block_size
@@ -384,9 +390,9 @@ for kk in keywordurlset:
     kws = str(kk + '\n')
     writeresults.write(kws)
 
-# Display domain limit exceedances
-#if len(domainlimitset) > 0:
-#print(len(domainlimitset.keys()), 'Domain limit exceedances at:', domainlimitset)
+# Display baseurl limit exceedances
+#if len(baseurllimitset) > 0:
+#    print('baseurl limit exceedances at:', baseurllimitset)
 
 
 # Display errors
@@ -407,7 +413,7 @@ for k, v in errorurls.items():
 
 # Stop timer
 duration = datetime.datetime.now() - startTime
-print('churls = ', len(checkedurls), 'Number of pages checked = ', pagecount, '\nDuration = ', duration.seconds, 'seconds')
+print('churls = ', len(checkedurls), '\nDuration = ', duration.seconds, 'seconds\n\n')
 
 
 
