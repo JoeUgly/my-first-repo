@@ -24,7 +24,7 @@ import datetime
 startTime = datetime.datetime.now()
 
 import urllib.request, urllib.parse, urllib.error, os, platform, webbrowser, traceback, time, queue
-from multiprocessing import Process, Queue, Lock
+from multiprocessing import Process, Queue, Lock, Manager
 
 
 
@@ -87,11 +87,11 @@ for civline in civfile:
 
 
 tasks_that_are_done = Queue()
-keywordurlset = Queue()
+#keywordurl_man_list = set()
 qlength = allcivurls.qsize()
 t = {}
-checkedurls = Queue()
-errorurls = {}
+checkedurls_man_set = set()
+errorurls_man_list = {}
 baseurllimitset = {}
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
 
@@ -99,7 +99,7 @@ user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 F
 
 
 ######  Define the crawling function  ######
-def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorurls):
+def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_list):
     while True:
         print('\n\n\n\n ============================ Start function =========================== PID =', os.getpid())
         progresscount = 1
@@ -118,9 +118,8 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
                 print('eachcivurl = ', eachcivurl)
 
                 # Skip checked pages
-                if eachcivurl in iter(checkedurls.get, None):
+                if eachcivurl in checkedurls_man_set:
                     print('Skipping', eachcivurl)
-                    checkedurls.put(eachcivurl)
                     continue
                     
 
@@ -153,8 +152,8 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
 
                 except Exception as errex:
                     print('error 1: url request at', eachcivurl)
-                    errorurls[eachcivurl] = 'error 1:', errex
-                    checkedurls.put(eachcivurl)
+                    errorurls_man_list[eachcivurl] = 'error 1:' + str(errex)
+                    checkedurls_man_set.append(eachcivurl)
                     continue
 
                 # Decode if necessary
@@ -162,22 +161,24 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
                 print('Char encoding =', charset_encoding)
                 
             ## review
+           # if charset_encoding == None:
+             #  charset_encoding = ''
                 if charset_encoding == None:
                     try:
                         #dechtml = html.read().decode(errors='ignore')
                         dechtml = html.read().decode()
                     except Exception as errex:
                         print('error 2: decode at ', eachcivurl)
-                        errorurls[eachcivurl] = 'error 2:', str(errex)[:999]
-                        checkedurls.put(eachcivurl)
+                        errorurls_man_list[eachcivurl] = 'error 2:', str(errex)[:999]
+                        checkedurls_man_set.append(eachcivurl)
                         continue
                 else:
                     try:
                         dechtml = html.read().decode(charset_encoding)
                     except Exception as errex:
                         print('error 2: decode at ', eachcivurl)
-                        errorurls[eachcivurl] = 'error 2:', str(errex)[:999]
-                        checkedurls.put(eachcivurl)
+                        errorurls_man_list[eachcivurl] = 'error 2:', str(errex)[:999]
+                        checkedurls_man_set.append(eachcivurl)
                         continue
                         
                 dechtml1 = dechtml.lower()
@@ -190,10 +191,10 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
                     if eachcivurl.endswith('/'):
                         eachcivurl = eachcivurl.rsplit('/', 1)[0]
 
-                    keywordurlset.put(eachcivurl)
+                    keywordurl_man_list.append(eachcivurl)
 
                 # Add to checked pages set
-                checkedurls.put(eachcivurl)
+                checkedurls_man_set.append(eachcivurl)
                 
                 ## href= as delimiter?
                 # Seperate html into lines using <a delimiter
@@ -258,18 +259,20 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
                                     urllist2.append(abspath)
 
                                     # Exclude if the abspath is a checked page
-                                    if not abspath in iter(checkedurls.get, None):
+                                    if not abspath in checkedurls_man_set:
 
                                         # Remove trailing slash
                                         if abspath.endswith('/'):
                                             abspath = abspath.rsplit('/', 1)[0]
                                         
                                         urllistgood.setdefault(eachcivurl, []).append(abspath)
-                                    else:
-                                        checkedurls.put(abspath)
-                    else:
-                        #errorurls[tag] = 'error 5: no "href="'
-                        continue
+                                    #else:
+                                        #checkedurls_man_set.put(abspath)
+                                        
+                    ## reverse this up there
+                    #else:
+                        #errorurls_man_list[tag] = 'error 5: no "href="'
+                     #   continue
 
                 # Show excluded urls
                 excludedbybw = list(set(urllistprefilter) - set(urllist1))
@@ -281,7 +284,7 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
 
                 except Exception as errex:
                     print('error 3: excludedbydups at', abspath)
-                    errorurls[abspath] = 'error 3:', errex
+                    errorurls_man_list[abspath] = 'error 3:', errex
                     
 
 
@@ -294,9 +297,8 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
                 for workingurl in urllistgood[eachcivurl]:
                     
                     # Skip checked pages
-                    if workingurl in checkedurls:
+                    if workingurl in checkedurls_man_set:
                         print('Skipping', workingurl)
-                        checkedurls.put(workingurl)
                         continue
                 
                     print('\n',workingurl)
@@ -309,8 +311,8 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
 
                     except Exception as errex:
                         print('error 4: url request at', workingurl)
-                        errorurls[workingurl] = 'error 4:', errex
-                        checkedurls.put(workingurl)
+                        errorurls_man_list[workingurl] = 'error 4:', errex
+                        checkedurls_man_set.append(workingurl)
                         continue
 
                     # Decode if necessasry
@@ -323,16 +325,16 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
                             #decworkinghtml = workinghtml.read().decode(errors='ignore')
                         except Exception as errex:
                             print('error 8: decode at ', workingurl)
-                            errorurls[workingurl] = 'error 8:', str(errex)[:999]
-                            checkedurls.put(workingurl)
+                            errorurls_man_list[workingurl] = 'error 8:', str(errex)[:999]
+                            checkedurls_man_set.append(workingurl)
                             continue
                     else:
                         try:
                             decworkinghtml = workinghtml.read().decode(charset_encoding)
                         except Exception as errex:
                             print('error 9: decode at ', workingurl)
-                            errorurls[workingurl] = 'error 9:', str(errex)[:999]
-                            checkedurls.put(workingurl)
+                            errorurls_man_list[workingurl] = 'error 9:', str(errex)[:999]
+                            checkedurls_man_set.append(workingurl)
                             continue
 
                     decworkinghtml1 = decworkinghtml.lower()
@@ -342,7 +344,7 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
             ## review                
                         baseurllimitset[baseurl] = {}
                         if len(baseurllimitset[baseurl]) < baseurllimit:
-                            keywordurlset.put(workingurl)
+                            keywordurl_man_list.append(workingurl)
                         else:
                             print('Match omitted. Baseurl limit exceeded.')
                             baseurllimitset[baseurl].add(workingurl)
@@ -350,7 +352,7 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
                         #print('~~~ No match ~~~\n')
 
                     # Add to checked pages set
-                    checkedurls.put(workingurl)
+                    checkedurls_man_set.append(workingurl)
 
 
                 print('------------ End of function ------------  PID =', os.getpid())
@@ -366,35 +368,62 @@ def crawler(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorur
 
 # Multiprocessing
 if __name__ == '__main__':
-    print('xxxxxxxxxxxxx', tasks_that_are_done.qsize(), qlength)
+    with Manager() as manager:
+        keywordurl_man_list = manager.list()
+        checkedurls_man_set = manager.list()
+        errorurls_man_list = manager.dict()
 
-    # Create child processes
-    for ii in range(num_threads):
-        worker = Process(target=crawler, args=(allcivurls, tasks_that_are_done, keywordurlset, checkedurls, errorurls))
-        worker.start()
+        
+        print('xxxxxxxxxxxxx', tasks_that_are_done.qsize(), qlength)
 
-    # Wait until all child processes are done
-    while True:
-        if tasks_that_are_done.qsize() >= qlength:
-            print('Done', tasks_that_are_done.qsize(), qlength)
-            break
-        else:
-            print('Waiting for all processes to finish. Progress =', tasks_that_are_done.qsize(), 'of', qlength)
-            time.sleep(2)
+        # Create child processes
+        for ii in range(num_threads):
+            worker = Process(target=crawler, args=(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_list))
+            worker.start()
 
-    print(' ==========================================================')
-
-
-
+        # Wait until all child processes are done
+        while True:
+            if tasks_that_are_done.qsize() >= qlength:
+                print('Done', tasks_that_are_done.qsize(), qlength)
+                break
+            else:
+                print('Waiting for all processes to finish. Progress =', tasks_that_are_done.qsize(), 'of', qlength)
+                time.sleep(2)
 
 
+        print('keywordurl_man_list =', keywordurl_man_list)
 
-    finalkeywordurlset = set()
-    shared_queue_list = []
+
+        keywordurl_list = []
+        for i in keywordurl_man_list:
+            keywordurl_list.append(i)
+
+        checkedurls_set = set()
+        for i in checkedurls_man_set:
+            checkedurls_set.add(i)
+
+        
+        errorurls_list = []
+        for i in errorurls_man_list:
+            errorurls_list.append(i)            
+        
+
+        print(' ==========================================================')
+
+
+
+
+    print('keywordurl_list =', keywordurl_list)
+
+
+
+
+
+    finalkeywordurl_list = set()
 
     # Send keyword queue items to a list
-    while keywordurlset.qsize() != 0:
-        shared_queue_list.append(keywordurlset.get())
+    #while len(kwl) != 0:
+      #  keywordurl_set.append(keywordurl_man_list.get())
 
     # Create handle for results and errorlog
     if osname == 'Windows':
@@ -406,7 +435,7 @@ if __name__ == '__main__':
         writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
 
     # Remove scheme from final results to prevent dups
-    for kk in shared_queue_list:
+    for kk in keywordurl_list:
         kk = kk.split('://')[1]
         kk = str(kk)
 
@@ -416,20 +445,20 @@ if __name__ == '__main__':
 
         kk = kk.strip("']")
         kk = kk.strip()
-        finalkeywordurlset.add(kk)
+        finalkeywordurl_list.add(kk)
 
     # Write results and errorlog
-    for kk in finalkeywordurlset:
+    for kk in finalkeywordurl_list:
         kws = str(kk + '\n')
         writeresults.write(kws)
 
-    for k, v in errorurls.items():
-        vk = str((v, '::', k))
+    for k in errorurls_list:
+        vk = str((k))
         writeerrors.write(vk + '\n\n')
 
     # Calculate error rate        
     try:
-        error_rate = len(errorurls) / len(checkedurls)
+        error_rate = len(errorurls_list) / len(checkedurls_set)
         if error_rate < 0.02:
             error_rate_desc = '(low)'
         elif error_rate < 0.2:
@@ -441,12 +470,12 @@ if __name__ == '__main__':
 
     # Stop timer and display stats
     duration = datetime.datetime.now() - startTime
-    print('\n\n\nPages checked =', len(checkedurls), '\nDuration =', duration.seconds, 'seconds', '\nErrors detected =', len(errorurls), error_rate_desc)
+    print('\n\n\nPages checked =', len(checkedurls_set), '\nDuration =', duration.seconds, 'seconds', '\nErrors detected =', len(errorurls_list), error_rate_desc)
 
 
     # Display results
-    print('\n\n\n   ################ ', len(finalkeywordurlset), ' matches found ', ' ################\n')
-    for i in sorted(list(finalkeywordurlset)):
+    print('\n\n\n   ################ ', len(finalkeywordurl_list), ' matches found ', ' ################\n')
+    for i in sorted(list(finalkeywordurl_list)):
         print(i.strip())
 
 
@@ -457,10 +486,10 @@ if __name__ == '__main__':
 
     # Open in browser
     '''
-    if len(finalkeywordurlset) > 0:
+    if len(finalkeywordurl_list) > 0:
         browserresp = input('\n\nOpen all results in browser?\ny/n\n')
         if browserresp.lower() == 'y' or browserresp.lower() == 'yes':
-            for eachbrowserresult in finalkeywordurlset:
+            for eachbrowserresult in finalkeywordurl_list:
                 webbrowser.open(eachbrowserresult)
 
     '''
