@@ -10,6 +10,7 @@
 # global vars - . Use keyvalue instead?
 # pathlib
 # implement locks
+# move misc under main
 # Phase 3: Advanced features
 # parellelization 
 # user-defined levels of crawling
@@ -29,7 +30,7 @@ from multiprocessing import Process, Queue, Lock, Manager
 
 
 keyword = ['plant operator', 'librarian']
-num_threads = 26
+num_threads = 66
 baseurllimit = 5
 
 
@@ -87,9 +88,7 @@ for civline in civfile:
 
 
 tasks_that_are_done = Queue()
-#keywordurl_man_list = set()
 qlength = allcivurls.qsize()
-t = {}
 checkedurls_man_set = set()
 errorurls_man_list = {}
 baseurllimitset = {}
@@ -148,11 +147,11 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                     
                     # Spoof user agent
                     request = urllib.request.Request(eachcivurl,headers={'User-Agent': user_agent})
-                    html = urllib.request.urlopen(request, timeout=20)
+                    html = urllib.request.urlopen(request, timeout=15)
 
                 except Exception as errex:
                     print('error 1: url request at', eachcivurl)
-                    errorurls_man_list[eachcivurl] = 'error 1:' + str(errex)
+                    errorurls_man_list[eachcivurl] = 'error 1: ' + str(errex)
                     checkedurls_man_set.append(eachcivurl)
                     continue
 
@@ -160,26 +159,16 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                 charset_encoding = html.info().get_content_charset()
                 print('Char encoding =', charset_encoding)
                 
-            ## review
-           # if charset_encoding == None:
-             #  charset_encoding = ''
-                if charset_encoding == None:
-                    try:
-                        #dechtml = html.read().decode(errors='ignore')
+                try:
+                    if charset_encoding == None:
                         dechtml = html.read().decode()
-                    except Exception as errex:
-                        print('error 2: decode at ', eachcivurl)
-                        errorurls_man_list[eachcivurl] = 'error 2:', str(errex)[:999]
-                        checkedurls_man_set.append(eachcivurl)
-                        continue
-                else:
-                    try:
+                    else:
                         dechtml = html.read().decode(charset_encoding)
-                    except Exception as errex:
-                        print('error 2: decode at ', eachcivurl)
-                        errorurls_man_list[eachcivurl] = 'error 2:', str(errex)[:999]
-                        checkedurls_man_set.append(eachcivurl)
-                        continue
+                except Exception as errex:
+                    print('error 2: decode at ', eachcivurl)
+                    errorurls_man_list[eachcivurl] = 'error 2: ', str(errex)[:999]
+                    checkedurls_man_set.append(eachcivurl)
+                    continue
                         
                 dechtml1 = dechtml.lower()
 
@@ -284,7 +273,7 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
 
                 except Exception as errex:
                     print('error 3: excludedbydups at', abspath)
-                    errorurls_man_list[abspath] = 'error 3:', errex
+                    errorurls_man_list[abspath] = 'error 3: ', errex
                     
 
 
@@ -307,11 +296,11 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                     try:
                         # Spoof user agent
                         workingrequest = urllib.request.Request(workingurl,headers={'User-Agent': user_agent})
-                        workinghtml = urllib.request.urlopen(workingrequest, timeout=20)
+                        workinghtml = urllib.request.urlopen(workingrequest, timeout=15)
 
                     except Exception as errex:
                         print('error 4: url request at', workingurl)
-                        errorurls_man_list[workingurl] = 'error 4:', errex
+                        errorurls_man_list[workingurl] = 'error 4: ' + str(errex)
                         checkedurls_man_set.append(workingurl)
                         continue
 
@@ -319,23 +308,17 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                     charset_encoding = workinghtml.info().get_content_charset()
                     print('Char encoding =', charset_encoding)
 
-                    if charset_encoding == None:
-                        try:
+                    try:
+                        if charset_encoding == None:
                             decworkinghtml = workinghtml.read().decode()
-                            #decworkinghtml = workinghtml.read().decode(errors='ignore')
-                        except Exception as errex:
-                            print('error 8: decode at ', workingurl)
-                            errorurls_man_list[workingurl] = 'error 8:', str(errex)[:999]
-                            checkedurls_man_set.append(workingurl)
-                            continue
-                    else:
-                        try:
+                        else:
                             decworkinghtml = workinghtml.read().decode(charset_encoding)
-                        except Exception as errex:
-                            print('error 9: decode at ', workingurl)
-                            errorurls_man_list[workingurl] = 'error 9:', str(errex)[:999]
-                            checkedurls_man_set.append(workingurl)
-                            continue
+                
+                    except Exception as errex:
+                        print('error 9: decode at ', workingurl)
+                        errorurls_man_list[workingurl] = 'error 9: ', str(errex)[:999]
+                        checkedurls_man_set.append(workingurl)
+                        continue
 
                     decworkinghtml1 = decworkinghtml.lower()
                     # Search for keyword on page
@@ -369,12 +352,11 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
 # Multiprocessing
 if __name__ == '__main__':
     with Manager() as manager:
+        
+        # Create manager lists to pass into the child processes
         keywordurl_man_list = manager.list()
         checkedurls_man_set = manager.list()
         errorurls_man_list = manager.dict()
-
-        
-        print('xxxxxxxxxxxxx', tasks_that_are_done.qsize(), qlength)
 
         # Create child processes
         for ii in range(num_threads):
@@ -390,109 +372,85 @@ if __name__ == '__main__':
                 print('Waiting for all processes to finish. Progress =', tasks_that_are_done.qsize(), 'of', qlength)
                 time.sleep(2)
 
-
-        print('keywordurl_man_list =', keywordurl_man_list)
-
-
-        keywordurl_list = []
-        for i in keywordurl_man_list:
-            keywordurl_list.append(i)
-
-        checkedurls_set = set()
-        for i in checkedurls_man_set:
-            checkedurls_set.add(i)
-
-        
-        errorurls_list = []
-        for i in errorurls_man_list:
-            errorurls_list.append(i)            
-        
-
         print(' ==========================================================')
 
 
 
 
-    print('keywordurl_list =', keywordurl_list)
 
 
+        finalkeywordurl_list = set()
+
+        # Remove scheme from final results to prevent dups
+        for kk in keywordurl_man_list:
+            kk = kk.split('://')[1]
+            kk = str(kk)
+
+        # Remove 'www.'
+            if kk.count('www.') > 0:
+                kk = kk.split('www.')[1]
+
+            kk = kk.strip("']")
+            kk = kk.strip()
+            finalkeywordurl_list.add(kk)
+
+        finalkeywordurl_list = sorted(list(finalkeywordurl_list))
+
+        # Create handle for results and errorlog
+        if osname == 'Windows':
+            writeresults = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "a")
+            writeerrors = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "a")
+
+        elif osname == 'Linux':
+            writeresults = open(r'''/home/joepers/code/current/civ_crawl/results''', "a")
+            writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
+
+        # Write results and errorlog
+        for kk in finalkeywordurl_list:
+            kws = str(kk + '\n')
+            writeresults.write(kws)
+
+        for k, v in errorurls_man_list.items():
+            vk = str((v, '::', k))
+            writeerrors.write(vk + '\n\n')
+
+        # Calculate error rate        
+        try:
+            error_rate = len(errorurls_man_list) / len(checkedurls_man_set)
+            if error_rate < 0.02:
+                error_rate_desc = '(low)'
+            elif error_rate < 0.2:
+                error_rate_desc = '(medium)'
+            else:
+                error_rate_desc = '(high)'
+        except:
+            error_rate_desc = '(data unavailable)'
+
+        # Stop timer and display stats
+        duration = datetime.datetime.now() - startTime
+        print('\n\n\nPages checked =', len(checkedurls_man_set), '\nDuration =', duration.seconds, 'seconds', '\nErrors detected =', len(errorurls_man_list), error_rate_desc)
 
 
-
-    finalkeywordurl_list = set()
-
-    # Send keyword queue items to a list
-    #while len(kwl) != 0:
-      #  keywordurl_set.append(keywordurl_man_list.get())
-
-    # Create handle for results and errorlog
-    if osname == 'Windows':
-        writeresults = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "a")
-        writeerrors = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "a")
-
-    elif osname == 'Linux':
-        writeresults = open(r'''/home/joepers/code/current/civ_crawl/results''', "a")
-        writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
-
-    # Remove scheme from final results to prevent dups
-    for kk in keywordurl_list:
-        kk = kk.split('://')[1]
-        kk = str(kk)
-
-    # Remove 'www.'
-        if kk.count('www.') > 0:
-            kk = kk.split('www.')[1]
-
-        kk = kk.strip("']")
-        kk = kk.strip()
-        finalkeywordurl_list.add(kk)
-
-    # Write results and errorlog
-    for kk in finalkeywordurl_list:
-        kws = str(kk + '\n')
-        writeresults.write(kws)
-
-    for k in errorurls_list:
-        vk = str((k))
-        writeerrors.write(vk + '\n\n')
-
-    # Calculate error rate        
-    try:
-        error_rate = len(errorurls_list) / len(checkedurls_set)
-        if error_rate < 0.02:
-            error_rate_desc = '(low)'
-        elif error_rate < 0.2:
-            error_rate_desc = '(medium)'
-        else:
-            error_rate_desc = '(high)'
-    except:
-        error_rate_desc = '(high)'
-
-    # Stop timer and display stats
-    duration = datetime.datetime.now() - startTime
-    print('\n\n\nPages checked =', len(checkedurls_set), '\nDuration =', duration.seconds, 'seconds', '\nErrors detected =', len(errorurls_list), error_rate_desc)
+        # Display results
+        print('\n\n\n   ################ ', len(finalkeywordurl_list), ' matches found ', ' ################\n')
+        for i in finalkeywordurl_list:
+            print(i.strip())
 
 
-    # Display results
-    print('\n\n\n   ################ ', len(finalkeywordurl_list), ' matches found ', ' ################\n')
-    for i in sorted(list(finalkeywordurl_list)):
-        print(i.strip())
+        # Display baseurl limit exceedances
+        if len(baseurllimitset.values()) > 0:
+            print('\n\nBaseurl limit exceedances at:\n', baseurllimitset.values())
+            writeresults.write('\n\nBaseurl limit exceedances at:\n' + str(baseurllimitset.values()))
 
+        # Open in browser
+        '''
+        if len(finalkeywordurl_list) > 0:
+            browserresp = input('\n\nOpen all results in browser?\ny/n\n')
+            if browserresp.lower() == 'y' or browserresp.lower() == 'yes':
+                for eachbrowserresult in finalkeywordurl_list:
+                    webbrowser.open(eachbrowserresult)
 
-    # Display baseurl limit exceedances
-    if len(baseurllimitset.values()) > 1:
-        print('\n\nBaseurl limit exceedances at:\n', baseurllimitset.values())
-        writeresults.write('\n\nBaseurl limit exceedances at:\n' + str(baseurllimitset.values()))
-
-    # Open in browser
-    '''
-    if len(finalkeywordurl_list) > 0:
-        browserresp = input('\n\nOpen all results in browser?\ny/n\n')
-        if browserresp.lower() == 'y' or browserresp.lower() == 'yes':
-            for eachbrowserresult in finalkeywordurl_list:
-                webbrowser.open(eachbrowserresult)
-
-    '''
+        '''
 
 
 
