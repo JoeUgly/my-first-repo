@@ -1,23 +1,72 @@
+
+eachcivurl = 'googs'
+#workingurl = 'fammm.com'
+keyword = 'lib'
+hh = ' hi sfdjkl epf  k34 ml9 89e lib', 'fsefwe fflib', 'sfjsdkfjsdglibrwersf', '3rfdfff ', 'libsdfsefsf'
+jobwords = ['employment', 'job', 'opening', 'exam', 'test', 'postions', 'civil', 'career', 'human', 'personnel']
+bunkwords = ['javascript:', '.pdf', '.jpg', '.ico', '.doc', 'mailto:', 'tel:', 'description', 'specs', 'specification', 'guide', 'faq', 'images']
+keywordurl_man_list = []
+baseurllimitset = {}
+baseurllimit = 2
+count = {}
+
+count[eachcivurl] = 0
+for workingurl in hh:
+    if any(zzz in workingurl for zzz in keyword):
+        print('\n\n~~~~~~ Keyword match ~~~~~~ ')
+        
+        baseurllimitset[eachcivurl] = {}
+        if count[eachcivurl] < baseurllimit:
+            baseurllimitset[eachcivurl] = workingurl
+            count[eachcivurl] += 1
+            print('under', count[eachcivurl])
+        else:
+            baseurllimitset[eachcivurl] = workingurl
+            print('and one')
+
+
+# Display baseurl limit exceedances
+if len(baseurllimitset.values()) > 0:
+    print(len(baseurllimitset.values()), '\nBaseurl limit exceedances at:\n', baseurllimitset.values())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #!/usr/bin/python3.7
 
 # Description: Search civil service webpages for keyword(s) and attempt relavent crawling.
 
 # To do:
-# Phase 1: Basic function +
 # Phase 2: Basic optimization +
 # Phase 3: Advanced features
-# parellelization
+# parellelization +
 # global vars - . Use keyvalue instead? +
 # implement locks
 # move misc under main?
 # make checked pages a dict??
+# follow errors
+# effects of no scheme
+# doctype
 # user-defined levels of crawling
 # Phase 4: Distribution
 # enable cross-platform
 # pathlib
 # Phase 5: GUI
 
-# errors to remove = 3
 
 # Start timer
 import datetime
@@ -29,8 +78,8 @@ from multiprocessing import Process, Queue, Lock, Manager
 
 
 keyword = ['plant operator', 'librarian']
-num_threads = 16
-baseurllimit = 5
+num_threads = 26
+baseurllimit = 1
 
 
 # Set OS
@@ -82,6 +131,10 @@ allcivurls = Queue()
 for civline in civfile:
     allcivurls.put(civline)
 
+# Set jobwords and bunkwords
+jobwords = ['employment', 'job', 'opening', 'exam', 'test', 'postions', 'civil', 'career', 'human', 'personnel']
+bunkwords = ['javascript:', '.pdf', '.jpg', '.ico', '.doc', 'mailto:', 'tel:', 'description', 'specs', 'specification', 'guide', 'faq', 'images']
+
 
 
 
@@ -110,7 +163,6 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                 if eachcivurl in checkedurls_man_set:
                     print('Skipping', eachcivurl)
                     continue
-                    
 
                 eachcivurl = eachcivurl.lower()
                 baseurllimitset.clear
@@ -145,7 +197,6 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
 
                 # Decode if necessary
                 charset_encoding = html.info().get_content_charset()
-                print('Char encoding =', charset_encoding)
                 
                 try:
                     if charset_encoding == None:
@@ -190,9 +241,7 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                         result = eachhtmlline[:loc]
                         alltags.add(result)
 
-                # Set jobwords and bunkwords
-                jobwords = ['employment', 'job', 'opening', 'exam', 'test', 'postions', 'civil', 'career', 'human', 'personnel']
-                bunkwords = ['javascript:', '.pdf', '.jpg', '.ico', '.doc', 'mailto:', 'tel:', 'description', 'specs', 'specification', 'guide', 'faq', 'images']
+
 
                 # Append only the url to the list
                 for tag in alltags:
@@ -218,7 +267,8 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                             if sqloc > -1:
                                 quovar = "'"
                             else: quovar = '"'
-                        
+                        #print('quovar = ', quovar) 
+
                         urlline = urlline0.split(quovar)[1]
 
                         # Convert any rel paths to abs
@@ -234,9 +284,15 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                         if not any(yyy in tag for yyy in bunkwords):
                             urllist1.append(abspath)
 
+                        #else:
+                            #print('Bunkword detected in:', tag)
+
                             # Exclude if the abspath is on the Blacklist
                             if not abspath in blacklist:
                                 urllist2.append(abspath)
+
+                            #else:
+                                #print('Blacklist invoked at:', abspath)
 
                                 # Exclude if the abspath is a checked page
                                 if not abspath in checkedurls_man_set:
@@ -244,6 +300,7 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                                     # Remove trailing slash
                                     if abspath.endswith('/'):
                                         abspath = abspath.rsplit('/', 1)[0]
+                                        #print('Trailing slash prevented at:', abspath)
                                     
                                     urllistgood.setdefault(eachcivurl, []).append(abspath)                                        
 
@@ -284,7 +341,6 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
 
                     # Decode if necessary
                     charset_encoding = workinghtml.info().get_content_charset()
-                    print('Char encoding =', charset_encoding)
 
                     try:
                         if charset_encoding == None:
