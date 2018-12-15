@@ -1,51 +1,3 @@
-
-eachcivurl = 'googs'
-#workingurl = 'fammm.com'
-keyword = 'lib'
-hh = ' hi sfdjkl epf  k34 ml9 89e lib', 'fsefwe fflib', 'sfjsdkfjsdglibrwersf', '3rfdfff ', 'libsdfsefsf'
-jobwords = ['employment', 'job', 'opening', 'exam', 'test', 'postions', 'civil', 'career', 'human', 'personnel']
-bunkwords = ['javascript:', '.pdf', '.jpg', '.ico', '.doc', 'mailto:', 'tel:', 'description', 'specs', 'specification', 'guide', 'faq', 'images']
-keywordurl_man_list = []
-baseurllimitset = {}
-baseurllimit = 2
-count = {}
-
-count[eachcivurl] = 0
-for workingurl in hh:
-    if any(zzz in workingurl for zzz in keyword):
-        print('\n\n~~~~~~ Keyword match ~~~~~~ ')
-        
-        baseurllimitset[eachcivurl] = {}
-        if count[eachcivurl] < baseurllimit:
-            baseurllimitset[eachcivurl] = workingurl
-            count[eachcivurl] += 1
-            print('under', count[eachcivurl])
-        else:
-            baseurllimitset[eachcivurl] = workingurl
-            print('and one')
-
-
-# Display baseurl limit exceedances
-if len(baseurllimitset.values()) > 0:
-    print(len(baseurllimitset.values()), '\nBaseurl limit exceedances at:\n', baseurllimitset.values())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #!/usr/bin/python3.7
 
 # Description: Search civil service webpages for keyword(s) and attempt relavent crawling.
@@ -80,6 +32,8 @@ from multiprocessing import Process, Queue, Lock, Manager
 keyword = ['plant operator', 'librarian']
 num_threads = 26
 baseurllimit = 1
+crawl_level = 2
+current_level = 0
 
 
 # Set OS
@@ -141,7 +95,7 @@ bunkwords = ['javascript:', '.pdf', '.jpg', '.ico', '.doc', 'mailto:', 'tel:', '
 
 
 ######  Define the crawling function  ######
-def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict):
+def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level):
     while True:
         print('\n\n\n\n ============================ Start function =========================== PID =', os.getpid())
         progresscount = 1
@@ -165,21 +119,10 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                     continue
 
                 eachcivurl = eachcivurl.lower()
-                baseurllimitset.clear
-                urllistgood = {}
-                urllistgood.clear
-                urllistgood.setdefault(eachcivurl, [])
-                urllistprefilter = []
-                urllistprefilter.clear()
-                urllist1 = []
-                urllist1.clear()
-                urllist2 = []
-                urllist2.clear()
-                alltags = set()
-                alltags.clear()
-                abspath = None
+
+
+                
                 progresscount += 1
-                baseurl = eachcivurl
 
                 print('\n\n ~~~~~~~~~~~~~~~~~~~~~~~~~~ Next civurl ~~~~~~~~~~~~~~~~~~~~~~~~~~  \n PID =', os.getpid(), 'Progress = ', progresscount)
 
@@ -224,151 +167,13 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
                 # Add to checked pages set
                 checkedurls_man_set.append(eachcivurl)
                 
-                ## href= as delimiter?
-                # Seperate html into lines using <a delimiter
-                htmllines = dechtml1.split('<a ')
-
-                # End lines using </a> delimiter and add to alltags set
-                for eachhtmlline in htmllines:
-
-                    ## Remove?
-                    # Omit lengthy <!DOCTYPE tag
-                    if eachhtmlline.startswith('<!doctype'):
-                        print ('!DOCTYPE tag omitted\n')
-                        continue
-                    else:
-                        loc = eachhtmlline.find('</a>')
-                        result = eachhtmlline[:loc]
-                        alltags.add(result)
 
 
-
-                # Append only the url to the list
-                for tag in alltags:
-
-                    # Split by href
-                    if tag.count('href') < 1:
-                        continue
-
-                    urlline0 = tag.split('href')[1]
-
-                    # Determine if the tag contains a jobword
-                    if any(xxx in urlline0 for xxx in jobwords):
-
-                        # Determine if double or single quote comes first in tag
-                        dqloc = urlline0.find('"')
-                        sqloc = urlline0.find("'")
-
-                        if dqloc < sqloc:
-                            if dqloc > -1:
-                                quovar = '"'
-                            else: quovar = "'"
-                        elif dqloc > sqloc:
-                            if sqloc > -1:
-                                quovar = "'"
-                            else: quovar = '"'
-                        #print('quovar = ', quovar) 
-
-                        urlline = urlline0.split(quovar)[1]
-
-                        # Convert any rel paths to abs
-                        abspath = urllib.parse.urljoin(baseurl, urlline)
-
-                        ## keep queries?
-                        # Remove queries and fragments from url
-                        abspath = abspath.split('?')[0].split('#')[0]
-                        abspath = abspath.lower()
-                        urllistprefilter.append(abspath)
-
-                        # Exclude if the tag contains a bunkword
-                        if not any(yyy in tag for yyy in bunkwords):
-                            urllist1.append(abspath)
-
-                        #else:
-                            #print('Bunkword detected in:', tag)
-
-                            # Exclude if the abspath is on the Blacklist
-                            if not abspath in blacklist:
-                                urllist2.append(abspath)
-
-                            #else:
-                                #print('Blacklist invoked at:', abspath)
-
-                                # Exclude if the abspath is a checked page
-                                if not abspath in checkedurls_man_set:
-
-                                    # Remove trailing slash
-                                    if abspath.endswith('/'):
-                                        abspath = abspath.rsplit('/', 1)[0]
-                                        #print('Trailing slash prevented at:', abspath)
-                                    
-                                    urllistgood.setdefault(eachcivurl, []).append(abspath)                                        
-
-                # Display excluded urls
-                excludedbybw = list(set(urllistprefilter) - set(urllist1))
-                excludedbybl = list(set(urllist1) - set(urllist2))
-                excludedbydups = list(set(urllist2) - set(urllistgood[eachcivurl]))
-                print('excluded by bunkwords = ', len(excludedbybw), '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups, '\nul1nbw = ', len(urllist1), '\nul2nbl = ', len(urllist2), '\nulgndups = ', len(urllistgood[eachcivurl]))
-
-                    
+                # Start relavent_crawler
+                if current_level < crawl_level:
+                    relavent_crawler(dechtml1, eachcivurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level)
 
 
-
-
-                # Begin crawl
-                print('\n-------------------- Begin crawl ----------------------  \n PID =', os.getpid(), '\n', eachcivurl,)
-
-                for workingurl in urllistgood[eachcivurl]:
-                    
-                    # Skip checked pages
-                    if workingurl in checkedurls_man_set:
-                        print('Skipping', workingurl)
-                        continue
-                
-                    print('\n',workingurl)
-
-                    # Get html from url
-                    try:
-                        # Spoof user agent
-                        workingrequest = urllib.request.Request(workingurl,headers={'User-Agent': user_agent})
-                        workinghtml = urllib.request.urlopen(workingrequest, timeout=15)
-
-                    except Exception as errex:
-                        print('error 4: url request at', workingurl)
-                        errorurls_man_dict[workingurl] = 'error 4: ' + str(errex)
-                        checkedurls_man_set.append(workingurl)
-                        continue
-
-                    # Decode if necessary
-                    charset_encoding = workinghtml.info().get_content_charset()
-
-                    try:
-                        if charset_encoding == None:
-                            decworkinghtml = workinghtml.read().decode()
-                        else:
-                            decworkinghtml = workinghtml.read().decode(charset_encoding)
-                
-                    except Exception as errex:
-                        print('error 5: decode at', workingurl)
-                        errorurls_man_dict[workingurl] = 'error 5: ', str(errex)[:999]
-                        checkedurls_man_set.append(workingurl)
-                        continue
-
-                    decworkinghtml1 = decworkinghtml.lower()
-                    
-                    # Search for keyword on page
-                    if any(zzz in decworkinghtml1 for zzz in keyword):
-                        print('\n~~~~~~ Keyword match ~~~~~~\n')
-
-                        baseurllimitset[baseurl] = {}
-                        if len(baseurllimitset[baseurl]) < baseurllimit:
-                            keywordurl_man_list.append(workingurl)
-                        else:
-                            print('Match omitted. Baseurl limit exceeded.')
-                            baseurllimitset[baseurl].add(workingurl)
-
-                    # Add to checked pages set
-                    checkedurls_man_set.append(workingurl)
 
 
                 print('------------ End of function ------------  PID =', os.getpid())
@@ -377,13 +182,190 @@ def crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_ma
             finally:         
                 tasks_that_are_done.put(eachcivurl + str(os.getpid()))
 
-####   End of function   ####
+
+
+######   End of function   ######
 
 
 
 
 
 
+
+
+######   Begin relavent_crawler   ######
+def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level):
+    current_level += 1
+    print('\ncurrent_level =', current_level, 'of ', crawl_level)
+
+    baseurllimitset.clear
+    urllistgood = {}
+    urllistgood.clear
+    urllistgood.setdefault(workingurl0, [])
+    urllistprefilter = []
+    urllistprefilter.clear()
+    urllist1 = []
+    urllist1.clear()
+    urllist2 = []
+    urllist2.clear()
+    alltags = set()
+    alltags.clear()
+    abspath = None
+
+    # Seperate html into lines using <a delimiter
+    htmllines = dechtml1.split('<a ')
+
+    # End lines using </a> delimiter and add to alltags set
+    for eachhtmlline in htmllines:
+
+        ## Remove?
+        # Omit lengthy <!DOCTYPE tag
+        if eachhtmlline.startswith('<!doctype'):
+            print ('!DOCTYPE tag omitted\n')
+            continue
+        else:
+            loc = eachhtmlline.find('</a>')
+            result = eachhtmlline[:loc]
+            alltags.add(result)
+
+
+    # Append only the url to the list
+    for tag in alltags:
+
+        # Split by href
+        if tag.count('href') < 1:
+            continue
+
+        urlline0 = tag.split('href')[1]
+
+        # Determine if the tag contains a jobword
+        if any(xxx in urlline0 for xxx in jobwords):
+
+            # Determine if double or single quote comes first in tag
+            dqloc = urlline0.find('"')
+            sqloc = urlline0.find("'")
+
+            if dqloc < sqloc:
+                if dqloc > -1:
+                    quovar = '"'
+                else: quovar = "'"
+            elif dqloc > sqloc:
+                if sqloc > -1:
+                    quovar = "'"
+                else: quovar = '"'
+            #print('quovar = ', quovar) 
+
+            urlline = urlline0.split(quovar)[1]
+
+            # Convert any rel paths to abs
+            abspath = urllib.parse.urljoin(workingurl0, urlline)
+
+            ## keep queries?
+            # Remove queries and fragments from url
+            abspath = abspath.split('?')[0].split('#')[0]
+            abspath = abspath.lower()
+            urllistprefilter.append(abspath)
+
+            # Exclude if the tag contains a bunkword
+            if not any(yyy in tag for yyy in bunkwords):
+                urllist1.append(abspath)
+
+            #else:
+                #print('Bunkword detected in:', tag)
+
+                # Exclude if the abspath is on the Blacklist
+                if not abspath in blacklist:
+                    urllist2.append(abspath)
+
+                #else:
+                    #print('Blacklist invoked at:', abspath)
+
+                    # Exclude if the abspath is a checked page
+                    if not abspath in checkedurls_man_set:
+
+                        # Remove trailing slash
+                        if abspath.endswith('/'):
+                            abspath = abspath.rsplit('/', 1)[0]
+                            #print('Trailing slash prevented at:', abspath)
+                        
+                        urllistgood.setdefault(workingurl0, []).append(abspath)                                        
+
+    # Display excluded urls
+    excludedbybw = list(set(urllistprefilter) - set(urllist1))
+    excludedbybl = list(set(urllist1) - set(urllist2))
+    excludedbydups = list(set(urllist2) - set(urllistgood[workingurl0]))
+    print('excluded by bunkwords = ', len(excludedbybw), '\nexcluded by blacklist = ', len(excludedbybl), excludedbybl, '\nexcluded by dups = ', len(excludedbydups), excludedbydups, '\nul1nbw = ', len(urllist1), '\nul2nbl = ', len(urllist2), '\nulgndups = ', len(urllistgood[workingurl0]))
+
+
+    # Begin crawl
+    print('\n-------------------- Begin crawl ----------------------  \n PID =', os.getpid(), '\n', workingurl0)
+
+    for workingurl in urllistgood[workingurl0]:
+        
+        # Skip checked pages
+        if workingurl in checkedurls_man_set:
+            print('Skipping', workingurl)
+            continue
+    
+        print('\n',workingurl)
+
+        # Get html from url
+        try:
+            # Spoof user agent
+            workingrequest = urllib.request.Request(workingurl,headers={'User-Agent': user_agent})
+            workinghtml = urllib.request.urlopen(workingrequest, timeout=15)
+
+        except Exception as errex:
+            print('error 4: url request at', workingurl)
+            errorurls_man_dict[workingurl] = 'error 4: ' + str(errex)
+            checkedurls_man_set.append(workingurl)
+            continue
+
+        # Decode if necessary
+        charset_encoding = workinghtml.info().get_content_charset()
+
+        try:
+            if charset_encoding == None:
+                decworkinghtml = workinghtml.read().decode()
+            else:
+                decworkinghtml = workinghtml.read().decode(charset_encoding)
+    
+        except Exception as errex:
+            print('error 5: decode at', workingurl)
+            errorurls_man_dict[workingurl] = 'error 5: ', str(errex)[:999]
+            checkedurls_man_set.append(workingurl)
+            continue
+
+        decworkinghtml1 = decworkinghtml.lower()
+        
+        # Search for keyword on page
+        if any(zzz in decworkinghtml1 for zzz in keyword):
+            print('\n~~~~~~ Keyword match ~~~~~~\n')
+
+            baseurllimitset[workingurl] = {}
+            if len(baseurllimitset[workingurl]) < baseurllimit:
+                keywordurl_man_list.append(workingurl)
+            else:
+                print('Match omitted. Baseurl limit exceeded.')
+                baseurllimitset[workingurl].add(workingurl)
+
+        # Add to checked pages set
+        checkedurls_man_set.append(workingurl)
+
+    # Start relavent_crawler
+    if current_level < crawl_level:
+        print('going in')
+        relavent_crawler(dechtml1, workingurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level)
+
+    print('beam up')
+    current_level -= 1
+
+######   End of function   ######
+
+
+
+
+        
 # Objects to pass in
 baseurllimitset = {}
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
@@ -405,7 +387,7 @@ if __name__ == '__main__':
 
         # Create child processes
         for ii in range(num_threads):
-            worker = Process(target=crawler, args=(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict))
+            worker = Process(target=civ_crawler, args=(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level))
             worker.start()
 
         # Wait until all child processes are done
@@ -486,13 +468,13 @@ if __name__ == '__main__':
             print(i.strip())
 
 
+        '''
         # Display baseurl limit exceedances
         if len(baseurllimitset.values()) > 0:
             print('\n\nBaseurl limit exceedances at:\n', baseurllimitset.values())
             writeresults.write('\n\nBaseurl limit exceedances at:\n' + str(baseurllimitset.values()))
 
         # Open results in browser
-        '''
         if len(finalkeywordurl_set) > 0:
             browserresp = input('\n\nOpen all results in browser?\ny/n\n')
             if browserresp.lower() == 'y' or browserresp.lower() == 'yes':
