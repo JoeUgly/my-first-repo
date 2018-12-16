@@ -3,20 +3,20 @@
 # Description: Search civil service webpages for keyword(s) and attempt relavent crawling.
 
 # To do:
-# Phase 2: Basic optimization +
 # Phase 3: Advanced features
-# parellelization +
 # global vars - . Use keyvalue instead? +
 # implement locks
-# move misc under main?
+# scope of all objects
 # make checked pages a dict??
-# follow errors
+# follow errors 1 and 4
 # effects of no scheme
 # doctype
-# user-defined levels of crawling
+# user-defined levels of crawling +
+# retry url request
 # Phase 4: Distribution
 # enable cross-platform
 # pathlib
+# options eg verbose
 # Phase 5: GUI
 
 
@@ -30,10 +30,10 @@ from multiprocessing import Process, Queue, Lock, Manager
 
 
 keyword = ['plant operator', 'librarian']
-num_threads = 26
+num_threads = 36
 baseurllimit = 1
 crawl_level = 2
-current_level = 0
+skipped_pages = 0
 
 
 # Set OS
@@ -65,12 +65,12 @@ elif osname == 'Darwin':
 errorfile.write('')
 
 # Clear results
-if osname == 'Windows':
-    comp_hand = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "w")
-elif osname == 'Linux':
-    comp_hand = open(r'''/home/joepers/code/current/civ_crawl/results''', "w")
+#if osname == 'Windows':
+ #   comp_hand = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "w")
+#elif osname == 'Linux':
+ #   comp_hand = open(r'''/home/joepers/code/current/civ_crawl/results''', "w")
 
-comp_hand.write('')
+#comp_hand.write('')
 
 # Get portal URLs from file
 if osname == 'Windows':
@@ -83,6 +83,7 @@ elif osname == 'Darwin':
 # Store portal urls in queue
 allcivurls = Queue()
 for civline in civfile:
+    civline = civline.strip()
     allcivurls.put(civline)
 
 # Set jobwords and bunkwords
@@ -95,10 +96,10 @@ bunkwords = ['javascript:', '.pdf', '.jpg', '.ico', '.doc', 'mailto:', 'tel:', '
 
 
 ######  Define the crawling function  ######
-def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level):
+def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, skipped_pages):
+    print('\n\n\n\n ============================ Start function =========================== PID =', os.getpid())
+
     while True:
-        print('\n\n\n\n ============================ Start function =========================== PID =', os.getpid())
-        progresscount = 1
 
         # Get a portal url from queue    
         try:
@@ -111,20 +112,22 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
         # Begin fetching
         else:
             try:
+                current_level = 0
+                
                 print('eachcivurl = ', eachcivurl)
 
                 # Skip checked pages
                 if eachcivurl in checkedurls_man_set:
                     print('Skipping', eachcivurl)
+                    skipped_pages +=1
                     continue
 
                 eachcivurl = eachcivurl.lower()
 
 
                 
-                progresscount += 1
 
-                print('\n\n ~~~~~~~~~~~~~~~~~~~~~~~~~~ Next civurl ~~~~~~~~~~~~~~~~~~~~~~~~~~  \n PID =', os.getpid(), 'Progress = ', progresscount)
+                print('\n\n ~~~~~~~~~~~~~~~~~~~~~~~~~~ Next civurl ~~~~~~~~~~~~~~~~~~~~~~~~~~  \n PID =', os.getpid())
 
                 # Get html
                 try:
@@ -146,11 +149,18 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
                         dechtml = html.read().decode()
                     else:
                         dechtml = html.read().decode(charset_encoding)
+
+                # Attempt latin-1 charset encoding
                 except Exception as errex:
-                    print('error 2: decode at', eachcivurl)
-                    errorurls_man_dict[eachcivurl] = 'error 2: ', str(errex)[:999]
-                    checkedurls_man_set.append(eachcivurl)
-                    continue
+                    try:
+                        print('Attempting latin-1 charset encoding')
+                        dechtml = html.read().decode('latin-1')
+                        print('latin-1 success')
+                    except Exception as errex:
+                        print('error 2:', charset_encoding, 'decode at', eachcivurl)
+                        errorurls_man_dict[eachcivurl] = 'error 2: ', str(errex)[:999]
+                        checkedurls_man_set.append(eachcivurl)
+                        continue
                         
                 dechtml1 = dechtml.lower()
 
@@ -171,7 +181,7 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
 
                 # Start relavent_crawler
                 if current_level < crawl_level:
-                    relavent_crawler(dechtml1, eachcivurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level)
+                    relavent_crawler(dechtml1, eachcivurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level, skipped_pages)
 
 
 
@@ -194,7 +204,7 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
 
 
 ######   Begin relavent_crawler   ######
-def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level):
+def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level, skipped_pages):
     current_level += 1
     print('\ncurrent_level =', current_level, 'of ', crawl_level)
 
@@ -305,6 +315,7 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
         # Skip checked pages
         if workingurl in checkedurls_man_set:
             print('Skipping', workingurl)
+            skipped_pages += 1
             continue
     
         print('\n',workingurl)
@@ -329,13 +340,19 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
                 decworkinghtml = workinghtml.read().decode()
             else:
                 decworkinghtml = workinghtml.read().decode(charset_encoding)
-    
-        except Exception as errex:
-            print('error 5: decode at', workingurl)
-            errorurls_man_dict[workingurl] = 'error 5: ', str(errex)[:999]
-            checkedurls_man_set.append(workingurl)
-            continue
 
+        # Attempt latin-1 charset encoding
+        except Exception as errex:
+            try:
+                print('Attempting latin-1 charset encoding')
+                decworkinghtml = workinghtml.read().decode('latin-1')
+                print('latin-1 success')
+            except Exception as errex:
+                print('error 5:', charset_encoding, 'decode at', workingurl)
+                errorurls_man_dict[workingurl] = 'error 5: ', str(errex)[:999]
+                checkedurls_man_set.append(workingurl)
+                continue
+            
         decworkinghtml1 = decworkinghtml.lower()
         
         # Search for keyword on page
@@ -352,10 +369,10 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
         # Add to checked pages set
         checkedurls_man_set.append(workingurl)
 
-    # Start relavent_crawler
-    if current_level < crawl_level:
-        print('going in')
-        relavent_crawler(dechtml1, workingurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level)
+        # Start relavent_crawler
+        if current_level < crawl_level:
+            print('going in')
+            relavent_crawler(dechtml1, workingurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level, skipped_pages)
 
     print('beam up')
     current_level -= 1
@@ -387,17 +404,17 @@ if __name__ == '__main__':
 
         # Create child processes
         for ii in range(num_threads):
-            worker = Process(target=civ_crawler, args=(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level))
+            worker = Process(target=civ_crawler, args=(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, skipped_pages))
             worker.start()
 
         # Wait until all child processes are done
         while True:
             if tasks_that_are_done.qsize() >= qlength:
-                print('All processes have finished.')
+                print('\nAll processes have finished.\n')
                 break
             else:
                 if tasks_that_are_done.qsize() != prev_ttad:
-                    print('Waiting for all processes to finish. Progress =', tasks_that_are_done.qsize(), 'of', qlength)
+                    print('\nWaiting for all processes to finish. Progress =', tasks_that_are_done.qsize(), 'of', qlength)
                     prev_ttad = tasks_that_are_done.qsize()
                     time.sleep(2)
                 else:
@@ -429,17 +446,17 @@ if __name__ == '__main__':
 
         # Create handle for results and errorlog
         if osname == 'Windows':
-            writeresults = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "a")
+            #writeresults = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\results.txt''', "a")
             writeerrors = open(r'''C:\Users\jschiffler\Desktop\Text_n_Stuff\current\errorlog.txt''', "a")
 
         elif osname == 'Linux':
-            writeresults = open(r'''/home/joepers/code/current/civ_crawl/results''', "a")
+            #writeresults = open(r'''/home/joepers/code/current/civ_crawl/results''', "a")
             writeerrors = open(r'''/home/joepers/code/current/civ_crawl/errorlog''', "a")
 
         # Write results and errorlog
-        for kk in finalkeywordurl_set:
-            kws = str(kk + '\n')
-            writeresults.write(kws)
+        #for kk in finalkeywordurl_set:
+         #   kws = str(kk + '\n')
+          #  writeresults.write(kws)
 
         for k, v in errorurls_man_dict.items():
             vk = str((v, '::', k))
@@ -450,7 +467,7 @@ if __name__ == '__main__':
             error_rate = len(errorurls_man_dict) / len(checkedurls_man_set)
             if error_rate < 0.02:
                 error_rate_desc = '(low)'
-            elif error_rate < 0.2:
+            elif error_rate < 0.1:
                 error_rate_desc = '(medium)'
             else:
                 error_rate_desc = '(high)'
