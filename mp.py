@@ -4,15 +4,13 @@
 
 # To do:
 # Phase 3: Advanced features
-# global vars - . Use keyvalue instead? +
 # implement locks
 # scope of all objects
-# make checked pages a dict??
-# follow errors 1 and 4
+# follow errors 1 and 4 +
 # effects of no scheme
 # doctype
-# user-defined levels of crawling +
 # retry url request
+# timeout to errorlog
 # Phase 4: Distribution
 # enable cross-platform
 # pathlib
@@ -25,15 +23,15 @@ import datetime
 startTime = datetime.datetime.now()
 
 import urllib.request, urllib.parse, urllib.error, os, platform, time, queue, webbrowser
-from multiprocessing import Process, Queue, Lock, Manager
+from multiprocessing import Process, Queue, Lock, Manager, Value
 
 
 
-keyword = ['plant operator', 'librarian']
+keyword = ['plant operator']
 num_threads = 36
 baseurllimit = 1
-crawl_level = 2
-skipped_pages = 0
+crawl_level = 1
+
 
 
 # Set OS
@@ -96,7 +94,7 @@ bunkwords = ['javascript:', '.pdf', '.jpg', '.ico', '.doc', 'mailto:', 'tel:', '
 
 
 ######  Define the crawling function  ######
-def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, skipped_pages):
+def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, skipped_pages):
     print('\n\n\n\n ============================ Start function =========================== PID =', os.getpid())
 
     while True:
@@ -118,8 +116,8 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
 
                 # Skip checked pages
                 if eachcivurl in checkedurls_man_set:
-                    print('Skipping', eachcivurl)
-                    skipped_pages +=1
+                    skipped_pages.value += 1
+                    print(skipped_pages.value, 'Skipping', eachcivurl)
                     continue
 
                 eachcivurl = eachcivurl.lower()
@@ -133,7 +131,7 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
                 try:
                     # Spoof user agent
                     request = urllib.request.Request(eachcivurl,headers={'User-Agent': user_agent})
-                    html = urllib.request.urlopen(request, timeout=15)
+                    html = urllib.request.urlopen(request, timeout=10)
 
                 except Exception as errex:
                     print('error 1: url request at', eachcivurl)
@@ -181,16 +179,14 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
 
                 # Start relavent_crawler
                 if current_level < crawl_level:
-                    relavent_crawler(dechtml1, eachcivurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level, skipped_pages)
-
-
+                    relavent_crawler(dechtml1, eachcivurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, current_level, skipped_pages)
 
 
                 print('------------ End of function ------------  PID =', os.getpid())
 
-            # Put portal url in queue
+            # Put portal url in the finished queue
             finally:         
-                tasks_that_are_done.put(eachcivurl + str(os.getpid()))
+                tasks_that_are_done.put(eachcivurl)
 
 
 
@@ -204,9 +200,9 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
 
 
 ######   Begin relavent_crawler   ######
-def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level, skipped_pages):
+def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, current_level, skipped_pages):
     current_level += 1
-    print('\ncurrent_level =', current_level, 'of ', crawl_level)
+    print('\ncurrent_level =', current_level, 'of', crawl_level)
 
     baseurllimitset.clear
     urllistgood = {}
@@ -268,7 +264,11 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
             urlline = urlline0.split(quovar)[1]
 
             # Convert any rel paths to abs
-            abspath = urllib.parse.urljoin(workingurl0, urlline)
+            domain = []
+            domain = workingurl0.split('/', 3)[:3]
+            domain = '/'.join(domain)
+            abspath = urllib.parse.urljoin(domain, urlline)
+            print('domain =', domain)
 
             ## keep queries?
             # Remove queries and fragments from url
@@ -314,8 +314,8 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
         
         # Skip checked pages
         if workingurl in checkedurls_man_set:
-            print('Skipping', workingurl)
-            skipped_pages += 1
+            skipped_pages.value += 1
+            print(skipped_pages.value, 'Skipping', workingurl)
             continue
     
         print('\n',workingurl)
@@ -324,9 +324,9 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
         try:
             # Spoof user agent
             workingrequest = urllib.request.Request(workingurl,headers={'User-Agent': user_agent})
-            workinghtml = urllib.request.urlopen(workingrequest, timeout=15)
+            workinghtml = urllib.request.urlopen(workingrequest, timeout=10)
 
-        except Exception as errex:
+        except Exception as errex:         
             print('error 4: url request at', workingurl)
             errorurls_man_dict[workingurl] = 'error 4: ' + str(errex)
             checkedurls_man_set.append(workingurl)
@@ -372,7 +372,7 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
         # Start relavent_crawler
         if current_level < crawl_level:
             print('going in')
-            relavent_crawler(dechtml1, workingurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, current_level, skipped_pages)
+            relavent_crawler(dechtml1, workingurl, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, current_level, skipped_pages)
 
     print('beam up')
     current_level -= 1
@@ -382,8 +382,7 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
 
 
 
-        
-# Objects to pass in
+qlength = allcivurls.qsize()
 baseurllimitset = {}
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0'
 
@@ -391,10 +390,9 @@ user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 F
 if __name__ == '__main__':
     with Manager() as manager:
 
-        # Objects to not pass in
-        finalkeywordurl_set = set()
+        # Objects to pass in
+        skipped_pages = Value('i', 0)
         tasks_that_are_done = Queue()
-        qlength = allcivurls.qsize()
         prev_ttad = 0
         
         # Create manager lists to pass into the child processes
@@ -404,7 +402,7 @@ if __name__ == '__main__':
 
         # Create child processes
         for ii in range(num_threads):
-            worker = Process(target=civ_crawler, args=(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, crawl_level, skipped_pages))
+            worker = Process(target=civ_crawler, args=(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurls_man_set, errorurls_man_dict, skipped_pages))
             worker.start()
 
         # Wait until all child processes are done
@@ -428,6 +426,7 @@ if __name__ == '__main__':
 
 
         # Remove scheme from final results to prevent dups
+        finalkeywordurl_set = set()
         for kk in keywordurl_man_list:
             kk = kk.split('://')[1]
             kk = str(kk)
@@ -441,6 +440,7 @@ if __name__ == '__main__':
 
             # Move results from manager list to final set
             finalkeywordurl_set.add(kk)
+
 
         finalkeywordurl_set = sorted(list(finalkeywordurl_set))
 
@@ -476,7 +476,7 @@ if __name__ == '__main__':
 
         # Stop timer and display stats
         duration = datetime.datetime.now() - startTime
-        print('\n\n\nPages checked =', len(checkedurls_man_set), '\nDuration =', duration.seconds, 'seconds', '\nErrors detected =', len(errorurls_man_dict), error_rate_desc)
+        print('\n\n\nPages checked =', len(checkedurls_man_set), '\nPages skipped =', skipped_pages.value, '\nDuration =', duration.seconds, 'seconds \nErrors detected =', len(errorurls_man_dict), error_rate_desc)
 
 
         # Display results
@@ -485,7 +485,7 @@ if __name__ == '__main__':
             print(i.strip())
 
 
-        '''
+        
         # Display baseurl limit exceedances
         if len(baseurllimitset.values()) > 0:
             print('\n\nBaseurl limit exceedances at:\n', baseurllimitset.values())
@@ -493,14 +493,46 @@ if __name__ == '__main__':
 
         # Open results in browser
         if len(finalkeywordurl_set) > 0:
-            browserresp = input('\n\nOpen all results in browser?\ny/n\n')
+            print('\n\nOpen all', len(finalkeywordurl_set), 'matches in browser?\ny/n\n')
+            browserresp = input()
             if browserresp.lower() == 'y' or browserresp.lower() == 'yes':
                 for eachbrowserresult in finalkeywordurl_set:
                     webbrowser.open(eachbrowserresult)
+
         # Open error urls in browser
-        if len(errorurls_man_dict) > 0:
-            browserresp_e = input('\n\nOpen all error urls in browser?\ny/n\n')
+        brow_e_non404 = []
+        for eachbrowserresult_e, val in errorurls_man_dict.items():
+            if not 'HTTP Error 404: Not Found' in val:
+               brow_e_non404.append(eachbrowserresult_e)
+        
+        if len(brow_e_non404) > 0:
+            print('\n\nOpen all', len(brow_e_non404), 'error urls in browser?\ny/n\n')
+            browserresp_e = input()
             if browserresp_e.lower() == 'y' or browserresp_e.lower() == 'yes':
-                for eachbrowserresult_e in errorurls_man_dict:
-                    webbrowser.open(eachbrowserresult_e)
-        '''
+                for i in brow_e_non404:
+                    webbrowser.open(i)
+                
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
