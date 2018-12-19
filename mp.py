@@ -6,11 +6,7 @@
 # Phase 3: Advanced features
 # implement locks
 # scope of all objects
-# follow errors 1 and 4 +
-# effects of no scheme
-# doctype
-# retry url request
-# timeout to errorlog
+# manually improve civil_ny file
 # Phase 4: Distribution
 # enable cross-platform
 # pathlib
@@ -22,7 +18,7 @@
 import datetime
 startTime = datetime.datetime.now()
 
-import urllib.request, urllib.parse, urllib.error, os, platform, time, queue, webbrowser
+import urllib.request, urllib.parse, urllib.error, socket, os, platform, time, queue, webbrowser
 from multiprocessing import Process, Queue, Lock, Manager, Value
 
 
@@ -105,6 +101,12 @@ def civ_crawler(allcivurls, tasks_that_are_done, keywordurl_man_list, checkedurl
 
         # Exit function if queue is empty
         except queue.Empty:
+            break
+
+        # Detect all other errors
+        except Exception as errex:
+            print('Fatal error detected. Killing process ...')
+            errorurls_man_dict[eachcivurl] = 'error 0: ' + str(errex)
             break
 
         # Begin fetching
@@ -224,8 +226,7 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
     # End lines using </a> delimiter and add to alltags set
     for eachhtmlline in htmllines:
 
-        ## Remove?
-        # Omit lengthy <!DOCTYPE tag
+        # Omit !DOCTYPE tag
         if eachhtmlline.startswith('<!doctype'):
             print ('!DOCTYPE tag omitted\n')
             continue
@@ -268,7 +269,7 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
             domain = workingurl0.split('/', 3)[:3]
             domain = '/'.join(domain)
             abspath = urllib.parse.urljoin(domain, urlline)
-            print('domain =', domain)
+            #print('domain =', domain)
 
             ## keep queries?
             # Remove queries and fragments from url
@@ -325,6 +326,12 @@ def relavent_crawler(dechtml1, workingurl0, keywordurl_man_list, checkedurls_man
             # Spoof user agent
             workingrequest = urllib.request.Request(workingurl,headers={'User-Agent': user_agent})
             workinghtml = urllib.request.urlopen(workingrequest, timeout=10)
+
+        except socket.timeout as errex:
+            print('error 3: url timeout at', workingurl)
+            errorurls_man_dict[workingurl] = 'error 3: ' + str(errex)
+            checkedurls_man_set.append(workingurl)
+            continue
 
         except Exception as errex:         
             print('error 4: url request at', workingurl)
@@ -506,7 +513,7 @@ if __name__ == '__main__':
                brow_e_non404.append(eachbrowserresult_e)
         
         if len(brow_e_non404) > 0:
-            print('\n\nOpen all', len(brow_e_non404), 'error urls in browser?\ny/n\n')
+            print('\n\nOpen ', len(brow_e_non404), 'error urls in browser?\ny/n\n')
             browserresp_e = input()
             if browserresp_e.lower() == 'y' or browserresp_e.lower() == 'yes':
                 for i in brow_e_non404:
