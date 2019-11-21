@@ -8,15 +8,17 @@
 # non dynamic html request as fallback -
 # put all errors in add_errorurls_f?
 # outcome list may not recognize redirects. "None" value remains
+# handle redirects before request errors +
 # dups in checked pages +
+# urls not found in cml
 # reduce redundant dup checker calls
 # cml must keep orig url and add red_url +
 # investigate multi proc
-# twitter posts show up in results
-# urls not found in cml
+# twitter posts show up in results +
 # save all redirects to cml using resp.history
 # broken pipe and connection reset by peer errors persists
-# save cml and errorlog for resumption
+# save cml and errorlog for resumption +
+# chmod text files?
 
 
 
@@ -26,6 +28,7 @@
 # move to a dedicated server
 # register domain
 # update databases
+# run scraper as cron job
 # results hyperlinks should display org name
 # false positives: search visible text only https://www.friendship.wnyric.org/domain/9 +
 # true negatives: dynamic pages https://www.applitrack.com/penfield/onlineapp/default.aspx?all=1 +
@@ -76,14 +79,17 @@ from bs4 import BeautifulSoup
 # Start timer
 startTime = datetime.datetime.now()
 
-# Global variables
-user_agent_str = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0'
-
-
 # Make jorbs directory in user's home directory
 jorb_home = os.path.join('/home/joepers/', 'joes_jorbs')
 if not os.path.exists(jorb_home):
     os.makedirs(jorb_home)
+
+# Make date dir to put results into
+dater = datetime.datetime.now().strftime("%x").replace('/', '_')
+dater_path = os.path.join(jorb_home, dater)
+
+# User agent
+user_agent_str = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0'
 
 # Compile regex paterns for finding hidden HTML elements
 style_reg = re.compile("(display\s*:\s*(none|block);?|visibility\s*:\s*hidden;?)")
@@ -138,7 +144,9 @@ def dup_checker_f(dup_checker):
     # Remove scheme
     if dup_checker.startswith('http://') or dup_checker.startswith('https://'):
         dup_checker = dup_checker.split('://')[1]
-    else: print('__Error__ No scheme at:', dup_checker)
+    else:
+        print('__Error__ No scheme at:', dup_checker)
+
 
     '''
     ## unn
@@ -271,39 +279,40 @@ def outcome(checkedurls_man_list, url, conf_val):
     #with lock:
     for each_url in checkedurls_man_list:
         if each_url[0] == url:
-            print(os.getpid(), 'Updating outcome for:', url)
             remover = each_url
             break
-            #print(os.getpid(), 11111)
-            #for x in checkedurls_man_list: print(os.getpid(), x)
 
             # Manager will not be aware of updates to items. Must append new item.
 
     # Catch no match
     else:
-        print(os.getpid(), '__Error__ not found in checkedurls_man_list:', url)
+        print(os.getpid(), '__Error__ (1) not found in checkedurls_man_list:', url)
         return
 
-
+    ## combine next two sections
+    ## Remove old entry
     with lock:
         try:
             checkedurls_man_list.remove(remover)
         except Exception as errex:
+            print(os.getpid(), '__Error__ (2) not found in checkedurls_man_list:', url)
             print(errex)
-    #print(os.getpid(), 22222, i)
-    #for x in checkedurls_man_list: print(os.getpid(), x)
+            return
+            
+    ## Append new entry
     new_i = [url, conf_val]
     with lock:
         try:
             checkedurls_man_list.append(new_i)
+            print(os.getpid(), 'Updated outcome for / with:', url, conf_val)
         except Exception as errex:
+            print(os.getpid(), '__Error__ (3) not found in checkedurls_man_list:', url)
             print(errex)
-    #print(os.getpid(), 33333)
-    #for x in checkedurls_man_list: print(os.getpid(), x)
+            
 
 
 # Define HTML request function
-def html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict, portalurl, dock_pause):
+def html_requester_f(workingurl, current_crawl_level, jbw_type, errorurls_man_dict, portalurl, dock_pause):
 
     try:
 
@@ -355,15 +364,14 @@ def html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict
                 stat_info = str(json.loads(resp.text)['info'])
             print('status=', stat_info, workingurl)
 
-            ## unnecessary?
-            # Must use ['info']['url'] when non 200 status to get redirected url
+            # Get redirected URL
+            ## Must use ['info']['url'] when non 200 status to get redirected url
             try:
                 red_url = json.loads(resp.text)['info']['url']
                 print('red=', red_url) 
             except:
                 red_url = workingurl
 
-            ## dup check
 
             # Don't retry on 404 or 403 error
             if stat_info.endswith('not found'):
@@ -371,7 +379,7 @@ def html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict
                 add_errorurls_f(workingurl, 'jj_error 4', 'Host not found', current_crawl_level, jbw_type, portalurl, errorurls_man_dict)
 
                 # Declare not to retry
-                return False
+                return False, red_url
 
             # Retry on timeout errors
             elif stat_info.startswith("{'remaining': -"):
@@ -379,25 +387,23 @@ def html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict
                 add_errorurls_f(workingurl, 'jj_error 3', 'HTTP timeout', current_crawl_level, jbw_type, portalurl, errorurls_man_dict)
 
                 # Declare to retry
-                return True
+                return True, red_url
 
             # Don't retry on non HTML errors
             elif stat_info == 'Frame load interrupted by policy change':
-                print(os.getpid(), 'jj_error 2: non-HTML detected:', red_url)
+                print(os.getpid(), 'jj_error 2: non-HTML detected:', workingurl)
                 add_errorurls_f(workingurl, 'jj_error 2', 'Forbidden content type', current_crawl_level, jbw_type, portalurl, errorurls_man_dict)
 
-                ## add red_url
-
                 # Declare not to retry
-                return False
+                return False, red_url
 
 
             # Retry on other error
             else:
-                print(os.getpid(), 'jj_error 5b: Other request', workingurl)
+                print(os.getpid(), 'jj_error 5: Other request', workingurl)
                 stat_info = str(stat_code) + ' ' + stat_info
                 add_errorurls_f(workingurl, 'jj_error 5', stat_info, current_crawl_level, jbw_type, portalurl, errorurls_man_dict)
-                return True
+                return True, red_url
 
 
 
@@ -408,9 +414,7 @@ def html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict
 
         # Red url
         red_url = json.loads(resp.text)['url']
-        #print(os.getpid(), '\n\n workingurl=', workingurl, '\n html_text=', html_text, '\n\n dy_text=', dy_text)
 
-        ## dy content is list. exclude unnecessary list items
         # Combine HTML and dynamic content
         rendered_html = html_text + str(dy_text)
         return rendered_html, red_url
@@ -420,9 +424,9 @@ def html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict
     except Exception as errex:
 
         # Retry on other error
-        print(os.getpid(), 'jj_error 5a: Other request', workingurl, errex)
-        add_errorurls_f(workingurl, 'jj_error 5', str(errex), current_crawl_level, jbw_type, portalurl, errorurls_man_dict)
-        return True
+        print(os.getpid(), 'jj_error 6: Other request', workingurl, errex)
+        add_errorurls_f(workingurl, 'jj_error 6', str(errex), current_crawl_level, jbw_type, portalurl, errorurls_man_dict)
+        return True, red_url
 
 
 
@@ -506,7 +510,7 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                 ## there will never be a dup in the queue
                 # Skip checked pages
                 #add_to_queue_b = False
-                #proceed_pass = proceed_f(workingurl, working_list, checkedurls_man_list, verbose_arg, skipped_pages, current_crawl_level, all_urls_q, total_count, add_to_queue_b, blacklist)
+                #proceed_pass = proceed_f(workingurl, working_list, checkedurls_man_list, skipped_pages, current_crawl_level, all_urls_q, total_count, add_to_queue_b, blacklist)
 
                 #if not proceed_pass: continue
 
@@ -519,16 +523,46 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                 loop_success = False
                 for loop_count in range(3):
 
-                    # Get html from function
-                    html_url = html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict, portalurl, dock_pause)
+                    # Get html and red_url tuple
+                    html_url_t = html_requester_f(workingurl, current_crawl_level, jbw_type, errorurls_man_dict, portalurl, dock_pause)
 
-                    # html_requester returns True to indicate a needed retry
-                    if html_url == True:
+
+                    # Get HTML and redirected URL
+                    html = html_url_t[0]
+                    red_url = html_url_t[1]
+
+                    # Prevent trivial changes (eg: https upgrade) from being viewed as different urls
+                    workingurl_dup = dup_checker_f(workingurl)
+                    red_url_dup = dup_checker_f(red_url)
+
+                    # Follow redirects
+                    if workingurl_dup != red_url_dup:
+                        print(os.getpid(), 'Redirect from/to:', workingurl, red_url)
+
+                        # Update checked pages conf value to redirected
+                        conf_val = 'redirected'
+                        outcome(checkedurls_man_list, workingurl, conf_val)
+
+                        # Assign new redirected url
+                        workingurl = red_url
+
+                        # Skip checked pages using redirected URL
+                        add_to_queue_b = False
+                        proceed_pass = proceed_f(red_url, working_list, checkedurls_man_list, skipped_pages, current_crawl_level, all_urls_q, total_count, add_to_queue_b)
+
+                        # Break request loop if redirected URL has been checked already
+                        if not proceed_pass: break                   
+
+
+
+
+                    # html_requester_f returns True to indicate a needed retry
+                    if html_url_t == True:
                         print(os.getpid(), 'Retry request loop:', workingurl)
                         continue
 
-                    # html_requester returns False to indicate don't retry
-                    elif html_url == False:
+                    # html_requester_f returns False to indicate don't retry
+                    elif html_url_t == False:
                         print(os.getpid(), 'Break request loop:', workingurl)
                         break
 
@@ -585,10 +619,10 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                     # Skip to next URL on fatal error
                     continue
 
-
+                '''
                 # Get HTML and redirected URL
-                html = html_url[0]
-                red_url = html_url[1]
+                html = html_url_t[0]
+                red_url = html_url_t[1]
                 #print(os.getpid(), 'origandred:', workingurl, red_url)
 
                 # Prevent trivial changes (eg: https upgrade) from being viewed as different urls
@@ -612,7 +646,8 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
 
                     # Assign new redirected url
                     workingurl = red_url
-
+                '''
+                
 
                 # Select body
                 soup = BeautifulSoup(html, 'html5lib')
@@ -639,7 +674,7 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                 # Type="hidden" attribute
                 r = soup.find_all('', {"type" : 'hidden'})
                 for x in r:
-                    #if verbose_arg print(os.getpid(), 'Decomposed:', workingurl, x)
+                    #print(os.getpid(), 'Decomposed:', workingurl, x)
                     x.decompose()
 
                 # Hidden section(s) and dropdown classes
@@ -714,13 +749,8 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                 # Don't search the fallback domain
                 if current_crawl_level > -1:
 
-                    # Make date dir to put results into
-                    dater = datetime.datetime.now().strftime("%x").replace('/', '_')
-
-                    ## make results dir
-
                     # Make jbw type dirs inside date dir
-                    dated_results_path = os.path.join(jorb_home, 'results', dater, jbw_type)
+                    dated_results_path = os.path.join(dater_path, 'results', jbw_type)
                     if not os.path.exists(dated_results_path):
                         os.makedirs(dated_results_path)
 
@@ -2165,77 +2195,77 @@ if __name__ == '__main__':
     # URL queues
     all_urls_q = Queue() # Put all portal and working URLs in this queue
 
-    # Create manager lists to be shared between processes
+    # Create manager to share objects between processes
     manager = Manager()
-    checkedurls_man_list = manager.list() # URLs that have been checked and their outcome. eg: jbw conf or error
-    errorurls_man_dict = manager.dict() # URLs that have resulted in an error
 
     # Debugging
     jbw_tally_man_l = manager.list() # Used to determine the frequency that jbws are used
 
-    ## use date
+    # Set paths to files
+    queue_path = os.path.join(dater_path, 'queue.txt')
+    checked_path = os.path.join(dater_path, 'checked_pages.txt')
+    error_path = os.path.join(dater_path, 'errorlog.txt')
+
     # Resume scraping using results from the previously failed scraping attempt
-    queue_path = os.path.join(jorb_home, 'queue.txt')
-    checked_path = os.path.join(jorb_home, 'checked_pages.txt')
-    error_path = os.path.join(jorb_home, 'errorlog.txt')
+    try:
 
-    #try:
+        # Read queue file as list
+        with open(queue_path) as f:
+            temp_list = eval(f.read())
 
-    # Read queue file as list
-    with open(queue_path) as f:
-        temp_list = eval(f.read())
+        # Put URLS into queue
+        print('Attempting file queue')
+        for i in temp_list:
+            all_urls_q.put(i)
 
-    # Put URLS into queue
-    print('Attempting file queue')
-    for i in temp_list:
-        all_urls_q.put(i)
+        # Read cml file as list
+        with open(checked_path) as f:
+            temp_list = eval(f.read())
+            checkedurls_man_list = manager.list(temp_list)
+
+        # Read errorlog file as list
+        with open(error_path) as f:
+            temp_list = eval(f.read())
+            errorurls_man_dict = manager.dict(temp_list)
+
+        print('File queue success')
 
 
-    # Read cml file as list
-    with open(checked_path) as f:
-        temp_list = eval(f.read())
+    # Use original queue with empty cml and errorlog
+    except Exception as errex:
+        print(errex, '\nUsing regualar queue')
 
-        checkedurls_man_list = manager.list(temp_list)
+        checkedurls_man_list = manager.list() # URLs that have been checked and their outcome. eg: jbw conf or error
+        errorurls_man_dict = manager.dict() # URLs that have resulted in an error
 
+        
+        # Put school URLs in queue
+        for i in school_list:
 
-    # Read errorlog file as list
-    with open(error_path) as f:
-        temp_list = eval(f.read())
+            # Put civil service URLs, initial crawl level, portal url, and jbws type into queue
+            all_urls_q.put([i, 0, i, 'sch'])
 
-        errorurls_man_dict = manager.dict(temp_list)
+            # Put portal URL into checked pages
+            dup_checker = dup_checker_f(i)
+            checkedurls_man_list.append([dup_checker, None])
 
-    print('File queue success')
+        # Clear list to free up memory
+        school_list = None
 
-    # Use original queue
-    #except Exception as errex:
-    print(errex, '\nUsing regualar queue')
-    
-    # Put school URLs in queue
-    for i in school_list:
+        # Put university URLs in queue
+        for i in uni_list:
+            all_urls_q.put([i, 0, i, 'uni'])
+            dup_checker = dup_checker_f(i)
+            checkedurls_man_list.append([dup_checker, None])
+        uni_list = None
 
-        # Put civil service URLs, initial crawl level, portal url, and jbws type into queue
-        all_urls_q.put([i, 0, i, 'sch'])
+        # Put civil service URLs in queue
+        for i in civ_list:
+            all_urls_q.put([i, 0, i, 'civ'])
+            dup_checker = dup_checker_f(i)
+            checkedurls_man_list.append([dup_checker, None])
+        civ_list = None
 
-        # Put portal URL into checked pages
-        dup_checker = dup_checker_f(i)
-        checkedurls_man_list.append([dup_checker, None])
-
-    # Clear list to free up memory
-    school_list = None
-
-    # Put university URLs in queue
-    for i in uni_list:
-        all_urls_q.put([i, 0, i, 'uni'])
-        dup_checker = dup_checker_f(i)
-        checkedurls_man_list.append([dup_checker, None])
-    uni_list = None
-
-    # Put civil service URLs in queue
-    for i in civ_list:
-        all_urls_q.put([i, 0, i, 'civ'])
-        dup_checker = dup_checker_f(i)
-        checkedurls_man_list.append([dup_checker, None])
-    civ_list = None
 
     # Integers to be shared between processes
     qlength = all_urls_q.qsize() # Length of the primary queue
@@ -2255,7 +2285,7 @@ if __name__ == '__main__':
     current_prog_c = None
     while len(active_children()) > 1:
         if current_prog_c != prog_count.value:
-            #if not verbose_arg: tmp = os.system('clear||cls')
+            #tmp = os.system('clear||cls')
             print(os.getpid(), ' Number of processes running =', len(active_children()), '\n Max crawl depth =', max_crawl_depth)
             print(os.getpid(), '\n\n\n\n Searching in:')
             print(os.getpid(), 'Civil Service')
@@ -2291,7 +2321,7 @@ if __name__ == '__main__':
             for queue_item in queue_list: 
                 all_urls_q.put(queue_item)
 
-            # Save queue list  as file
+            # Save queue list as file
             with open(queue_path, "w") as queue_file:
                 queue_file.write(repr(queue_list))
 
@@ -2313,12 +2343,8 @@ if __name__ == '__main__':
             waiting_procs.value = 0
 
             # Restart Splash
+            print(os.getpid(), 'Restarting Splash Docker container ...')
             container.restart()
-            #container.stop()
-            print(os.getpid(), 'Starting Splash Docker container...')
-
-            #client.containers.run("scrapinghub/splash", name='jj_con', ports={'8050/tcp': 8050}, command='--disable-private-mode --disable-browser-caches', detach=True, remove=True)
-
 
             # Wait for Splash to be ready
             while True:
@@ -2333,8 +2359,7 @@ if __name__ == '__main__':
 
                 except:
                     print(os.getpid(), '...')
-                    time.sleep(3)
-                    continue
+                    time.sleep(2)
 
 
 
@@ -2444,8 +2469,8 @@ if __name__ == '__main__':
         print(os.getpid(), '      Error 3: Request timeout |', error3_tally)
         print(os.getpid(), '      Error 4:  HTTP 404 / 403 |', error4_tally)
         print(os.getpid(), '      Error 5:   Other request |', error5_tally)
-        print(os.getpid(), '      Error 6:     HTML decode |', error6_tally)
-        print(os.getpid(), '      Error 7:  Selenium error |', error7_tally)
+        print(os.getpid(), '      Error 6:  Splash failure |', error6_tally)
+        print(os.getpid(), '      Error 7:           Misc. |', error7_tally)
 
 
 
@@ -2458,7 +2483,7 @@ if __name__ == '__main__':
     #    print(os.getpid(), i)
 
     #os.chmod("/tmp/foo.txt", stat.S_IRWXO)
-    os.remove(queue_path)
+    #os.remove(queue_path)
 
 
 
@@ -2482,7 +2507,6 @@ if school_arg or uni_arg:
         print(os.getpid(), i)
 
 '''
-
 
 
 
