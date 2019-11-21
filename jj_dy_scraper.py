@@ -1,35 +1,32 @@
 
-# Description: Search NYS civil service and school webpages for keywords using a CLI.
+# Description: Crawl NYS civil service and school webpages and scrape the visible text.
 # Version: 2.0
 
 
 # To do:
-# timeout +
+# timeout error +
 # non dynamic html request as fallback -
-# function for checked_pages outcome +
 # put all errors in add_errorurls_f?
-# distinguish final errors and loop retry errors +
-# dont retry non html responses. eg text files +
 # outcome list may not recognize redirects. "None" value remains
-# jbw_type and portalurl should be written only once per errorlog entry +
 # dups in checked pages +
 # reduce redundant dup checker calls
 # cml must keep orig url and add red_url +
-# results hyperlinks should display org name
-# only add needed urls during orignal queue creation. ie resume progress after previous failed scraping
 # investigate multi proc
-# dropdown menus persist. decompose all classes containing dropdown +
 # twitter posts show up in results
 # urls not found in cml
 # save all redirects to cml using resp.history
 # broken pipe and connection reset by peer errors persists
-# rewrite errorlog
+# save cml and errorlog for resumption
+
 
 
 
 
 # Later versions:
-# comprehensive db = org name, home url, employ url or centralized service, address, geopy location, coords
+# move to a dedicated server
+# register domain
+# update databases
+# results hyperlinks should display org name
 # false positives: search visible text only https://www.friendship.wnyric.org/domain/9 +
 # true negatives: dynamic pages https://www.applitrack.com/penfield/onlineapp/default.aspx?all=1 +
 # test other BS parsers -
@@ -40,6 +37,7 @@
 # pass interviewexchange captcha
 # document which orgs use a centralized service and exlude or include them from jj search
 # phase out blacklist
+# display error tallies in results
 
 
 
@@ -140,7 +138,7 @@ def dup_checker_f(dup_checker):
     # Remove scheme
     if dup_checker.startswith('http://') or dup_checker.startswith('https://'):
         dup_checker = dup_checker.split('://')[1]
-    else: print('No scheme at:', dup_checker)
+    else: print('__Error__ No scheme at:', dup_checker)
 
     '''
     ## unn
@@ -283,7 +281,7 @@ def outcome(checkedurls_man_list, url, conf_val):
 
     # Catch no match
     else:
-        print(os.getpid(), url, 'not found in checkedurls_man_list. __Error__')
+        print(os.getpid(), '__Error__ not found in checkedurls_man_list:', url)
         return
 
 
@@ -409,9 +407,7 @@ def html_requester(workingurl, current_crawl_level, jbw_type, errorurls_man_dict
         dy_text = json.loads(resp.text)['childFrames']
 
         # Red url
-        print(333333)
         red_url = json.loads(resp.text)['url']
-        print(444444)
         #print(os.getpid(), '\n\n workingurl=', workingurl, '\n html_text=', html_text, '\n\n dy_text=', dy_text)
 
         ## dy content is list. exclude unnecessary list items
@@ -553,16 +549,16 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                 if loop_success == False:
                     print(os.getpid(), 'Loop failed:', workingurl)
 
-                    ## not final if using domain as fallback
+                    ## not final if using domain as fallback?
                     # Append a final error designation
                     prev_item = errorurls_man_dict[workingurl]
                     prev_item.append('jj_final_error')
 
-                    with lock:
-                        try:
-                            errorurls_man_dict[workingurl] = prev_item
-                        except Exception as errex:
-                            print(errex)
+                    #with lock:
+                    #    try:
+                    errorurls_man_dict[workingurl] = prev_item
+                    #    except Exception as errex:
+                    #print(errex)
 
 
                     # If portal request failed, use domain as fallback one time
@@ -651,17 +647,17 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                     #print(os.getpid(), 'Decomposed:', workingurl, x)
                     x.decompose()
 
-                '''
+                
                 ## This preserves whitespace across lines. Prevents: 'fire departmentapparatuscode compliance'
                 # Remove unnecessary whitespace. eg: multiple newlines, spaces, and all tabs
                 vis_soup = ''
                 temp_soup = str(soup.text)
                 for i in temp_soup.split('\n'):
                     i = i.replace('\t', ' ').replace('  ', '')
-                    if i: 
+                    if i:
                         vis_soup = vis_soup + i
-                '''
 
+                '''
                 # Remove unnecessary whitespace
                 vis_soup = ''
                 temp_soup = str(soup.text)
@@ -669,7 +665,7 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                     i = i.strip()
                     if i:
                         vis_soup = vis_soup + i
-
+                '''
 
                 # Use lowercase visible text for comparisons
                 vis_soup = vis_soup.lower()
@@ -726,7 +722,6 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                     # Make jbw type dirs inside date dir
                     dated_results_path = os.path.join(jorb_home, 'results', dater, jbw_type)
                     if not os.path.exists(dated_results_path):
-                        print(1111)
                         os.makedirs(dated_results_path)
 
                     # Replace forward slashes so they aren't read as directory boundaries
@@ -2141,7 +2136,7 @@ if __name__ == '__main__':
     # Start Docker container
     print(os.getpid(), 'Starting Splash Docker container...')
     client = docker.from_env()
-    client.containers.run("scrapinghub/splash", name='jj_con', ports={'8050/tcp': 8050}, command='--disable-private-mode --disable-browser-caches --slots 100', detach=True, remove=True)
+    client.containers.run("scrapinghub/splash", name='jj_con', ports={'8050/tcp': 8050}, command='--disable-private-mode --disable-browser-caches --slots 100', detach=True, remove =True)
     #client.containers.run("scrapinghub/splash", name='jj_con', ports={'8050/tcp': 8050}, detach=True, remove=True)
 
     # Wait for Splash to be ready
@@ -2168,16 +2163,53 @@ if __name__ == '__main__':
 
 
     # URL queues
-    all_urls_q = Queue() # Put all portal and working URLs in this (primary) queue
+    all_urls_q = Queue() # Put all portal and working URLs in this queue
 
     # Create manager lists to be shared between processes
     manager = Manager()
-    checkedurls_man_list = manager.list() # URLs that have been checked
+    checkedurls_man_list = manager.list() # URLs that have been checked and their outcome. eg: jbw conf or error
     errorurls_man_dict = manager.dict() # URLs that have resulted in an error
 
     # Debugging
     jbw_tally_man_l = manager.list() # Used to determine the frequency that jbws are used
 
+    ## use date
+    # Resume scraping using results from the previously failed scraping attempt
+    queue_path = os.path.join(jorb_home, 'queue.txt')
+    checked_path = os.path.join(jorb_home, 'checked_pages.txt')
+    error_path = os.path.join(jorb_home, 'errorlog.txt')
+
+    #try:
+
+    # Read queue file as list
+    with open(queue_path) as f:
+        temp_list = eval(f.read())
+
+    # Put URLS into queue
+    print('Attempting file queue')
+    for i in temp_list:
+        all_urls_q.put(i)
+
+
+    # Read cml file as list
+    with open(checked_path) as f:
+        temp_list = eval(f.read())
+
+        checkedurls_man_list = manager.list(temp_list)
+
+
+    # Read errorlog file as list
+    with open(error_path) as f:
+        temp_list = eval(f.read())
+
+        errorurls_man_dict = manager.dict(temp_list)
+
+    print('File queue success')
+
+    # Use original queue
+    #except Exception as errex:
+    print(errex, '\nUsing regualar queue')
+    
     # Put school URLs in queue
     for i in school_list:
 
@@ -2242,11 +2274,35 @@ if __name__ == '__main__':
 
 
         # Reset container if memory usage gets too high
-        if psutil.virtual_memory()[2] > 70:
+        if psutil.virtual_memory()[2] > 80:
 
             # Tell processes to wait
             dock_pause.value = 1
-            print(os.getpid(), 'restarting cont...')
+            print(os.getpid(), 'Restarting Splash container ...')
+
+
+            # Get items from queue
+            queue_list = []
+            while all_urls_q.qsize() > 0:
+                queue_item = all_urls_q.get()
+                queue_list.append(queue_item)
+
+            # Return items to queue
+            for queue_item in queue_list: 
+                all_urls_q.put(queue_item)
+
+            # Save queue list  as file
+            with open(queue_path, "w") as queue_file:
+                queue_file.write(repr(queue_list))
+
+            # Save cml as file
+            with open(checked_path, "w") as cml_file:
+                cml_file.write(repr(checkedurls_man_list))
+
+            # Save errorlog as file
+            with open(error_path, "w") as error_file:
+                error_file.write(repr(errorurls_man_dict))
+
 
             # Wait for all processes to say they are waiting
             while waiting_procs.value < len(active_children()) - 1:
@@ -2311,7 +2367,6 @@ if __name__ == '__main__':
 
 
     # Clear checked pages
-    checked_path = os.path.join(jorb_home, 'checked_pages.txt')
     with open(checked_path, "w") as checked_file:
         checked_file.write('')
 
@@ -2322,7 +2377,6 @@ if __name__ == '__main__':
 
 
     # Clear errorlog
-    error_path = os.path.join(jorb_home, 'errorlog.txt')
     with open(error_path, "w") as error_file:
         error_file.write('')
 
@@ -2403,8 +2457,8 @@ if __name__ == '__main__':
     #for i in portal_error_list:
     #    print(os.getpid(), i)
 
-
-
+    #os.chmod("/tmp/foo.txt", stat.S_IRWXO)
+    os.remove(queue_path)
 
 
 
