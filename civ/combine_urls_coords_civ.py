@@ -271,7 +271,7 @@ nm_l = []
 
 
 # Open coords file
-coords_file = pd.ExcelFile("C:/Users/jschiffler/Desktop/civ_coords.xlsx")
+coords_file = pd.ExcelFile("civ_coords.xlsx")
 
 # Select sheet number
 coords_sheet = coords_file.parse()
@@ -280,15 +280,18 @@ coords_sheet = coords_file.parse()
 # Iterate through each org's URL
 for html_org in org_url_list:
 
+    url = html_org[1]
+
     # Iterate through each org's coords
     for i in coords_sheet.index:
 
         # Find matching org names
         if coords_sheet['Legal Name'][i].lower() == html_org[0].lower():
 
-            # Combine org name, URL, and coords
+            # Combine org name, em URL, domain, and coords
             coords = (coords_sheet['GIS Latitude (Y)'][i], coords_sheet['GIS Longitute (X)'][i])
-            fin_l.append((coords_sheet['Legal Name'][i], html_org[1], coords))
+            domain = '/'.join(url.split('/')[:3])
+            fin_l.append((coords_sheet['Legal Name'][i], url, domain, coords))
             break
 
     # Catch org names with no matches
