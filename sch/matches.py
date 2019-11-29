@@ -1657,10 +1657,11 @@ for i in new_l:
             # Append old em URL into new em list
             i_l = list(i)
             i_l.insert(1, ii)
-            #print(i_l)
+            print(i_l)
             count += 1
 
 print('\n old total:', len(old_l), '\n new total:', len(new_l), '\n total matches:', count, '\n\n')
+
 
 
 # Display old URLs that have no matches and multiple matches
@@ -1683,10 +1684,6 @@ for i in c1_d.items():
 print('unused:', len(l0))
 print('good:', len(l1))
 print('multi:', len(l2))
-
-
-
-
 
 # Display new URLs that have no matches and multiple matches
 print('\n\n new')
