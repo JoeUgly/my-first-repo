@@ -268,6 +268,7 @@ print('\n Searching ...\n\n')
 
 fin_l = []
 nm_l = []
+mm_l = []
 
 
 # Open coords file
@@ -292,6 +293,8 @@ for html_org in org_url_list:
             coords = (coords_sheet['GIS Latitude (Y)'][i], coords_sheet['GIS Longitute (X)'][i])
             domain = '/'.join(url.split('/')[:3])
             fin_l.append((coords_sheet['Legal Name'][i], url, domain, coords))
+            mm_l.append(url)
+            mm_l.append(coords)
             break
 
     # Catch org names with no matches
@@ -302,16 +305,22 @@ for html_org in org_url_list:
 
 
 
-print('\n\nMatches:')
-for i in fin_l: print(i)
+print('\n\n', len(fin_l), 'Matches:')
+for i in fin_l: print(str(i) + ',')
 
 
-print('\n\nNo matches at:')
+print('\n\n', len(nm_l), 'No matches:')
 for i in nm_l: print(i)
 
-
-
-
+print('\n\n Multi matches:')
+for i in mm_l:
+    a = mm_l.count(i)
+    if a > 1:
+        print(i)
+        '''
+        for ii in fin_l:
+            if i in ii: print(ii, i)
+        '''
 
 
 
