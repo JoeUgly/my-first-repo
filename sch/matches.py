@@ -1,6 +1,9 @@
 
 # Desc: Use URLs from old em list in new em list
 
+# To do:
+# wnyric.org urls are probably 404 or redirect
+
 
 
 
@@ -1561,7 +1564,7 @@ old_l = (
 'https://www.northcollins.com/cms/One.aspx?portalId=272706&pageId=626890',
 'https://www.northcolonie.org/about-us/employment-opportunities',
 'https://www.norwichcsd.org/Vacancies.aspx',
-'https://www.ntschools.org//site/Default.aspx?PageID=5052',
+'https://www.ntschools.org/site/Default.aspx?PageID=5052',
 'https://www.nwcsd.org/Page/64',
 'https://www.oahornets.org/apps/jobs',
 'https://www.oesj.org',
@@ -1620,7 +1623,41 @@ old_l = (
 
 
 
-# Exit if dup is found
+
+
+# Removes extra info from urls to prevent duplicate pages from being checked more than once
+def dup_checker_f(dup_checker):
+    #print('start dup check:', dup_checker)
+
+    # Remove scheme
+    if dup_checker.startswith('http://') or dup_checker.startswith('https://'):
+        dup_checker = dup_checker.split('://')[1]
+
+
+    # Remove www. and variants
+    if dup_checker.startswith('www.'):
+        dup_checker = dup_checker.split('www.')[1]
+    elif dup_checker.startswith('www2.'):
+        dup_checker = dup_checker.split('www2.')[1]
+    elif dup_checker.startswith('www3.'):
+        dup_checker = dup_checker.split('www3.')[1]
+
+    # Remove fragments
+    dup_checker = dup_checker.split('#')[0]
+
+    # Remove trailing whitespace and slash and then lowercase it
+    dup_checker = dup_checker.strip().strip('/').lower()
+
+    ## Remove double forward slashes?
+    dup_checker = dup_checker.replace('//', '/')
+    return dup_checker
+
+
+fin = []
+
+
+
+# Exit if dup is found in old or new list
 for i in old_l:
     a = old_l.count(i)
     if a > 1 :
@@ -1646,10 +1683,13 @@ for ii in old_l: c1_d[ii] = 0 # Init old dict with 0 values
 
 for i in new_l:
     c2_d[i] = 0 # Init new dict with 0 values
+
+    dup = dup_checker_f(i[1])
+    if not dup: continue
     
     for ii in old_l:
 
-        if i[1] in ii:
+        if dup in ii:
             
             c1_d[ii] += 1 # Increment old frequency
             c2_d[i] += 1 # Increment new frequency
@@ -1657,6 +1697,7 @@ for i in new_l:
             # Append old em URL into new em list
             i_l = list(i)
             i_l.insert(1, ii)
+            fin.append(i_l)
             print(i_l)
             count += 1
 
@@ -1666,53 +1707,74 @@ print('\n old total:', len(old_l), '\n new total:', len(new_l), '\n total matche
 
 # Display old URLs that have no matches and multiple matches
 print('\n\n old')
-l0 = []
-l1 = []
-l2 = []
+ol0 = []
+ol1 = []
+ol2 = []
 
 for i in c1_d.items():
     
     if i[1] == 0:
-        l0.append(i)
+        ol0.append(i)
+        #print(i)
 
     elif i[1] == 1:
-        l1.append(i)
+        ol1.append(i)
     
     else:
-        l2.append(i)
+        ol2.append(i)
+        #print(i)
+        
 
-print('unused:', len(l0))
-print('good:', len(l1))
-print('multi:', len(l2))
+print('unused:', len(ol0))
+print('good:', len(ol1))
+print('multi:', len(ol2))
 
 # Display new URLs that have no matches and multiple matches
 print('\n\n new')
-l0 = []
-l1 = []
-l2= []
+nl0 = []
+nl1 = []
+nl2= []
 
 for i in c2_d.items():
     if i[1] == 0:
-        l0.append(i)
+        nl0.append(i)
 
     elif i[1] == 1:
-        l1.append(i)
+        nl1.append(i)
     
     else:
-        l2.append(i)
+        nl2.append(i)
 
-print('unused:', len(l0))
-print('good:', len(l1))
-print('multi:', len(l2))
-
-
+print('unused:', len(nl0))
+print('good:', len(nl1))
+print('multi:', len(nl2))
 
 
+## this can optimised by using 'in' instead of iterations
+# This is the section to actually use
+# This section to find inly the results that come from items with only one match from each list
+count = 0
+print('\nfinal', len(fin))
+for i in fin: # Iterate through all matches
+
+    for ii in ol1: # Iterate through all matches from old list with only 1 match
+        if i[1] == ii[0]:
+            #print(233242, i[1], ii[0])
+
+            for iii in nl1: # Iterate through all matches from new list with only 1 match
+                #print(i[2], iii)
+
+                if i[2] == iii[0][1]: # if both components of the match have only been used once
+                    #print(999, i[1], ii[0], i[2], iii[0][1])
+                    print(str(i) + ',')
+                    count += 1
 
 
 
 
 
+
+print(count)
 
 
 

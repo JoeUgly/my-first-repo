@@ -7,9 +7,26 @@
 # All Institutions: Active Institutions with GIS coordinates and OITS Accuracy Code - Select by County
 
 
+# Features:
+# get org name and URL from HTML
+# get org name and coords from spreadsheet
+# combine the two into a list
+# only use results with one match -
+
+
+# To do:
+# results with multiple matches are included but left blank
+
+
+# Concerns:
+# allow duplicate coords? yes because different URLs have their own job postings
+# allow dup URLs?: yes because geo limiter may exclude one and dups will be excluded from queue. (Not yet)
+
+
 
 import pandas as pd
 from bs4 import BeautifulSoup
+
 
 
 html = '''
@@ -282,6 +299,7 @@ coords_sheet = coords_file.parse()
 for html_org in org_url_list:
 
     url = html_org[1]
+    domain = '/'.join(url.split('/')[:3])
 
     # Iterate through each org's coords
     for i in coords_sheet.index:
@@ -291,17 +309,14 @@ for html_org in org_url_list:
 
             # Combine org name, em URL, domain, and coords
             coords = (coords_sheet['GIS Latitude (Y)'][i], coords_sheet['GIS Longitute (X)'][i])
-            domain = '/'.join(url.split('/')[:3])
             fin_l.append((coords_sheet['Legal Name'][i], url, domain, coords))
             mm_l.append(url)
-            mm_l.append(coords)
-            break
+            #mm_l.append(coords)
+            break ## this should be removed but will ruin the else statement
 
     # Catch org names with no matches
     else:
-        nm_l.append(html_org)
-
-
+        nm_l.append((html_org[0].upper(), html_org[1], domain))
 
 
 
@@ -309,21 +324,23 @@ print('\n\n', len(fin_l), 'Matches:')
 for i in fin_l: print(str(i) + ',')
 
 
-print('\n\n', len(nm_l), 'No matches:')
-for i in nm_l: print(i)
+print('\n\n', len(nm_l), 'No name matches:')
+for i in nm_l: print(str(i) + ',')
 
-print('\n\n Multi matches:')
+print('\n\n Multi URL matches:')
 for i in mm_l:
     a = mm_l.count(i)
     if a > 1:
-        print(i)
+        print('\n\n~~~ dup:', i)
+        
         '''
         for ii in fin_l:
             if i in ii: print(ii, i)
         '''
 
-
-
+        for ii in fin_l:
+            if i == ii[1]:
+                print(ii)
 
 
 
