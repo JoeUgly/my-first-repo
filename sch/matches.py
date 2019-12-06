@@ -1656,7 +1656,7 @@ def dup_checker_f(dup_checker):
 fin = []
 
 
-
+## call dup checker here?
 # Exit if dup is found in old or new list
 for i in old_l:
     a = old_l.count(i)
@@ -1698,7 +1698,7 @@ for i in new_l:
             i_l = list(i)
             i_l.insert(1, ii)
             fin.append(i_l)
-            print(i_l)
+            #print(i_l)
             count += 1
 
 print('\n old total:', len(old_l), '\n new total:', len(new_l), '\n total matches:', count, '\n\n')
@@ -1755,7 +1755,7 @@ print('multi:', len(nl2))
 # This section to find inly the results that come from items with only one match from each list
 count = 0
 print('\nfinal', len(fin))
-for i in fin: # Iterate through all matches
+for i in fin: # Iterate through all matches    
 
     for ii in ol1: # Iterate through all matches from old list with only 1 match
         if i[1] == ii[0]:
@@ -1770,12 +1770,13 @@ for i in fin: # Iterate through all matches
                     count += 1
 
 
-
-
-
-
 print(count)
 
+
+
+print('\n\n\n')
+for i in new_l:
+    if not i[0] in fin: print(i)
 
 
 
