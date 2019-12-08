@@ -1,8 +1,23 @@
 
-# Desc: Use URLs from old em list in new em list
+# Desc: Use school URLs from old em list in new em list.
+# Results are only considered good if both components have been used only once.
+# Both components are: the item from the new list and the em URL from the old list
+# Good and bad results are outputted. Good results have em URLs. eg: ['org name', 'em url', 'url', (coords)]
+# Bad results have no em URLs. eg: ['org name', '', 'url', (coords)]
+
 
 # To do:
 # wnyric.org urls are probably 404 or redirect
+# some coords are 0.0, 0.0
+# some urls are ' '
+# include charter schools, boces, etc
+
+
+# Features:
+# find any duplicate entries in either starting list
+# count how many times each item is used from each starting list
+# only consider results good if each component has been used once
+# output all results but leave em URL blank if result is bad for any reason
 
 
 
@@ -1753,6 +1768,7 @@ print('multi:', len(nl2))
 ## this can optimised by using 'in' instead of iterations
 # This is the section to actually use
 # This section to find inly the results that come from items with only one match from each list
+ult_l = []
 count = 0
 print('\nfinal', len(fin))
 for i in fin: # Iterate through all matches    
@@ -1766,17 +1782,47 @@ for i in fin: # Iterate through all matches
 
                 if i[2] == iii[0][1]: # if both components of the match have only been used once
                     #print(999, i[1], ii[0], i[2], iii[0][1])
-                    print(str(i) + ',')
+                    #print(str(i) + ',')
                     count += 1
+                    ult_l.append(i)
 
 
 print(count)
 
 
+count = 0
+print('\n\nUltimate good matches with em URLs and bad matches without em URLs below\n')
 
-print('\n\n\n')
+# Iterate through all original items
 for i in new_l:
-    if not i[0] in fin: print(i)
+    i = list(i)
+
+    # Iterate through ultimate good list
+    for ii in ult_l:
+
+        # Find matches in the ultimate good list
+        if i[0] in ii:
+            print(str(ii) + ',')
+            count += 1
+            break
+        
+    # If match is not found then output original item with blank em URL
+    else:
+        i.insert(1, '')
+        print(str(i) + ',')
+        count += 1
+
+print('\n\nUltimate good matches with em URLs and bad matches without em URLs above\n', count, len(new_l))
+
+
+
+
+
+
+
+
+
+
 
 
 
