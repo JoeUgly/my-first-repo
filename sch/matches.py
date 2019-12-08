@@ -1770,7 +1770,6 @@ print('multi:', len(nl2))
 # This section to find inly the results that come from items with only one match from each list
 ult_l = []
 count = 0
-print('\nfinal', len(fin))
 for i in fin: # Iterate through all matches    
 
     for ii in ol1: # Iterate through all matches from old list with only 1 match
@@ -1787,10 +1786,9 @@ for i in fin: # Iterate through all matches
                     ult_l.append(i)
 
 
-print(count)
 
 
-count = 0
+just_checking = 0
 print('\n\nUltimate good matches with em URLs and bad matches without em URLs below\n')
 
 # Iterate through all original items
@@ -1803,16 +1801,19 @@ for i in new_l:
         # Find matches in the ultimate good list
         if i[0] in ii:
             print(str(ii) + ',')
-            count += 1
+            just_checking += 1
             break
         
     # If match is not found then output original item with blank em URL
     else:
         i.insert(1, '')
         print(str(i) + ',')
-        count += 1
+        just_checking += 1
 
-print('\n\nUltimate good matches with em URLs and bad matches without em URLs above\n', count, len(new_l))
+print('\n\nUltimate good matches with em URLs and bad matches without em URLs above\n')
+print('these should match:', just_checking, len(new_l))
+print('Ultimate good URLs:', count)
+print('Still need to get em URLs:', len(new_l) - count)
 
 
 
