@@ -3,8 +3,20 @@
 
 
 
+# To do:
+# AP and wnyric are not totally centralized? eg: https://www.applitrack.com/saugertiesk12/onlineapp/jobpostings/view.asp
+# fix homepage redirects before running em_finder
+# output error urls
 
-import datetime, docker, requests, psutil, json, gzip, os, queue, re, socket, time, traceback, urllib.parse, urllib.request, webbrowser, ssl
+
+
+
+
+
+
+
+
+import datetime, requests, psutil, gzip, os, queue, re, socket, time, traceback, urllib.parse, urllib.request, webbrowser, ssl
 from os.path import expanduser
 from multiprocessing import active_children, Lock, Manager, Process, Queue, Value
 from math import sin, cos, sqrt, atan2, radians
@@ -66,7 +78,7 @@ jobwords_su_low = ('join', 'job seeker', 'job', 'job title', 'positions', 'caree
 # career services, career peers, career prep, career fair, volunteer
 ## application
 # Exclude links that contain any of these
-bunkwords = ('academics', 'pnwboces.org', 'recruitfront.com', 'schoolapp.wnyric.org', 'professional development', 'career development', 'javascript:', '.pdf', '.jpg', '.ico', '.rtf', '.doc', 'mailto:', 'tel:', 'icon', 'description', 'specs', 'specification', 'guide', 'faq', 'images', 'exam scores', 'resume-sample', 'resume sample', 'directory', 'pupil personnel')
+bunkwords = ('academics', 'professional development', 'career development', 'javascript:', '.pdf', '.jpg', '.ico', '.rtf', '.doc', 'mailto:', 'tel:', 'icon', 'description', 'specs', 'specification', 'guide', 'faq', 'images', 'exam scores', 'resume-sample', 'resume sample', 'directory', 'pupil personnel')
 
 # olas
 # https://schoolapp.wnyric.org/ats/job_board
@@ -164,7 +176,7 @@ def proceed_f(abspath, working_list, checkedurls_man_list, skipped_pages, curren
                 skipped_pages.value += 1
         except Exception as errex:
             print(errex)
-        return False
+        return False    
 
 
     # Form domain by splitting after 3rd slash
@@ -540,56 +552,53 @@ def scraper(all_urls_q, max_crawl_depth, checkedurls_man_list, errorurls_man_dic
                 html = None
 
                 if soup is None:
-                    print(os.getpid(), 'Empty soup0:', workingurl)
+                    print(os.getpid(), '__Empty soup0:', workingurl)
                     continue
 
+                # Keep a soup for finding links and another for saving visible text
+                vis_soup = soup
+
                 # Remove script, style, and empty elements
-                for i in soup(["script", "style"]):
+                for i in vis_soup(["script", "style"]):
                     i.decompose()
 
                 ## unn
                 # Iterate through and remove all of the hidden style attributes
-                r = soup.find_all('', {"style" : style_reg})
+                r = vis_soup.find_all('', {"style" : style_reg})
                 for x in r:
                     #print(os.getpid(), 'Decomposed:', workingurl, x)
                     x.decompose()
 
                 # Type="hidden" attribute
-                r = soup.find_all('', {"type" : 'hidden'})
+                r = vis_soup.find_all('', {"type" : 'hidden'})
                 for x in r:
                     #print(os.getpid(), 'Decomposed:', workingurl, x)
                     x.decompose()
 
                 # Hidden section(s) and dropdown classes
-                for x in soup(class_=class_reg):
+                for x in vis_soup(class_=class_reg):
                     #print(os.getpid(), 'Decomposed:', workingurl, x)
                     x.decompose()
 
                 
                 ## This preserves whitespace across lines. Prevents: 'fire departmentapparatuscode compliance'
                 # Remove unnecessary whitespace. eg: multiple newlines, spaces, and all tabs
-                vis_soup = ''
-                temp_soup = str(soup.text)
-                for i in temp_soup.split('\n'):
-                    i = i.replace('\t', ' ').replace('  ', '')
-                    if i:
-                        vis_soup = vis_soup + i
+                vis_soup = str(vis_soup.text)
 
+                ##
+                vis_soup = re.sub("\s{2,}", " ", vis_soup)
                 '''
-                # Remove unnecessary whitespace
-                vis_soup = ''
-                temp_soup = str(soup.text)
-                for i in temp_soup.split('\n'):
-                    i = i.strip()
-                    if i:
-                        vis_soup = vis_soup + i
+                regex here
                 '''
+
 
                 # Use lowercase visible text for comparisons
                 vis_soup = vis_soup.lower()
 
                 if vis_soup is None:
-                    print(os.getpid(), 'Empty soup1:', workingurl)
+                    print(os.getpid(), '__Empty soup1:', workingurl)
+
+                    ## there may be links to get
                     continue
 
 
@@ -1768,13 +1777,14 @@ if __name__ == '__main__':
     print(sort_dict)
 
 
-    # Display sorted results in handy format
+    # Display results sorted by jbw conf?
     with lock:
         for i in sort_dict:
-            print("\n\n['" + i + "', ''],")
+            print("\n\n['" + i + "', ''],") # display results in "list format"
             temp = sorted(sort_dict[i], key = lambda x: int(x[1]), reverse=True)
-            for ii in temp: 
-                print(ii[0])
+            for ii in temp:
+                print(ii[0]) # exclude jbw conf?
+
 
 
 
@@ -1790,7 +1800,25 @@ for i in sort_dict.items():
 '''
 
 
+'''
+# To include centralized services
+# olas = omit. centralized and dynamic. all at: https://www.pnwboces.org/olas/#!/jobs
+# recruitfront = omit. centralized. all at: https://monroe2boces.recruitfront.com/JobBoard
+# interviewexchange = keep. decentralized. captcha prompt
+# wnyric = keep. decentralized. omit all at: https://schoolapp.wnyric.org/ats/job_board?start_index=200
+# use regex to determine pages = '<a href="/ats/job_board\?start_index=\d+">'
 
+# Fetch from wnyric
+if school_arg or uni_arg:
+    wnyric_pages = re.findall('<a href="/ats/job_board\?start_index=\d+">', html, flags=re.DOTALL)
+
+    for i in set(wnyric_pages):
+        i = i.split('job_board')[1]
+        i = i.split('"')[0]
+        i = 'https://schoolapp.wnyric.org/ats/job_board' + i
+        print(os.getpid(), i)
+
+'''
 
 
 
