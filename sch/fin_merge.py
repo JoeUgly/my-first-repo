@@ -6,12 +6,10 @@
 
 e_l = [
 
+
+
+
 ['http://www.alexandercsd.org', 'http://www.alexandercsd.org/apps/pages/index.jsp?uREC_ID=887506&type=d&pREC_ID=1238008'],
-
-
-
-['http://www.aufsd.org', 'http://www.aufsd.org/Page/93'],
-
 
 
 
@@ -20,10 +18,7 @@ e_l = [
 
 
 
-['http://www.arlingtonschools.org', 'http://www.arlingtonschools.org'],
-
-
-
+['http://www.aufsd.org', 'http://www.aufsd.org/Page/93'],
 
 
 
@@ -31,8 +26,704 @@ e_l = [
 
 
 
+['http://www.aecsd.education', 'http://www.aecsd.education/districtpage.cfm?pageid=1458'],
 
-['http://www.aecsd.education', 'http://www.aecsd.education/districtpage.cfm?pageid=1458']
+
+
+['http://www.arlingtonschools.org', '_RF'],
+
+
+
+['http://www.avocacsd.org', 'https://www.avocacsd.org/Domain/9'],
+
+
+
+['http://www.bscsd.org', 'http://www.bscsd.org/Page/559'],
+
+
+
+
+['http://www.bellmoreschools.org', '_OL'],
+
+
+
+['http://www.belfastcsd.org', '_AP'],
+
+
+
+['http://www.berkshirefarm.org', 'https://www.berkshirefarm.org/careers'],
+
+
+
+
+['http://www.baldwinschools.org', '_RF'],
+
+
+
+['http://www.brunswickcsd.org', 'https://www.brunswickcsd.org/career/'],
+
+
+
+
+['http://www.brentwood.k12.ny.us', 'https://www.bufsd.org/departments/human_resources/current_employment_opportunities'],
+
+
+
+['http://www.comsewogue.k12.ny.us', '_OL'],
+
+
+
+['http://www.bcs1.org', '_AP'],
+
+
+
+['http://www.brewsterschools.org', 'https://www.brewsterschools.org/Page/1103'],
+
+
+
+['http://www.bhbl.org', 'https://www.bhbl.org/departments-and-services/employment/'],
+
+
+
+['http://www.cscsd.org', 'http://www.cscsd.org/Page/575'],
+
+
+
+['http://www.cal-mum.org', 'https://www.cal-mum.org/domain/74'],
+
+
+['http://www.buffaloschools.org', 'http://buffaloschools.applicantstack.com/x/openings'],
+
+
+['http://www.cgcsd.org', 'https://www.cgcsd.org/Page/51'],
+
+
+['http://www.canandaiguaschools.org', '_RF'],
+
+
+
+['http://www.cssd.org', 'http://www.cssd.org/Page/183'],
+
+
+
+
+['http://www.ccsd.ws', '_AP'],
+
+
+
+['http://www.maryvaleufsd.org', 'http://www.maryvaleufsd.org'],
+
+
+
+['http://www.cheektowagasloan.org', 'https://www.cheektowagasloan.org/domain/39'],
+
+
+
+['http://www.cccsd.org', 'https://jobs.schoolsites.com/CCCSD/'],
+
+
+
+
+
+['http://www.chesterufsd.org', 'https://www.chesterufsd.org/domain/36'],
+
+
+
+
+['http://www.clevehill.org', 'https://www.clevehill.org/domain/73'],
+
+
+
+['http://www.clymercsd.org', 'https://www.clymercsd.org/site/Default.aspx?PageID=118'],
+
+
+
+['http://www.cpcs.us', 'http://www.cpcs.us/apps/pages/index.jsp?uREC_ID=1169997&type=d&pREC_ID=1473518'],
+
+
+
+['http://commack.k12.ny.us', 'http://commack.k12.ny.us/employment.aspx'],
+
+
+
+
+['http://www.cohoes.org', 'https://www.cohoes.org/employment/'],
+
+
+
+
+['http://www.crcs.k12.ny.us', 'https://www.crcs.k12.ny.us/employment/'],
+
+
+
+['http://www.cacsd.org', 'https://www.cacsd.org/domain/188'],
+
+
+
+['http://www.keshequa.org', '_RF'],
+
+
+
+['http://www.deruytercentral.org', 'http://www.deruytercentral.org/districtpage.cfm?pageid=518'],
+
+
+
+
+['http://www.chufsd.org', 'http://www.chufsd.org'],
+
+
+
+['http://www.crcs.wnyric.org', '_AP'],
+
+
+
+['http://www.doverschools.org', 'http://www.doverschools.org'],
+
+
+
+['http://www.dcsd-ny.schoolloop.com', 'http://www.dcsd-ny.schoolloop.com'],
+
+
+
+['http://www.cmschools.org', 'http://www.cmschools.org/district/employment-opportunities'],
+
+
+
+
+
+['http://www.ehufsd.org', 'http://easthamptonschools.org//district/employment'],
+
+
+
+
+['http://www.eastiron.org', 'http://www.eastiron.org/Page/84'],
+
+
+
+
+
+['http://www.erschools.org', '_RF'],
+
+
+
+['https://www.ercsd.org/', 'https://www.ercsd.org/Page/440'],
+
+
+
+['http://www.lakeshorecsd.org', 'https://www.lakeshorecsd.org/domain/95'],
+
+
+
+['http://www.elmontschools.org', 'http://www.elmontschools.org/Page/381'],
+
+
+
+
+['http://www.eufsd.org', 'https://www.eufsd.org/domain/119'],
+
+
+
+['http://district.eastchesterschools.org', 'http://district.eastchesterschools.org'],
+
+
+
+['http://www.fairport.org', '_AP'],
+
+
+['http://www.fulton.cnyric.org', 'http://www.fultoncsd.org/districtpage.cfm?pageid=119'],
+
+
+
+['http://www.falconerschools.org', 'https://www.falconercsd.org/domain/368'],
+
+
+
+
+['http://www.floridaufsd.org', 'https://www.floridaufsd.org/district-departments/business-office/'],
+
+
+
+['http://www.georgejuniorrepublic.com', 'http://www.georgejuniorrepublic.com'],
+
+
+
+['http://www.gardencity.k12.ny.us', 'https://www.gardencity.k12.ny.us/Page/3855'],
+
+
+
+
+['http://www.gateschili.org', '_AP'],
+
+
+
+['http://www.geneseocsd.org', '_RF'],
+
+
+
+['http://www.mwcsd.org', '_RF'],
+
+
+
+['http://www.gfsd.org', 'https://www.gfsd.org/jobs/'],
+
+
+
+
+['http://www.grandislandschools.org', 'https://www.grandislandschools.org/Page/932'],
+
+
+
+['http://www.gowcsd.org', 'http://www.gowcsd.org/employment-opportunities/'],
+
+
+
+
+['http://www.greececsd.org', '_AP'],
+
+
+
+['http://www.greenisland.org', '_OL'],
+
+
+
+['http://www.goshenschoolsny.org', 'https://www.gcsny.org/employment/'],
+
+
+
+['http://www.gufsd.org', 'http://gufsd.org/district/employment-opportunities/'],
+
+
+
+
+['http://www.greenvillecsd.org', 'http://www.greenvillecsd.org/o/greenville-csd/page/employment-opportunities--462'],
+
+
+
+
+['http://www.hohschools.org', '_AP'],
+
+
+
+['http://www.hilton.k12.ny.us', '_RF'],
+
+
+
+['http://www.hollandcsd.org', 'https://www.hollandcsd.org/Page/32'],
+
+
+
+
+['http://www.hoosickfallscsd.org', 'http://www.hoosickfallscsd.org/current-opportunities/'],
+
+
+
+
+['http://www.hflcsd.org', '_AP'],
+
+
+
+['http://www.htcsd.org', 'https://sites.google.com/htcschools.org/htc/home'],
+
+
+
+['http://www.hornellcityschools.com', '_RF'],
+
+
+
+['http://inletcommonschool.org/', 'https://inletcommonschool.wordpress.com/'],
+
+
+
+
+['http://www.ithacacityschools.org', 'https://www.ithacacityschools.org/jobs'],
+
+
+
+['http://www.iroquoiscsd.org', 'https://www.iroquoiscsd.org/domain/12'],
+
+
+
+['http://www.jpsny.org', 'https://www.jpsny.org/Page/2218'],
+
+
+
+['http://www.ktufsd.org', 'https://www.ktufsd.org/Page/17387'],
+
+
+
+
+['http://www.lcsd.k12.ny.us', 'http://www.lansingschools.org/districtpage.cfm?pageid=1204'],
+
+
+
+['http://www.lancasterschools.org', 'http://www.lancasterschools.org/domain/71'],
+
+
+
+
+['http://www.leroycsd.org', 'http://www.leroycsd.org/apps/pages/index.jsp?uREC_ID=1004974&type=d&pREC_ID=1316654'],
+
+
+
+['http://www.lmcs.k12.ny.us', 'https://www.lmcs.k12.ny.us/domain/1123'],
+
+
+
+['http://www.lockportschools.org', 'https://www.lockportschools.org/Page/194'],
+
+
+
+['http://www.lvcsd.k12.ny.us', '_OL'],
+
+
+
+['http://www.redjacket.org', '_RF'],
+
+
+
+['http://www.lyonscsd.org', 'https://www.lyonscsd.org/Page/342'],
+
+
+
+
+['http://www.marlboroschools.org', '_OL'],
+
+
+
+['http://www.eldred.k12.ny.us', 'https://www.eldred.k12.ny.us/contact_us/employment'],
+
+
+
+['http://www.marioncs.org', '_RF'],
+
+
+
+['http://www.mcs.k12.ny.us', 'http://www.mcs.k12.ny.us/apps/pages/index.jsp?uREC_ID=776749&type=d&pREC_ID=1176015'],
+
+
+
+['http://www.merrick.k12.ny.us', 'http://www.merrick.k12.ny.us/district/job_opportunities'],
+
+
+
+
+['http://www.mexico.cnyric.org', 'https://www.mexicocsd.org/Page/534'],
+
+
+
+['http://www.millbrookcsd.org', 'http://www.millbrookcsd.org/domain/171'],
+
+
+
+
+['http://www.middleburghcsd.org', 'https://www.middleburghcsd.org/about-us/employment-opportunities/'],
+
+
+
+['http://www.mtmorriscsd.org', 'http://www.mtmorriscsd.org/employment--102'],
+
+
+
+
+['http://www.morriscsd.org', '_OL'],
+
+
+
+['http://www.nanuetsd.org', 'http://nanuet-union-free-school-district.echalksites.com/employment_opportunities'],
+
+
+
+
+['http://www.naples.k12.ny.us', 'http://www.naplescsd.org/districtpage.cfm?pageid=550'],
+
+
+
+['http://www.greenrockets.org', 'https://greenrockets.org/page/2610'],
+
+
+
+['http://www.newcombcsd.org', 'http://www.newcombcsd.org'],
+
+
+
+['http://www.newarkcsd.org', 'http://www.newarkcsd.org/Page/455'],
+
+
+
+['http://www.nwcsd.org', 'http://www.nwcsd.org/Page/64'],
+
+
+
+
+['http://www.niskyschools.org', 'https://www.niskayunaschools.org/employment/'],
+
+
+
+['http://www.northbellmoreschools.org', 'http://www.northbellmoreschools.org/Page/1544'],
+
+
+
+
+['http://www.nmerrickschools.org', '_OL'],
+
+
+
+['http://www.nscsd.org', 'https://jobs.nscsd.org/jobs.cfm'],
+
+
+
+['http://www.oceansideschools.org', 'http://www.oceansideschools.org/District_Offices/Central_Offices/Human_Resources/index.html'],
+
+
+
+['http://www.oacsd.org', '_AP'],
+
+
+
+['http://www.ntschools.org', 'http://www.ntschools.org/site/Default.aspx?PageID=5052'],
+
+
+
+
+['http://www.onteora.k12.ny.us', 'http://www.onteora.k12.ny.us/departments/human-resources'],
+
+
+
+['http://www.ossiningufsd.org', 'https://ossiningufsd.org/departments/human-resources/'],
+
+
+
+['http://www.phcs.neric.org', 'https://www.phcsd.org/apps/pages/index.jsp?uREC_ID=1161786&type=d&pREC_ID=1415161'],
+
+
+
+
+['http://www.penfield.edu', '_AP'],
+
+
+
+['http://www.portchesterschools.org', 'http://www.portchesterschools.org/employment__job_postings'],
+
+
+
+
+['http://pocantico.pocanticohills.org', 'http://pocantico.pocanticohills.org/human_resources'],
+
+
+
+['http://www.pobschools.org', 'https://ats1.searchsoft.net/ats/app_login.shtml?COMPANY_ID=00004834'],
+
+
+
+['http://www.pjschools.org', 'http://www.pjschools.org/departments/employment-opportunities'],
+
+
+
+
+['http://www.portjeffschools.org', 'http://www.portjeffschools.org/departments/human_resources'],
+
+
+
+
+['http://www.queensburyschool.org', 'http://www.queensburyschool.org/Page/657'],
+
+
+
+
+['http://www.portnet.org', 'https://www.portnet.org/Page/12349'],
+
+
+
+['http://www.rcscsd.org', 'https://www.rcscsd.org/employment-opportunities-available-at-rcs/'],
+
+
+
+['http://www.rockypointschools.org', 'http://rockypointufsd.org/district/employment_opportunities'],
+
+
+
+['http://www.rooseveltufsd.org', 'https://www.rooseveltufsd.org/Page/325'],
+
+
+
+['http://www.roslynschools.org', 'https://www.roslynschools.org/domain/37'],
+
+
+
+['http://www.rhnet.org', '_AP'],
+
+
+
+['http://www.sachem.edu', 'http://www.sachem.edu/district/employment_postings'],
+
+
+
+['http://www.srk12.org', 'https://www.srk12.org/employment/'],
+
+
+
+
+['http://www.sccs.cnyric.org', 'https://www.sandycreekcsd.org/department/hr'],
+
+
+
+['http://www.saranac.org', 'http://www.saranac.org/home/employment'],
+
+
+
+['http://www.saugerties.k12.ny.us', '_AP'],
+
+
+
+['http://www.scarsdaleschools.org', '_AP'],
+
+
+
+['http://www.schalmont.org', 'https://www.schalmont.org/employment/'],
+
+
+
+
+['http://www.schenevuscs.org', 'https://www.schenevuscsd.org/EmploymentOpportunities.aspx'],
+
+
+
+['http://www.schoharieschools.org', 'https://www.schoharieschools.org/about-us/employment/'],
+
+
+
+['http://www.senecafallscsd.org', 'https://www.senecafallscsd.org/domain/19'],
+
+
+
+['http://www.sherman.wnyric.org', 'http://www.sherman.wnyric.org'],
+
+
+
+['http://www.sewanhakaschools.org', '_OL'],
+
+
+
+['http://www.sidneycsd.org', '_https://www.applitrack.com/sidney/onlineapp/'],
+
+
+
+
+['http://www.southseneca.org', 'http://www.southseneca.org/districtpage.cfm?pageid=780'],
+
+
+
+['http://www.soduscsd.org', 'http://www.soduscsd.org/Page/59'],
+
+
+
+
+['http://www.sufsdny.org', 'http://www.sufsdny.org'],
+
+
+
+['http://www.swcs.wnyric.org', 'https://www.swcsk12.org/domain/4'],
+
+
+
+
+['http://www.scsd.org', 'https://www.scsd.org/employment/'],
+
+
+
+
+['http://www.swcsd.org', 'https://www.swcsd.org/Page/194'],
+
+
+
+['http://syossetschools.org', 'http://syossetschools.org'],
+
+
+
+['http://www.tuckahoecommonsd.com', 'http://www.tuckahoecommonsd.com/business_office/employment'],
+
+
+
+['http://www.unionspringscsd.org', 'http://www.unionspringscsd.org/districtpage.cfm?pageid=193'],
+
+
+
+
+['http://www.tufsd.org', 'https://www.tufsd.org/Page/49'],
+
+
+
+['http://www.vcsd.k12.ny.us', 'http://www.vcsd.k12.ny.us/Page/102'],
+
+
+
+
+['http://www.vestal.k12.ny.us', 'http://www.vestal.k12.ny.us/Employment.aspx'],
+
+
+
+
+['http://www.victorschools.org', 'http://www.victorschools.org/district/departments/human-resources/'],
+
+
+
+['http://www.wcsd.org', 'http://www.wcsd.org/district/employment_opportunities'],
+
+
+
+
+['http://www.wallkillcsd.k12.ny.us', 'https://www.wallkillcsd.k12.ny.us/domain/258'],
+
+
+
+['http://www.warsawcsd.org', 'http://www.warsawcsd.org/Page/358'],
+
+
+
+
+['http://www.waynecsd.org', '_RF'],
+
+
+
+['http://www.websterschools.org', '_https://www.applitrack.com/websterschools/onlineapp/'],
+
+
+
+['http://www.wellscsd.com', 'http://www.wellscsd.com'],
+
+
+
+['http://www.wellsvilleschools.org', 'https://www.wellsvilleschools.org/Page/279'],
+
+
+['http://www.westirondequoit.org', 'https://www.westirondequoit.org/cms/one.aspx?pageId=1403638'],
+
+
+
+['http://www.whbschools.org', 'http://www.whbschools.org/district/employment'],
+
+
+
+['http://www.wheatland.k12.ny.us', '_https://www.applitrack.com/wheatlandchili/onlineapp/'],
+
+
+
+
+['http://www.williamsoncentral.org', '_RF'],
+
+
+
+['http://www.whitesvillesd.org', 'https://www.whitesvillesd.org/domain/91'],
+
+
+
+['http://www.pioneerschools.org', 'http://www.pioneerschools.org/o/pioneer-csd/page/current-openings-on-support-staff'],
+
+
+
+['http://www.yorktown.org', 'https://sites.google.com/yorktown.org/humanresources/home'],
+
+['http://www.wilson.wnyric.org', 'https://www.wilsoncsd.org/Page/77']
 
 
 
@@ -772,12 +1463,12 @@ db = [
 
 
 
+count = 0
 
 
+for ii in db:
 
-for i in e_l:
-
-    for ii in db:
+    for i in e_l:
 
         # Find matching homepages from em_finder output and incomplete db
         if ii[2] in i[0]:
@@ -786,20 +1477,26 @@ for i in e_l:
             ii[1] = i[1]
             ii[2] = i[0]
 
-            print(ii)
+    #print(ii)
+    #print()
+
+    if not ii[1].strip():
+        count += 1
+
+    #if ii[3] == (0.0, 0.0): print(ii)
 
 
 
 
+print(count, len(db))
 
 
+#for i in e_l:
+#    if i[1] == '_AP': print(i)
 
 
-
-
-
-
-
+ass = [y for y in e_l if '_AP' == y[1]]
+print(ass)
 
 
 
