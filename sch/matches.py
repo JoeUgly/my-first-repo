@@ -1,5 +1,5 @@
 
-# Desc: Use school URLs from old em list in new em list.
+# Desc: Use school URLs from old em list (jj_v1) in new em list.
 # Results are only considered good if both components have been used only once.
 # Both components are: the item from the new list and the em URL from the old list
 # Good and bad results are outputted. Good results have em URLs. eg: ['org name', 'em url', 'url', (coords)]
