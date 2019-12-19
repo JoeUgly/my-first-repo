@@ -1477,11 +1477,12 @@ for ii in db:
             ii[1] = i[1]
             ii[2] = i[0]
 
-    #print(ii)
-    #print()
+    print(str(ii) + ',')
+    print()
 
     if not ii[1].strip():
         count += 1
+
 
     #if ii[3] == (0.0, 0.0): print(ii)
 
@@ -1495,8 +1496,8 @@ print(count, len(db))
 #    if i[1] == '_AP': print(i)
 
 
-ass = [y for y in e_l if '_AP' == y[1]]
-print(ass)
+#ass = [y for y in e_l if '_AP' == y[1]]
+#print(ass)
 
 
 
