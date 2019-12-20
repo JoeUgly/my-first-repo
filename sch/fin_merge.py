@@ -3,52 +3,151 @@
 # Desc: Merge output from em_finder into main db
 
 
+# To do:
+# this only works for em URLs. If you switch to using org name as key instead of home URL, then it could merge any item
+# or check if input is 2 items or all items. 
+
 
 # Overwrite this list with new em URLs after you update the db list below
 e_l = [
 
-['http://www.lowvilleacademy.org', 'http://www.lowvilleacademy.org/Employment_Opportunities.html'],
+['ABBOTT UNION FREE SCHOOL DISTRICT', '', 'www.abbottufsd.org', (41.0430933949, -73.8563583389)],
+
+
+['ALFRED-ALMOND CENTRAL SCHOOL DISTRICT', 'https://www.aacsapps.com/domain/55', 'https://www.aacsapps.com', (42.294521398, -77.7487625349)],
+
+['ANDES CENTRAL SCHOOL DISTRICT', 'http://andescentralschool.org/district/employment', 'http://andescentralschool.org/', (42.1897767021, -74.7873770635)],
+
+['BAINBRIDGE-GUILFORD CENTRAL SCHOOL DISTRICT', 'https://www.bgcsd.org/Employment.aspx', 'https://www.bgcsd.org', (42.2933340655, -75.4841952296)],
+
+['BRIGHTON CENTRAL SCHOOL DISTRICT', '_RF', 'https://www.bcsd.org/', (43.1245136738, -77.5631703215)],
+
+['CAZENOVIA CENTRAL SCHOOL DISTRICT', 'https://cazenoviacsd.com/homes/staff-resources/employment-opportunities/', 'https://cazenoviacsd.com', (42.93417987, -75.8580478318)],
+
+['CORINTH CENTRAL SCHOOL DISTRICT', 'https://www.corinthcsd.org/employment-opportunities', 'https://www.corinthcsd.org', (43.2428536964, -73.8267913806)],
+
+['GREENBURGH-GRAHAM UNION FREE SCHOOL DISTRICT', 'http://www.greenburgh-graham.org', 'http://www.greenburgh-graham.org/aboutdistrict', (40.9785155985, -73.8807835145)],
+
+['HAMMOND CENTRAL SCHOOL DISTRICT', 'https://ny01913694.schoolwires.net/domain/35', 'https://ny01913694.schoolwires.net', (44.4451493691, -75.6974820437)],
+
+['HEUVELTON CENTRAL SCHOOL DISTRICT', 'https://www.heuvelton.k12.ny.us/domain/225', 'https://www.heuvelton.k12.ny.us', (44.6211278491, -75.4090711137)],
+
+['HOPEVALE UNION FREE SCHOOL DISTRICT AT HAMBURG', '', '_closed', (42.7579023765, -78.8450615911)],
+
+['KIRYAS JOEL VILLAGE UNION FREE SCHOOL DISTRICT', '', '', (41.33448274, -74.161741725)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 1', '_all nyc jobs at: https://www.schools.nyc.gov/', '', (40.7213101278, -73.9865668266)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 2', '_nyc', '', (40.7473902485, -73.9929687658)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 3', '_nyc', '', (40.7915850234, -73.9708516916)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 4', '_nyc', '', (40.7973684775, -73.9362905507)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 5', '_nyc', '', (40.8107051251, -73.9562316796)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 6', '_nyc', '', (40.8534183318, -73.9334510031)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 7', '_nyc', '', (40.8156697264, -73.9200252477)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 8', '_nyc', '', (40.8179648165, -73.8562978153)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT # 9', '_nyc', '', (40.8362417209, -73.9050655733)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #10', '_nyc', '', (40.8606118942, -73.8901499893)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #11', '_nyc', '', (40.8669872462, -73.8508001542)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #12', '_nyc', '', (40.8391827393, -73.8802805548)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #13', '_nyc', '', (40.6960560496, -73.9633542954)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #14', '_nyc', '', (40.7037177273, -73.9532136384)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #15', '_nyc', '', (40.6910798334, -73.9883832649)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #16', '_nyc', '', (40.6919313597, -73.9317700161)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #17', '_nyc', '', (40.6725712436, -73.9372573018)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #18', '_nyc', '', (40.6432483057, -73.9033151895)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #19', '_nyc', '', (40.6636337198, -73.8935458938)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #20', '_nyc', '', (40.6202317101, -74.0285202515)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #21', '_nyc', '', (40.582210563, -73.9724764323)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #22', '_nyc', '', (40.6303158399, -73.921748802)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #23', '_nyc', '', (40.6742301597, -73.9132521785)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #24', '_nyc', '', (40.7423254866, -73.8627339293)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #25', '_nyc', '', (40.7701702048, -73.8329936125)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #26', '_nyc', '', (40.7590909658, -73.7742440844)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #27', '_nyc', '', (40.6844212276, -73.8579938554)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #28', '_nyc', '', (40.702328581, -73.8080432351)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #29', '_nyc', '', (40.7207363057, -73.7315323739)],
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #30', '_nyc', '', (40.7502628302, -73.9385070149)],
+
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #31', '_nyc', '', (40.6093017468, -74.1039729266)],
+
+
+['NEW YORK CITY GEOGRAPHIC DISTRICT #32', '_nyc', '', (40.6950398562, -73.9277170771)],
+
+
+['NORTH GREENBUSH COMMON SCHOOL DISTRICT (WILLIAMS)', '', 'http://www.northgreenbushcommon.org/', (42.6933280159, -73.6870499455)],
+
+
+["NYC CHANCELLOR'S OFFICE", '_', '', (40.7134375787, -74.0052697594)],
+
+
+['NYC SPECIAL SCHOOLS - DISTRICT 75', '_nyc', '', (40.7369585029, -73.978250606)],
 
 
 
-['http://www.nhart.org', 'https://www.newhartfordschools.org/Page/2553'],
+['PERRY CENTRAL SCHOOL DISTRICT', 'https://www.perry.k12.ny.us/Page/140', 'www.perry.k12.ny.us', (42.7251355866, -78.0025689304)],
+
+
+['PULASKI CENTRAL SCHOOL DISTRICT', 'https://www.pulaskicsd.org/Domain/157', 'https://www.pulaskicsd.org', (43.5713629575, -76.1356300299)],
 
 
 
-['http://www.northshoreschools.org', 'http://www.northshoreschools.org/district/employment.htm'],
+['RAQUETTE LAKE UNION FREE SCHOOL DISTRICT', '_closed', '', (43.8092788645, -74.6542438978)],
 
 
 
-['http://www.herkimercsd.org', 'https://www.herkimercsd.org/employment/'],
+['REMSENBURG-SPEONK UNION FREE SCHOOL DISTRICT', '_OL', 'http://rsufsd.weebly.com/', (40.8072900554, -72.707500085)],
 
 
 
-
-['http://www.bellmore-merrick.k12.ny.us', 'http://www.bellmore-merrick.k12.ny.us/district/opportunities'],
-
+['RIPLEY CENTRAL SCHOOL DISTRICT', 'https://ripleyelementary.weebly.com/employment-opportunities.html', 'https://ripleyelementary.weebly.com/', (42.267997525, -79.7111344965)],
 
 
 
-['http://www.boquetvalleycsd.org', 'http://www.boquetvalleycsd.org/employment-opportunities/'],
+['ROMULUS CENTRAL SCHOOL DISTRICT', 'http://romuluscsd.org/employment_opportunities', 'http://romuluscsd.org', (42.7489388887, -76.8326204712)],
+
+['SAINT REGIS FALLS CENTRAL SCHOOL DISTRICT', '', 'www.stregisfallscsd.org', (44.6790742805, -74.544488141)],
 
 
+['SOUTH MOUNTAIN-HICKORY COMMON SCHOOL DISTRICT AT BINGHAMTON', '', '', (42.0763946683, -75.9302145853)],
 
 
-['http://www.syracusecityschools.com', 'http://www.syracusecityschools.com/districtpage.cfm?pageid=10890'],
+['THREE VILLAGE CENTRAL SCHOOL DISTRICT', 'http://www.threevillagecsd.org/our_district/human_resources_office', 'http://www.threevillagecsd.org', (40.91982626, -73.13292454)],
 
 
-
-['http://www.plattscsd.org', 'http://www.plattscsd.org/employment/'],
-
+['VAN HORNESVILLE-OWEN D YOUNG CENTRAL SCHOOL DISTRICT', 'https://www.odyoungcsd.org/Page/79', 'https://www.odyoungcsd.org', (42.8964030448, -74.8261870869)],
 
 
+['WEST PARK UNION FREE SCHOOL DISTRICT', '_closed', '', (41.7949150775, -73.9599950357)]
 
-['http://www.uticacsd.org', 'https://www.uticaschools.org/Page/115'],
-
-
-
-
-['http://www.watertowncsd.org', 'https://www.applitrack.com/watertowncsd/onlineapp/']
 
 
 ]
@@ -1515,10 +1614,11 @@ db = [
 
 
 
-
 count = 0
 
 
+# Use this when supplying only the home URL and em URL
+'''
 for ii in db:
 
     for i in e_l:
@@ -1529,22 +1629,40 @@ for ii in db:
             # Fill in em_url and homepage into db
             ii[1] = i[1]
             ii[2] = i[0]
-
-    #print()
-    #print(str(ii) + ',')
     
-
+    # Display org name and full entry
     if not ii[1].strip():
+        count += 1
+        print('\n', ii[0])
+        print(ii)
+'''
+
+# Use this when supplying the full entry. ie: org name, em url, home url, coords
+for ii in db:
+
+    for i in e_l:
+
+        # Find matching org names from em_finder output and incomplete db
+        if ii[0] == i[0]:
+
+            # Replace incomplete db entry with new entry
+            ii = i
+    
+    # Display org name and full entry if em URL is missing
+    if not ii[1].strip():
+        count += 1
+        print('\n', ii[0])
+        print(ii)
+
+
+    if ii[3] == (0.0, 0.0):
         count += 1
         print(ii)
 
 
-    #if ii[3] == (0.0, 0.0): print(ii)
 
 
-
-
-print('\nMissing em URLs:', count, '\nTotal entries:', len(db))
+print('\nMissing:', count, '\nTotal entries:', len(db))
 
 
 #for i in e_l:
@@ -1555,6 +1673,7 @@ print('\nMissing em URLs:', count, '\nTotal entries:', len(db))
 #print(ass)
 
 
+    
 
 
 
