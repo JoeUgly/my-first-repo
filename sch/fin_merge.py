@@ -4,48 +4,36 @@
 
 
 # To do:
-# this only works for em URLs. If you switch to using org name as key instead of home URL, then it could merge any item
-# or check if input is 2 items or all items. 
 
 
-# Overwrite this list with new em URLs after you update the db list below
+
+
+# Overwrite this list with new enties after you update the db list below
 e_l = [
 
 
-['ABBOTT UNION FREE SCHOOL DISTRICT', '', 'www.abbottufsd.org', (41.0430933949, -73.8563583389)],
-
-['BOQUET VALLEY CENTRAL SCHOOL DISTRICT AT ELIZABETHTOWN-LEWIS-WESTPORT', 'http://www.boquetvalleycsd.org/employment-opportunities/', 'http://www.boquetvalleycsd.org', (44.213450173913, -73.5965000434783)],
-
-['DANSVILLE CENTRAL SCHOOL DISTRICT', 'https://www.dansvillecsd.org/Page/2394', 'www.dansvillecsd.org', (42.569048, -77.705162)],
-
-['HOPEVALE UNION FREE SCHOOL DISTRICT AT HAMBURG', '', '_closed', (42.7579023765, -78.8450615911)],
-
-['HORNELL CITY SCHOOL DISTRICT', '_RF', 'http://www.hornellcityschools.com', (0.0, 0.0)],
-
-['HUDSON FALLS CENTRAL SCHOOL DISTRICT', 'http://www.hfcsd.org', 'www.hfcsd.org', (43.3116114054054, -73.5836047567568)],
-
-['KINGSTON CITY SCHOOL DISTRICT', 'http://www.kingstoncityschools.org', 'www.kingstoncityschools.org', (41.929971875, -73.994415125)],
-
-['KIRYAS JOEL VILLAGE UNION FREE SCHOOL DISTRICT', '', '', (41.33448274, -74.161741725)],
-
-['NORTH GREENBUSH COMMON SCHOOL DISTRICT (WILLIAMS)', '', 'http://www.northgreenbushcommon.org/', (42.6933280159, -73.6870499455)],
-
-['OSWEGO CITY SCHOOL DISTRICT', 'http://www.oswego.org/personnel', 'www.oswego.org', (43.424916, -76.479440)],
-
-['SAINT REGIS FALLS CENTRAL SCHOOL DISTRICT', '', 'www.stregisfallscsd.org', (44.6790742805, -74.544488141)],
-
-['SOUTH MOUNTAIN-HICKORY COMMON SCHOOL DISTRICT AT BINGHAMTON', '', '', (42.0763946683, -75.9302145853)],
-
-['TACONIC HILLS CENTRAL SCHOOL DISTRICT', 'http://www.taconichills.k12.ny.us/site/Default.aspx?PageID=193', 'www.taconichills.k12.ny.us', (42.172142, -73.597841)],
-
-['WILSON CENTRAL SCHOOL DISTRICT', 'https://www.wilsoncsd.org/Page/77', 'http://www.wilson.wnyric.org',  (43.307090, -78.824670)]
+['BELFAST CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/caboces/onlineapp/default.aspx?all=1', 'http://www.belfastcsd.org', (42.3414496325, -78.1169753894)],
+['BROCKPORT CENTRAL SCHOOL DISTRICT', 'https://www.bcs1.org/district/departments___services/human_resources', 'http://www.bcs1.org', (43.2082249594, -77.9455578695)],
+['CHAPPAQUA CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/chappaqua/onlineapp/default.aspx?all=1', 'http://www.ccsd.ws', (41.1760705272, -73.7542933985)],
+['CUBA-RUSHFORD CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/caboces/onlineapp/default.aspx?choosedistrict=true&applitrackclient=38921', 'http://www.crcs.wnyric.org', (42.2366367863, -78.2702252539)],
+['FAIRPORT CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/fairportcsd/onlineapp/default.aspx?all=1', 'http://www.fairport.org', (43.0990643605, -77.4449703566)],
+['GATES-CHILI CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/gateschili/onlineapp/default.aspx?all=1', 'http://www.gateschili.org', (43.153395217, -77.7099259908)],
+['GREECE CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/greececsd/onlineapp/default.aspx?all=1', 'http://www.greececsd.org', (43.2254461095, -77.6634726789)],
+['HASTINGS-ON-HUDSON UNION FREE SCHOOL DISTRICT', 'https://www.applitrack.com/hohschools/onlineapp/default.aspx?all=1', 'http://www.hohschools.org', (40.9944424412, -73.8777324131)],
+['HONEOYE FALLS-LIMA CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/honeoye/onlineapp/default.aspx?all=1', 'http://www.hflcsd.org', (42.9511888061, -77.5870435175)],
+['OWEGO-APALACHIN CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/oacsd/onlineapp/default.aspx?all=1', 'http://www.oacsd.org', (42.114974408, -76.271820817)],
+['PENFIELD CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/penfield/onlineapp/default.aspx?all=1', 'http://www.penfield.edu', (43.1542431743, -77.4940498375)],
+['RUSH-HENRIETTA CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/rhcsd/onlineapp/default.aspx?all=1', 'http://www.rhnet.org', (43.0600843306, -77.5942736802)],
+['SAUGERTIES CENTRAL SCHOOL DISTRICT', 'https://www.applitrack.com/saugertiesk12/onlineapp/jobpostings/view.asp?internaltransferform.Url=&all=1', 'http://www.saugerties.k12.ny.us', (42.0869188606, -73.9510454182)],
+['SCARSDALE UNION FREE SCHOOL DISTRICT', 'https://www.applitrack.com/scarsdale/onlineapp/default.aspx?all=1', 'http://www.scarsdaleschools.org', (40.9952461295, -73.7944945386)]
 
 ]
 
 
-# Overwrite this list with output from this program after finding more em URLs above
+# Overwrite this list with output from this program after supplying new entries above
 db = [
-['ABBOTT UNION FREE SCHOOL DISTRICT', '', 'www.abbottufsd.org', (41.0430933949, -73.8563583389)],
+
+['ABBOTT UNION FREE SCHOOL DISTRICT', '_', 'www.abbottufsd.org', (41.0430933949, -73.8563583389)],
 ['ADDISON CENTRAL SCHOOL DISTRICT', 'http://www.addisoncsd.org/domain/30', 'www.addisoncsd.org', (42.1001732444, -77.2312078066)],
 ['ADIRONDACK CENTRAL SCHOOL DISTRICT', 'https://www.adirondackcsd.org/welcome/employment_opportunities', 'www.adirondackcsd.org', (43.4826797831, -75.3367246688)],
 ['AFTON CENTRAL SCHOOL DISTRICT', 'https://www.aftoncsd.org/Employment1.aspx', 'www.aftoncsd.org', (42.2299678749, -75.527336497)],
@@ -102,7 +90,7 @@ db = [
 ['BLIND BROOK-RYE UNION FREE SCHOOL DISTRICT', 'http://www.blindbrook.org', 'www.blindbrook.org', (41.0303258446, -73.6823918459)],
 ['BOLIVAR-RICHBURG CENTRAL SCHOOL DISTRICT', 'http://www.brcs.wnyric.org/Page/194', 'www.brcs.wnyric.org', (42.0661548257, -78.1600457447)],
 ['BOLTON CENTRAL SCHOOL DISTRICT', 'http://www.boltoncsd.org', 'www.boltoncsd.org', (43.5600311604, -73.6555185532)],
-['BOQUET VALLEY CENTRAL SCHOOL DISTRICT AT ELIZABETHTOWN-LEWIS-WESTPORT', 'http://www.boquetvalleycsd.org/employment-opportunities/', 'http://www.boquetvalleycsd.org', (0.0, 0.0)],
+['BOQUET VALLEY CENTRAL SCHOOL DISTRICT AT ELIZABETHTOWN-LEWIS-WESTPORT', 'http://www.boquetvalleycsd.org/employment-opportunities/', 'http://www.boquetvalleycsd.org', (44.213450173913, -73.5965000434783)],
 ['BRADFORD CENTRAL SCHOOL DISTRICT', 'https://www.bradfordcsd.org/our-school/employment', 'www.bradfordcsd.org', (42.3668495475, -77.0939356903)],
 ['BRASHER FALLS CENTRAL SCHOOL DISTRICT', 'http://www.bfcsd.org/apps/spotlightmessages/1776', 'www.bfcsd.org', (44.8032159655, -74.7658727507)],
 ['BRENTWOOD UNION FREE SCHOOL DISTRICT', 'https://www.bufsd.org/departments/human_resources/current_employment_opportunities', 'http://www.brentwood.k12.ny.us', (40.7739017413, -73.2552587908)],
@@ -187,7 +175,7 @@ db = [
 ['CROWN POINT CENTRAL SCHOOL DISTRICT', 'http://www.cpcsteam.org/district/employment', 'www.cpcsteam.org', (43.9531311041, -73.4295585752)],
 ['CUBA-RUSHFORD CENTRAL SCHOOL DISTRICT', '_AP', 'http://www.crcs.wnyric.org', (42.2366367863, -78.2702252539)],
 ['DALTON-NUNDA CENTRAL SCHOOL DISTRICT (KESHEQUA)', '_RF', 'http://www.keshequa.org', (42.5793590567, -77.9415078189)],
-['DANSVILLE CENTRAL SCHOOL DISTRICT', 'https://www.dansvillecsd.org/Page/2394', 'www.dansvillecsd.org', (0.0, 0.0)],
+['DANSVILLE CENTRAL SCHOOL DISTRICT', 'https://www.dansvillecsd.org/Page/2394', 'www.dansvillecsd.org', (42.569048, -77.705162)],
 ['DEER PARK UNION FREE SCHOOL DISTRICT', 'http://www.deerparkschools.org/staff/job_opportunities', 'www.deerparkschools.org', (40.7606699786, -73.3286723026)],
 ['DELAWARE ACADEMY CENTRAL SCHOOL DISTRICT AT DELHI', 'http://www.delhischools.org', 'www.delhischools.org', (42.2736910982, -74.9159740948)],
 ['DEPEW UNION FREE SCHOOL DISTRICT', 'http://www.depewschools.org', 'www.depewschools.org', (42.8957736891, -78.6967920469)],
@@ -335,11 +323,11 @@ db = [
 ['HONEOYE FALLS-LIMA CENTRAL SCHOOL DISTRICT', '_AP', 'http://www.hflcsd.org', (42.9511888061, -77.5870435175)],
 ['HOOSIC VALLEY CENTRAL SCHOOL DISTRICT', 'http://www.hoosicvalley.k12.ny.us/district/jobs', 'www.hoosicvalley.k12.ny.us', (42.907211288, -73.5803286217)],
 ['HOOSICK FALLS CENTRAL SCHOOL DISTRICT', 'http://www.hoosickfallscsd.org/current-opportunities/', 'http://www.hoosickfallscsd.org', (42.8750116703, -73.355647815)],
-['HOPEVALE UNION FREE SCHOOL DISTRICT AT HAMBURG', '', '_closed', (42.7579023765, -78.8450615911)],
-['HORNELL CITY SCHOOL DISTRICT', '_RF', 'http://www.hornellcityschools.com', (0.0, 0.0)],
+['HOPEVALE UNION FREE SCHOOL DISTRICT AT HAMBURG', '_', '_closed', (42.7579023765, -78.8450615911)],
+['HORNELL CITY SCHOOL DISTRICT', '_RF', 'http://www.hornellcityschools.com', (42.333815, -77.664424)],
 ['HORSEHEADS CENTRAL SCHOOL DISTRICT', 'http://www.horseheadsdistrict.com', 'www.horseheadsdistrict.com', (42.1617277704, -76.8232675119)],
 ['HUDSON CITY SCHOOL DISTRICT', 'http://www.hudsoncityschooldistrict.com/employment', 'www.hudsoncityschooldistrict.com', (42.2598622012, -73.7724653655)],
-['HUDSON FALLS CENTRAL SCHOOL DISTRICT', 'http://www.hfcsd.org', 'www.hfcsd.org', (0.0, 0.0)],
+['HUDSON FALLS CENTRAL SCHOOL DISTRICT', 'http://www.hfcsd.org', 'www.hfcsd.org', (43.3116114054054, -73.5836047567568)],
 ['HUNTER-TANNERSVILLE CENTRAL SCHOOL DISTRICT', 'https://sites.google.com/htcschools.org/htc/home', 'http://www.htcsd.org', (42.1966426192, -74.1377036485)],
 ['HUNTINGTON UNION FREE SCHOOL DISTRICT', 'http://www.hufsd.edu/leadership/hr.html', 'www.hufsd.edu', (40.8549016969, -73.4156388044)],
 ['HYDE PARK CENTRAL SCHOOL DISTRICT', 'https://www.hpcsd.org/Page/412', 'www.hpcsd.org', (41.7891663169, -73.9334959306)],
@@ -367,8 +355,8 @@ db = [
 ['KENMORE-TONAWANDA UNION FREE SCHOOL DISTRICT', 'https://www.ktufsd.org/Page/17387', 'http://www.ktufsd.org', (42.9821709109, -78.859094309)],
 ['KINDERHOOK CENTRAL SCHOOL DISTRICT', 'http://www.ichabodcrane.org/district/employment', 'www.ichabodcrane.org', (42.425936036, -73.684079178)],
 ['KINGS PARK CENTRAL SCHOOL DISTRICT', 'https://www.kpcsd.org/apps/pages/index.jsp?dir=Job%20Postings&type=d&uREC_ID=346753', 'www.kpcsd.org', (40.8888378468, -73.240404973)],
-['KINGSTON CITY SCHOOL DISTRICT', 'http://www.kingstoncityschools.org', 'www.kingstoncityschools.org', (0.0, 0.0)],
-['KIRYAS JOEL VILLAGE UNION FREE SCHOOL DISTRICT', '', '', (41.33448274, -74.161741725)],
+['KINGSTON CITY SCHOOL DISTRICT', 'http://www.kingstoncityschools.org', 'www.kingstoncityschools.org', (41.929971875, -73.994415125)],
+['KIRYAS JOEL VILLAGE UNION FREE SCHOOL DISTRICT', '_', '_', (41.33448274, -74.161741725)],
 ['LA FARGEVILLE CENTRAL SCHOOL DISTRICT', 'http://www.lafargevillecsd.org/Page/187', 'www.lafargevillecsd.org', (44.1936773531, -75.9652381516)],
 ['LACKAWANNA CITY SCHOOL DISTRICT', 'http://www.lackawannaschools.org', 'www.lackawannaschools.org', (42.825676259, -78.8109802765)],
 ['LAFAYETTE CENTRAL SCHOOL DISTRICT', 'http://www.lafayetteschools.org/teacherpage.cfm?teacher=247', 'www.lafayetteschools.org', (42.8937576625, -76.1086041434)],
@@ -506,7 +494,7 @@ db = [
 ['NORTH BELLMORE UNION FREE SCHOOL DISTRICT', 'http://www.northbellmoreschools.org/Page/1544', 'http://www.northbellmoreschools.org', (40.67438794, -73.5318568178)],
 ['NORTH COLLINS CENTRAL SCHOOL DISTRICT', 'https://www.northcollins.com/cms/One.aspx?portalId=272706&pageId=626890', 'www.northcollins.com', (42.5978390439, -78.9390406279)],
 ['NORTH COLONIE CSD', 'https://www.northcolonie.org/about-us/employment-opportunities', 'www.northcolonie.org', (42.729102507, -73.746943824)],
-['NORTH GREENBUSH COMMON SCHOOL DISTRICT (WILLIAMS)', '', 'http://www.northgreenbushcommon.org/', (42.6933280159, -73.6870499455)],
+['NORTH GREENBUSH COMMON SCHOOL DISTRICT (WILLIAMS)', '_', 'http://www.northgreenbushcommon.org/', (42.6933280159, -73.6870499455)],
 ['NORTH MERRICK UNION FREE SCHOOL DISTRICT', '_OL', 'http://www.nmerrickschools.org', (40.6949154361, -73.5649082973)],
 ['NORTH ROSE-WOLCOTT CENTRAL SCHOOL DISTRICT', 'http://www.nrwcs.org/domain/38', 'www.nrwcs.org', (43.192302562, -76.8299545236)],
 ['NORTH SALEM CENTRAL SCHOOL DISTRICT', 'http://www.northsalemschools.org/Page/2807', 'www.northsalemschools.org', (41.3555605645, -73.5948432293)],
@@ -537,7 +525,7 @@ db = [
 ['ORCHARD PARK CENTRAL SCHOOL DISTRICT', 'http://www.opschools.org/Page/125', 'www.opschools.org', (42.8048300206, -78.7364529347)],
 ['ORISKANY CENTRAL SCHOOL DISTRICT', 'http://www.oriskanycsd.org/Page/663', 'www.oriskanycsd.org', (43.1619146713, -75.3414982116)],
 ['OSSINING UNION FREE SCHOOL DISTRICT', 'https://ossiningufsd.org/departments/human-resources/', 'http://www.ossiningufsd.org', (41.1830867507, -73.8566299665)],
-['OSWEGO CITY SCHOOL DISTRICT', 'http://www.oswego.org/personnel', 'www.oswego.org', (0.0, 0.0)],
+['OSWEGO CITY SCHOOL DISTRICT', 'http://www.oswego.org/personnel', 'www.oswego.org', (43.424916, -76.47944)],
 ['OTEGO-UNADILLA CENTRAL SCHOOL DISTRICT', 'https://www.unatego.org/Employment.aspx', 'www.unatego.org', (42.37063932, -75.225602248)],
 ['OWEGO-APALACHIN CENTRAL SCHOOL DISTRICT', '_AP', 'http://www.oacsd.org', (42.114974408, -76.271820817)],
 ['OXFORD ACADEMY AND CENTRAL SCHOOL DISTRICT', 'https://www.oxac.org/Employment.aspx', 'www.oxac.org', (42.440927114, -75.5956690593)],
@@ -616,7 +604,7 @@ db = [
 ['SACKETS HARBOR CENTRAL SCHOOL DISTRICT', 'http://www.sacketspatriots.org/our_district/employment_opportunities', 'www.sacketspatriots.org', (43.9435617618, -76.1206278811)],
 ['SAG HARBOR UNION FREE SCHOOL DISTRICT', 'http://www.sagharborschools.org', 'www.sagharborschools.org', (40.9943016954, -72.2886391092)],
 ['SAGAPONACK COMMON SCHOOL DISTRICT', 'http://www.sagaponackschool.com', 'www.sagaponackschool.com', (40.9261050617, -72.2784100659)],
-['SAINT REGIS FALLS CENTRAL SCHOOL DISTRICT', '', 'www.stregisfallscsd.org', (44.6790742805, -74.544488141)],
+['SAINT REGIS FALLS CENTRAL SCHOOL DISTRICT', '_', 'www.stregisfallscsd.org', (44.6790742805, -74.544488141)],
 ['SALAMANCA CITY SCHOOL DISTRICT', 'http://www.salamancany.org', 'www.salamancany.org', (42.1607146139, -78.7386862724)],
 ['SALEM CENTRAL SCHOOL DISTRICT', 'http://www.salemcsd.org', 'www.salemcsd.org', (43.1735492966, -73.3240865614)],
 ['SALMON RIVER CENTRAL SCHOOL DISTRICT', 'https://www.srk12.org/employment/', 'http://www.srk12.org', (44.96172299, -74.51968084)],
@@ -660,7 +648,7 @@ db = [
 ['SOUTH JEFFERSON CENTRAL SCHOOL DISTRICT', 'http://www.spartanpride.org/districtpage.cfm?pageid=1729', 'www.spartanpride.org', (43.8695949191, -76.0145049667)],
 ['SOUTH KORTRIGHT CENTRAL SCHOOL DISTRICT', 'http://www.skcs.org/Employment.aspx', 'www.skcs.org', (42.3523962849, -74.6981639819)],
 ['SOUTH LEWIS CENTRAL SCHOOL DISTRICT', 'https://www.southlewis.org/employment-opportunities--163', 'www.southlewis.org', (43.6361018632, -75.394833243)],
-['SOUTH MOUNTAIN-HICKORY COMMON SCHOOL DISTRICT AT BINGHAMTON', '', '', (42.0763946683, -75.9302145853)],
+['SOUTH MOUNTAIN-HICKORY COMMON SCHOOL DISTRICT AT BINGHAMTON', '_', '_', (42.0763946683, -75.9302145853)],
 ['SOUTH ORANGETOWN CENTRAL SCHOOL DISTRICT', 'https://www.socsd.org', 'www.socsd.org', (41.0616017342, -73.9680185669)],
 ['SOUTH SENECA CENTRAL SCHOOL DISTRICT', 'http://www.southseneca.org/districtpage.cfm?pageid=780', 'http://www.southseneca.org', (42.6725431647, -76.8236623172)],
 ['SOUTHAMPTON UNION FREE SCHOOL DISTRICT', 'http://www.southamptonschools.org/Page/56', 'www.southamptonschools.org', (40.8904512685, -72.3789734785)],
@@ -682,7 +670,7 @@ db = [
 ['SWEET HOME CENTRAL SCHOOL DISTRICT', 'http://sweethomeschools.org/District/2200-Employment-Opportunities.html', 'www.sweethomeschools.org', (43.0106402616, -78.798724467)],
 ['SYOSSET CENTRAL SCHOOL DISTRICT', 'http://syossetschools.org', 'http://syossetschools.org', (40.8322324446, -73.4870987892)],
 ['SYRACUSE CITY SCHOOL DISTRICT', 'http://www.syracusecityschools.com/districtpage.cfm?pageid=10890', 'http://www.syracusecityschools.com', (43.044811314, -76.13959765)],
-['TACONIC HILLS CENTRAL SCHOOL DISTRICT', 'http://www.taconichills.k12.ny.us/site/Default.aspx?PageID=193', 'www.taconichills.k12.ny.us', (0.0, 0.0)],
+['TACONIC HILLS CENTRAL SCHOOL DISTRICT', 'http://www.taconichills.k12.ny.us/site/Default.aspx?PageID=193', 'www.taconichills.k12.ny.us', (42.172142, -73.597841)],
 ['THE ENLARGED CITY SCHOOL DISTRICT OF THE CITY OF SARATOGA SPRINGS', 'https://www.saratogaschools.org/district.cfm?subpage=1383228', 'www.saratogaschools.org', (43.0726755096, -73.8025849123)],
 ['THOUSAND ISLANDS CENTRAL SCHOOL DISTRICT', 'http://www.1000islandsschools.org', 'www.1000islandsschools.org', (44.1928247329, -76.2003901511)],
 ['THREE VILLAGE CENTRAL SCHOOL DISTRICT', 'http://www.threevillagecsd.org/our_district/human_resources_office', 'http://www.threevillagecsd.org', (40.91982626, -73.13292454)],
@@ -761,7 +749,7 @@ db = [
 ['WILLIAMSON CENTRAL SCHOOL DISTRICT', '_RF', 'http://www.williamsoncentral.org', (43.2209974496, -77.1821860949)],
 ['WILLIAMSVILLE CENTRAL SCHOOL DISTRICT', 'http://www.williamsvillek12.org/departments/human_resources/career_opportunities.php', 'www.williamsvillek12.org', (43.024134053, -78.7328717039)],
 ['WILLSBORO CENTRAL SCHOOL DISTRICT', 'http://www.willsborocsd.org/district/employment', 'www.willsborocsd.org', (44.3756609718, -73.3901185644)],
-['WILSON CENTRAL SCHOOL DISTRICT', 'https://www.wilsoncsd.org/Page/77', 'http://www.wilson.wnyric.org', (0.0, 0.0)],
+['WILSON CENTRAL SCHOOL DISTRICT', 'https://www.wilsoncsd.org/Page/77', 'http://www.wilson.wnyric.org', (43.30709, -78.82467)],
 ['WINDHAM-ASHLAND-JEWETT CENTRAL SCHOOL DISTRICT', 'http://www.wajcs.org/?PageName=bc&n=246209', 'www.wajcs.org', (42.3074038733, -74.2549749881)],
 ['WINDSOR CENTRAL SCHOOL DISTRICT', 'https://www.windsor-csd.org/Employment.aspx', 'www.windsor-csd.org', (42.069112815, -75.6411453176)],
 ['WORCESTER CENTRAL SCHOOL DISTRICT', 'http://www.worcestercs.org/employment-opportunities.html', 'www.worcestercs.org', (42.5917714196, -74.7439881914)],
@@ -773,11 +761,10 @@ db = [
 ['YORKSHIRE-PIONEER CENTRAL SCHOOL DISTRICT', 'http://www.pioneerschools.org/o/pioneer-csd/page/current-openings-on-support-staff', 'http://www.pioneerschools.org', (42.5244517062, -78.4643211861)],
 ['YORKTOWN CENTRAL SCHOOL DISTRICT', 'https://sites.google.com/yorktown.org/humanresources/home', 'http://www.yorktown.org', (41.2948292175, -73.8018078166)]
 
+
 ]
 
 
-
-count = 0
 
 
 # Use this when supplying only the home URL and em URL
@@ -802,6 +789,9 @@ for ii in db:
 
 
 
+
+count = 0
+
 # Use this when supplying the full entry. ie: org name, em url, home url, coords
 for ii in db:
 
@@ -812,6 +802,11 @@ for ii in db:
 
             # Replace incomplete db entry with new entry
             ii = i
+
+
+    # Display applitrack URLs
+    #if ii[1] == '_AP':
+        #print(ii)
 
     
     # Display entries with missing em URL
@@ -841,15 +836,7 @@ print('\nMissing:', count, '\nTotal entries:', len(db))
 
 
 
-#for i in e_l:
-#    if i[1] == '_AP': print(i)
 
-
-#ass = [y for y in e_l if '_AP' == y[1]]
-#print(ass)
-
-
-    
 
 
 
