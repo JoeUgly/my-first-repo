@@ -1767,7 +1767,7 @@ print('multi:', len(nl2))
 
 ## this can optimised by using 'in' instead of iterations
 # This is the section to actually use
-# This section to find inly the results that come from items with only one match from each list
+# This section to find only the results that come from items with only one match from each list
 ult_l = []
 count = 0
 for i in fin: # Iterate through all matches    

@@ -18,6 +18,7 @@ import pandas as pd
 
 
 html = '''
+<table>
  <tbody>
         
                 <tr><td colspan="2" class="color8" style="font-weight:bold;text-align:center;"><a name="A">A</a></td></tr>
@@ -4783,11 +4784,14 @@ l = soup.find_all('tr')
 
 # Get vis text
 for i in l:
+    
     info = i.get_text()
 
     # Skip elements that are used to organize sections alphabetically
     if len(info) == 1: continue
 
+
+    
     # Split by newline
     info_l = info.strip().split('\n')
 
@@ -4811,7 +4815,7 @@ for i in l:
 
 ## Make list of org names and coords
 # Open coords file
-coords_file = pd.ExcelFile("uni_sheet.xlsx")
+coords_file = pd.ExcelFile("uni_coords.xlsx")
 
 # Select sheet number
 coords_sheet = coords_file.parse()
@@ -4831,15 +4835,15 @@ for html_org in org_url_list:
 
             coords = (coords_sheet['GIS Latitude (Y)'][i], coords_sheet['GIS Longitute (X)'][i])
 
-            print([html_org[0], html_org[1], coords])
+            print(str((html_org[0], html_org[1], coords)) + ',')
             break
 
     else: 
-        print('no match:', html_org)
+        print(str((html_org[0], '', (0.0, 0.0))) + ',')
 
 
 
-
+print(len(org_url_list))
 
 
 
