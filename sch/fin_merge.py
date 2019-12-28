@@ -9,6 +9,7 @@
 
 
 # Overwrite this list with new enties after you update the db list below
+# This list doesn't need to contain all entries
 e_l = [
 
 
@@ -17,6 +18,7 @@ e_l = [
 
 
 # Overwrite this list with output from this program after supplying new entries above
+# This list must contain all entries
 db = [
 
 ['ABBOTT UNION FREE SCHOOL DISTRICT', '_', 'www.abbottufsd.org', (41.0430933949, -73.8563583389)],
@@ -777,7 +779,7 @@ for ii in db:
 
 count = 0
 
-# Use this when supplying the full entry. ie: org name, em url, home url, coords
+# Use this when supplying the full entry. ie: [org name, em url, home url, (coords)],
 for ii in db:
 
     for i in e_l:

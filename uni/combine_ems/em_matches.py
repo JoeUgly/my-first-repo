@@ -1,47 +1,43 @@
 
 # Desc: Use school URLs from old em list (jj_v1) in new em list.
-# Results are only considered good if both components have been used only once.
-# Both components are: the item from the new list and the em URL from the old list
+
 # Good and bad results are outputted. Good results have em URLs. eg: ['org name', 'em url', 'url', (coords)]
 # Bad results have no em URLs. eg: ['org name', '', 'url', (coords)]
+# Duplicate homepages are ignored. Same em URL is used for each one
+
+
+# Prerequisites:
+# some coords are 0.0, 0.0
+# some home urls are ' ' '', 'http://', or 'http://http://...'
 
 
 # To do:
-# multi-tier matching. start strict, get progressivly looser
-# make new list a list not tuple
-# homepage dups in new list
-# redirects
+# homepage redirects
 # some coords are 0.0, 0.0
-# some urls are ' ' or 'http://'
+# some home urls are ' ' '', 'http://', or 'http://http://...'
 
-
-# Features:
-# find any duplicate entries in either starting list
-# count how many times each item is used from each starting list
-# only consider results good if each component has been used once
-# output all results but leave em URL blank if result is bad for any reason
 
 
 
 
 new_l = [
 
-('Academy For Jewish Religion', 'http://ajrsem.org', (40.9364060697, -73.898634461)),
-('Adelphi University', 'http://www.adelphi.edu', (40.7222430099, -73.6510515826)),
-('Albany College of Pharmacy And Health Sciences', 'http://www.acphs.edu', (42.6521801281, -73.7785803492)),
-('Albany Law School', 'http://www.albanylaw.edu', (42.6500456455, -73.7775088575)),
-('Albany Medical College', 'http://www.amc.edu', (42.6532407287, -73.7739752764)),
-('Alfred University', 'http://www.alfred.edu', (42.2561789656, -77.7882588252)),
-('Amer Academy of Dramatic Arts', 'http://www.aada.edu', (40.7455070816, -73.9847588977)),
-('American Acad McAllister Inst', 'http://www.funeraleducation.org', (40.7689206361, -73.9938294193)),
+['Academy For Jewish Religion', 'http://ajrsem.org', (40.9364060697, -73.898634461)],
+['Adelphi University', 'http://www.adelphi.edu', (40.7222430099, -73.6510515826)],
+['Albany College of Pharmacy And Health Sciences', 'http://www.acphs.edu', (42.6521801281, -73.7785803492)],
+['Albany Law School', 'http://www.albanylaw.edu', (42.6500456455, -73.7775088575)],
+['Albany Medical College', 'http://www.amc.edu', (42.6532407287, -73.7739752764)],
+['Alfred University', 'http://www.alfred.edu', (42.2561789656, -77.7882588252)],
+['Amer Academy of Dramatic Arts', 'http://www.aada.edu', (40.7455070816, -73.9847588977)],
+['American Acad McAllister Inst', 'http://www.funeraleducation.org', (40.7689206361, -73.9938294193)],
 ['Bank Street College of Education', 'http://www.bankstreet.edu', (40.805678904, -73.966576371)],
 ['Bard College', 'http://www.bard.edu', (42.0212190417, -73.9065792655)],
 ['Bard College at Brooklyn Public Central Library', 'http://bpi.bard.edu', (40.672385107, -73.9681647537)],
 ['Bard Grad Ctr For Decorative Arts', 'http://www.bgc.bard.edu', (40.7856118202, -73.9705318395)],
 ['Barnard College', 'http://www.barnard.edu', (40.8088109366, -73.9635231179)],
 ['Boricua College', 'http://www.boricuacollege.edu', (40.8333897817, -73.9456977179)],
-['Boricua College - Bronx', '_DUP_http://www.boricuacollege.edu', (40.823585313, -73.9110466197)],
-['Boricua College - Brooklyn', '_DUP_http://www.boricuacollege.edu', (40.7167069894, -73.9576172706)],
+['Boricua College - Bronx', 'http://www.boricuacollege.edu', (40.823585313, -73.9110466197)],
+['Boricua College - Brooklyn', 'http://www.boricuacollege.edu', (40.7167069894, -73.9576172706)],
 ['Brooklyn Law School', 'http://www.brooklaw.edu', (40.6921576493, -73.9898297028)],
 ['Canisius College', 'http://www.canisius.edu/', (42.9255866422, -78.8534827977)],
 ['Cazenovia College', 'http://www.cazenovia.edu', (42.9318683477, -75.8540739167)],
@@ -87,7 +83,7 @@ new_l = [
 ['Fordham University - Westchester Campus', 'http://www.fordham.edu', (41.0292387951, -73.7288980026)],
 ['Gamla College', 'http://gamlacollege.com', (40.6171572317, -73.9621890813)],
 ['General Theological Seminary', 'http://www.gts.edu', (40.7456283873, -74.0036644478)],
-['Glasgow Caledonian New York College', 'http://https://www.gcnyc.com', (40.7390307143, -73.9668120498)],
+['Glasgow Caledonian New York College', 'http://www.gcnyc.com', (40.7390307143, -73.9668120498)],
 ['Hamilton College', 'http://www.hamilton.edu', (43.0514413048, -75.402117956)],
 ['Hartwick College', 'http://www.hartwick.edu', (42.4610282773, -75.0701668682)],
 ['Hebrew Union College - Jewish Institute of Religion', 'http://www.huc.edu', (40.7288012661, -73.9948235492)],
@@ -108,7 +104,7 @@ new_l = [
 ['Keuka-Onondaga Community College Branch', 'http://www.keuka.edu', (43.0061837356, -76.1981302617)],
 ["The King's College", 'http://www.tkc.edu', (40.7634337245, -73.9287215064)],
 ['Le Moyne College', 'http://www.lemoyne.edu', (43.0491913085, -76.0848876812)],
-['Long Island College Hospital Sch Nursing', 'http://', (40.6830878574, -74.0000432328)],
+['Long Island College Hospital Sch Nursing', '', (40.6830878574, -74.0000432328)],
 ['Long Island College Hospital School of Nursing', 'http://www.futurenurselich.org', (40.6908534019, -73.9977410887)],
 ['Long Island University - New York University Campus', 'http://www.liu.edu', (40.7294899346, -73.9972596293)],
 ['Long Island University - Riverhead', 'http://www.liu.edu', (40.8766617264, -72.7002490474)],
@@ -132,8 +128,8 @@ new_l = [
 ['Mercy College - Manhattan Campus', 'http://www.mercy.edu', (40.7501618927, -73.9868612518)],
 ['Mercy College Bronx Campus', 'http://www.mercy.edu', (40.8524534315, -73.8378911685)],
 ['Mercy College-Yorktown Hts Campus', 'http://www.mercy.edu', (41.2944448671, -73.8191852919)],
-['Metropolitan College of New York', 'http://https://www.mcny.edu', (40.7088727965, -74.0147720915)],
-['Metropolitan College of Ny-Brc', 'http://https://www.mcny.edu/mcny-bronx/', (40.8153862021, -73.9158630335)],
+['Metropolitan College of New York', 'http://www.mcny.edu', (40.7088727965, -74.0147720915)],
+['Metropolitan College of Ny-Brc', 'http://www.mcny.edu/mcny-bronx/', (40.8153862021, -73.9158630335)],
 ['Mid-America Baptist Theol Seminary - NE Branch', 'http://www.mabtsne.edu', (42.7513005326, -73.9177628057)],
 ['Molloy College', 'http://www.molloy.edu', (40.6811769793, -73.628967714)],
 ['Montefiore School of Nursing', 'http://www.montefiorehealthsystem.org', (40.91208021, -73.8404194)],
@@ -179,7 +175,7 @@ new_l = [
 ['Roberts Wesleyan College', 'http://www.roberts.edu', (43.1256048122, -77.8013082192)],
 ['Rochester Institute of Technology', 'http://www.rit.edu', (43.0847578962, -77.6753621235)],
 ['Rockefeller University', 'http://www.rockefeller.edu/', (40.7629956519, -73.9564672926)],
-["Saint Joseph's Seminary And College", 'http://https://dunwoodie.edu/', (40.9201600754, -73.8630100825)],
+["Saint Joseph's Seminary And College", 'http://dunwoodie.edu/', (40.9201600754, -73.8630100825)],
 ['Saint Lawrence University', 'http://www.stlawu.edu', (44.5883474893, -75.1598172519)],
 ['Salvation Army College For Officer Training', 'http://www.tsacfotny.edu', (41.1137143951, -74.1407862011)],
 ['Samaritan Hospital School of Nursing', 'http://sphp.com/son', (42.74282684, -73.67644282)],
@@ -193,13 +189,13 @@ new_l = [
 ['St Johns University-Staten Island', 'http://www.stjohns.edu', (40.6221249432, -74.089553458)],
 ["St Joseph's College", 'http://www.sjcny.edu', (40.6903589538, -73.9679493284)],
 ["St Joseph's College - Suffolk Campus", 'http://www.sjcny.edu', (40.7746849948, -73.0233178286)],
-["St Joseph's College of Nursing at St Joseph's Hospital Health Center", 'http://https://www.sjhcon.edu/', (43.0547501798, -76.1484215884)],
+["St Joseph's College of Nursing at St Joseph's Hospital Health Center", 'http://www.sjhcon.edu/', (43.0547501798, -76.1484215884)],
 ['St Thomas Aquinas College', 'http://www.stac.edu', (41.0420293949, -73.9384034211)],
 ["St Vladimir's Orthodox Theol Seminry", 'http://www.svots.edu/', (40.96988799, -73.82415561)],
 ["St. Bernard's School of Theology And Ministry", 'http://www.stbernards.edu', (43.1021829757, -77.5264984514)],
 ["St. John's University", 'http://www.stjohns.edu', (40.7256720182, -73.7918247118)],
 ["St. John's University - Manhattan Branch", 'http://www.stjohns.edu', (40.7300709717, -73.992834118)],
-["St. Joseph's Seminary & College-Douglaston", 'http://https://cathedralseminary.org/', (40.74636212, -73.73310234)],
+["St. Joseph's Seminary & College-Douglaston", 'http://cathedralseminary.org/', (40.74636212, -73.73310234)],
 ["St. Joseph's Seminary & College-Huntington", 'http://www.icseminary.edu', (40.90515869, -73.47090101)],
 ["St. Joseph's Seminary & College-Somers", '', (0.0, 0.0)],
 ['Syracuse University', 'http://syracuse.edu', (43.0402401915, -76.1369455708)],
@@ -207,7 +203,7 @@ new_l = [
 ['The Sage Colleges -  Albany Campus', 'http://www.sage.edu', (42.6527156078, -73.7831997513)],
 ['Teachers College', 'http://www.tc.columbia.edu/', (40.8100945923, -73.9606417774)],
 ['Touro College', 'http://www.touro.edu', (40.75313425, -73.98929738)],
-['Touro College', 'http://https://tourocom.touro.edu/about-us/contact', (40.75313425, -73.98929738)],
+['Touro College', 'http://tourocom.touro.edu/about-us/contact', (40.75313425, -73.98929738)],
 ['Touro College - Bayshore', 'http://www.touro.edu', (40.7244854646, -73.2513380684)],
 ['Touro College - Flatbush', 'http://www.touro.edu', (40.6251624576, -73.9599657735)],
 ['Touro College - Harlem', 'http://www.touro.edu', (40.8015644265, -73.9351031801)],
@@ -426,11 +422,8 @@ old_l = (
 
 
 
-# Removes extra info from urls to prevent duplicate pages from being checked more than once
+# Removes extra info from urls
 def dup_checker_f(dup_checker):
-    #print('start dup check:', dup_checker)
-
-    if dup_checker.startswith('_DUP_'): return None
 
     # Remove scheme
     if dup_checker.startswith('http://') or dup_checker.startswith('https://'):
@@ -465,79 +458,49 @@ def dup_checker_f(dup_checker):
     return dup_checker
 
 
-fin = []
 
-'''
-## call dup checker here?
-# Exit if dup is found in old or new list
-for i in old_l:
-    a = old_l.count(i)
-    if a > 1 :
-        print('\n\n ~~~~  DUP HERE:', a, i)
-        exit()
+fin = [] # List contents: [ [org name, '', homepage, (coords)], em url1, em url2, ... ]
 
+err_count = 0 # count number of errors
+count = 0 # count total number of matches ## kinda useless
+no_count = 0 # count number of home URLs with no matching em URL
+one_count = 0 # count number of home URLs with one matching em URL
+multi_count = 0 # count number of home URLs with multiple matching em URLs
+
+
+# Append all matching em URLs to list also containing full entry
 for i in new_l:
-    a = new_l.count(i)
-    if a > 1 :
-        print('\n\n ~~~~  DUP HERE:', a, i)
-        exit()
 
-# Catch duplicate homepages in new list
-for i in new_l:
-    if not i[1]: continue
-    if i[1].startswith('_'): continue
-    count = 0
-    for ii in new_l:
-        if i[1] == ii[1]:
-            count += 1
-        if count > 1:
-            i[1] = '_DUP_' + i[1]
-            break
-
-            #print('\n\n!!!!', i, '\n', ii)
-            #exit()
-print(new_l)
-'''
-
-
-count = 0 # count number of matches
-
-
-
-for i in new_l:
-    i = list(i)
-
-    # Skip stuff
     dup = dup_checker_f(i[1])
-    if not dup:
-        count += 1
-        continue
-    if dup.startswith('_'):
-        count += 1
-        continue
-    if dup == 'https':
-        count += 1
-        continue
-
-
     #print('~~~ ', dup)
+
+    ## This is solved by the dup_checker_f 
+    if dup == 'https':
+        err_count += 1
+        print('\nError:', dup, i)
+        #count += 1
+        #continue
+
 
     # Use this list to add org name once and all em URL matches
     item_l = []
     item_l.append(i)
 
+    # Don't look for em URL matches if homepage is blank
+    if not dup:
+        count += 1
+        err_count += 1
+        print('\nError:', dup, i)
+
     # Find em URL matches
-    for ii in old_l:
+    else:
+        for ii in old_l:
 
-        if dup in ii:
+            if dup in ii:
 
-            #print('\n\n~~~ dup in ii:', dup, ii)
+                item_l.append(ii)
 
-            item_l.append(ii)
-            
-            #fin.append(item_l)
-            #print('~~~', i_l)
-    count += 1
+        count += 1
 
     # Append org name and all em matches
     fin.append(item_l)
@@ -546,43 +509,62 @@ print('\n old total:', len(old_l), '\n new total:', len(new_l), '\n total matche
 
 
 
+
 # Pretty print
 for i in fin:
-    print('\n\n\n', len(i))
+    #print('\n\n\n', len(i))
+    print('')
 
     # Create em URL placeholder
     i[0].insert(1, '')
 
-    # If no matching em URLs then just print blank
+    # Create homepage placeholder if homepage is blank
+    if not i[0][2]:
+        print(str(i[0]) + ',')
+        continue
+
+    # If no matching em URLs then just print blank em URL
     if len(i) == 1:
-        print(i)
+        no_count += 1
+        print(str(i[0]) + ',')
 
     # If one matching em URL then use that one
     elif len(i) == 2:
+        one_count += 1
         i[0][1] = i[1]
-        print(i)
+        print(str(i[0]) + ',')
 
     # If matching em URLs then list them beneath
     else:
+        multi_count += 1
+        #print(str(i[0]) + ',')
         for ii in i:
             if not ii: continue
-            print(ii)
+            if i.index(ii) == 0:
+                print(str(ii) + ',')
+            else:
+                print(ii)
 
 
 print('\n\n\n\nthese should match:', len(fin), count, len(new_l), '\n\n')
+print('zero, one, and multi matches:', no_count, one_count, multi_count)
+print('\n\n errors:', err_count, '\n\n')
 
 
 
 
+# Find missing coords
+print('\n\n Missing coords:')
+for i in new_l:
+    if i[3] == (0.0, 0.0):
+        print('\n', i)
 
 
-
-
-
-
-
-
-
+# Find missing homepages
+print('\n\n Missing homepage:')
+for i in new_l:
+    if not i[2]:
+        print('\n', i)
 
 
 
