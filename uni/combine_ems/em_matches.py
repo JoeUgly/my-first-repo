@@ -534,10 +534,12 @@ for i in fin:
         i[0][1] = i[1]
         print(str(i[0]) + ',')
 
-    # If matching em URLs then list them beneath
+    # If matching em URLs then display them beneath
     else:
         multi_count += 1
         #print(str(i[0]) + ',')
+
+        # Don't print comma after em URLs
         for ii in i:
             if not ii: continue
             if i.index(ii) == 0:
