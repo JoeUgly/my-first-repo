@@ -1,76 +1,82 @@
-
-['http://www.boricuacollege.edu', ''],
-http://www.boricuacollege.edu
-http://www.boricuacollege.edu
+['Boricua College', '', 'http://www.boricuacollege.edu', (40.8333897817, -73.9456977179)],
 http://www.boricuacollege.edu
 
 
-['http://ajrsem.org', ''],
-http://ajrsem.org
+['Alfred University', '', 'http://www.alfred.edu', (42.2561789656, -77.7882588252)],
+http://www.alfred.edu/jobs-at-alfred/index.cfm
+http://www.alfred.edu
+http://www.alfred.edu/index.cfm
 
 
-['http://www.albanylaw.edu', ''],
+['Albany Law School', '', 'http://www.albanylaw.edu', (42.6500456455, -73.7775088575)],
 http://www.albanylaw.edu/about/employment
 http://www.albanylaw.edu
 
 
-['http://www.cochranschoolofnursing.us', ''],
-http://www.cochranschoolofnursing.us
-http://www.cochranschoolofnursing.us/Academic.aspx
+['Academy For Jewish Religion', '', 'http://ajrsem.org', (40.9364060697, -73.898634461)],
+http://ajrsem.org
 
 
-['http://www.amc.edu', ''],
+['Albany Medical College', '', 'http://www.amc.edu', (42.6532407287, -73.7739752764)],
 https://albanymedcareers.com/
 https://albanymedcareers.com/job-board/
 https://albanymedcareers.com/hot-jobs/ 
 http://www.amc.edu
 
 
-['http://www.cityseminaryny.org', ''],
-https://www.facebook.com/careers/?ref=pf
-https://www.cityseminaryny.org:443/
-https://www.facebook.com/WallsOrtizGalleryandCenter/photos/?tab=album&album_id=2076795135752054&__xts__%5B0%5D=68.ARBH3CS8VWq2xShd2ocB-M2kOuSJuJ6-olX9bGExmh10FvTFk7yVq7gj-B9dJRmLWOgIwZ5C7SzGRwAL6Tx5Kh54znf9u-N89JW7maoIq_c9wfjPfE-xlWyVK8WuuEckfvrJGLz84v9Trl00wF-E_YS5g9oGH0qxV76VSioQCgT0OEmcIfFeIGsv5VWKeyBHDJzlO1jADm3mS_ME63JJUiX-5EthyI9HyTo7FlF3S64_g-XL0vD7KXCEjpAfoHz_jBOjhF1A3lw72t8coKnwcbXQ0Z5TS7ZK5OMAojl0ewDycYXPDpHzX8q1xOnayZmItYi57997f8Okhx8G5D-Wuvatzl9SoqfSKtcucOXq_VxKNwjLhT2m3W21QYzHdfOk4ZFbWlibjmxmsSIZ0kPBwuP0xsRRNOjUcqXUMZh6Mj7RRRQzISpIZFAUzAORiXVnxK9EyFMN7mH5WQd6P9j7A_86t2-90AyDFbD7Omq4neddzda7PVLJmQI5Z3VafZDOlD64dX14ZS08wAT9EEtdFWJub085foIRqMLTNNj6Ug&__tn__=-UC-R
-https://www.facebook.com/WallsOrtizGalleryandCenter/photos/?tab=album&album_id=2211464862285080&__xts__%5B0%5D=68.ARAhY0ZuDZqMzbHHpPtn2PsEaphq2YeAq_i0GHKen5WkxzNUhauWUUHs3CRGh6uYAi_6kMdRqjY52Ev3aIJBGBM9KW3IeiWfFVFvDF1qlVeDWncocRUnOnDPFiHPLfg9jdIvdzXMsfLQFWksje4eT3RK1adbbEhlRySj4dZFSYGIMcFHlFgz618_54mLsoecYcsmNTBrmMx3uo4MfsMcmz_bEboH-QK-3J806ZO4GdhpUVoCfF6EfYYZ67UfkjVArU8sb0yE7rs6r3lxxwkyjOVxA713CnTsKWwFgOhT7u-WIFDOmw9WMTZAuKGLy8kaf2J1OzZtYQJ_uF3lBxCM1iDobjxnMLxr9G9XybanKJeNPo3aTFY-3ey5TUA3aDj36Il7Yd0kEaRcp2LuQfVm9Hjh0z2uDVNMMJtt0Z9ocQ3R7GFi_S9S1AxdLnuSo-eCUHEyHv1il1EvZeG_RHyRZPlYVMa7PsO2chsgKDbXIn5P-yUg0nA7Ufe0cGzrIPF65sChJEN-lmytdwpbTebnVXmsGnqGIgnKHYBAoI12TQ&__tn__=-UC-R
-https://www.eventbrite.com/e/an-evening-with-jason-deparle-tickets-70670295757
-
-
-['http://www.aada.edu', ''],
+['Amer Academy of Dramatic Arts', '', 'http://www.aada.edu', (40.7455070816, -73.9847588977)],
 http://www.aada.edu
 
 
-['http://www.cks.edu', ''],
+['City Seminary of New York Graduate Center', '', 'http://www.cityseminaryny.org', (40.7390307143, -73.9668120498)],
+https://www.facebook.com/careers/?ref=pf
+https://www.cityseminaryny.org:443/
+https://www.facebook.com/WallsOrtizGalleryandCenter/photos/?tab=album&album_id=2211464862285080&__xts__%5B0%5D=68.ARAhY0ZuDZqMzbHHpPtn2PsEaphq2YeAq_i0GHKen5WkxzNUhauWUUHs3CRGh6uYAi_6kMdRqjY52Ev3aIJBGBM9KW3IeiWfFVFvDF1qlVeDWncocRUnOnDPFiHPLfg9jdIvdzXMsfLQFWksje4eT3RK1adbbEhlRySj4dZFSYGIMcFHlFgz618_54mLsoecYcsmNTBrmMx3uo4MfsMcmz_bEboH-QK-3J806ZO4GdhpUVoCfF6EfYYZ67UfkjVArU8sb0yE7rs6r3lxxwkyjOVxA713CnTsKWwFgOhT7u-WIFDOmw9WMTZAuKGLy8kaf2J1OzZtYQJ_uF3lBxCM1iDobjxnMLxr9G9XybanKJeNPo3aTFY-3ey5TUA3aDj36Il7Yd0kEaRcp2LuQfVm9Hjh0z2uDVNMMJtt0Z9ocQ3R7GFi_S9S1AxdLnuSo-eCUHEyHv1il1EvZeG_RHyRZPlYVMa7PsO2chsgKDbXIn5P-yUg0nA7Ufe0cGzrIPF65sChJEN-lmytdwpbTebnVXmsGnqGIgnKHYBAoI12TQ&__tn__=-UC-R
+https://www.facebook.com/WallsOrtizGalleryandCenter/photos/?tab=album&album_id=2076795135752054&__xts__%5B0%5D=68.ARBH3CS8VWq2xShd2ocB-M2kOuSJuJ6-olX9bGExmh10FvTFk7yVq7gj-B9dJRmLWOgIwZ5C7SzGRwAL6Tx5Kh54znf9u-N89JW7maoIq_c9wfjPfE-xlWyVK8WuuEckfvrJGLz84v9Trl00wF-E_YS5g9oGH0qxV76VSioQCgT0OEmcIfFeIGsv5VWKeyBHDJzlO1jADm3mS_ME63JJUiX-5EthyI9HyTo7FlF3S64_g-XL0vD7KXCEjpAfoHz_jBOjhF1A3lw72t8coKnwcbXQ0Z5TS7ZK5OMAojl0ewDycYXPDpHzX8q1xOnayZmItYi57997f8Okhx8G5D-Wuvatzl9SoqfSKtcucOXq_VxKNwjLhT2m3W21QYzHdfOk4ZFbWlibjmxmsSIZ0kPBwuP0xsRRNOjUcqXUMZh6Mj7RRRQzISpIZFAUzAORiXVnxK9EyFMN7mH5WQd6P9j7A_86t2-90AyDFbD7Omq4neddzda7PVLJmQI5Z3VafZDOlD64dX14ZS08wAT9EEtdFWJub085foIRqMLTNNj6Ug&__tn__=-UC-R
+https://www.eventbrite.com/e/an-evening-with-jason-deparle-tickets-70670295757
+
+
+['Cochran Sch Nursing St John Rvrdl Ho', '', 'http://www.cochranschoolofnursing.us', (40.9687964271, -73.8863259432)],
+http://www.cochranschoolofnursing.us
+http://www.cochranschoolofnursing.us/Academic.aspx
+
+
+['Christ the King Seminary', '', 'http://www.cks.edu', (42.7766998662, -78.6566123121)],
 https://www.buffalodiocese.org/job-opportunities
 http://www.cks.edu
 http://www.wnycatholicschools.org/news/category/100002/employment
 
 
-['http://www.concordia-ny.edu', ''],
+['Concordia College', '', 'http://www.concordia-ny.edu', (40.9425657208, -73.8207636546)],
 http://www.concordia-ny.edu/about/employment
 http://www.concordia-ny.edu
 https://www2.appone.com/Search/Search.aspx?ServerVar=ConcordiaCollege.appone.com&results=yes
 
 
-['http://www.dowling.edu', ''],
-http://www.dowling.edu
+['Cornell University', '', 'http://www.cornell.edu', (42.4470150296, -76.4823949559)],
+https://hr.cornell.edu/jobs
+https://hr.cornell.edu/jobs/external-applicants
+https://hr.cornell.edu/important-notice-applicants
+https://hr.cornell.edu/
+http://www.cornell.edu
+
+
+['Colgate-Rochester Divinity School', '', 'http://www.crcds.edu', (43.1321158158, -77.6000675596)],
+http://www.crcds.edu
+https://www.crcds.edu/job-opportunities-at-crcds/
+
+
+['Dowling College', '', 'http://www.dowling.edu', (40.7415915528, -73.1474167819)],
 http://www.dowling.edu
 
 
-['http://www.cshl.edu/gradschool', ''],
+['Cold Spring Harbor--watson School of Biological Sciences', '', 'http://www.cshl.edu/gradschool', (40.8611650109, -73.4691350824)],
 https://www.cshl.edu/about-us/careers/
 https://www.cshl.edu/research/faculty-staff/
 https://www.cshl.edu/phd-program/
 
 
-['http://www.crouse.org/nursing', ''],
-https://www.crouse.org/careers/prospective/
-https://www.crouse.org/careers/
-https://www.crouse.org/careers/jobs/
-https://www.crouse.org/
-http://www.crouse.org/nursing
-https://pm.healthcaresource.com/CS/crouse#/search
-
-
-['http://www.ciachef.edu', ''],
+['Culinary Institute of America 697', '', 'http://www.ciachef.edu', (41.745751189, -73.9331335732)],
 http://www.ciachef.edu/hr/
 http://www.ciachef.edu/ny-campus-employment/
 http://www.ciachef.edu
@@ -79,72 +85,105 @@ http://www.ciachef.edu/cia-campuses/
 https://adfs3.culinary.edu/adfs/ls?wa=wsignin1.0&wtrealm=urn%3aciamainmenu.culinary.edu%3a443&wctx=https%3a%2f%2fciamainmenu.culinary.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&wreply=https%3a%2f%2fciamainmenu.culinary.edu%2f_trust%2fdefault.aspx
 
 
-['http://www.ellisbelangerschoolofnursing.org', ''],
+['Crouse-Irving Memorial Hospital School of Nursing', '', 'http://www.crouse.org/nursing', (43.0409937183, -76.1379398537)],
+https://www.crouse.org/careers/prospective/
+https://www.crouse.org/careers/
+https://www.crouse.org/careers/jobs/
+https://www.crouse.org/
+http://www.crouse.org/nursing
+https://pm.healthcaresource.com/CS/crouse#/search
+
+
+['Ellis Medicine-Thebelanger School of Nursing', '', 'http://www.ellisbelangerschoolofnursing.org', (42.8055884888, -73.9168545562)],
 http://ellismedicine.org/school-of-nursing/
 http://ellismedicine.org/errorpage.aspx?aspxerrorpath=/school-of-nursing/careers/default.aspx
 
 
-['http://www.crcds.edu', ''],
-http://www.crcds.edu
-https://www.crcds.edu/job-opportunities-at-crcds/
-
-
-['http://www.feitian.edu', ''],
+['Fei Tian College', '', 'http://www.feitian.edu', (41.4529346524, -74.5891858298)],
 http://www.feitian.edu
 
 
-['http://www.elim.edu', ''],
+['Elim Bible Institute & College', '', 'http://www.elim.edu', (42.908518804, -77.6147357204)],
 http://www.elim.edu
 
 
-['http://www.hts.edu', ''],
-http://www.hts.edu
-
-
-['http://www.idc.edu', ''],
-http://www.idc.edu
-
-
-['http://gamlacollege.com', ''],
-http://gamlacollege.com
-
-
-['http://www.futurenurselich.org', ''],
-http://www.futurenurselich.org
-
-
-['http://www.funeraleducation.org', ''],
+['American Acad McAllister Inst', '', 'http://www.funeraleducation.org', (40.7689206361, -73.9938294193)],
 https://funeraleducation.org/student-services/#EMPLOYMENT-ASSISTANCE
 https://funeraleducation.org/home/employment-assistance/
 http://www.funeraleducation.org
 http://www.selectedfuneralhomes.org
 
 
-['http://www.gcnyc.com', ''],
-http://www.gcnyc.com
+['Gamla College', '', 'http://gamlacollege.com', (40.6171572317, -73.9621890813)],
+http://gamlacollege.com
 
 
-['http://liu.edu/brentwood', ''],
-http://liu.edu/brentwood
-https://www.liu.edu/Page-Not-Found.aspx?item=%2fhuman-resources%2femployment-opportunities&user=extranet%5cAnonymous&site=website
-http://jobs.liu.edu
+['Hofstra University-Main Campus', '', 'http://www.hofstra.edu', (40.7163803809, -73.5995207899)],
+http://www.hofstra.edu
 
 
-['http://www.flhcon.edu', ''],
+['Finger Lakes Health College of Nursing & Health Sciences', '', 'http://www.flhcon.edu', (42.8762578081, -76.9876894515)],
 http://www.flhcon.edu
 http://flhcon.edu/faculty/
 
 
-['http://www.sloankettering.edu', ''],
+['Glasgow Caledonian New York College', '', 'http://www.gcnyc.com', (40.7390307143, -73.9668120498)],
+http://www.gcnyc.com
+
+
+['Holy Trinity Orthodox Seminary', '', 'http://www.hts.edu', (42.9277195844, -74.9336856615)],
+http://www.hts.edu
+
+
+['Long Island College Hospital School of Nursing', '', 'http://www.futurenurselich.org', (40.6908534019, -73.9977410887)],
+http://www.futurenurselich.org
+
+
+['Inst of Design & Construction', '', 'http://www.idc.edu', (40.6921634518, -73.9830600399)],
+http://www.idc.edu
+
+
+['Long Island University - New York University Campus', '', 'http://www.liu.edu', (40.7294899346, -73.9972596293)],
+http://www.liu.edu
+http://jobs.liu.edu
+
+
+['Long Island University-Brentwood Campus', '', 'http://liu.edu/brentwood', (40.8029993911, -73.285274135)],
+http://liu.edu/brentwood
+https://www.liu.edu/Page-Not-Found.aspx?item=%2fhuman-resources%2femployment-opportunities&user=extranet%5cAnonymous&site=website
+
+
+['Iona College Rockland Campus', '', 'http://www.iona.edu/rockland/', (41.0485317405, -73.9525586308)],
+https://iona-openhire.silkroad.com/epostings/index.cfm?version=1
+https://iona-careers.silkroad.com/
+https://www.iona.edu/admissions/graduate-admissions.aspx
+
+
+['Elyon College', '', 'http://www.elyon.edu', (40.6110547033, -73.9804759397)],
+http://www.elyon.edu
+
+
+['Louis V. Gerstner Grad Scho of Biomed Sci, Memorial Sloan-Kettering Cancer Center', '', 'http://www.sloankettering.edu', (40.7640369956, -73.9560230672)],
 https://www.sloankettering.edu/gerstner
 
 
-['http://www.montefiorehealthsystem.org', ''],
+['Manhattan College', '', 'http://www.manhattan.edu', (40.890237552, -73.9012322052)],
+https://inside.manhattan.edu/offices/human-resources/jobs.php
+https://inside.manhattan.edu/index.php?test=1&q=&hPP=200&idx=TasksServices&p=0&hFR[category][0]=Featured&is_v=1
+http://www.manhattan.edu
+
+
+['Maria College of Albany', '', 'http://www.mariacollege.edu', (42.6583265456, -73.8076581449)],
+https://mariacollege.edu/about-maria/employment/
+http://www.mariacollege.edu
+
+
+['Montefiore School of Nursing', '', 'http://www.montefiorehealthsystem.org', (40.91208021, -73.8404194)],
 http://www.montefiorehealthsystem.org
 https://www.montefiorehealthsystem.org/jakarta/isapi_redirect.dll
 
 
-['http://www.mcny.edu/mcny-bronx/', ''],
+['Metropolitan College of Ny-Brc', '', 'http://www.mcny.edu/mcny-bronx/', (40.8153862021, -73.9158630335)],
 https://www.mcny.edu/human-resources/
 https://www.mcny.edu/human-resources/jobs/
 http://www.mcny.edu/mcny-bronx/
@@ -152,160 +191,196 @@ https://www.mcny.edu/admissions-aid/welfare-to-careers/
 https://rrr.princeton.edu/eop
 
 
-['http://www.mabtsne.edu', ''],
+['Mid-America Baptist Theol Seminary - NE Branch', '', 'http://www.mabtsne.edu', (42.7513005326, -73.9177628057)],
 http://www.mabtsne.edu
 https://www.facebook.com/groups/299332053412523/
 https://www.facebook.com
 
 
-['http://www.nyctcm.edu', ''],
+['Mt Sinai School of Medicine', '', 'http://icahn.mssm.edu', (40.7903736896, -73.9533895103)],
+https://careers.mountsinai.org/?
+https://mountsinai.jibeapply.com/auth
+https://careers.mountsinai.org/jobs?page=1&categories=Physician
+https://careers.mountsinai.org/jobs?page=1
+http://icahn.mssm.edu
+
+
+['New York College of Podiatric Medicine', '', 'http://www.nycpm.edu', (40.8049396848, -73.9406042039)],
+http://www.nycpm.edu
+http://www.nycpm.edu/faculty.asp
+
+
+['New School University - NYS Office of Mental Health', '', 'http://www.newschool.edu/', (42.6478465136, -73.774182006)],
+https://careers.newschool.edu/
+http://www.newschool.edu/outcomes/career-internship-support/
+http://www.newschool.edu/human-resources/
+http://www.newschool.edu/
+http://www.newschool.edu/staff/
+http://www.newschool.edu/faculty/
+https://opencampus.newschool.edu/
+https://opencampus.newschool.edu/faculties
+
+
+['New York College of Traditional Chinese Medicine', '', 'http://www.nyctcm.edu', (40.7394968641, -73.6388842048)],
 http://www.nyctcm.edu/AboutUs/ContactUs/EmploymentOpportunities.aspx
 http://www.nyctcm.edu
 http://www.nyctcm.edu/Alumni/JobOpportunitiesOtherNotices.aspx
 
 
-['http://www.elyon.edu', ''],
-http://www.elyon.edu
+['New York University', '', 'http://www.nyu.edu', (40.7296504349, -73.9970161424)],
+http://www.nyu.edu/about/careers-at-nyu/administrators-and-staff.html
+http://www.nyu.edu/about/careers-at-nyu.html
+http://www.nyu.edu/about/careers-at-nyu/faculty-and-researchers.html
+http://www.nyu.edu
 
 
-['http://icahn.mssm.edu', ''],
-https://careers.mountsinai.org/?
-https://mountsinai.jibeapply.com/auth
-https://careers.mountsinai.org/jobs?page=1
-https://careers.mountsinai.org/jobs?page=1&categories=Physician
-http://icahn.mssm.edu
-
-
-['http://www.nycpm.edu', ''],
-http://www.nycpm.edu
-http://www.nycpm.edu/faculty.asp
-
-
-['http://www.nyls.edu', ''],
+['New York Law School', '', 'http://www.nyls.edu', (40.7180828612, -74.0071048348)],
 https://www.nyls.edu/about_the_school/employment/
 http://www.nyls.edu
 
 
-['http://www.nymc.edu', ''],
-http://www.nymc.edu
-http://www.nymc.edu/faculty/
+['New York College of Health Professions', '', 'http://www.nycollege.edu', (40.8100017735, -73.5169487481)],
+http://www.nycollege.edu
 
 
-['http://www.nysid.edu', ''],
-http://www.nysid.edu/work-at-nysid
-http://www.nysid.edu
-
-
-['http://www.nyss.org', ''],
+['New York Studio School', '', 'http://www.nyss.org', (40.7325102354, -73.9972369615)],
 https://nyss.org/about/employment-opportunities/
 http://www.nyss.org
 
 
-['http://www.pson.edu', ''],
-https://careers.mountsinai.org
-https://www.mountsinai.org/locations/beth-israel/pson
+['NY Medical College', '', 'http://www.nymc.edu', (41.08500151, -73.81006245)],
+http://www.nymc.edu
+http://www.nymc.edu/faculty/
 
 
-['http://www.nycollege.edu', ''],
-http://www.nycollege.edu
+['Northeaster Seminary at Roberts Wesleyan College', '', 'http://www.nes.edu/', (43.1260918496, -77.7974158143)],
+https://www.roberts.edu/employment.aspx
+https://www.roberts.edu/employment/
+https://www.roberts.edu/
+http://www.nes.edu/
 
 
-['http://www.pbcny.edu', ''],
+['Niagara University', '', 'http://www.niagara.edu', (43.1371098129, -79.0380449288)],
+http://www.niagara.edu/employment-opportunities/
+http://www.niagara.edu/human-resources/
+http://www.niagara.edu
+
+
+['NY School of Interior Design', '', 'http://www.nysid.edu', (40.7686703487, -73.9623794411)],
+http://www.nysid.edu/work-at-nysid
+http://www.nysid.edu
+
+
+['Professional Business College', '', 'http://www.pbcny.edu', (40.7189568257, -74.0020664246)],
 http://www.pbcny.edu
 
 
-['http://www.pratt.edu', ''],
+['Pratt Institute', '', 'http://www.pratt.edu', (40.6918957425, -73.9639616366)],
 http://www.pratt.edu/the-institute/administration-resources/finance-administration/human-resources/jobs-at-pratt/
-http://www.pratt.edu
 http://www.pratt.edu
 https://apply.interfolio.com/14414/positions
 
 
-['http://www.yu.edu/riets/', ''],
+['Phillips Beth Israel Sch of Nursing', '', 'http://www.pson.edu', (40.7448494113, -73.9912907691)],
+https://careers.mountsinai.org
+https://www.mountsinai.org/locations/beth-israel/pson
+
+
+['Rabbi Isaac Elchanan Theo Seminary', '', 'http://www.yu.edu/riets/', (40.8515810832, -73.9285990394)],
 http://www.yu.edu/hr/opportunities
 http://www.yu.edu/riets/
 
 
-['http://www.nyaa.edu', ''],
+['The New York Academy of Art', '', 'http://www.nyaa.edu', (40.7184411618, -74.0059019288)],
 http://www.nyaa.edu
 https://nyaa.edu/graduate-program/faculty/
 
 
-['http://www.relay.edu', ''],
+['Relay School of Education', '', 'http://www.relay.edu', (40.7405456779, -73.9932910229)],
 https://relay.edu/browse-jobs
 http://www.relay.edu/about-us/careers
 http://www.relay.edu
 https://support.relay.edu/hc/en-us
 
 
-['http://www.iona.edu/rockland/', ''],
-https://iona-openhire.silkroad.com/epostings/index.cfm?version=1
-https://iona-careers.silkroad.com/
-https://www.iona.edu/admissions/graduate-admissions.aspx
-
-
-['http://www.mariacollege.edu', ''],
-https://mariacollege.edu/about-maria/employment/
-http://www.mariacollege.edu
-
-
-['http://dunwoodie.edu/', ''],
-http://dunwoodie.edu/
-http://dunwoodie.edu/faculty-1
-http://dunwoodie.edu/faculty-2
-
-
-['http://www.rockefeller.edu/', ''],
+['Rockefeller University', '', 'http://www.rockefeller.edu/', (40.7629956519, -73.9564672926)],
 http://www.rockefeller.edu/our-scientists/faculty-recruitment
 http://www.rockefeller.edu/human-resources/
 http://www.rockefeller.edu/
 
 
-['http://www.secon.edu', ''],
+['Rochester Institute of Technology', '', 'http://www.rit.edu', (43.0847578962, -77.6753621235)],
+http://www.rit.edu
+
+
+["Saint Joseph's Seminary And College", '', 'http://dunwoodie.edu/', (40.9201600754, -73.8630100825)],
+http://dunwoodie.edu/
+http://dunwoodie.edu/faculty-2
+http://dunwoodie.edu/faculty-1
+
+
+['St Elizabeth Hospital College of Nursing', '', 'http://www.secon.edu', (43.0834478231, -75.2674174685)],
 http://www.secon.edu
 
 
-['http://www.siena.edu/', ''],
+['St Bonaventure University', '', 'http://www.sbu.edu', (42.0795050049, -78.4849799242)],
+http://www.sbu.edu/jobs-at-sbu
+https://www.sbu.edu/life-at-sbu/services-for-students/career-and-professional-readiness-center/alumni
+https://ca.indeed.com/?r=us
+http://www.sbu.edu/life-at-sbu/hr
+http://www.sbu.edu
+http://www.sbu.edu/life-at-sbu/hr/bonacare@work
+https://sbu.joinhandshake.com/login
+
+
+['Siena College', '', 'http://www.siena.edu/', (42.717915027, -73.7553350204)],
 https://www.siena.edu/employment-opportunities/
 https://www.siena.edu/employment-opportunities/why-work-at-siena/
 http://www.siena.edu/
 
 
-['http://www.tsacfotny.edu', ''],
+['Salvation Army College For Officer Training', '', 'http://www.tsacfotny.edu', (41.1137143951, -74.1407862011)],
 https://careers.salvationarmy.org/easternusa
 https://tsacfotny.salvationarmy.org/
 
 
-['http://www.sjhcon.edu/', ''],
-http://www.sjhcon.edu/
-
-
-['http://www.icseminary.edu', ''],
-http://www.icseminary.edu
-
-
-['http://www.svots.edu/', ''],
+["St Vladimir's Orthodox Theol Seminry", '', 'http://www.svots.edu/', (40.96988799, -73.82415561)],
 http://www.svots.edu/about/employment
 http://www.svots.edu/
 
 
-['http://cathedralseminary.org/', ''],
-http://cathedralseminary.org/
+["St Joseph's College of Nursing at St Joseph's Hospital Health Center", '', 'http://www.sjhcon.edu/', (43.0547501798, -76.1484215884)],
+http://www.sjhcon.edu/
 
 
-['http://www.stbernards.edu', ''],
+["St. Joseph's Seminary & College-Huntington", '', 'http://www.icseminary.edu', (40.90515869, -73.47090101)],
+http://www.icseminary.edu
+
+
+['Samaritan Hospital School of Nursing', '', 'http://sphp.com/son', (42.74282684, -73.67644282)],
+http://sphp.com/son
+
+
+["St. Bernard's School of Theology And Ministry", '', 'http://www.stbernards.edu', (43.1021829757, -77.5264984514)],
 https://www.stbernards.edu/job-postings
 http://www.stbernards.edu
 
 
-['http://syracuse.edu', ''],
+['Syracuse University', '', 'http://syracuse.edu', (43.0402401915, -76.1369455708)],
 https://www.syracuse.edu/about/work-at-syracuse/
 https://www.sujobopps.com/
 https://www.syracuse.edu/admissions/cost-and-aid/types-of-aid/student-employment/
 http://syracuse.edu
 
 
-['http://tourocom.touro.edu/about-us/contact', ''],
+['Teachers College', '', 'http://www.tc.columbia.edu/', (40.8100945923, -73.9606417774)],
+http://www.tc.columbia.edu/careers/
+http://www.tc.columbia.edu/
+http://www.tc.columbia.edu/about/diversity-and-community/
+http://employment.tc.columbia.edu/cw/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=college%20work%20study&work-type=student
+
+
+['Touro College', '', 'http://tourocom.touro.edu/about-us/contact', (40.75313425, -73.98929738)],
 https://touro.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id=&435=&query_organizational_tier_3_id=any&query_organizational_tier_1_id=235&commit=Search
 https://touro.peopleadmin.com/postings/search?page=2
 https://touro.peopleadmin.com/postings/search?commit=Search&page=2&query_organizational_tier_1_id=235&query_organizational_tier_3_id=any&utf8=%E2%9C%93
@@ -319,18 +394,39 @@ https://touro.peopleadmin.com/postings/search?page=6
 http://tourocom.touro.edu/about-us/contact
 
 
-['http://sphp.com/son', ''],
-http://sphp.com/son
+['Touro College', '', 'http://www.touro.edu', (40.75313425, -73.98929738)],
+http://www.touro.edu/about/careers-at-touro/
+http://www.touro.edu
 
 
-['http://dental.touro.edu/', ''],
+["St. Joseph's Seminary & College-Douglaston", '', 'http://cathedralseminary.org/', (40.74636212, -73.73310234)],
+http://cathedralseminary.org/
+
+
+['University of Rochester', '', 'http://www.rochester.edu', (43.1263561927, -77.6311742772)],
+http://www.rochester.edu/working/hr/
+http://www.rochester.edu/working/hr/the_work_number/
+http://www.rochester.edu
+
+
+['Yeshiva University', '', 'http://www.yu.edu', (40.8506479647, -73.9298665465)],
+http://www.yu.edu
+
+
+['Union College', '', 'http://www.union.edu', (42.8175712882, -73.9285185308)],
+https://www.union.edu/human-resources/employment
+https://jobs.union.edu/en-us/listing/
+http://www.union.edu
+
+
+['Touro College - Valhalla', '', 'http://dental.touro.edu/', (41.0853086341, -73.8175326375)],
 https://touro.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&query_organizational_tier_1_id%5B%5D=235&query_organizational_tier_3_id%5B%5D=511&query_organizational_tier_3_id%5B%5D=830&query_organizational_tier_3_id%5B%5D=828&1209=&commit=Search
 http://dental.touro.edu/
 http://dental.touro.edu/faculty/
 http://dental.touro.edu/faculty/academic
 
 
-['http://www.sphp.com/sons', ''],
+['Memorial Hospital School of Nursing', '', 'http://www.sphp.com/sons', (42.6741639047, -73.7486829022)],
 http://www.sphp.com
 http://www.sphp.com/joint-replacement-center
 http://www.sphp.com/joint-replacement-sph
