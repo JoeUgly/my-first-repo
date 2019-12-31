@@ -1,0 +1,337 @@
+
+['http://www.boricuacollege.edu', ''],
+http://www.boricuacollege.edu
+http://www.boricuacollege.edu
+http://www.boricuacollege.edu
+
+
+['http://ajrsem.org', ''],
+http://ajrsem.org
+
+
+['http://www.albanylaw.edu', ''],
+http://www.albanylaw.edu/about/employment
+http://www.albanylaw.edu
+
+
+['http://www.cochranschoolofnursing.us', ''],
+http://www.cochranschoolofnursing.us
+http://www.cochranschoolofnursing.us/Academic.aspx
+
+
+['http://www.amc.edu', ''],
+https://albanymedcareers.com/
+https://albanymedcareers.com/job-board/
+https://albanymedcareers.com/hot-jobs/ 
+http://www.amc.edu
+
+
+['http://www.cityseminaryny.org', ''],
+https://www.facebook.com/careers/?ref=pf
+https://www.cityseminaryny.org:443/
+https://www.facebook.com/WallsOrtizGalleryandCenter/photos/?tab=album&album_id=2076795135752054&__xts__%5B0%5D=68.ARBH3CS8VWq2xShd2ocB-M2kOuSJuJ6-olX9bGExmh10FvTFk7yVq7gj-B9dJRmLWOgIwZ5C7SzGRwAL6Tx5Kh54znf9u-N89JW7maoIq_c9wfjPfE-xlWyVK8WuuEckfvrJGLz84v9Trl00wF-E_YS5g9oGH0qxV76VSioQCgT0OEmcIfFeIGsv5VWKeyBHDJzlO1jADm3mS_ME63JJUiX-5EthyI9HyTo7FlF3S64_g-XL0vD7KXCEjpAfoHz_jBOjhF1A3lw72t8coKnwcbXQ0Z5TS7ZK5OMAojl0ewDycYXPDpHzX8q1xOnayZmItYi57997f8Okhx8G5D-Wuvatzl9SoqfSKtcucOXq_VxKNwjLhT2m3W21QYzHdfOk4ZFbWlibjmxmsSIZ0kPBwuP0xsRRNOjUcqXUMZh6Mj7RRRQzISpIZFAUzAORiXVnxK9EyFMN7mH5WQd6P9j7A_86t2-90AyDFbD7Omq4neddzda7PVLJmQI5Z3VafZDOlD64dX14ZS08wAT9EEtdFWJub085foIRqMLTNNj6Ug&__tn__=-UC-R
+https://www.facebook.com/WallsOrtizGalleryandCenter/photos/?tab=album&album_id=2211464862285080&__xts__%5B0%5D=68.ARAhY0ZuDZqMzbHHpPtn2PsEaphq2YeAq_i0GHKen5WkxzNUhauWUUHs3CRGh6uYAi_6kMdRqjY52Ev3aIJBGBM9KW3IeiWfFVFvDF1qlVeDWncocRUnOnDPFiHPLfg9jdIvdzXMsfLQFWksje4eT3RK1adbbEhlRySj4dZFSYGIMcFHlFgz618_54mLsoecYcsmNTBrmMx3uo4MfsMcmz_bEboH-QK-3J806ZO4GdhpUVoCfF6EfYYZ67UfkjVArU8sb0yE7rs6r3lxxwkyjOVxA713CnTsKWwFgOhT7u-WIFDOmw9WMTZAuKGLy8kaf2J1OzZtYQJ_uF3lBxCM1iDobjxnMLxr9G9XybanKJeNPo3aTFY-3ey5TUA3aDj36Il7Yd0kEaRcp2LuQfVm9Hjh0z2uDVNMMJtt0Z9ocQ3R7GFi_S9S1AxdLnuSo-eCUHEyHv1il1EvZeG_RHyRZPlYVMa7PsO2chsgKDbXIn5P-yUg0nA7Ufe0cGzrIPF65sChJEN-lmytdwpbTebnVXmsGnqGIgnKHYBAoI12TQ&__tn__=-UC-R
+https://www.eventbrite.com/e/an-evening-with-jason-deparle-tickets-70670295757
+
+
+['http://www.aada.edu', ''],
+http://www.aada.edu
+
+
+['http://www.cks.edu', ''],
+https://www.buffalodiocese.org/job-opportunities
+http://www.cks.edu
+http://www.wnycatholicschools.org/news/category/100002/employment
+
+
+['http://www.concordia-ny.edu', ''],
+http://www.concordia-ny.edu/about/employment
+http://www.concordia-ny.edu
+https://www2.appone.com/Search/Search.aspx?ServerVar=ConcordiaCollege.appone.com&results=yes
+
+
+['http://www.dowling.edu', ''],
+http://www.dowling.edu
+http://www.dowling.edu
+
+
+['http://www.cshl.edu/gradschool', ''],
+https://www.cshl.edu/about-us/careers/
+https://www.cshl.edu/research/faculty-staff/
+https://www.cshl.edu/phd-program/
+
+
+['http://www.crouse.org/nursing', ''],
+https://www.crouse.org/careers/prospective/
+https://www.crouse.org/careers/
+https://www.crouse.org/careers/jobs/
+https://www.crouse.org/
+http://www.crouse.org/nursing
+https://pm.healthcaresource.com/CS/crouse#/search
+
+
+['http://www.ciachef.edu', ''],
+http://www.ciachef.edu/hr/
+http://www.ciachef.edu/ny-campus-employment/
+http://www.ciachef.edu
+http://www.ciachef.edu/ca-campus-employment/
+http://www.ciachef.edu/cia-campuses/
+https://adfs3.culinary.edu/adfs/ls?wa=wsignin1.0&wtrealm=urn%3aciamainmenu.culinary.edu%3a443&wctx=https%3a%2f%2fciamainmenu.culinary.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&wreply=https%3a%2f%2fciamainmenu.culinary.edu%2f_trust%2fdefault.aspx
+
+
+['http://www.ellisbelangerschoolofnursing.org', ''],
+http://ellismedicine.org/school-of-nursing/
+http://ellismedicine.org/errorpage.aspx?aspxerrorpath=/school-of-nursing/careers/default.aspx
+
+
+['http://www.crcds.edu', ''],
+http://www.crcds.edu
+https://www.crcds.edu/job-opportunities-at-crcds/
+
+
+['http://www.feitian.edu', ''],
+http://www.feitian.edu
+
+
+['http://www.elim.edu', ''],
+http://www.elim.edu
+
+
+['http://www.hts.edu', ''],
+http://www.hts.edu
+
+
+['http://www.idc.edu', ''],
+http://www.idc.edu
+
+
+['http://gamlacollege.com', ''],
+http://gamlacollege.com
+
+
+['http://www.futurenurselich.org', ''],
+http://www.futurenurselich.org
+
+
+['http://www.funeraleducation.org', ''],
+https://funeraleducation.org/student-services/#EMPLOYMENT-ASSISTANCE
+https://funeraleducation.org/home/employment-assistance/
+http://www.funeraleducation.org
+http://www.selectedfuneralhomes.org
+
+
+['http://www.gcnyc.com', ''],
+http://www.gcnyc.com
+
+
+['http://liu.edu/brentwood', ''],
+http://liu.edu/brentwood
+https://www.liu.edu/Page-Not-Found.aspx?item=%2fhuman-resources%2femployment-opportunities&user=extranet%5cAnonymous&site=website
+http://jobs.liu.edu
+
+
+['http://www.flhcon.edu', ''],
+http://www.flhcon.edu
+http://flhcon.edu/faculty/
+
+
+['http://www.sloankettering.edu', ''],
+https://www.sloankettering.edu/gerstner
+
+
+['http://www.montefiorehealthsystem.org', ''],
+http://www.montefiorehealthsystem.org
+https://www.montefiorehealthsystem.org/jakarta/isapi_redirect.dll
+
+
+['http://www.mcny.edu/mcny-bronx/', ''],
+https://www.mcny.edu/human-resources/
+https://www.mcny.edu/human-resources/jobs/
+http://www.mcny.edu/mcny-bronx/
+https://www.mcny.edu/admissions-aid/welfare-to-careers/
+https://rrr.princeton.edu/eop
+
+
+['http://www.mabtsne.edu', ''],
+http://www.mabtsne.edu
+https://www.facebook.com/groups/299332053412523/
+https://www.facebook.com
+
+
+['http://www.nyctcm.edu', ''],
+http://www.nyctcm.edu/AboutUs/ContactUs/EmploymentOpportunities.aspx
+http://www.nyctcm.edu
+http://www.nyctcm.edu/Alumni/JobOpportunitiesOtherNotices.aspx
+
+
+['http://www.elyon.edu', ''],
+http://www.elyon.edu
+
+
+['http://icahn.mssm.edu', ''],
+https://careers.mountsinai.org/?
+https://mountsinai.jibeapply.com/auth
+https://careers.mountsinai.org/jobs?page=1
+https://careers.mountsinai.org/jobs?page=1&categories=Physician
+http://icahn.mssm.edu
+
+
+['http://www.nycpm.edu', ''],
+http://www.nycpm.edu
+http://www.nycpm.edu/faculty.asp
+
+
+['http://www.nyls.edu', ''],
+https://www.nyls.edu/about_the_school/employment/
+http://www.nyls.edu
+
+
+['http://www.nymc.edu', ''],
+http://www.nymc.edu
+http://www.nymc.edu/faculty/
+
+
+['http://www.nysid.edu', ''],
+http://www.nysid.edu/work-at-nysid
+http://www.nysid.edu
+
+
+['http://www.nyss.org', ''],
+https://nyss.org/about/employment-opportunities/
+http://www.nyss.org
+
+
+['http://www.pson.edu', ''],
+https://careers.mountsinai.org
+https://www.mountsinai.org/locations/beth-israel/pson
+
+
+['http://www.nycollege.edu', ''],
+http://www.nycollege.edu
+
+
+['http://www.pbcny.edu', ''],
+http://www.pbcny.edu
+
+
+['http://www.pratt.edu', ''],
+http://www.pratt.edu/the-institute/administration-resources/finance-administration/human-resources/jobs-at-pratt/
+http://www.pratt.edu
+http://www.pratt.edu
+https://apply.interfolio.com/14414/positions
+
+
+['http://www.yu.edu/riets/', ''],
+http://www.yu.edu/hr/opportunities
+http://www.yu.edu/riets/
+
+
+['http://www.nyaa.edu', ''],
+http://www.nyaa.edu
+https://nyaa.edu/graduate-program/faculty/
+
+
+['http://www.relay.edu', ''],
+https://relay.edu/browse-jobs
+http://www.relay.edu/about-us/careers
+http://www.relay.edu
+https://support.relay.edu/hc/en-us
+
+
+['http://www.iona.edu/rockland/', ''],
+https://iona-openhire.silkroad.com/epostings/index.cfm?version=1
+https://iona-careers.silkroad.com/
+https://www.iona.edu/admissions/graduate-admissions.aspx
+
+
+['http://www.mariacollege.edu', ''],
+https://mariacollege.edu/about-maria/employment/
+http://www.mariacollege.edu
+
+
+['http://dunwoodie.edu/', ''],
+http://dunwoodie.edu/
+http://dunwoodie.edu/faculty-1
+http://dunwoodie.edu/faculty-2
+
+
+['http://www.rockefeller.edu/', ''],
+http://www.rockefeller.edu/our-scientists/faculty-recruitment
+http://www.rockefeller.edu/human-resources/
+http://www.rockefeller.edu/
+
+
+['http://www.secon.edu', ''],
+http://www.secon.edu
+
+
+['http://www.siena.edu/', ''],
+https://www.siena.edu/employment-opportunities/
+https://www.siena.edu/employment-opportunities/why-work-at-siena/
+http://www.siena.edu/
+
+
+['http://www.tsacfotny.edu', ''],
+https://careers.salvationarmy.org/easternusa
+https://tsacfotny.salvationarmy.org/
+
+
+['http://www.sjhcon.edu/', ''],
+http://www.sjhcon.edu/
+
+
+['http://www.icseminary.edu', ''],
+http://www.icseminary.edu
+
+
+['http://www.svots.edu/', ''],
+http://www.svots.edu/about/employment
+http://www.svots.edu/
+
+
+['http://cathedralseminary.org/', ''],
+http://cathedralseminary.org/
+
+
+['http://www.stbernards.edu', ''],
+https://www.stbernards.edu/job-postings
+http://www.stbernards.edu
+
+
+['http://syracuse.edu', ''],
+https://www.syracuse.edu/about/work-at-syracuse/
+https://www.sujobopps.com/
+https://www.syracuse.edu/admissions/cost-and-aid/types-of-aid/student-employment/
+http://syracuse.edu
+
+
+['http://tourocom.touro.edu/about-us/contact', ''],
+https://touro.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id=&435=&query_organizational_tier_3_id=any&query_organizational_tier_1_id=235&commit=Search
+https://touro.peopleadmin.com/postings/search?page=2
+https://touro.peopleadmin.com/postings/search?commit=Search&page=2&query_organizational_tier_1_id=235&query_organizational_tier_3_id=any&utf8=%E2%9C%93
+https://touro.peopleadmin.com/postings/search?page=3
+https://touro.peopleadmin.com/postings/search
+https://touro.peopleadmin.com/postings/search?commit=Search&page=3&query_organizational_tier_1_id=235&query_organizational_tier_3_id=any&utf8=%E2%9C%93
+https://touro.peopleadmin.com/postings/search?page=4
+https://touro.peopleadmin.com/postings/search?page=5
+https://touro.peopleadmin.com/postings/search?commit=Search&page=4&query_organizational_tier_1_id=235&query_organizational_tier_3_id=any&utf8=%E2%9C%93
+https://touro.peopleadmin.com/postings/search?page=6
+http://tourocom.touro.edu/about-us/contact
+
+
+['http://sphp.com/son', ''],
+http://sphp.com/son
+
+
+['http://dental.touro.edu/', ''],
+https://touro.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&query_organizational_tier_1_id%5B%5D=235&query_organizational_tier_3_id%5B%5D=511&query_organizational_tier_3_id%5B%5D=830&query_organizational_tier_3_id%5B%5D=828&1209=&commit=Search
+http://dental.touro.edu/
+http://dental.touro.edu/faculty/
+http://dental.touro.edu/faculty/academic
+
+
+['http://www.sphp.com/sons', ''],
+http://www.sphp.com
+http://www.sphp.com/joint-replacement-center
+http://www.sphp.com/joint-replacement-sph
+

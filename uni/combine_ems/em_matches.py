@@ -527,13 +527,13 @@ for i in fin:
     if len(i) == 1:
         no_count += 1
         print(str(i[0]) + ',')
-
+    '''
     # If one matching em URL then use that one
     elif len(i) == 2:
         one_count += 1
         i[0][1] = i[1]
         print(str(i[0]) + ',')
-
+    
     # If matching em URLs then display them beneath
     else:
         multi_count += 1
@@ -546,7 +546,7 @@ for i in fin:
                 print(str(ii) + ',')
             else:
                 print(ii)
-
+    '''
 
 print('\n\n\n\nthese should match:', len(fin), count, len(new_l), '\n\n')
 print('zero, one, and multi matches:', no_count, one_count, multi_count)

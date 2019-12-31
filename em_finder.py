@@ -5,9 +5,10 @@
 
 # To do:
 # AP and wnyric are not totally centralized? eg: https://www.applitrack.com/saugertiesk12/onlineapp/jobpostings/view.asp
-# output all 4 items
+# output all 4 items +
 # use redirects instead of original URLs
-
+# checked_pages has no jbw conf values. only None, redirect, or error
+# dont output dups +
 
 
 
@@ -813,6 +814,15 @@ if __name__ == '__main__':
     all_list = [
 
 
+['Academy For Jewish Religion', '', 'http://ajrsem.org', (40.9364060697, -73.898634461)],
+
+
+
+['Albany Law School', '', 'http://www.albanylaw.edu', (42.6500456455, -73.7775088575)],
+
+['Albany Medical College', '', 'http://www.amc.edu', (42.6532407287, -73.7739752764)]
+
+
 
 ]
 
@@ -875,8 +885,7 @@ if __name__ == '__main__':
         dup_checker = dup_checker_f(homepage)
         checkedurls_man_list.append([dup_checker, None])
 
-    # Clear list to free up memory
-    all_list2 = None
+
 
 
 
@@ -1027,13 +1036,22 @@ if __name__ == '__main__':
     print(sort_dict)
 
 
-    # Display results sorted by jbw conf?
+    # Display results sorted by jbw conf
     with lock:
         for i in sort_dict:
-            print("\n\n['" + i + "', ''],") # display results in "list format"
+            w_l = []
+
+            # Display original full entry
+            for orig_entry in all_list:
+                if i == orig_entry[2]:
+                    print("\n\n" + str(orig_entry) + ',')
+                    break
+
             temp = sorted(sort_dict[i], key = lambda x: int(x[1]), reverse=True)
-            for ii in temp:
-                print(ii[0]) # exclude jbw conf?
+            for ii in temp: # List each em URL
+                if ii in w_l: continue # Exclude dups
+                print(ii[0]) # Exclude jbw conf
+                w_l.append(ii)
 
 
 
