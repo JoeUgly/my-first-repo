@@ -20,6 +20,7 @@ import pandas as pd
 
 
 html = '''
+<table>
 <tbody>
         
                 <tr><td colspan="2" class="color8" style="font-weight:bold;text-align:center;"><a name="A">A</a></td></tr>
