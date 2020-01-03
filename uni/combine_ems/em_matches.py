@@ -2,7 +2,7 @@
 # Desc: Use school URLs from old em list (jj_v1) in new em list.
 
 # Good and bad results are outputted. Good results have em URLs. eg: ['org name', 'em url', 'url', (coords)]
-# Bad results have no em URLs. eg: ['org name', '', 'url', (coords)]
+# Bad results have no em URLs. eg: ['org name', 'url', (coords)]
 # Duplicate homepages are ignored. Same em URL is used for each one
 
 
@@ -21,88 +21,48 @@
 
 
 new_l = [
-['Broome Community College', 'http://www.sunybroome.edu', (42.1279320389, -75.9066929229)],
-['Cayuga Community College - Fulton Center', 'http://www.cayuga-cc.edu', (43.3087811976, -76.3943832625)],
-['Cayuga County Community College', 'http://www.cayuga-cc.edu', (42.942427686, -76.5428448566)],
-['Clinton Community College', 'http://www.clinton.edu', (44.6484916509, -73.4397809665)],
-['Columbia-Greene Community College', 'http://www.sunycgcc.edu', (42.2212174558, -73.8205788249)],
-['Cornell Un Inst Res Dev', '', (42.4454850661, -76.5180349008)],
-['Corning Community College', 'http://www.corning-cc.edu', (42.1181543973, -77.0777321582)],
-['Dutchess Community College', 'http://www.sunydutchess.edu', (41.7221410762, -73.9068827009)],
-['Erie Community College-City Campus', 'http://www.ecc.edu', (42.8820923579, -78.8730977283)],
-['Erie Community College-North Campus', 'http://www.ecc.edu', (42.9660782722, -78.7192292156)],
-['Erie Community College-South Campus', 'http://www.ecc.edu', (42.7739702025, -78.8005024656)],
-['Fashion Institute of Technology', 'http://www.fitnyc.edu', (40.7467530244, -73.9941400194)],
-['Finger Lakes Community College', 'http://www.fingerlakes.edu', (42.8677755341, -77.2418809729)],
-['Fulton-Montgomery Community College', 'http://www.fmcc.suny.edu', (42.9824581854, -74.2981857881)],
-['Genesee Community College', 'http://www.genesee.edu', (43.0169179769, -78.138075555)],
-['Herkimer County Community College', 'http://www.herkimer.edu/', (43.0363179282, -75.0121490434)],
-['Hudson Valley Community College', 'http://www.hvcc.edu', (42.6969513827, -73.6826586168)],
-['Jamestown Community College', 'http://www.sunyjcc.edu', (42.1155017134, -79.2201867741)],
-['Jamestown Community College Cattaraugus County Campus', 'http://www.sunyjcc.edu', (42.080750755, -78.4296767225)],
-['Jefferson Community College', 'http://www.sunyjefferson.edu', (43.9906225707, -75.936591213)],
-['Mohawk Valley Community College', 'http://www.mvcc.edu', (43.0771112935, -75.2197380475)],
-['Mohawk Valley Community College-Rome Campus', 'http://www.mvcc.edu', (43.2201612777, -75.4291580028)],
-['Monroe Community College', 'http://www.monroecc.edu/', (43.1039514379, -77.6135699885)],
-['Monroe Community College - Downtown Campus', 'http://www.monroecc.edu/downtown', (43.16057467, -77.61904511)],
-['Nassau Community College', 'http://www.ncc.edu', (40.7305643961, -73.5915572062)],
-['New York State College of Agriculture And Life Sciences at Cornell', 'https://cals.cornell.edu/', (42.4470150296, -76.4823949559)],
-['New York State College of Human Ecology at Cornell University', 'http://www.human.cornell.edu', (42.4470150296, -76.4823949559)],
-['New York State College of Veterinary Medicine at Cornell University', 'https://www.vet.cornell.edu/', (42.4470150296, -76.4823949559)],
-['New York State School of Industrial And Labor Relations at Cornell', 'http://www.ilr.cornell.edu', (42.4411150027, -76.4962899763)],
-['Niagara County Community College', 'http://niagaracc.suny.edu', (43.1433897065, -78.8771693901)],
-['North Country Community College', 'http://www.nccc.edu', (44.3196603443, -74.1217755726)],
-['North Country Community College-Elizabethtown Campus', 'http://www.nccc.edu', (44.2071799834, -73.6125850881)],
-['North Country Community College-Malone Campus', 'http://www.nccc.edu', (44.7281199535, -74.2771800816)],
-['North Country Community College-Ticonderoga Campus', 'http://www.nccc.edu', (43.8483589211, -73.4348090122)],
-['NYS College of Ceramics at Alfred University', 'http://www.alfred.edu', (42.2562561522, -77.78738279)],
-['Onondaga Community College', 'http://www.sunyocc.edu', (43.003121379, -76.197967636)],
-['Orange County Comm College - Newburgh', 'http://www.sunyorange.edu', (41.5002076512, -74.0080464557)],
-['Orange County Community College', 'http://www.sunyorange.edu', (41.4385663747, -74.4253941399)],
-['Rockland Community College', 'http://www.sunyrockland.edu', (41.1316525826, -74.0845787256)],
-['Schenectady County Community College', 'http://sunysccc.edu', (42.815763278, -73.9493207653)],
-['State University College at Plattsburgh', 'http://www.plattsburgh.edu', (44.6944204269, -73.4660847546)],
-['State University College of Oswego - Metro Center', 'https://www.oswego.edu/syracuse/', (43.05026807, -76.15269074)],
-['State University of New York at Albany', 'http://www.albany.edu', (42.6894994696, -73.8202347679)],
-['State University of New York at Binghamton', 'http://www.binghamton.edu', (42.0922160443, -75.9480719501)],
-['State University of New York at Buffalo', 'http://www.buffalo.edu', (43.0014292257, -78.7901062945)],
-['State University of New York at Stony Brook', 'http://www.stonybrook.edu', (40.9154653167, -73.1228381196)],
-['State University of New York College at Brockport', 'https://www.brockport.edu', (43.20995983, -77.95214253)],
-['State University of New York College at Buffalo', 'http://suny.buffalostate.edu', (42.9326738069, -78.8770408526)],
-['State University of New York College at Cortland', 'http://www2.cortland.edu', (42.5972462055, -76.1897096475)],
-['State University of New York College at Fredonia', 'http://www.fredonia.edu', (42.4518385924, -79.3402424121)],
-['State University of New York College at Geneseo', 'http://www.geneseo.edu', (42.7957246342, -77.819335919)],
-['State University of New York College at New Paltz', 'http://www.newpaltz.edu', (41.7427460961, -74.0841046273)],
-['State University of New York College at Old Westbury', 'http://www.oldwestbury.edu', (40.7794946985, -73.5740357667)],
-['State University of New York College at Oneonta', 'http://www.oneonta.edu', (42.4654780432, -75.0680041033)],
-['State University of New York College at Oswego', 'http://www.oswego.edu', (43.451412138, -76.5441351481)],
-['State University of New York College at Potsdam', 'http://www.potsdam.edu', (44.6637806926, -74.9784114574)],
-['State University of New York College at Purchase', 'http://www.purchase.edu', (41.039038225, -73.6962345232)],
-['State University of New York College of Environmental Science And Forestry', 'http://www.esf.edu', (43.0347425343, -76.1347373878)],
-['State University of New York College of Optometry', 'http://www.sunyopt.edu', (40.7539557509, -73.9818868515)],
-['State University of New York College of Technology at Delhi', 'http://www.delhi.edu', (42.268528646, -74.922171006)],
-['State University of New York Empire State College', 'http://www.esc.edu', (43.0778907316, -73.7815188994)],
-['State University of New York Health Science Center at Brooklyn', 'http://www.downstate.edu/', (40.6553620016, -73.945075892)],
-['State University of New York Health Science Center at Syracuse', 'http://www.upstate.edu/', (43.042630081, -76.1405422462)],
-['State University of New York System Administration', 'http://www.suny.edu', (42.6948500932, -73.7220800677)],
-['SUC at Plattsburgh at Adirondack Community College', 'http://www.plattsburgh.edu/', (43.3542111568, -73.6575985465)],
-['Suffolk County Community College', 'http://www.sunysuffolk.edu', (40.845934881, -73.0535317455)],
-['Suffolk County Community College Eastern Campus', 'http://www.sunysuffolk.edu', (40.8843680211, -72.6971870692)],
-['Suffolk County Community College Western Campus', 'http://www.sunysuffolk.edu', (40.7980535929, -73.2712463165)],
-['Sullivan County Community College', 'http://www.sunysullivan.edu', (41.7645685528, -74.669718954)],
-['SUNY Coll of Ag & Tech at Delhi - Sccc', 'http://www.delhi.edu', (42.815763278, -73.9493207653)],
-['SUNY College of  Agriculture And Technology at Morrisville', 'http://www.morrisville.edu', (42.8966574697, -75.6400895954)],
-['SUNY College of  Technology at Alfred Wellsville Campus', 'http://www.alfredstate.edu', (42.1104065249, -77.9444174266)],
-['SUNY College of Agriculture And Technology at Cobleskill', 'http://www.cobleskill.edu', (42.6725149621, -74.4981810245)],
-['SUNY College of Agriculture And Technology at Morrisville - Norwich Campus', 'http://www.morrisville.edu/norwich', (42.5306561225, -75.5238100519)],
-['SUNY College of Technology at Alfred', 'http://www.alfredstate.edu', (42.2552374966, -77.7946833152)],
-['SUNY College of Technology at Canton', 'http://www.canton.edu/', (44.6072664206, -75.1850279439)],
-['SUNY College of Technology at Farmingdale', 'http://www.farmingdale.edu', (40.7534814826, -73.422346327)],
-['SUNY Maritime College', 'http://www.sunymaritime.edu', (40.8071954798, -73.7954153272)],
-['SUNY Polytechnic Institute', 'http://www.sunypoly.edu', (43.1330529952, -75.226662082)],
-['Tompkins Cortland Community College', 'http://www.tc3.edu', (42.5013825027, -76.2915156589)],
-['Ulster County Community College', 'http://www.sunyulster.edu', (41.8573690608, -74.1338430926)],
-['Westchester Community College', 'http://www.sunywcc.edu/', (41.0700872135, -73.7843656064)],
+['Art Institute of New York City', 'http://www.artinstitutes.edu', (40.7549303706, -73.988503444)],
+['Asa College, Inc.', 'http://www.asa.edu', (40.6922729032, -73.9860830633)],
+['Berkeley College - Main Campus', 'http://www.berkeleycollege.edu', (40.7538847351, -73.9795071152)],
+['Berkeley College - Westchester', 'http://www.berkeleycollege.edu', (41.0346335886, -73.7679309244)],
+['Bryant & Stratton Business College - North Syracuse', 'http://www.bryantstratton.edu', (43.1891227204, -76.2390537897)],
+['Bryant & Stratton College - Albany', 'http://www.bryantstratton.edu', (42.6981365193, -73.8099631495)],
+['Bryant & Stratton College - Buffalo', 'http://www.bryantstratton.edu', (42.8865731643, -78.8735239766)],
+['Bryant & Stratton College - Greece', 'http://www.bryantstratton.edu', (43.2406605054, -77.6960945905)],
+['Bryant & Stratton College - Henrietta', 'http://www.bryantstratton.edu', (43.0855524211, -77.6024060802)],
+['Bryant & Stratton College - Southtowns Campus', 'http://www.bryantstratton.edu', (42.7906774624, -78.7672821844)],
+['Bryant & Stratton College- Amherst', 'http://www.bryantstratton.edu', (43.0408165743, -78.7428249282)],
+['Bryant Stratton College - Syracuse', 'http://www.bryantstratton.edu', (43.0590713535, -76.137047667)],
+["Christie's Education, Inc", 'http://www.christies.edu', (40.7589337089, -73.9808982956)],
+['The College of Westchester', 'http://www.cw.edu', (41.0336489614, -73.7843757839)],
+['Devry College of New York', 'https://www.devry.edu/', (40.7474651252, -73.9833739393)],
+['Elmira Business Inst', 'http://www.ebi.edu', (42.0901041677, -76.8091666394)],
+['Elmira Business Institute - Vestal Executive Park', 'http://www.ebi.edu', (42.0970600729, -75.9754069723)],
+['Five Towns College', 'http://www.ftc.edu', (40.7909330678, -73.3673848429)],
+['Globe Inst of Tech Inc', 'http://www.globe.edu/', (40.7531259805, -73.9892959517)],
+['Island Drafting & Tech Inst', 'http://www.idti.edu', (40.6756418059, -73.4169787759)],
+['Jamestown Business College', 'http://www.jbcny.edu', (42.0955017298, -79.24973674660001)],
+['Laboratory Inst of Merchandising', 'http://www.limcollege.edu/', (40.7599322687, -73.9749658552)],
+['Long Island Business Inst', 'http://www.libi.edu', (40.8418417242, -73.2923288658)],
+['Long Island Business Institute - Flushing', 'http://www.libi.edu', (40.7602512526, -73.8299011581)],
+['Mandl School Inc', 'http://www.mandl.edu', (40.7644424202, -73.9837128667)],
+['Mildred Elley School', 'http://www.mildred-elley.edu', (42.6808311178, -73.7885586328)],
+['Mildred Elley-Nyc', 'http://mildred-elley.edu', (40.7684987, -73.98245132)],
+['Monroe College', 'http://www.monroecollege.edu', (40.8640027093, -73.9003298963)],
+['Monroe College-New Rochelle Br Camps', 'http://www.monroecollege.edu', (40.9102540531, -73.778953921)],
+['New York Automotive & Diesel Institute', 'http://', (40.7052209641, -73.7806300408)],
+['New York Conservatory For Dramatic Arts', 'http://www.nycda.edu', (40.7400530462, -73.9934381828)],
+['New York Film Academy', 'https://www.nyfa.edu', (40.7051424269, -74.0160109667)],
+['Pacific College of Oriental Medicine', 'http://www.pacificcollege.edu', (40.7397145034, -73.9897681745)],
+['Plaza College', 'http://www.plazacollege.edu', (40.7150542328, -73.8317057321)],
+['SBI Campus - An Affiliate of Sanford-Brown', 'http://www.sbmelville.edu', (40.7788017594, -73.4154488084)],
+['School of Visual Arts', 'http://www.sva.edu', (40.7386405929, -73.9823203964)],
+["Sotheby's Institute of Art - NY", 'http://www.sothebysinstitute.com/newyork/index.html', (40.7568516928, -73.9722762363)],
+["St. Paul's School of Nursing - Queens", 'http://www.stpaulsschoolofnursing.edu/', (40.7290214294, -73.8585980421)],
+["St. Paul's School of Nursing - Staten Island", 'http://www.stpaulsschoolofnursing.com', (40.6057066799, -74.1799169809)],
+['Swedish Institute Inc', 'http://www.swedishinstitute.edu', (40.7464409241, -73.9955751328)],
+['Tri-State College of Acupuncture', 'http://www.tsca.edu', (40.7399128907, -74.0021760433)],
+
 
 ]
 
@@ -405,7 +365,7 @@ for i in fin:
     # If no matching em URLs then just print blank em URL
     if len(i) == 1:
         no_count += 1
-        #print(str(i[0]) + ',')
+        print(str(i[0]) + ',')
     
     # If one matching em URL then use that one
     elif len(i) == 2:
@@ -416,7 +376,6 @@ for i in fin:
     # If matching em URLs then display them beneath
     else:
         multi_count += 1
-        #print(str(i[0]) + ',')
 
         # Don't print comma after em URLs
         for ii in i:

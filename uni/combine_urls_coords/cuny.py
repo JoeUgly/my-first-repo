@@ -730,7 +730,7 @@ for html_org in org_url_list:
 
             coords = (coords_sheet['GIS Latitude (Y)'][i], coords_sheet['GIS Longitute (X)'][i])
 
-            print([html_org[0], html_org[1], coords])
+            print(str([html_org[0], html_org[1], coords]) + ',')
             break
 
     else: 
