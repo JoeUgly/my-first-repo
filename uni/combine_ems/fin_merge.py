@@ -156,13 +156,13 @@ for ii in db:
     if not ii[1].strip():
         count += 1
         #print('\n', ii[0])
-        print('\n', str(ii) + ',')
+        print('\n' + str(ii) + ',')
 
 
     # Display entries with missing coords
     if ii[3] == (0.0, 0.0):
         count += 1
-        #print('\n', str(ii) + ',')
+        #print('\n' + str(ii) + ',')
 
 
     # Display all entries
