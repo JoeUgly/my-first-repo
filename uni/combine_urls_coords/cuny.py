@@ -18,6 +18,7 @@ import pandas as pd
 
 
 html = '''
+<table>
  <tbody>
         
                 <tr><td colspan="2" class="color8" style="font-weight:bold;text-align:center;"><a name="B">B</a></td></tr>
@@ -710,7 +711,7 @@ for i in l:
 
 ## Make list of org names and coords
 # Open coords file
-coords_file = pd.ExcelFile("uni_sheet.xlsx")
+coords_file = pd.ExcelFile("uni_coords.xlsx")
 
 # Select sheet number
 coords_sheet = coords_file.parse()
