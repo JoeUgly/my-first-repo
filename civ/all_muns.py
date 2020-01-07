@@ -17,7 +17,7 @@ import pandas as pd
 
 
 # Open URL file
-url_file = pd.read_csv("/home/joepers/Downloads/New_York_State_Locality_Hierarchy_with_Websites.csv")
+url_file = pd.read_csv("New_York_State_Locality_Hierarchy_with_Websites.csv")
 
 # Select column
 mun_col = url_file['Municipality']
