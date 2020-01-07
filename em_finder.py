@@ -10,6 +10,9 @@
 # checked_pages has no jbw conf values. only None, redirect, or error
 # dont output dups +
 
+# modify for use with civs. ie: 
+# dont output if only result is orignal URL
+
 
 
 
@@ -813,75 +816,129 @@ if __name__ == '__main__':
 
     all_list = [
 
-['Art Institute of New York City', '', 'http://www.artinstitutes.edu', (40.7549303706, -73.988503444)],
-
-['Asa College, Inc.', '', 'http://www.asa.edu', (40.6922729032, -73.9860830633)],
-
-['Bryant & Stratton Business College - North Syracuse', '', 'http://www.bryantstratton.edu', (43.1891227204, -76.2390537897)],
-
-['Bryant & Stratton College - Albany', '', 'http://www.bryantstratton.edu', (42.6981365193, -73.8099631495)],
-
-['Bryant & Stratton College - Buffalo', '', 'http://www.bryantstratton.edu', (42.8865731643, -78.8735239766)],
-
-['Bryant & Stratton College - Greece', '', 'http://www.bryantstratton.edu', (43.2406605054, -77.6960945905)],
-
-['Bryant & Stratton College - Henrietta', '', 'http://www.bryantstratton.edu', (43.0855524211, -77.6024060802)],
-
-['Bryant & Stratton College - Southtowns Campus', '', 'http://www.bryantstratton.edu', (42.7906774624, -78.7672821844)],
-
-['Bryant & Stratton College- Amherst', '', 'http://www.bryantstratton.edu', (43.0408165743, -78.7428249282)],
-
-['Bryant Stratton College - Syracuse', '', 'http://www.bryantstratton.edu', (43.0590713535, -76.137047667)],
-
-["Christie's Education, Inc", '', 'http://www.christies.edu', (40.7589337089, -73.9808982956)],
-
-['The College of Westchester', '', 'http://www.cw.edu', (41.0336489614, -73.7843757839)],
-
-['Devry College of New York', '', 'https://www.devry.edu/', (40.7474651252, -73.9833739393)],
-
-['Elmira Business Inst', '', 'http://www.ebi.edu', (42.0901041677, -76.8091666394)],
-
-['Elmira Business Institute - Vestal Executive Park', '', 'http://www.ebi.edu', (42.0970600729, -75.9754069723)],
-
-['Globe Inst of Tech Inc', '', 'http://www.globe.edu/', (40.7531259805, -73.9892959517)],
-
-['Island Drafting & Tech Inst', '', 'http://www.idti.edu', (40.6756418059, -73.4169787759)],
-
-['Jamestown Business College', '', 'http://www.jbcny.edu', (42.0955017298, -79.24973674660001)],
-
-['Long Island Business Inst', '', 'http://www.libi.edu', (40.8418417242, -73.2923288658)],
-
-['Long Island Business Institute - Flushing', '', 'http://www.libi.edu', (40.7602512526, -73.8299011581)],
-
-['Mandl School Inc', '', 'http://www.mandl.edu', (40.7644424202, -73.9837128667)],
-
-['Mildred Elley School', '', 'http://www.mildred-elley.edu', (42.6808311178, -73.7885586328)],
-
-['Mildred Elley-Nyc', '', 'http://mildred-elley.edu', (40.7684987, -73.98245132)],
-
-['New York Automotive & Diesel Institute', '', 'http://', (40.7052209641, -73.7806300408)],
-
-['New York Conservatory For Dramatic Arts', '', 'http://www.nycda.edu', (40.7400530462, -73.9934381828)],
-
-['New York Film Academy', '', 'https://www.nyfa.edu', (40.7051424269, -74.0160109667)],
-
-['Pacific College of Oriental Medicine', '', 'http://www.pacificcollege.edu', (40.7397145034, -73.9897681745)],
-
-['Plaza College', '', 'http://www.plazacollege.edu', (40.7150542328, -73.8317057321)],
-
-['SBI Campus - An Affiliate of Sanford-Brown', '', 'http://www.sbmelville.edu', (40.7788017594, -73.4154488084)],
-
-['School of Visual Arts', '', 'http://www.sva.edu', (40.7386405929, -73.9823203964)],
-
-["Sotheby's Institute of Art - NY", '', 'http://www.sothebysinstitute.com/newyork/index.html', (40.7568516928, -73.9722762363)],
-
-["St. Paul's School of Nursing - Queens", '', 'http://www.stpaulsschoolofnursing.edu/', (40.7290214294, -73.8585980421)],
-
-["St. Paul's School of Nursing - Staten Island", '', 'http://www.stpaulsschoolofnursing.com', (40.6057066799, -74.1799169809)],
-
-['Swedish Institute Inc', '', 'http://www.swedishinstitute.edu', (40.7464409241, -73.9955751328)],
-
-['Tri-State College of Acupuncture', '', 'http://www.tsca.edu', (40.7399128907, -74.0021760433)],
+['City of Albany', '', 'http://www.albanyny.org', (42.6573000189, -73.7464300179)],
+['City of Amsterdam', '', 'http://www.amsterdamny.gov/', (42.9387508724, -74.1884322486)],
+['City of Auburn', '', 'http://www.auburnny.gov', (42.9173899379, -76.5582099703)],
+['City of Batavia', '', 'http://www.batavianewyork.com', (42.9969599591, -78.2176699417)],
+['City of Beacon', '', 'http://www.cityofbeacon.org', (41.4929950346, -73.9591150045)],
+['City of Binghamton', '', 'http://www.cityofbinghamton.com', (42.096111616, -75.9118477851)],
+['County of Bronx', '', '', (40.8261051448, -73.9233181992)],
+['County of Kings', '', '', (40.6938822504, -73.9892071663)],
+['City of Buffalo', '', 'http://www.city-buffalo.com', (42.8817749713, -78.8815099994)],
+['City of Canandaigua', '', 'http://www.canandaiguanewyork.gov', (42.8455649254, -77.3076599588)],
+['City of Cohoes', '', 'http://www.cohoes.com', (42.7746069035, -73.6996130879)],
+['City of Corning', '', 'http://www.cityofcorning.com', (42.1302750887, -77.0356949537)],
+['City of Cortland', '', 'http://www.cortland.org/', (42.5990905595, -76.1783437374)],
+['City of Dunkirk', '', 'http://www.dunkirktoday.com/', (42.4811850595, -79.3101899642)],
+['City of Elmira', '', 'http://cityofelmira.net', (42.0915386753, -76.8030461605)],
+['City of Fulton', '', 'http://www.cityoffulton.com', (43.3208530475, -76.4154790307)],
+['City of Geneva', '', 'http://visitgenevany.com', (42.8676953111, -76.9826892272)],
+['City of Glen Cove', '', 'http://www.glencove-li.com/', (40.8641440348, -73.6314768796)],
+['City of Glens Falls', '', 'http://www.cityofglensfalls.com', (43.3108212205, -73.6442385422)],
+['City of Gloversville', '', 'http://www.cityofgloversville.com', (43.0511472971, -74.348809909)],
+['City of Hornell', '', 'http://www.cityofhornell.com', (42.3277498303, -77.6614328321)],
+['City of Hudson', '', 'http://www.cityofhudson.org', (42.2492858918, -73.785717693)],
+['City of Ithaca', '', 'http://www.ci.ithaca.ny.us/', (42.4388861499, -76.4984806831)],
+['City of Jamestown', '', 'http://www.jamestownny.net', (42.0963517584, -79.238406786)],
+['City of Johnstown', '', 'http://www.cityofjohnstown-ny.com', (43.007121272, -74.3700183349)],
+['City of Kingston', '', 'http://www.kingston-ny.gov', (41.927146491, -73.9961675891)],
+['City of Lackawanna', '', 'http://www.lackawannany.gov/', (42.8258990287, -78.8248276162)],
+['City of Little Falls', '', 'http://cityoflittlefalls.net/', (43.0445112722, -74.8555181491)],
+['City of Lockport', '', 'http://elockport.com/city-index.php', (43.1695629342, -78.695646266)],
+['City of Long Beach', '', 'http://www.longbeachny.org', (40.5900218115, -73.6656186719)],
+['County of New York', '', '', (40.7137100168, -74.0084949972)],
+['City of Mechanicville', '', 'http://www.mechanicvilleny.gov', (42.9036815273, -73.6852842975)],
+['City of Middletown', '', 'http://www.middletown-ny.com', (41.4458479641, -74.4213628065)],
+['City of Mount Vernon', '', 'http://www.cmvny.com', (40.9117545133, -73.8392403148)],
+['City of Newburgh', '', 'http://www.CityofNewburgh-ny.gov', (41.4996853241, -74.0100472883)],
+['City of New Rochelle', '', 'http://newrochelleny.com/', (40.9200100003, -73.7861600252)],
+['City of New York City', '', 'http://www.nyc.gov', (0.0, 0.0)],
+['City of Niagara Falls', '', 'http://www.niagarafallsusa.org', (43.0958918917, -79.0551239216)],
+['City of North Tonawanda', '', 'http://www.northtonawanda.org/', (43.029631249, -78.8698685116)],
+['City of Norwich', '', 'http://www.norwichnewyork.net', (42.5472650104, -75.5339550684)],
+['City of Ogdensburg', '', 'http://www.ogdensburg.org', (44.6983160149, -75.4920106633)],
+['City of Olean', '', 'http://www.cityofolean.org/', (42.0701950675, -78.4165549339)],
+['City of Oneida', '', 'http://www.oneidacity.com/', (43.0964362165, -75.6532163874)],
+['City of Oneonta', '', 'http://www.oneonta.ny.us', (42.4550014772, -75.0601782007)],
+['City of Oswego', '', 'http://www.oswegony.org', (43.4554020797, -76.511214423)],
+['City of Peekskill', '', 'http://www.cityofpeekskill.com', (41.2916486594, -73.9224745274)],
+['City of Plattsburgh', '', 'http://www.cityofplattsburgh.com', (44.6922362704, -73.4544196285)],
+['City of Port Jervis', '', 'http://www.portjervisny.org', (41.3750386924, -74.6909888012)],
+['City of Poughkeepsie', '', 'http://www.cityofpoughkeepsie.com', (41.7070900861, -73.9280500496)],
+['County of Queens', '', '', (40.7047341302, -73.8091406243)],
+['City of Rensselaer', '', 'http://www.rensselaerny.gov', (42.6386513986, -73.7450785548)],
+['City of Rochester', '', 'http://www.cityofrochester.gov/', (43.1570755002, -77.6150790944)],
+['City of Rome', '', 'http://www.romenewyork.com', (43.2121413109, -75.4587679929)],
+['City of Rye', '', 'http://www.ryeny.gov', (40.9811187479, -73.6842288189)],
+['City of Salamanca', '', 'http://www.salmun.com', (42.1568122724, -78.7074083921)],
+['City of Saratoga Springs', '', 'http://www.saratoga-springs.org', (43.0833372744, -73.7840689417)],
+['City of Schenectady', '', 'http://www.cityofschenectady.com', (42.8159999546, -73.9424600046)],
+['City of Sherrill', '', 'http://www.sherrillny.org', (43.0690666949, -75.6018829703)],
+['County of Richmond', '', '', (40.6430332331, -74.0771124146)],
+['City of Syracuse', '', 'http://www.syrgov.net/', (43.0499913768, -76.1490777002)],
+['City of Tonawanda', '', 'http://www.ci.tonawanda.ny.us/', (43.0197513973, -78.8869886541)],
+['City of Troy', '', 'http://www.troyny.gov', (42.7371713848, -73.6873786047)],
+['City of Utica', '', 'http://www.cityofutica.com', (43.1017328064, -75.2363561071)],
+['City of Watertown', '', 'http://www.watertown-ny.gov/', (43.9725894821, -75.9100070734)],
+['City of Watervliet', '', 'http://www.watervliet.com', (42.7257595931, -73.6999508073)],
+['City of White Plains', '', 'http://www.cityofwhiteplains.com', (41.0333599116, -73.7655056043)],
+['City of Yonkers', '', 'http://www.yonkersny.gov', (40.9317428094, -73.8972508174)],
+['Town of Berne', '', 'http://berneny.org', (42.6211800914, -74.2250550942)],
+['Town of Bethlehem', '', 'http://www.townofbethlehem.org', (42.6202071962, -73.8396694786)],
+['Village of Ravena', '', 'http://www.villageofRavena.com', (42.4730475749, -73.8148364099)],
+['Town of Coeymans', '', 'http://www.coeymans.org', (42.4693388844, -73.8091313941)],
+['Village of Colonie', '', 'http://www.colonievillage.org', (42.7209845616, -73.8323003383)],
+['Village of Menands', '', 'http://www.villageofmenands.com', (42.6932700928, -73.7236974306)],
+['Town of Colonie', '', 'http://www.colonie.org', (42.7194463695, -73.7560201183)],
+['Village of Green Island', '', 'http://www.villageofgreenisland.com/village/', (42.7420715022, -73.692098092)],
+['Town of Green Island', '', 'http://www.villageofgreenisland.com/town/', (42.741554656, -73.6910802677)],
+['Village of Altamont', '', 'http://www.altamontvillage.org/', (42.7030407847, -74.0247829213)],
+['Town of Knox', '', 'http://www.knoxny.org', (42.6699854459, -74.1189933789)],
+['Village of Voorheesville', '', 'http://www.villageofvoorheesville.com/', (42.6517985725, -73.9282599671)],
+['Town of New Scotland', '', 'http://www.townofnewscotland.com', (42.6313429755, -73.9078152892)],
+['Town of Rensselaerville', '', 'http://www.rensselaerville.com', (42.4568758048, -74.1369822302)],
+['Town of Westerlo', '', 'http://townofwesterlony.com', (42.5098452965, -74.0463150929)],
+['County of Albany', '', 'http://www.albanycounty.com', (42.6500423313, -73.7542171363)],
+['Village of Alfred', '', 'http://www.alfredny.org', (42.2537259067, -77.7912654453)],
+['Town of Alfred', '', 'http://www.townofalfred.com/', (42.2534100076, -77.7674649392)],
+['Town of Allen', '', 'http://www.alleganyco.com/local_govt/Allen/', (42.3494299997, -77.987814909)],
+['Town of Alma', '', 'http://www.townofalma.org', (42.0844100067, -78.0641449635)],
+['Village of Almond', '', 'http://www.alleganyco.com/local_govt/villages/Almond/', (42.3107450281, -77.8451049549)],
+['Town of Almond', '', 'http://www.almondny.us', (42.3167121717, -77.7412362542)],
+['Village of Belmont', '', 'http://www.belmontny.org/', (42.2229763901, -78.0344413242)],
+['Town of Amity', '', 'http://www.townofamity-ny.com', (42.22322186, -78.0345899342)],
+['Village of Andover', '', 'http://www.alleganyco.com/local_govt/villages/Andover/', (42.1529200271, -77.8014599238)],
+['Town of Andover', '', 'http://www.alleganyco.com/local_govt/Andover/', (42.157626977, -77.7952459146)],
+['Village of Angelica', '', 'http://www.angelica.ny.com', (42.3066039785, -78.0157489249)],
+['Town of Angelica', '', 'http://www.alleganyco.com/local_govt/Angelica/', (42.3494299997, -77.987814909)],
+['Town of Belfast', '', 'http://www.alleganyco.com/local_govt/Belfast/', (42.3440569704, -78.1136709551)],
+['Town of Birdsall', '', 'http://www.alleganyco.com/local_govt/Birdsall/', (42.4169000308, -77.8567649246)],
+['Village of Bolivar', '', 'http://www.alleganyco.com/local_govt/villages/Bolivar/', (42.0541500429, -78.1058649788)],
+['Village of Richburg', '', 'http://www.alleganyco.com/local_govt/villages/Richburg/', (42.0885000223, -78.1528299965)],
+['Town of Bolivar', '', 'http://www.townofbolivar.com', (42.0678309988, -78.1673581523)],
+['Village of Canaseraga', '', 'http://www.alleganyco.com/local_govt/villages/Canseraga/', (42.4605070836, -77.7839228939)],
+['Town of Burns', '', 'http://www.townofburnsny.com', (42.4169000308, -77.8567649246)],
+['Town of Caneadea', '', 'http://townofcaneadea.org/', (42.3878185214, -78.1534238663)],
+['Town of Centerville', '', 'http://centerville.wordpress.com/', (42.4797900838, -78.2497449156)],
+['Town of Clarksville', '', 'http://www.alleganyco.com/local_govt/Clarksville/', (42.2709550195, -78.3352249491)],
+['Village of Cuba', '', 'http://www.cubany.org/html/vofficials.html', (42.2709550195, -78.3352249491)],
+['Town of Cuba', '', 'http://www.cubany.org/', (42.2709550195, -78.3352249491)],
+['Town of Friendship', '', 'http://www.townoffriendship-ny.com/', (42.1914700176, -78.1464299168)],
+['Town of Genesee', '', 'http://www.alleganyco.com/local_govt/Genesee/', (41.999889095, -78.2663889579)],
+['Town of Granger', '', 'http://www.grangerny.org/', (42.5241450893, -78.1724199194)],
+['Town of Grove', '', 'http://townofgrove.com/', (42.4891666171, -77.9510257746)],
+['Town of Hume', '', 'http://www.humetown.org', (42.4663161199, -78.1118385647)],
+['Town of Independence', '', 'http://independenceny.org', (42.0365899209, -77.7682863267)],
+['Town of New Hudson', '', 'http://www.newhudsonny.org', (42.2859900341, -78.2533949147)],
+['Town of Rushford', '', 'http://www.rushfordny.org', (42.3839600177, -78.2481499118)],
+['Town of Scio', '', 'http://townofsciony.org/', (42.1556350441, -78.0261149249)],
+['Town of Ward', '', 'http://www.alleganyco.com/local_govt/Ward/', (42.2460150903, -77.9812799385)],
+['Village of Wellsville', '', 'http://wellsvilleny.com', (42.1223672121, -77.9487899052)],
+['Town of Wellsville', '', 'http://townofwellsvilleny.org', (42.1187388795, -77.9512214399)],
+['Town of West Almond', '', 'http://www.alleganyco.com/local_govt/WAlmond/', (42.3107450281, -77.8451049549)],
+['Town of Willing', '', 'http://willingny.org', (42.0575165342, -77.9161613671)],
+['Town of Wirt', '', 'http://www.alleganyco.com/local_govt/Wirt/', (42.1914700176, -78.1464299168)],
+['County of Allegany', '', 'http://www.alleganyco.com', (42.2460150903, -77.9812799385)],
 
 
 ]
@@ -894,7 +951,7 @@ if __name__ == '__main__':
 
     # Advanced options
     max_crawl_depth = 2
-    num_procs = 8
+    num_procs = 16
 
 
     # URL queues
