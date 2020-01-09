@@ -3,6 +3,9 @@ work with
 
 
 civ:
+	total count: 1605
+
+	only use entries with an em URL
 
 
 sch:

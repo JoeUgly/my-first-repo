@@ -12,7 +12,3346 @@
 # This list must contain all entries. Use blank entries when necessary
 e_l = [
 
+['City of Salamanca', 'https://cattco-portal.mycivilservice.com/', 'http://www.salmun.com', (42.1568122724, -78.7074083921)],
 
+
+
+['City of Hudson', '', 'http://www.cityofhudson.org', (42.2492858918, -73.785717693)],
+
+
+['City of Little Falls', '', 'http://cityoflittlefalls.net/', (43.0445112722, -74.8555181491)],
+
+
+['City of Amsterdam', '', 'http://www.amsterdamny.gov/', (42.9387508724, -74.1884322486)],
+
+
+['City of Syracuse', '', 'http://www.syrgov.net/', (43.0499913768, -76.1490777002)],
+
+
+['City of North Tonawanda', '', 'http://www.northtonawanda.org/', (43.029631249, -78.8698685116)],
+
+
+['City of Hornell', '', 'http://www.cityofhornell.com', (42.3277498303, -77.6614328321)],
+
+
+
+['City of Geneva', '', 'http://visitgenevany.com', (42.8676953111, -76.9826892272)],
+
+
+
+['City of Mechanicville', '', 'http://www.mechanicvilleny.gov', (42.9036815273, -73.6852842975)],
+
+
+['City of New York City', '', 'http://www.nyc.gov', (0.0, 0.0)],
+
+
+
+['City of Plattsburgh', '', 'http://www.cityofplattsburgh.com', (44.6922362704, -73.4544196285)],
+
+
+['City of Cortland', '', 'http://www.cortland.org/', (42.5990905595, -76.1783437374)],
+
+
+
+['City of Binghamton', '', 'http://www.cityofbinghamton.com', (42.096111616, -75.9118477851)],
+
+
+
+['Village of Ravena', '', 'http://www.villageofRavena.com', (42.4730475749, -73.8148364099)],
+
+
+['City of Fulton', '', 'http://www.cityoffulton.com', (43.3208530475, -76.4154790307)],
+
+
+
+['Town of Berne', '', 'http://berneny.org', (42.6211800914, -74.2250550942)],
+
+
+['Town of Rensselaerville', '', 'http://www.rensselaerville.com', (42.4568758048, -74.1369822302)],
+
+
+['Town of Green Island', 'http://www.villageofgreenisland.com/employment/', 'http://www.villageofgreenisland.com/town/', (42.741554656, -73.6910802677)],
+
+
+
+['City of Johnstown', '', 'http://www.cityofjohnstown-ny.com', (43.007121272, -74.3700183349)],
+
+
+
+['Town of Alfred', '', 'http://www.townofalfred.com/', (42.2534100076, -77.7674649392)],
+
+
+['Village of Voorheesville', '', 'http://www.villageofvoorheesville.com/', (42.6517985725, -73.9282599671)],
+
+
+['Town of New Scotland', '', 'http://www.townofnewscotland.com', (42.6313429755, -73.9078152892)],
+
+
+['Town of Knox', '', 'http://www.knoxny.org', (42.6699854459, -74.1189933789)],
+
+
+['Town of Westerlo', '', 'http://townofwesterlony.com', (42.5098452965, -74.0463150929)],
+
+
+['Town of Amity', '', 'http://www.townofamity-ny.com', (42.22322186, -78.0345899342)],
+
+
+['Village of Belmont', '', 'http://www.belmontny.org/', (42.2229763901, -78.0344413242)],
+
+
+['Town of Almond', '', 'http://www.almondny.us', (42.3167121717, -77.7412362542)],
+
+
+
+['Village of Angelica', '', 'http://www.angelicany.com/', (42.3066039785, -78.0157489249)],
+
+
+['Village of Altamont', '', 'http://www.altamontvillage.org/', (42.7030407847, -74.0247829213)],
+
+
+['Village of Colonie', '', 'http://www.colonievillage.org', (42.7209845616, -73.8323003383)],
+
+
+['Town of Burns', '', 'http://www.townofburnsny.com', (42.4169000308, -77.8567649246)],
+
+
+['Town of Bolivar', '', 'http://www.townofbolivar.com', (42.0678309988, -78.1673581523)],
+
+
+['Village of Alfred', '', 'http://www.alfredny.org', (42.2537259067, -77.7912654453)],
+
+
+['Town of Friendship', '', 'http://www.townoffriendship-ny.com/', (42.1914700176, -78.1464299168)],
+
+
+['Town of Andover', 'https://www.alleganyco.com/departments/employment-and-training/', 'http://www.alleganyco.com/local_govt/Andover/', (42.157626977, -77.7952459146)],
+
+
+
+
+['Town of Angelica', '', 'http://www.alleganyco.com/local_govt/Angelica/', (42.3494299997, -77.987814909)],
+
+
+
+['Village of Menands', '', 'http://www.villageofmenands.com', (42.6932700928, -73.7236974306)],
+
+
+['Town of Grove', '', 'http://townofgrove.com/', (42.4891666171, -77.9510257746)],
+
+
+['Town of Granger', '', 'http://www.grangerny.org/', (42.5241450893, -78.1724199194)],
+
+
+['Town of Cuba', '', 'http://www.cubany.org/', (42.2709550195, -78.3352249491)],
+
+
+['Town of Independence', '', 'http://independenceny.org', (42.0365899209, -77.7682863267)],
+
+
+['Town of New Hudson', '', 'http://www.newhudsonny.org', (42.2859900341, -78.2533949147)],
+
+
+['Town of Scio', '', 'http://townofsciony.org/', (42.1556350441, -78.0261149249)],
+
+
+['Town of Coeymans', '', 'http://www.coeymans.org', (42.4693388844, -73.8091313941)],
+
+
+
+['Town of Rushford', '', 'http://www.rushfordny.org', (42.3839600177, -78.2481499118)],
+
+
+['Town of Wellsville', '', 'http://townofwellsvilleny.org', (42.1187388795, -77.9512214399)],
+
+
+['Town of Hume', '', 'http://www.humetown.org', (42.4663161199, -78.1118385647)],
+
+
+['Town of Willing', '', 'http://willingny.org', (42.0575165342, -77.9161613671)],
+
+
+['Town of Centerville', '', 'http://centerville.wordpress.com/', (42.4797900838, -78.2497449156)],
+
+
+['Town of Alma', '', 'http://www.townofalma.org', (42.0844100067, -78.0641449635)],
+
+
+['Town of Genesee', '', 'http://www.alleganyco.com/local_govt/Genesee/', (41.999889095, -78.2663889579)],
+
+
+
+['Town of Conklin', '', 'http://www.townofconklin.org', (42.0331000009, -75.8186400293)],
+
+
+['Town of Lisle', '', 'http://www.gobroomecounty.com/community/municipalities/lisle', (42.3332200204, -76.0438549349)],
+
+
+['Village of Deposit', '', 'http://www.villageofdeposit.org/', (42.0604616119, -75.4256780975)],
+
+
+['Village of Whitney Point', '', 'http://www.whitneypoint.org', (42.3355450776, -75.9413549145)],
+
+
+['Town of Dickinson', '', 'http://www.townofdickinson.com', (42.1192815531, -75.9109978392)],
+
+
+['Town of Kirkwood', '', 'http://www.townofkirkwood.org', (42.0904780165, -75.823344977)],
+
+
+['Village of Johnson City', '', 'http://www.villageofjc.com/', (42.1153868841, -75.9552031604)],
+
+
+['Village of Allegany', '', 'http://www.allegany.org/index.php?Village%20of%20Allegany', (42.0866911608, -78.4897490579)],
+
+
+
+['Town of Allegany', '', 'http://www.allegany.org/index.php?Town%20of%20Allegany', (42.0912623873, -78.4956287121)],
+
+
+['Town of Dayton', '', 'http://daytonny.org', (42.3975141603, -79.0011372859)],
+
+
+['Town of East Otto', '', 'http://www.eastottony.org/', (42.3910997966, -78.754543364)],
+
+
+['Town of Windsor', '', 'http://www.windsorny.org', (42.0779615648, -75.6394680088)],
+
+
+['Town of Coldspring', '', 'http://www.cold-springny.org/', (42.1103805301, -78.9037920001)],
+
+
+['Town of Colesville', '', 'http://townofcolesville.org/', (42.2646950057, -75.673000038)],
+
+
+
+['Town of Ashford', '', 'http://ashfordny.org', (42.4214000838, -78.6416749168)],
+
+
+['Town of Farmersville', '', 'http://farmersvilleny.org', (42.3863171837, -78.3774224167)],
+
+
+['Village of Franklinville', '', 'http://franklinvilleny.org', (42.3322479936, -78.461222759)],
+
+
+['Village of Port Dickinson', '', 'http://www.portdickinsonny.us/', (42.1383415793, -75.8951578505)],
+
+
+['Town of Great Valley', '', 'http://www.greatvalleyny.org', (42.1943500062, -78.6579789542)],
+
+
+['Town of Maine', '', 'http://townofmaine.org/', (42.2364600713, -76.0557149238)],
+
+
+
+
+['Town of Binghamton', '', 'http://www.townofbinghamton.com', (42.0686416183, -75.9110877708)],
+
+
+['Town of Freedom', '', 'http://www.freedomny.org', (42.4980672618, -78.3705102901)],
+
+
+['Town of Hinsdale', '', 'http://hinsdaleny.org', (42.2538621085, -78.4154698957)],
+
+
+['City of Sherrill', 'https://sherrillny.org/city-hall/employment/', 'http://www.sherrillny.org', (43.0690666949, -75.6018829703)],
+
+
+
+['Town of Leon', '', 'http://www.leonny.org', (42.2223850153, -79.0717098986)],
+
+
+['Town of Humphrey', '', 'http://humphreytownship.com', (42.2132550189, -78.595034911)],
+
+
+['Town of Lyndon', '', 'http://lyndontown.org', (42.305111125, -78.3494486226)],
+
+
+['Town of Mansfield', '', 'http://mansfieldny.org', (42.2360400371, -78.8135349038)],
+
+
+['Town of Little Valley', '', 'http://www.littlevalleyny.org/', (42.2495188986, -78.7963717379)],
+
+
+['Town of Machias', '', 'http://www.machiasny.org/', (42.4189658219, -78.4951916735)],
+
+
+['Town of Nanticoke', '', 'http://townofnanticokeny.com', (42.2364600713, -76.0557149238)],
+
+
+
+['Town of Napoli', '', 'http://www.napoliny.org/', (42.2030549332, -78.8914773577)],
+
+
+['Town of Otto', '', 'http://www.ottony.org/', (42.4353880298, -78.8376479306)],
+
+
+['Village of Ellicottville', '', 'http://www.ellicottvillegov.com', (42.2753569189, -78.6732948711)],
+
+
+['Town of Persia', '', 'http://www.persiany.org/', (42.4627883432, -78.9356114561)],
+
+
+['Village of Portville', '', 'http://www.portvilleny.net/', (42.0385176769, -78.3401795447)],
+
+
+['Town of Salamanca', '', 'http://townofsalamanca.org', (42.0535950252, -78.8093599693)],
+
+
+['Town of Yorkshire', '', 'http://yorkshireny.org', (42.5271512307, -78.4699741233)],
+
+
+['Village of Gowanda', '', 'http://www.villageofgowanda.com', (42.4634697488, -78.9343601051)],
+
+
+['Village of Little Valley', '', 'http://www.villageoflittlevalley.org/', (42.2488904361, -78.7988972638)],
+
+
+['Town of Randolph', '', 'http://randolphny.net/', (42.1627566482, -78.973160715)],
+
+
+
+['Village of Weedsport', '', 'http://villageofweedsport.org/', (43.0479236644, -76.5612696579)],
+
+
+
+['Village of Aurora', '', 'http://www.auroranewyork.us/', (42.7580387155, -76.7032500194)],
+
+
+['Village of Cato', '', 'http://www.villageofcatony.com/', (43.1830999263, -76.5682399762)],
+
+
+['Town of Fleming', '', 'http://www.cayugacounty.us/portals/1/fleming', (42.861587053, -76.5787164409)],
+
+
+
+['Town of Mentz', '', 'http://www.townofmentz.com/', (43.058139911, -76.6582449516)],
+
+
+['Town of South Valley', '', 'http://southvalleyny.org', (42.032853544, -78.9946116554)],
+
+
+
+['Town of Carroll', '', 'http://carrollny.org/', (42.0529141909, -79.1599119511)],
+
+
+['Town of Charlotte', '', 'http://www.charlotteny.org/', (42.263009019, -79.2583801208)],
+
+
+['Village of Union Springs', '', 'http://unionspringsny.com/', (42.8426355443, -76.6966262298)],
+
+
+['Village of Lakewood', '', 'http://www.lakewoodny.com', (42.1036416945, -79.3284567676)],
+
+
+['Town of Cherry Creek', '', 'http://cherrycreekny.org/', (42.3091400317, -79.1395299292)],
+
+
+['Village of Mayville', '', 'http://www.villageofmayville.com/', (42.2374150269, -79.5003899753)],
+
+
+['Town of Chautauqua', '', 'http://www.townofchautauqua.com/', (42.2536116964, -79.5047366211)],
+
+
+['Town of Ellery', '', 'http://www.elleryny.org', (42.159260957, -79.3907878507)],
+
+
+['Village of Celoron', '', 'http://celoronny.org/', (42.1098600859, -79.2819999891)],
+
+
+['Village of Bemus Point', '', 'http://www.bemuspointny.org/', (42.157798107, -79.3934899864)],
+
+
+['Town of Dunkirk', '', 'http://www.dunkirkny.org/', (42.4641042489, -79.3683189189)],
+
+
+['Town of Ellington', '', 'http://ellingtonny.org', (42.2169500752, -79.1077749786)],
+
+
+['Town of French Creek', '', 'http://frenchcreekny.org', (42.0516000768, -79.6695299528)],
+
+
+['Village of Falconer', '', 'http://falconerny.org/', (42.11741174, -79.1992667464)],
+
+
+['Town of Clymer', '', 'http://www.townofclymer.org/', (42.0208140612, -79.6278259288)],
+
+
+
+['Town of Mina', '', 'http://www.townofmina.info/', (42.1245950703, -79.7401149527)],
+
+
+['Town of Kiantone', '', 'http://kiantoneny.org', (42.0639317596, -79.2060667857)],
+
+
+['Town of Poland', '', 'http://www.polandny.org/', (42.1582217389, -79.1014368089)],
+
+
+['Town of Ripley', '', 'http://www.ripley-ny.com/', (42.2285750799, -79.6962149495)],
+
+
+['Village of Westfield', '', 'http://www.villageofwestfield.org/', (42.3222016965, -79.5760065773)],
+
+
+
+['Town of Westfield', '', 'http://www.townofwestfield.org', (42.3222016965, -79.5760065773)],
+
+
+
+['Village of Wellsburg', '', 'http://villageofwellsburg.com/blog/', (42.0115259327, -76.7287556661)],
+
+
+['Town of Ashland', '', 'http://www.townofashland.net', (42.0220900548, -76.7656799332)],
+
+
+['Town of Busti', '', 'http://www.townofbusti.com', (42.10206311, -79.3256404693)],
+
+
+['Town of Pomfret', '', 'http://www.townofpomfretny.com/', (42.4408616576, -79.3313166939)],
+
+
+
+['Town of Catlin', '', 'http://townofcatlin.com', (42.2526830657, -77.0340368918)],
+
+
+['Village of Cassadaga', '', 'http://www.cassadaganewyork.org/', (42.3425300248, -79.3111541755)],
+
+
+['Town of Erin', '', 'http://townoferin.org', (42.1789459081, -76.692547363)],
+
+
+['Town of Harmony', '', 'http://thetownofharmony.com', (42.0438176931, -79.4125474131)],
+
+
+['Town of Chemung', '', 'http://www.townofchemung.com', (42.0723193921, -76.5773407709)],
+
+
+['Town of Elmira', '', 'http://www.townofelmira.com', (42.0778886082, -76.8443424656)],
+
+
+['Town of Horseheads', '', 'http://www.townofhorseheads.org', (42.189701836, -76.8247573485)],
+
+
+['Town of Southport', '', 'http://townofsouthport.com/', (42.0554070686, -76.8184223825)],
+
+
+['Village of Bainbridge', '', 'http://bainbridgeny.org/', (42.2940429101, -75.4786615592)],
+
+
+['Town of Afton', '', 'http://townofafton.com', (42.2403750327, -75.5434350608)],
+
+
+['Town of Bainbridge', '', 'http://bainbridgeny.org', (42.2940429101, -75.4786615592)],
+
+
+['Town of McDonough', '', 'http://mcdonoughny.com', (42.5068100881, -75.7730950625)],
+
+
+['Village of Elmira Heights', '', 'http://www.elmiraheights.org/', (42.1278013373, -76.8221350781)],
+
+
+
+['Town of Big Flats', '', 'http://www.bigflatsny.gov', (42.1410521878, -76.9350312079)],
+
+
+['Town of Columbus', '', 'http://www.columbusny.us/', (42.6828800835, -75.4590800354)],
+
+
+['Town of Hanover', '', 'http://www.townofhanover.org', (42.5239200857, -79.1708899292)],
+
+
+['Village of New Berlin', '', 'http://thevillageofnewberlin.org/', (42.6022050317, -75.3575400824)],
+
+
+['Village of Keeseville', '', 'http://www.co.essex.ny.us/keeseville.asp', (44.5050099083, -73.5240900963)],
+
+
+['Village of Oxford', '', 'http://www.oxfordny.com/government/village/index.php', (42.440460069, -75.6294900965)],
+
+
+
+['Town of Greene', '', 'http://www.nygreene.com/', (42.3297871951, -75.7709636724)],
+
+
+['Town of New Berlin', '', 'http://www.townofnewberlin.org', (42.6237311531, -75.3323014041)],
+
+
+['Town of Altona', '', 'http://www.townofaltonany.com/', (44.8540849847, -73.6535900305)],
+
+
+['Village of Champlain', '', 'http://www.vchamplain.com', (44.983472492, -73.445344456)],
+
+
+['Town of Norwich', '', 'http://www.townofnorwich.homestead.com', (42.5205477763, -75.5106178428)],
+
+
+['Town of Clinton', '', 'http://www.townofclinton.com', (44.9558861473, -73.9282292229)],
+
+
+['Town of Sherburne', '', 'http://www.townofsherburne.net/', (42.6788514318, -75.5001079766)],
+
+
+['Town of Mooers', '', 'http://www.mooersny.com', (44.9596049518, -73.576320087)],
+
+
+['Town of Peru', '', 'http://www.perutown.com', (44.5821033279, -73.5239635555)],
+
+
+['Village of Horseheads', '', 'http://horseheads.org/', (42.1666852708, -76.8205623367)],
+
+
+['Village of Dannemora', '', 'http://www.villageofdannemora.com/', (44.7191156936, -73.7239459385)],
+
+
+['Town of Ellenburg', '', 'http://www.nnyacgs.com/town_of_ellenburgh.html', (44.8940249646, -73.838045075)],
+
+
+['Village of Brocton', '', 'http://www.villageofbrocton.com/', (42.3972730962, -79.4521148693)],
+
+
+['Town of Schuyler Falls', '', 'http://www.schuylerfallsny.com', (44.6904610419, -73.5611959403)],
+
+
+['Town of Plattsburgh', '', 'http://townofplattsburgh.com', (44.7054116351, -73.5402666892)],
+
+
+['Town of Chatham', '', 'http://www.chathamnewyork.us/', (42.4790150601, -73.6635050318)],
+
+
+['Town of Chazy', '', 'http://www.townofchazy.com', (44.8871625643, -73.4369157927)],
+
+
+['Village of Philmont', '', 'http://www.philmont.org/', (42.2494829071, -73.648551709)],
+
+
+['Village of Sherburne', '', 'http://www.sherburne.org', (42.6782768738, -75.4999970008)],
+
+
+['Village of Chatham', '', 'http://www.villageofchatham.com', (42.3636263566, -73.594797144)],
+
+
+
+['Town of Copake', '', 'http://townofcopake.org/', (42.1113584739, -73.5567071322)],
+
+
+['Town of North Harmony', '', 'http://www.townofnorthharmony.com', (42.1550150911, -79.406039923)],
+
+
+
+['Town of Ghent', '', 'http://townofghent.org', (42.2969750046, -73.6406850448)],
+
+
+['Town of Beekmantown', '', 'http://townofbeekmantown.com', (44.7750539963, -73.4801651811)],
+
+
+['Town of Austerlitz', '', 'http://www.austerlitzny.com', (42.3176250948, -73.4910200906)],
+
+
+
+['Village of Silver Creek', '', 'http://www.silvercreekny.com/', (42.5456716108, -79.1694566975)],
+
+
+['Town of Dannemora', '', 'http://www.townofdannemora.org', (44.7224699078, -73.7168650456)],
+
+
+['Town of Canaan', '', 'http://www.canaannewyork.org', (42.4072000406, -73.4253600693)],
+
+
+['Village of Kinderhook', '', 'http://villageofkinderhook.org/', (42.3956527131, -73.697588012)],
+
+
+['Town of Kinderhook', '', 'http://www.kinderhook-ny.gov', (42.4428035992, -73.6635574639)],
+
+
+['Town of New Lebanon', '', 'http://www.townofnewlebanon.com', (42.4784438456, -73.3742657188)],
+
+
+['Town of Saranac', '', 'http://www.townofsaranac.com', (44.6416920204, -73.7496456087)],
+
+
+['Town of Hillsdale', '', 'http://hillsdaleny.com', (42.2110400634, -73.5386400331)],
+
+
+['Town of Taghkanic', '', 'http://www.taghkanic.org', (42.0867050963, -73.7556200535)],
+
+
+['Village of Valatie', '', 'http://www.valatievillage.com/', (42.4134025896, -73.6728977092)],
+
+
+['Town of Greenport', '', 'http://www.townofgreenport.com', (42.2562749185, -73.7588276667)],
+
+
+['Town of Ancram', '', 'http://www.townofancram.org', (42.0806850715, -73.6552250891)],
+
+
+
+['Town of Clermont', '', 'http://www.clermontny.org', (42.0868587674, -73.8252404562)],
+
+
+['Town of Cortlandville', '', 'http://www.cortlandville.org/', (42.5807410972, -76.2102795201)],
+
+
+['Town of Truxton', '', 'http://townoftruxton.com/', (42.7106400455, -75.9766349791)],
+
+
+['Town of Claverack', '', 'http://www.townofclaverack.com', (42.2162100289, -73.7086900071)],
+
+
+['Town of Bovina', '', 'http://www.bovinany.org', (42.2753150897, -74.7428550162)],
+
+
+['Town of Scott', '', 'http://townofscott.org', (42.7327623547, -76.2443772716)],
+
+
+['Village of Delhi', '', 'http://www.co.delaware.ny.us/external/villages/delhivillage.htm', (42.3063450843, -74.9248850898)],
+
+
+['Village of Franklin', '', 'http://www.co.delaware.ny.us/external/villages/franklinvillage.htm', (42.3694350548, -75.1827050963)],
+
+
+['Town of Livingston', '', 'http://livingstontown.com', (42.1422400946, -73.7783600142)],
+
+
+
+['Village of Hancock', '', 'http://www.co.delaware.ny.us/external/villages/hancockvillage.htm', (41.9539545685, -75.2775754579)],
+
+
+['Town of Franklin', '', 'http://www.townoffranklin.com', (42.3694350548, -75.1827050963)],
+
+
+['Town of Hamden', '', 'http://www.hamdenny.com', (42.138350008, -74.9731900326)],
+
+
+['Town of Homer', '', 'http://www.townofhomer.org/', (42.6360652893, -76.1785501315)],
+
+
+['Town of Delhi', '', 'http://townofdelhiny.com/', (42.2721151238, -74.9212571887)],
+
+
+
+['Town of Colchester', '', 'http://www.colchesterchamber.com/', (42.0591300755, -75.0174800933)],
+
+
+
+['Town of Stuyvesant', '', 'http://www.stuyvesantny.us/', (42.3895900749, -73.7776022414)],
+
+
+['Town of Preble', '', 'http://www.preble-ny.org', (42.74118403, -76.1459639901)],
+
+
+['Town of Hancock', '', 'http://www.hancockny.org', (41.9563795833, -75.2937408259)],
+
+
+['Town of Masonville', '', 'http://www.masonville-ny.us/', (42.2500800235, -75.2573850043)],
+
+
+['Town of Andes', '', 'http://townofandes.com', (42.1904416478, -74.7872194641)],
+
+
+['Town of Virgil', '', 'http://www.virgilny.com', (42.5086887088, -76.1981164684)],
+
+
+
+['Village of Hobart', '', 'http://www.co.delaware.ny.us/external/villages/hobartvillage.htm', (42.3331400882, -74.6459900663)],
+
+
+['Town of Meredith', '', 'http://townofmeredith.com', (42.4236450207, -74.8312650861)],
+
+
+['Village of Walton', '', 'http://www.villageofwalton.com/', (42.1688318878, -75.128287858)],
+
+
+['Town of Stamford', '', 'http://townofstamfordny.us/', (42.3686350596, -74.790680079)],
+
+
+['Town of Germantown', '', 'http://www.germantownny.org', (42.1219250088, -73.8590800243)],
+
+
+['Town of Milan', '', 'http://www.milan-ny.gov', (41.9550242074, -73.7655031529)],
+
+
+['Town of Sidney', '', 'http://www.sidneychamber.org/', (42.3221350379, -75.3956900218)],
+
+
+
+['Town of Tompkins', '', 'http://townoftompkins.org', (42.1644600052, -75.1664750267)],
+
+
+['Town of Fishkill', '', 'http://www.fishkill-ny.gov', (41.5261876574, -73.9224022956)],
+
+
+['Town of Middletown', '', 'http://middletowndelawarecountyny.org', (42.1391390894, -74.6602740649)],
+
+
+['Village of Millerton', '', 'http://www.villageofmillerton.com/', (41.9552465996, -73.5097033308)],
+
+
+
+['Town of Hyde Park', '', 'http://www.hydeparkny.us', (41.7796900263, -73.9204350286)],
+
+
+['Town of LaGrange', '', 'http://www.lagrangeny.org', (41.6618733165, -73.7964687716)],
+
+
+['Village of Fishkill', '', 'http://www.vofishkill.com', (41.5356456714, -73.9028927917)],
+
+
+
+['Town of Pleasant Valley', '', 'http://pleasantvalley-ny.gov', (41.7427226147, -73.82839409)],
+
+
+['Town of Amenia', '', 'http://www.ameniany.gov', (41.8631900059, -73.5644650848)],
+
+
+
+['Village of Red Hook', '', 'http://www.redhooknyvillage.org/', (41.9792069627, -73.8831240169)],
+
+
+
+['Village of Wappingers Falls', '', 'http://www.wappingersfallsny.gov/', (41.5970243403, -73.9175311838)],
+
+
+['Town of Pawling', '', 'http://www.pawling.org', (41.5691937853, -73.5995282143)],
+
+
+['Town of Red Hook', '', 'http://www.redhook.org', (41.9792069627, -73.8831240169)],
+
+
+['Village of East Aurora', '', 'http://www.east-aurora.ny.us', (42.7676955077, -78.6134360486)],
+
+
+['Town of Walton', '', 'http://www.townofwalton.org', (42.1676170573, -75.128930986)],
+
+
+['Village of Alden', '', 'http://www2.erie.gov/village_alden/', (42.9001712214, -78.4910883099)],
+
+
+['Town of Pine Plains', '', 'http://www.pineplains-ny.gov', (41.9724844107, -73.6327752702)],
+
+
+['Town of North East', '', 'http://www.townofnortheastny.gov', (41.9974650529, -73.5453650384)],
+
+
+['Town of Stanford', '', 'http://www.townofstanford.org', (41.8699776708, -73.7038511328)],
+
+
+['Town of Boston', '', 'http://www.townofboston.com', (42.6523899673, -78.7445255027)],
+
+
+['Town of Washington', '', 'http://www.washingtonny.org', (41.7896150258, -73.678160088)],
+
+
+['Town of Brant', '', 'http://brantny.com', (42.5887297556, -79.0135760829)],
+
+
+['Village of Tivoli', '', 'http://www.tivoliny.org', (42.0524549591, -73.9113811057)],
+
+
+['Village of Depew', '', 'http://www.villageofdepew.org/', (42.9047156665, -78.6862756783)],
+
+
+['Town of Concord', '', 'http://townofconcordny.com/', (42.5095087985, -78.6662587197)],
+
+
+['Town of Grand Island', 'http://www.grandislandny.us/residents/employment/index.php', 'http://www.grand-island.ny.us', (43.0228965799, -78.9650837465)],
+
+
+
+['Town of Collins', '', 'http://www.townofcollins.com', (42.5047950539, -78.8725099862)],
+
+
+['Town of Holland', '', 'http://www.townofhollandny.com', (42.642860282, -78.5422023955)],
+
+
+['Village of Angola', '', 'http://www.villageofangola.org/', (42.6375457755, -79.028767845)],
+
+
+
+['Village of Springville', '', 'http://www.villageofspringvilleny.com/', (42.5088250316, -78.6675810286)],
+
+
+
+['Village of North Collins', '', 'http://www.northcollinsny.org/', (42.5948492044, -78.9405290148)],
+
+
+['Town of North Collins', '', 'http://www.northcollinsny.org', (42.5941035007, -78.9406039587)],
+
+
+['Village of Pawling', '', 'http://www.villageofpawling.org/', (41.5624500776, -73.600667761)],
+
+
+
+['Town of Aurora', '', 'http://www.townofaurora.com', (42.7599617828, -78.6123372215)],
+
+
+['Village of Lancaster', '', 'http://www.lancastervillage.org/', (42.9003064951, -78.6701676619)],
+
+
+['Town of Eden', '', 'http://www.edenny.gov', (42.652218051, -78.8954131397)],
+
+
+['Town of Chesterfield', '', 'http://www.co.essex.ny.us/chesterfield.asp', (44.5032949446, -73.4808040496)],
+
+
+['Village of Akron', '', 'http://www.erie.gov/akron', (43.0197698751, -78.5018929943)],
+
+
+
+['Town of Cheektowaga', '', 'http://tocny.org', (42.9035640605, -78.7525961014)],
+
+
+['Town of Hamburg', '', 'http://www.townofhamburgny.com/', (42.7295660126, -78.8254812756)],
+
+
+['Town of Elizabethtown', '', 'http://etownny.com/', (44.2148610309, -73.5938684886)],
+
+
+['Town of Keene', '', 'http://www.townofkeeneny.com/', (44.2653849381, -73.7956100828)],
+
+
+['Town of Lewis', '', 'http://www.lewisny.com', (44.2761210406, -73.5626885381)],
+
+
+['Town of Lancaster', '', 'http://www.lancasterny.gov', (42.9011803771, -78.6700997753)],
+
+
+['Town of Roxbury', '', 'http://www.roxburyny.com', (42.2952000548, -74.5812300495)],
+
+
+['Town of Marilla', '', 'http://townofmarilla.com', (42.8277969312, -78.5548739844)],
+
+
+['Town of Crown Point', '', 'http://townofcrownpoint.com/', (43.9572549501, -73.5189050382)],
+
+
+
+['Town of St Armand', '', 'http://www.co.essex.ny.us/starmand.asp', (44.4078096998, -74.0866613061)],
+
+
+['Town of Schroon', '', 'http://www.schroon.net/', (43.8367049578, -73.7611950669)],
+
+
+['Village of Lake Placid', '', 'http://villageoflakeplacid.ny.gov/', (44.2822734829, -73.9824911064)],
+
+
+
+['Village of Kenmore', '', 'http://www.villageofkenmore.org/', (42.9636910128, -78.8697615625)],
+
+
+['Town of Wilmington', '', 'http://www.townofwilmington.org', (44.3779249515, -73.8409750013)],
+
+
+['Town of Newcomb', '', 'http://www.newcombny.com/', (44.0048299293, -74.1379450763)],
+
+
+['Town of Tonawanda', '', 'http://www.tonawanda.ny.us/', (42.9636910128, -78.8697615625)],
+
+
+['Town of Bellmont', '', 'http://www.nnyacgs.com/town_of_belmont.html', (44.8580349274, -74.0336850122)],
+
+
+['Town of Wales', '', 'http://www.townofwales.com', (42.7684139896, -78.5332259367)],
+
+
+['Town of Willsboro', '', 'http://www.townofwillsboro.com', (44.3714509733, -73.3966785941)],
+
+
+['Town of Brandon', '', 'http://www.nnyacgs.com/town_of_brandon.html', (44.7870149025, -74.4135700726)],
+
+
+['Village of Orchard Park', '', 'http://www.orchardparkvillage.org/', (42.7665492307, -78.7434387695)],
+
+
+['Town of Duane', '', 'http://www.duaneny.com', (44.7281199535, -74.2771800816)],
+
+
+['Town of Bombay', '', 'http://www.bombayny.us', (44.9231578063, -74.5770906645)],
+
+
+['Town of Chateaugay', '', 'http://www.chateaugayny.org', (44.9260760231, -74.087217152)],
+
+
+['Town of Essex', '', 'http://www.essexnewyork.org', (44.3094459904, -73.3516430421)],
+
+
+
+['Town of Gerry', '', 'http://gerryny.us/', (42.2272750209, -79.1734199104)],
+
+
+['Town of Moriah', '', 'http://www.townofmoriah.com/', (44.043178603, -73.4582392108)],
+
+
+['Town of Westport', '', 'http://www.westportny.net', (44.1858079741, -73.435536252)],
+
+
+['Town of North Hudson', '', 'http://northhudsonny.com', (43.998849973, -73.7997100944)],
+
+
+
+['Town of Ephratah', '', 'http://www.ephratah-town.org', (43.0106899219, -74.3890800489)],
+
+
+['Town of Santa Clara', '', 'http://www.townofsantaclara.com', (44.3480913621, -74.322654055)],
+
+
+['Town of Harrietstown', '', 'http://www.harrietstown.org/', (44.3253577883, -74.1321720121)],
+
+
+['Town of Northampton', '', 'http://www.townofnorthampton.com', (43.2259029539, -74.1719270349)],
+
+
+['Town of Caroga', '', 'http://www.carogalakeny.com', (43.1834549203, -74.5095500149)],
+
+
+
+['Town of Perth', '', 'http://www.perthny.com', (43.0181249708, -74.1919499228)],
+
+
+['Town of Mayfield', 'https://townmayfield.digitaltowpath.org:10052/content/JobCategories', 'http://www.mayfieldny.org', (43.1095512734, -74.2641483569)],
+
+
+
+['Town of Alexander', '', 'http://www.townofalexander.com', (42.9013421147, -78.2033574316)],
+
+
+['Town of Stratford', '', 'http://www.stratfordny.com', (43.1801512839, -74.6914782211)],
+
+
+['County of Franklin', 'https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50', 'http://www.franklincony.org', (44.8491624234, -74.2953066759)],
+
+
+
+['Town of Bergen', '', 'http://www.bergenny.org', (43.0893604488, -77.9420138994)],
+
+
+['Town of Byron', '', 'http://www.byronny.com', (43.0719731557, -78.0643826226)],
+
+
+['Village of Bergen', '', 'http://www.villageofbergen.com', (43.0852348872, -77.9425705803)],
+
+
+['Town of LeRoy', '', 'http://www.leroyny.org', (42.977995369, -77.9959999729)],
+
+
+['Town of Broadalbin', '', 'http://www.townofbroadalbin.org', (43.070544736, -74.174969821)],
+
+
+['Town of Pavilion', '', 'http://www.townofpavilion.com', (42.8769580547, -78.0266407909)],
+
+
+['Village of Oakfield', 'https://oakfield.govoffice.com/index.asp?SEC=716FA332-2833-43C7-B9DB-7EE27E52AD13&Type=B_JOB', 'http://www.oakfield.govoffice.com', (43.0670924789, -78.2721935842)],
+
+
+
+['Town of Bethany', 'http://www.co.genesee.ny.us/employment.php', 'http://www.townofbethany.com', (42.9079524287, -78.1332831467)],
+
+
+
+['Town of Johnstown', '', 'http://townofjohnstown.org/', (43.0106899219, -74.3890800489)],
+
+
+['Town of Darien', '', 'http://www.townofdarienny.com', (42.9025618346, -78.3889795005)],
+
+
+['Town of Elba', 'http://elbanewyork.com/index.php/job-openings/', 'http://www.elbanewyork.com', (43.0799025416, -78.1886338147)],
+
+
+
+['Town of Oakfield', '', 'http://www.townofoakfieldny.com', (43.066024946, -78.2707299748)],
+
+
+['Village of Catskill', '', 'http://www.villageofcatskill.net', (42.2204724953, -73.8657920414)],
+
+
+
+['Town of Batavia', '', 'http://www.townofbatavia.com', (43.0096574647, -78.2288414304)],
+
+
+['Village of Athens', '', 'http://www.visithistoricathens.com', (42.2625297051, -73.8107996943)],
+
+
+
+['Town of Cairo', 'https://townofcairo.com/employment/', 'http://www.townofcairo.com', (42.3004822968, -73.999480681)],
+
+
+
+['Town of Stafford', '', 'http://www.townofstafford.com', (42.9744949638, -78.0800749953)],
+
+
+
+['Village of Mayfield', '', 'http://www.villageofmayfield.com', (43.1021912939, -74.2614483559)],
+
+
+
+['Town of Coxsackie', '', 'http://www.coxsackie.org', (42.3515917238, -73.796347747)],
+
+
+['Village of Corfu', '', 'http://www.corfuny.com', (42.96251911, -78.390990369)],
+
+
+
+
+['Town of Malone', '', 'http://www.malonetown.com', (44.7281199535, -74.2771800816)],
+
+
+['Town of Greenville', '', 'http://www.townofgreenvilleny.com', (42.4542350944, -74.0298050163)],
+
+
+['Village of Tannersville', '', 'http://tannersvilleny.org/', (42.1957418834, -74.1313971342)],
+
+
+['Village of Dolgeville', '', 'http://www.villageofdolgeville.org', (43.1033112525, -74.770558175)],
+
+
+['Town of Athens', '', 'http://www.townofathensny.com', (42.2625297051, -73.8107996943)],
+
+
+['Town of Moira', '', 'http://www.porthenrymoriah.com/', (44.8506500007, -74.5775500747)],
+
+
+['Town of Lexington', '', 'http://www.lexingtonny.com', (42.2446830781, -74.3800102536)],
+
+
+
+['Town of Halcott', '', 'http://www.townofhalcott.org', (42.1830300213, -74.5412150382)],
+
+
+
+['Town of Pembroke', '', 'http://www.townofpembroke.org', (42.9933508729, -78.404704449)],
+
+
+['Town of Catskill', '', 'http://www.townofcatskillny.gov', (42.2210373069, -73.8664642865)],
+
+
+['Town of Jewett', '', 'http://www.townofjewett.com', (42.2691950618, -74.2847200646)],
+
+
+['Village of Hunter', '', 'http://villageofhunterny.org', (42.2325750723, -74.2616950624)],
+
+
+
+['Town of Benson', '', 'http://www.hamiltoncounty.com/municipalities/benson', (43.3247849795, -74.2919950885)],
+
+
+
+['Town of Arietta', '', 'http://www.townofarietta.com', (0.0, 0.0)],
+
+
+['Town of Hope', '', 'http://www.hamiltoncounty.com/municipalities/hope', (43.3247849795, -74.2919950885)],
+
+
+['Town of Durham', '', 'http://www.durhamny.com', (42.3960270521, -74.1541039801)],
+
+
+['Town of New Baltimore', '', 'http://www.townofnewbaltimore.org', (42.465070094, -73.9571550177)],
+
+
+['Town of Morehouse', '', 'http://www.townofmorehouse.com/', (43.390904999, -74.7167450088)],
+
+
+['Town of Prattsville', '', 'http://www.prattsville.org', (42.3254600231, -74.4843200407)],
+
+
+
+['Village of Coxsackie', 'http://villageofcoxsackie.com/job-archive-page/', 'http://www.villageofcoxsackie.com', (42.3560198426, -73.8074971667)],
+
+
+
+['Town of Indian Lake', 'https://townindianlake.digitaltowpath.org:10201/content/JobCategories', 'http://townofindianlake.org', (43.7862589542, -74.2726030657)],
+
+
+
+
+['Town of Lake Pleasant', '', 'http://www.lakepleasantny.org', (43.4799537702, -74.3917670968)],
+
+
+
+['Town of Frankfort', '', 'http://www.townoffrankfort.com', (43.0492249305, -75.1167000806)],
+
+
+['Town of Wells', '', 'http://townofwells.org', (43.466014937, -74.2936700171)],
+
+
+
+['Village of Frankfort', '', 'http://villageoffrankfortny.org/', (43.0389046005, -75.0700936141)],
+
+
+
+['Town of Inlet', '', 'http://www.townofinlet.org/', (43.7687019169, -74.813163071)],
+
+
+
+['Town of Danube', '', 'http://www.townofdanube.com', (42.9849612717, -74.8051282288)],
+
+
+
+['Town of Hunter', '', 'http://www.townofhuntergov.com', (42.2132000617, -74.1190800226)],
+
+
+['Town of Herkimer', '', 'http://www.townofherkimer.org/', (43.0254300838, -74.9877377941)],
+
+
+['Town of Little Falls', '', 'http://townoflittlefalls.com', (42.9666399551, -74.9399450822)],
+
+
+['Village of Herkimer', '', 'http://village.herkimer.ny.us/', (43.0269267628, -74.9869378288)],
+
+
+
+['Village of Newport', 'http://www.villageofnewportny.org/job-opportunities', 'http://www.villageofnewportny.org/', (42.5936950958, -75.1930650091)],
+
+
+
+['County of Greene', 'https://www.greenegovernment.com/departments/human-resources-and-civil-service/available-positions', 'http://www.discovergreene.com', (42.2199935943, -73.866162019)],
+
+
+
+
+['Town of Schuyler', '', 'http://townofschuyler.com', (43.1117779674, -75.1905382263)],
+
+
+['Town of Litchfield', '', 'http://www.townoflitchfield.com', (42.8481799361, -75.2723750588)],
+
+
+['Village of Poland', '', 'http://villageofpolandny.org/', (43.2133749847, -75.0948400458)],
+
+
+
+['Town of Russia', 'https://townrussia.digitaltowpath.org:10221/content/JobCategories', 'http://www.townofrussia.com', (43.2278104221, -75.0642902505)],
+
+
+
+
+['Town of Windham', '', 'http://www.townofwindham.com/', (42.2912817502, -74.2176252378)],
+
+
+['Town of Adams', '', 'http://www.townofadams.com', (43.8075041889, -76.0249969286)],
+
+
+['Village of Speculator', '', 'http://villageofspeculator.org/', (43.5018409244, -74.3643339462)],
+
+
+
+['Village of Ilion', '', 'http://www.ilionny.com/', (43.0147194427, -75.0376818372)],
+
+
+['Village of Dexter', '', 'http://www.villageofdexterny.com/', (44.0056139218, -76.0436746959)],
+
+
+['Town of Manheim', '', 'http://www.townofmanheim.org/', (43.1003412564, -74.7742682158)],
+
+
+['Village of Antwerp', '', 'http://villageofantwerp.net/', (44.1995081897, -75.6076119428)],
+
+
+['Town of Alexandria', '', 'http://townofalexandria.org', (44.2873949391, -75.9307549129)],
+
+
+['Town of Newport', '', 'http://www.townofnewport.net', (43.1776085343, -75.0154771266)],
+
+
+['Town of Webb', '', 'http://townofwebb.org', (43.8384799055, -75.0771200917)],
+
+
+
+['Town of LeRay', '', 'http://www.townofleray.org', (44.091334965, -75.8152650783)],
+
+
+['Village of Clayton', '', 'http://www.villageofclayton.org', (44.2209399136, -76.1006049675)],
+
+
+
+['Town of Cape Vincent', '', 'http://townofcapevincent.org', (44.1193434491, -76.3317976279)],
+
+
+['Town of Henderson', '', 'http://townofhendersonny.org/', (43.8425311493, -76.1809296131)],
+
+
+['Town of Norway', '', 'http://www.townofnorway.net/', (43.2048813027, -74.9451781526)],
+
+
+['Town of Lorraine', '', 'http://townoflorraine.com', (43.7666053584, -75.9543599504)],
+
+
+['Village of Black River', '', 'http://www.blackriverny.org/', (44.0108429516, -75.7952602544)],
+
+
+['Town of Orleans', '', 'http://www.townoforleans.com', (44.1931275173, -75.9614603531)],
+
+
+['Town of Lyme', '', 'http://townoflyme.com', (44.0657104087, -76.1278814768)],
+
+
+['Village of Croghan', '', 'http://croghanny.org/', (43.89197891, -75.3860804966)],
+
+
+['Town of Croghan', '', 'http://www.townofcroghan.com/', (43.9573999233, -75.2787750539)],
+
+
+['Town of Theresa', '', 'http://www.townoftheresany.com', (44.2147856747, -75.7966473138)],
+
+
+['Village of West Carthage', 'https://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories', 'http://villageofwestcarthage.org/', (43.9696578123, -75.623328698)],
+
+
+
+
+['Town of Rodman', '', 'http://www.townofrodmanny.org', (43.8406699841, -75.8970599595)],
+
+
+['Village of Attica', '', 'http://attica.org', (42.8646144894, -78.2833312528)],
+
+
+['Village of Cape Vincent', '', 'http://www.villageofcapevincent.org/', (44.1350299521, -76.2777199433)],
+
+
+['Village of Sackets Harbor', '', 'http://sacketsharborny.com/', (43.9162249313, -76.0892698995)],
+
+
+['Town of Greig', '', 'http://townofgreig.org/', (43.6896049599, -75.2919500924)],
+
+
+
+['Town of Sodus', '', 'http://sodusny.org/', (43.2353229236, -77.062021085)],
+
+
+
+['Town of Martinsburg', '', 'http://townofmartinsburg.org/', (43.737376878, -75.4686475043)],
+
+
+['Town of Leyden', '', 'http://townofleyden.org/', (43.5344512541, -75.3678598847)],
+
+
+
+['Town of Watson', '', 'http://www.townofwatsonny.com/', (43.804123207, -75.3633010631)],
+
+
+['Village of Brownville', '', 'http://www.villageofbrownvilleny.org/', (44.0034449451, -75.98317494)],
+
+
+
+['Town of Clayton', 'https://townofclayton.com/departments/humanresources/', 'http://www.townofclayton.com', (44.242551102, -76.0867775901)],
+
+
+
+
+['Town of New Bremen', '', 'http://townofnewbremen.weebly.com', (43.8851049165, -75.4578400199)],
+
+
+['Village of Lowville', '', 'http://villageoflowville.org/', (43.7970731828, -75.4846706337)],
+
+
+['Village of Avon', '', 'http://www.avon-ny.org/index_village.html', (42.9106842722, -77.7455381086)],
+
+
+['Town of Avon', '', 'http://www.avon-ny.org/index_town.html', (42.9108705074, -77.7467971022)],
+
+
+['Village of Caledonia', '', 'http://www.villageofcaledoniany.org/', (42.9733003089, -77.8547870372)],
+
+
+['Town of Pinckney', 'https://townpinckney.digitaltowpath.org:10161/content/JobCategories', 'http://townofpinckney.org', (43.8943199398, -75.7595550332)],
+
+
+
+
+['Village of Geneseo', '', 'http://www.geneseony.org/', (42.7951616152, -77.8166298643)],
+
+
+['Town of Groveland', '', 'http://www.grovelandny.org', (42.7128210561, -77.7781275954)],
+
+
+['Town of Livonia', '', 'http://www.livoniany.com', (42.8191958781, -77.6688604289)],
+
+
+['Village of Leicester', '', 'http://www.villageofleicester.org/', (42.7715305239, -77.8941871566)],
+
+
+['Village of Livonia', '', 'http://www.livoniany.org/contactus.html', (42.8192225966, -77.6695509425)],
+
+
+['Town of Conesus', 'https://townconesus.digitaltowpath.org:10010/content/JobCategories', 'http://www.town.conesus.ny.us', (42.7190851379, -77.6762748566)],
+
+
+
+['Village of Mount Morris', '', 'http://www.villageofmountmorris.com', (42.7242205616, -77.8725493255)],
+
+
+
+['Village of Lima', 'https://www.lima-ny.org/position-postings', 'http://www.townoflima.org', (42.9055102027, -77.6105948229)],
+
+
+
+
+['County of Lewis', '', 'http://www.lewiscountyny.org', (43.7907877556, -75.4956221444)],
+
+
+['Village of Nunda', '', 'http://www.nundany.org/', (42.5827883309, -77.9351919231)],
+
+
+['Town of Ossian', '', 'http://www.townofossianny.us/', (42.5211151311, -77.7788414369)],
+
+
+['Town of Watertown', '', 'http://www.townofwatertownny.org/', (43.961915894, -75.9421972395)],
+
+
+['Town of Sparta', '', 'http://www.sparta-ny.org/', (42.6210408075, -77.6993545745)],
+
+
+['Town of Mount Morris', '', 'http://mtmorrisny.com', (42.7245582824, -77.87308765)],
+
+
+
+['Town of York', '', 'http://www.yorkny.org', (42.8719848954, -77.8856876401)],
+
+
+['Town of Brookfield', '', 'http://www.brookfieldny.com', (42.815924921, -75.3510700486)],
+
+
+
+['Village of De Ruyter', '', 'http://www.deruyteronline.com/', (42.7557150467, -75.8925469791)],
+
+
+['Town of Leicester', 'http://www.townofleicester.org/community/employment-opportunities/', 'http://www.townofleicester.org', (42.7720154498, -77.8985785669)],
+
+
+
+['Town of Nunda', '', 'http://www.town.nunda.ny.us', (42.5929850233, -77.8878699495)],
+
+
+['Town of Springwater', 'https://townspringwater.digitaltowpath.org:10071/content/JobCategories', 'http://www.townofspringwaterny.org', (42.6348980925, -77.5972425025)],
+
+
+
+
+['County of Livingston', 'https://www.livingstoncounty.us/jobs.aspx', 'http://www.livingstoncounty.us', (42.8004697824, -77.8165874932)],
+
+
+['Town of West Sparta', '', 'http://townofwestsparta.org/', (42.6209426648, -77.7915095238)],
+
+
+
+['Town of Eaton', '', 'http://townofeaton.com/', (42.9223899508, -75.6713550822)],
+
+
+['Town of Champion', '', 'http://www.racog.org', (43.9680023209, -75.6235034754)],
+
+
+['Village of Canastota', '', 'http://www.canastota.com/', (43.0778015803, -75.7519133751)],
+
+
+['Town of Lenox', '', 'http://www.lenoxny.com/', (43.0778015803, -75.7519133751)],
+
+
+['Town of Fenner', '', 'http://townoffenner.com/', (42.8748411968, -75.8486994517)],
+
+
+['Village of Dansville', '', 'http://www.dansvilleny.org', (42.5595878548, -77.6956915149)],
+
+
+
+['Town of Hamilton', '', 'http://www.townofhamiltonny.org/', (42.8262972417, -75.5442926766)],
+
+
+['Town of Lincoln', '', 'http://townoflincoln.org/', (43.0430182941, -75.7449198489)],
+
+
+
+['Town of De Ruyter', '', 'http://www.deruyternygov.us/', (42.7589398119, -75.8847234592)],
+
+
+['Village of Cazenovia', '', 'http://villageofcazenovia.com/', (42.900889911, -75.9074249714)],
+
+
+['Village of Chittenango', '', 'http://www.chittenango.org', (43.0449679636, -75.865706325)],
+
+
+['Town of Nelson', '', 'http://www.townofnelson-ny.com/', (42.900889911, -75.9074249714)],
+
+
+['Town of Smithfield', '', 'http://townofsmithfield.org/', (42.9311829704, -75.6899890259)],
+
+
+
+['Village of East Rochester', '', 'http://www.eastrochester.org', (43.112759322, -77.4862160545)],
+
+
+['Town of Henrietta', '', 'http://www.townofhenrietta.org', (43.0661955215, -77.6262489622)],
+
+
+['Town of Sullivan', 'https://townsullivan.digitaltowpath.org:10021/content/JobCategories', 'http://townofsullivan.org/', (43.0865684927, -75.8728907169)],
+
+
+
+
+['Village of Spencerport', 'http://www.vil.spencerport.ny.us/government/job-opportunities.html', 'http://www.vil.spencerport.ny.us', (43.1915231574, -77.8020851088)],
+
+
+
+['Town of Clarkson', '', 'http://www.clarksonny.org', (43.2326680961, -77.9276512803)],
+
+
+['Town of Madison', '', 'http://townofmadisonny.org/', (42.9432649513, -75.5360300527)],
+
+
+['Village of Hilton', '', 'http://www.hiltonny.org', (43.289044936, -77.7979899666)],
+
+
+['Village of Honeoye Falls', '', 'http://www.villageofhoneoyefalls.org/', (42.9557410052, -77.5898193192)],
+
+
+['Town of Parma', 'http://www.parmany.org/personnel.php', 'http://www.parmany.org', (43.2523171096, -77.7898968832)],
+
+
+
+['Town of Gates', 'https://www.townofgates.org/employment-job-postings/', 'http://www.townofgates.org', (43.1492768245, -77.6944677253)],
+
+
+
+['Village of Pittsford', '', 'http://www.villageofpittsford.org', (43.091849366, -77.5151747088)],
+
+
+
+['Village of Fairport', '', 'http://www.village.fairport.ny.us/', (43.1006477575, -77.4415786951)],
+
+
+['Village of Churchville', '', 'http://www.churchville.net', (43.104018921, -77.8834818213)],
+
+
+['Town of Mendon', '', 'http://www.townofmendon.org', (42.9522464613, -77.5916010694)],
+
+
+['Town of Hamlin', '', 'http://www.hamlinny.org', (43.2970693254, -77.9201608719)],
+
+
+['Town of Rush', '', 'http://www.townofrush.com', (42.995410265, -77.6463440896)],
+
+
+
+['Town of Sweden', '', 'http://www.townofsweden.org', (43.2140922764, -77.9378582505)],
+
+
+['Village of Brockport', 'http://www.brockportny.org/departments-services/employment-opportunities', 'http://www.brockportny.org', (43.2143455828, -77.9363985831)],
+
+
+
+['Village of Webster', '', 'http://www.villageofwebster.com', (43.2119854657, -77.4314136534)],
+
+
+['Town of Cazenovia', '', 'http://www.townofcazenovia.org', (42.9302806892, -75.8585452755)],
+
+
+
+['Village of Scottsville', '', 'http://www.scottsvilleny.org/', (43.0200522772, -77.7496272308)],
+
+
+['Town of Lebanon', '', 'http://townoflebanon.org/', (42.7219250452, -75.558380058)],
+
+
+
+['Town of Charleston', '', 'http://www.townofcharleston.org/', (42.8423199698, -74.4540400894)],
+
+
+['Village of Remsen', '', 'http://villageofremsen.org/', (43.3256973732, -75.1854178294)],
+
+
+
+['Village of Canajoharie', '', 'http://villageofcanajoharie.org/', (42.8250199442, -74.6709350821)],
+
+
+
+['Town of Mohawk', '', 'http://www.townofmohawkny.com/', (42.9904149042, -74.4646250123)],
+
+
+['Town of Florida', '', 'http://www.co.montgomery.ny.us/florida/', (42.9127999668, -74.2028650475)],
+
+
+
+['Town of Wheatland', '', 'http://www.townofwheatland.org', (43.0200522772, -77.7496272308)],
+
+
+['Town of Amsterdam', '', 'http://www.townofamsterdam.org/', (42.9127999668, -74.2028650475)],
+
+
+['Village of Fort Plain', '', 'http://villageoffortplain.com/', (42.9338144313, -74.6247270839)],
+
+
+['Town of St Johnsville', '', 'http://stjohnsville.com/Town.htm', (42.9979320632, -74.683248165)],
+
+
+['Village of Fultonville', '', 'http://fultonville.org/', (42.9469299883, -74.3711090249)],
+
+
+['Village of St Johnsville', '', 'http://www.stjohnsville.com/VillageIndex.htm', (42.9995707453, -74.6771303771)],
+
+
+['Village of East Rockaway', '', 'http://www.villageofeastrockaway.org/', (40.6463017711, -73.6638987045)],
+
+
+
+['Village of Garden City', '', 'http://www.gardencityny.net/', (40.7261417474, -73.638528701)],
+
+
+['Village of Fonda', 'https://villagefonda.digitaltowpath.org:10193/content/JobCategories', 'http://villageoffonda.ny.gov/', (42.9545480117, -74.3743210914)],
+
+
+
+['Town of Minden', 'http://townofminden.org/employment-volunteer-opportunities/', 'http://townofminden.org/', (42.9284284994, -74.6426757148)],
+
+
+
+['Village of Bellerose', '', 'http://www.bellerosevillage.org/', (40.7338600495, -73.7076500255)],
+
+
+['Village of Floral Park', 'https://fpvillage.org/village-info/employment-opportunities/', 'http://www.fpvillage.org/', (40.7265900207, -73.7086600362)],
+
+
+
+['Village of Freeport', 'https://www.freeportny.gov/jobs.aspx', 'http://www.freeportny.com/', (40.6583017609, -73.5865786865)],
+
+
+
+
+['Town of Ogden', 'http://www.ogdenny.com/TownDepartments/Personnel.aspx', 'http://www.ogdenny.com', (43.1707325216, -77.8022248886)],
+
+
+
+['Village of Hempstead', 'https://www.villageofhempstead.org/197/Employment-Opportunities', 'http://www.villageofhempstead.org', (40.7102217999, -73.6227286987)],
+
+
+
+
+['Village of Hamilton', 'https://hamilton-ny.gov/jobs/', 'http://www.hamilton-ny.gov/', (42.8272051622, -75.5429114351)],
+
+
+
+['Town of Caledonia', '', 'http://www.townofcaledoniany.com/', (42.9689027269, -77.8635351457)],
+
+
+
+['Village of East Williston', '', 'http://www.eastwilliston.org/', (40.7568079968, -73.6381880458)],
+
+
+['Village of Lynbrook', '', 'http://www.lynbrookvillage.com', (40.6577314742, -73.6741536904)],
+
+
+
+['Village of Island Park', 'http://villageofislandpark.com/employment/', 'http://www.villageofislandpark.com/', (40.6010617988, -73.6556087519)],
+
+
+
+['Village of South Floral Park', '', 'http://www.southfloralpark.org/', (40.7139917707, -73.7002687391)],
+
+
+['Village of Great Neck Plaza', 'http://www.greatneckplaza.net/Employment%20Opportunities.html', 'http://www.greatneckplaza.net/', (40.7873700221, -73.7229600933)],
+
+
+
+['Village of Kings Point', '', 'http://www.villageofkingspoint.org/', (40.8151610778, -73.7567349244)],
+
+
+['Village of Lake Success', '', 'http://www.villageoflakesuccess.com', (40.7654217369, -73.7127986556)],
+
+
+['Village of Manor Haven', '', 'http://www.manorhaven.org/', (40.8426517396, -73.7094386745)],
+
+
+['Village of North Hills', '', 'http://www.villagenorthhills.com/', (40.7642117335, -73.6711486821)],
+
+
+['Village of Old Westbury', '', 'http://www.villageofwestbury.org', (40.7802625127, -73.6053268102)],
+
+
+['Village of Plandome', '', 'http://www.plandomevillage.com/', (40.8075917673, -73.700238679)],
+
+
+['Village of Baxter Estates', '', 'http://www.baxterestates.org/', (40.8354784426, -73.6999055022)],
+
+
+['Village of Hewlett Harbor', '', 'http://www.hewlettharbor.org/', (40.6353217752, -73.6762887257)],
+
+
+['Village of Mineola', '', 'http://www.mineola-ny.gov', (40.7478617487, -73.6417987415)],
+
+
+['Village of Great Neck', '', 'http://www.greatneckvillage.org/', (40.8007416194, -73.7283127312)],
+
+
+['Village of Cedarhurst', '', 'http://www.cedarhurst.gov/', (40.6236517759, -73.7245086697)],
+
+
+['Village of Port Washington North', '', 'http://www.portwashingtonnorth.org', (40.8392309303, -73.7032137289)],
+
+
+['Village of Roslyn Harbor', '', 'http://www.roslynharbor.org', (40.8152923626, -73.6357709819)],
+
+
+['Village of Roslyn Estates', '', 'http://www.villageofroslynestates.com', (40.7879720916, -73.6597893744)],
+
+
+['Village of Thomaston', '', 'http://www.villageofthomaston.org/', (40.7918017609, -73.7101286943)],
+
+
+['Village of Great Neck Estates', '', 'http://www.vgne.com/', (40.7864150623, -73.7287750904)],
+
+
+
+['Village of Roslyn', '', 'http://www.historicroslyn.org', (40.8007417229, -73.652348721)],
+
+
+
+['Village of Sands Point', '', 'http://www.sandspoint.org', (40.851647021, -73.7187260931)],
+
+
+['Village of New Hyde Park', '', 'http://www.vnhp.org', (40.7331617496, -73.6804387141)],
+
+
+['Village of Malverne', '', 'http://www.malvernevillage.org', (40.675911757, -73.6676387124)],
+
+
+['Village of Flower Hill', '', 'http://www.villageflowerhill.org/', (40.8093917288, -73.6768887218)],
+
+
+['Village of East Hills', '', 'http://www.villageofeasthills.org/', (40.7947188734, -73.6370747528)],
+
+
+['Village of Centre Island', '', 'http://centreisland.org/', (40.8594550096, -73.5063150786)],
+
+
+['Village of Brookville', '', 'http://www.villageofbrookville.com/', (40.8195299535, -73.5862175043)],
+
+
+
+['Village of Munsey Park', '', 'http://www.munseypark.org', (40.7954317399, -73.6795087071)],
+
+
+['Village of Cove Neck', '', 'http://www.coveneck.org/', (40.8594550096, -73.5063150786)],
+
+
+['Village of Farmingdale', '', 'http://www.farmingdalevillage.com/', (40.7283557631, -73.4446952043)],
+
+
+['Village of Mill Neck', '', 'http://millneckvillage.com', (40.8789075039, -73.5631802988)],
+
+
+['Village of Muttontown', '', 'http://www.villageofmuttontown.com', (40.8329235844, -73.5287653716)],
+
+
+['Village of Lattingtown', '', 'http://villageoflattingtown.org', (0.0, 0.0)],
+
+
+['Village of Stewart Manor', 'https://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories', 'http://www.stewartmanor.us', (40.7201728586, -73.6886141536)],
+
+
+
+
+['Village of Atlantic Beach', '', 'http://www.villageofatlanticbeach.com', (40.5886018019, -73.737418682)],
+
+
+['Village of Upper Brookville', '', 'http://www.upperbrookville.org', (40.8594550096, -73.5063150786)],
+
+
+['Village of Laurel Hollow', 'https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories', 'http://laurelhollow.org/', (40.8732246919, -73.4843109224)],
+
+
+
+
+['Village of Sea Cliff', '', 'http://www.seacliff-ny.gov', (40.8493464304, -73.6476203581)],
+
+
+['Town of Cambria', '', 'http://www.townofcambria.com', (43.1640264425, -78.8188710451)],
+
+
+['Village of Russell Gardens', '', 'http://www.russellgardens.com', (40.7774817719, -73.728108729)],
+
+
+['Village of Massapequa Park', '', 'http://masspk.com', (40.6780922359, -73.4545240041)],
+
+
+['Village of Plandome Manor', '', 'http://plandomemanor.com/', (40.8130021922, -73.702826621)],
+
+
+
+['Town of Hartland', '', 'http://townofhartland.org/', (43.2420914911, -78.5327258015)],
+
+
+['Village of Old Brookville', '', 'http://www.oldbrookville.net', (40.8278824094, -73.6153102836)],
+
+
+
+['Village of Oyster Bay Cove', '', 'http://www.oysterbaycove.net/', (40.8717717014, -73.530418766)],
+
+
+['Village of Lawrence', '', 'http://www.villageoflawrence.org', (40.6140218047, -73.7372587226)],
+
+
+['Town of Newfane', '', 'http://www.olcott-newfane.com', (43.275963832, -78.6969059854)],
+
+
+['Village of Lewiston', '', 'http://www.villageoflewiston.net/', (43.1740893318, -79.0450002357)],
+
+
+['Town of Niagara', '', 'http://www.townofniagara.com', (43.1217154166, -78.9843049491)],
+
+
+['Town of Lewiston', 'http://www.townoflewiston.us/employment-opportunities', 'http://www.townoflewiston.us/', (43.1794827167, -78.9844651237)],
+
+
+
+['Village of Middleport', 'https://villagemiddleport.digitaltowpath.org:10141/content/JobCategories', 'http://villageofmiddleport.org/', (43.2121577079, -78.476738889)],
+
+
+
+['County of Nassau', 'http://www.nassaucountyny.gov/1682/Employment-Opportunities', 'http://www.nassaucountyny.gov', (40.7379207812, -73.6398427983)],
+
+
+
+
+['Village of Williston Park', '', 'http://www.villageofwillistonpark.org/', (40.7574377895, -73.6452707388)],
+
+
+['Town of Wheatfield', 'http://www.wheatfield.ny.us/Jobs.aspx', 'http://www.wheatfield.ny.us', (43.0859619114, -78.8936704048)],
+
+
+
+
+['Town of Wilson', '', 'http://www.wilsonnewyork.com', (43.3073230111, -78.8264346036)],
+
+
+['Town of Porter', '', 'http://www.townofporter.net', (43.2575914875, -79.0085567319)],
+
+
+['Town of Royalton', 'https://townroyalton.digitaltowpath.org:10057/content/JobCategories', 'http://www.townofroyalton.org', (43.1617537932, -78.5391888411)],
+
+
+
+
+['Town of Somerset', '', 'http://www.somersetny.org', (43.3369966785, -78.550125081)],
+
+
+['Village of Wilson', 'https://villagewilson.digitaltowpath.org:10199/content/JobCategories', 'http://villageofwilson.org/', (43.3073230111, -78.8264346036)],
+
+
+
+
+['Village of Camden', '', 'http://www.camdenny.com', (43.3360508112, -75.7461276683)],
+
+
+['Town of Annsville', '', 'http://townofannsville.org', (43.2934877083, -75.6103137385)],
+
+
+
+['Village of Oriskany Falls', '', 'http://villageoforiskanyfalls.org/', (42.9401713663, -75.4605279728)],
+
+
+
+['Town of Ava', '', 'http://townofava.org', (43.4162703996, -75.4805978208)],
+
+
+
+['Village of Youngstown', '', 'http://youngstownnewyork.us/', (43.2507448418, -79.0468322824)],
+
+
+['Village of Matinecock', '', 'http://www.matinecockvillage.org', (40.8810450775, -73.58947006)],
+
+
+['Village of Bayville', '', 'http://bayvilleny.gov/', (40.9097432485, -73.5664919959)],
+
+
+['Village of Waterville', '', 'http://www.watervilleny.com/vilofwaterville.htm', (42.9299088831, -75.3773039014)],
+
+
+
+['Town of Floyd', '', 'http://town.floyd.ny.us', (43.2215612891, -75.336478035)],
+
+
+
+['Village of Plandome Heights', '', 'http://www.plandomeheights-ny.gov/', (40.7985462862, -73.698708724)],
+
+
+['Town of Pendleton', 'https://pendletonny.us/employment/', 'http://www.pendletonny.us', (43.108716894, -78.7738978018)],
+
+
+
+['Town of Deerfield', 'https://towndeerfield.digitaltowpath.org:10063/content/JobCategories', 'http://www.townofdeerfield.org', (43.1670441245, -75.1462688766)],
+
+
+
+
+['Town of Bridgewater', '', 'http://townofbridgewaterny.org/', (42.8782299764, -75.2511500707)],
+
+
+
+['Town of Kirkland', '', 'http://townofkirkland.org', (43.0418949594, -75.3803200049)],
+
+
+
+['Town of Forestport', '', 'http://www.townofforestport.org', (43.434063891, -75.1981311763)],
+
+
+
+['Town of Marcy', 'https://townmarcy.digitaltowpath.org:10019/content/JobCategories', 'http://www.townofmarcy.org', (43.1571912864, -75.2846479915)],
+
+
+['Town of Lee', '', 'http://townofleeny.org', (43.3017223262, -75.5028065145)],
+
+
+
+['Town of Marshall', '', 'http://townofmarshall.com', (42.9922881016, -75.4295335832)],
+
+
+['Village of New York Mills', 'https://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories', 'http://nymills.com/', (43.1035720665, -75.2928887237)],
+
+
+
+
+['Town of New Hartford', 'https://www.townofnewhartfordny.gov/jobs', 'http://www.newhartfordtown.com', (43.0733713082, -75.2886280627)],
+
+
+
+
+['Village of New Hartford', 'https://villagenewhartford.digitaltowpath.org:10114/content/JobCategories', 'http://www.villageofnewhartford.com', (43.0733713082, -75.2886280627)],
+
+
+
+
+['Town of Vernon', '', 'http://www.townofvernon.com', (43.0882349187, -75.5124650201)],
+
+
+['Town of Paris', 'https://townparis.digitaltowpath.org:10026/content/JobCategories', 'http://town.paris.ny.us/', (43.0002599699, -75.2678050686)],
+
+
+
+
+['Town of Remsen', '', 'http://town.remsen.ny.us/', (43.3345749538, -75.1888130265)],
+
+
+['Village of Prospect', '', 'http://villageofprospect.org/', (43.3028700024, -75.1532500221)],
+
+
+['Town of Western', '', 'http://townofwestern-ny.org', (43.3535049926, -75.3396050102)],
+
+
+['Town of Sangerfield', '', 'http://www.sangerfieldny.com', (42.9328542436, -75.3752096598)],
+
+
+
+['Village of Holland Patent', '', 'http://village.holland-patent.ny.us/', (43.2771349672, -75.2867400706)],
+
+
+
+['Town of Steuben', '', 'http://www.town.steuben.ny.us', (43.3493149708, -75.1904850787)],
+
+
+['Village of Vernon', '', 'http://www.villageofvernonny.org/', (43.0882349187, -75.5124650201)],
+
+
+
+['Town of Trenton', 'https://towntrenton.digitaltowpath.org:10031/content/JobCategories', 'http://www.town.trenton.ny.us', (43.2371299525, -75.1647700247)],
+
+
+
+
+['Town of Verona', 'https://townverona.digitaltowpath.org:10032/content/JobCategories', 'http://townverona.org', (43.1712013288, -75.6479794269)],
+
+
+
+
+['Town of Clay', '', 'http://www.townofclay.org', (43.1862998865, -76.2124651698)],
+
+
+
+['Village of Camillus', '', 'http://villageofcamillus-ny.gov', (43.0388848488, -76.3088317489)],
+
+
+
+['Village of East Syracuse', '', 'http://www.villageofeastsyracuse.com', (43.0647013456, -76.0705476422)],
+
+
+['Village of Sylvan Beach', '', 'http://villageofsylvanbeach.org/', (43.2094424498, -75.7200197438)],
+
+
+['Town of Camillus', '', 'http://townofcamillus.com', (43.0455713598, -76.248657635)],
+
+
+['Town of Whitestown', 'https://townwhitestown.digitaltowpath.org:10034/content/JobCategories', 'http://www.town.whitestown.ny.us', (43.1061759329, -75.322202118)],
+
+
+
+['Town of Cicero', 'https://ciceronewyork.net/employment/', 'http://ciceronewyork.net', (43.1692813081, -76.1150276585)],
+
+
+
+['Village of Solvay', '', 'http://villageofsolvay.com', (43.0610043153, -76.2128751725)],
+
+
+['Town of LaFayette', '', 'http://www.townoflafayette.com', (42.8969549777, -76.106824493)],
+
+
+['Village of Manlius', '', 'http://www.villageofmanlius.org', (43.0024999063, -75.977759983)],
+
+
+['Village of Baldwinsville', '', 'http://www.baldwinsville.org', (43.1590313681, -76.3339076199)],
+
+
+['Village of North Syracuse', '', 'http://www.northsyracuse.org', (43.132494313, -76.1280154253)],
+
+
+['Town of Geddes', '', 'http://www.townofgeddes.com', (43.060297426, -76.2127475561)],
+
+
+['Village of Yorkville', '', 'http://villageofyorkvilleny.org/', (43.1116516893, -75.2786318818)],
+
+
+
+['Village of Jordan', '', 'http://www.villageofjordan.org', (43.0656713492, -76.4721775498)],
+
+
+['Village of Skaneateles', '', 'http://www.villageofskaneateles.com', (42.9453613504, -76.4277675278)],
+
+
+['Town of Van Buren', 'http://townofvanburen.com/employment/', 'http://www.townofvanburen.com', (43.1368513325, -76.3230075441)],
+
+
+
+['Village of Bloomfield', '', 'http://www.bloomfieldny.org', (42.9017374252, -77.4210885105)],
+
+
+['Town of Salina', '', 'http://www.salina.ny.us', (43.0875713364, -76.1838376326)],
+
+
+['Village of Rushville', '', 'http://villageofrushville.com', (42.7602684112, -77.226362979)],
+
+
+['Town of East Bloomfield', '', 'http://www.townofeastbloomfield.com', (42.898114949, -77.4319357292)],
+
+
+
+['Town of Geneva', '', 'http://www.townofgeneva.com', (42.759144915, -77.0847899919)],
+
+
+['Village of Manchester', '', 'http://www.villageofmanchester.org', (42.9686372037, -77.2335205985)],
+
+
+['Town of Tully', '', 'http://townoftully.org', (42.7912658664, -76.1160651335)],
+
+
+['Town of Gorham', '', 'http://www.gorham-ny.com', (42.7986949278, -77.1321599597)],
+
+
+['Town of Naples', '', 'http://www.naplesny.us', (42.6596900205, -77.4949499176)],
+
+
+['Town of Skaneateles', '', 'http://www.townofskaneateles.com', (42.9468613585, -76.4289275342)],
+
+
+['Town of Seneca', '', 'http://www.townofseneca.com', (42.7583549061, -77.1470349138)],
+
+
+
+['Town of Spafford', '', 'http://www.townofspafford.com', (42.8688824193, -76.3386669043)],
+
+
+['Village of Clifton Springs', '', 'http://cliftonspringsny.org', (42.9612673731, -77.1384079361)],
+
+
+['Town of Richmond', 'https://townrichmond.digitaltowpath.org:10135/content/JobCategories', 'http://townofrichmond.org/', (42.7442350184, -77.5043829605)],
+
+
+
+
+['Village of Shortsville', '', 'http://www.villageofshortsvilleny.us', (42.9740099893, -77.2823849252)],
+
+
+['Town of Farmington', '', 'http://www.townoffarmingtonny.com', (42.9905132961, -77.3262965098)],
+
+
+['Village of Phelps', '', 'http://www.phelpsny.com/community/village/', (42.9575110384, -77.0571978988)],
+
+
+
+['Town of Phelps', '', 'http://www.phelpsny.com/community/town/', (42.9573000068, -77.0572958575)],
+
+
+
+['Town of South Bristol', '', 'http://www.southbristolny.org', (42.6596900205, -77.4949499176)],
+
+
+['Village of Chester', '', 'http://www.villageofchester.com', (41.3619278123, -74.2724851876)],
+
+
+['Town of West Bloomfield', '', 'http://townofwestbloomfield.org', (42.9018616857, -77.5390679245)],
+
+
+['Village of Cornwall-on-Hudson', '', 'http://www.cornwall-on-hudson.org', (41.4452431202, -74.015311027)],
+
+
+['Town of Victor', '', 'http://www.victorny.org/index.aspx?NID=27', (42.9823670925, -77.4077468063)],
+
+['Village of Victor', '', 'http://www.victorny.org/index.aspx?NID=92', (42.9825531776, -77.4100291523)],
+
+
+
+['Town of Chester', '', 'http://thetownofchester.org', (41.3398490744, -74.2755453151)],
+
+
+['Town of Canadice', '', 'http://www.canadice.org', (42.673928094, -77.5693429884)],
+
+
+['Town of Bristol', '', 'http://www.townofbristol.org', (42.8093944403, -77.3932537213)],
+
+
+['Town of Goshen', '', 'http://www.townofgoshen.org', (41.4028645865, -74.3237681734)],
+
+
+['Town of Blooming Grove', '', 'http://www.townofbloominggroveny.com', (41.4081100631, -74.1922491201)],
+
+
+['Town of Canandaigua', 'http://www.townofcanandaigua.org/page.asp?id=90', 'http://www.townofcanandaigua.org', (42.8455649254, -77.3076599588)],
+
+
+
+
+['Village of Unionville', '', 'http://www.unionvilleny.org', (41.3015600115, -74.5620600563)],
+
+
+['Village of Maybrook', '', 'http://www.villageofmaybrook.com', (41.4908353279, -74.2098191419)],
+
+
+['Town of Crawford', '', 'http://townofcrawford.org/Home.aspx', (41.6226450428, -74.3996300084)],
+
+
+
+['Village of Goshen', '', 'http://www.villageofgoshen-ny.gov', (41.4055074323, -74.317130571)],
+
+
+['Village of Washingtonville', '', 'http://www.washingtonville-ny.gov', (41.4265443869, -74.1687175392)],
+
+
+['Village of Highland Falls', '', 'http://www.highlandfallsny.org', (41.3705692222, -73.9653983934)],
+
+
+['Village of Monroe', '', 'http://www.villageofmonroe.org', (41.3280941477, -74.1873298715)],
+
+
+['Town of Minisink', '', 'http://www.townofminisink.com', (41.3316950895, -74.5426850568)],
+
+
+['Town of Hamptonburgh', '', 'http://townofhamptonburgh.org', (41.4571660257, -74.2721050926)],
+
+
+
+['Village of Tuxedo Park', '', 'http://www.tuxedopark-ny.gov', (41.2123131188, -74.1993468712)],
+
+
+['Town of Newburgh', 'http://townofnewburgh.org/cn/Employment/?tpid=12612', 'http://townofnewburgh.org', (41.5322430845, -74.0632817699)],
+
+
+
+['Town of Cornwall', '', 'http://www.cornwallny.gov', (41.4389486333, -74.0282085873)],
+
+
+['Town of Highlands', '', 'http://www.highlands-ny.gov', (41.3693820754, -73.9658446834)],
+
+
+['Town of Manchester', 'http://manchesterny.org/employment-opportunities', 'http://manchesterny.org', (42.958414963, -77.1445899627)],
+
+
+
+['Town of Deerpark', '', 'http://www.townofdeerpark.org', (41.4429950825, -74.6524650841)],
+
+
+['Town of Montgomery', '', 'http://www.townofmontgomery.com', (41.5221628037, -74.1992864829)],
+
+
+
+
+
+['Village of Otisville', 'https://villageotisville.digitaltowpath.org:10202/content/JobCategories', 'http://www.villageofotisville.com', (41.4667640805, -74.5384714061)],
+
+
+
+['Town of Tuxedo', '', 'http://www.tuxedogov.org', (41.2055650941, -74.2254500514)],
+
+
+['Village of Florida', '', 'http://villageoffloridany.org', (41.3335960249, -74.3575568847)],
+
+
+['Town of Albion', '', 'http://www.townofalbion.com', (43.2386624955, -78.178039816)],
+
+
+['Village of Albion', '', 'http://www.vil.albion.ny.us', (43.2479351017, -78.1931631342)],
+
+
+['Town of Wawayanda', '', 'http://www.townofwawayanda.com', (41.3848150024, -74.474500046)],
+
+
+['Town of Mount Hope', 'https://townofmounthope.org/employment/', 'http://townofmounthope.org', (41.467690033, -74.5390400543)],
+
+
+
+['Village of Woodbury', '', 'http://villageofwoodbury.com/home', (41.3666250583, -74.0923900338)],
+
+
+
+
+['Town of Woodbury', '', 'http://www.townofwoodbury.com', (41.3471740713, -74.1264622829)],
+
+
+
+['Village of Walden', '', 'http://www.villageofwalden.org', (41.5655900799, -74.1735051021)],
+
+
+['Village of Greenwood Lake', '', 'http://www.villageofgreenwoodlake.org', (41.2211170211, -74.2914580488)],
+
+
+['Village of Holley', 'http://www.villageofholley.org/jobs.cfm', 'http://www.villageofholley.org', (43.2252205431, -78.0250840456)],
+
+
+
+['Town of Warwick', '', 'http://www.townofwarwick.org/', (41.2576325245, -74.3588055956)],
+
+
+['Town of Murray', '', 'http://www.townofmurray.org', (43.2447949923, -78.0909529909)],
+
+
+['Town of Hopewell', '', 'http://www.townofhopewell.org', (42.9001787203, -77.1842066602)],
+
+
+
+['Town of Yates', '', 'http://townofyates.org', (43.3210820288, -78.3890378689)],
+
+
+['Village of Cleveland', '', 'http://www.norcog.org/cleveland/', (43.2742749782, -75.8868598981)],
+
+
+['Village of Warwick', '', 'http://www.villageofwarwick.org', (41.2584108073, -74.3583920644)],
+
+
+['Town of Carlton', '', 'http://www.townofcarlton.com', (43.3232618885, -78.1925113059)],
+
+
+['Town of Hannibal', 'http://hannibalny.org/?page_id=2779', 'http://hannibalny.org', (43.3134449267, -76.5498799814)],
+
+
+
+['Town of Gaines', '', 'http://www.townofgaines.org', (43.2328749797, -78.2127899127)],
+
+
+['Town of Kendall', '', 'http://www.townofkendall.com', (43.3464891453, -78.0560084465)],
+
+
+['Village of Central Square', '', 'http://www.villageofcentralsquare-ny.us', (43.2845085909, -76.1370902254)],
+
+
+['Town of Barre', '', 'http://www.townofbarreny.com', (43.1732861559, -78.1978115329)],
+
+
+['Town of Orwell', '', 'http://www.townoforwell-ny.us', (43.5745266766, -75.9962528496)],
+
+
+['Town of Clarendon', '', 'http://www.townofclarendon.org', (43.1914938327, -78.0596794975)],
+
+
+
+['Town of Granby', '', 'http://www.towngranby.org', (43.2849518821, -76.4634187768)],
+
+
+
+['Town of Albion', '', 'http://www.townofalbion-ny.us', (43.2386624955, -78.178039816)],
+
+
+['Town of New Haven', '', 'http://newhavenny.com', (43.4796658453, -76.3172680457)],
+
+
+['Village of Medina', '', 'http://villagemedina.org/', (43.2189100305, -78.3874062654)],
+
+
+['Town of Sandy Creek', '', 'http://www.sandycreekny.us', (43.643944393, -76.0782035222)],
+
+
+['Town of Amboy', '', 'http://www.townofamboy-ny.us', (43.3952799615, -75.936684916)],
+
+
+['Town of Constantia', '', 'http://www.townconstantia.org', (43.2492940616, -76.0017558737)],
+
+
+
+['Town of Ridgeway', '', 'http://www.townridgeway.org', (43.2213272569, -78.3898839449)],
+
+
+['Town of Richland', '', 'http://www.townofrichland.org', (43.5656609281, -76.1290299128)],
+
+
+['Town of Oswego', '', 'http://www.townofoswego.com', (43.4154167336, -76.5332370747)],
+
+
+['Town of Burlington', '', 'http://www.townofburlingtonny.com', (42.7456792033, -75.1831343805)],
+
+
+['Village of Cherry Valley', '', 'http://cherryvalleyny.us', (42.7969819495, -74.7542270831)],
+
+
+['Village of Mexico', '', 'http://mexicovillage.net', (43.4599424769, -76.2272480481)],
+
+
+
+['Village of Phoenix', '', 'http://villageofphoenix-ny.gov', (43.2292966204, -76.2990427303)],
+
+
+['Town of Schroeppel', '', 'http://www.townofschroeppel.com', (43.223145975, -76.2840910614)],
+
+
+
+['Village of Pulaski', 'https://villagepulaski.digitaltowpath.org:10789/content/JobCategories', 'http://www.villagepulaski.org', (43.5701167412, -76.1254029131)],
+
+
+
+
+['Village of Parish', '', 'http://www.villageofparish-ny.us', (43.4062950752, -76.1244968379)],
+
+
+['Village of Tully', '', 'http://www.tullyny.org', (42.7912658664, -76.1160651335)],
+
+
+
+['Town of Milford', '', 'http://townofmilford.org', (42.5378850408, -74.9674500615)],
+
+
+['Town of West Monroe', '', 'http://www.townofwestmonroe-ny.us', (43.284063184, -76.0650874017)],
+
+
+
+['Town of Otego', '', 'http://townofotego.com', (42.372535044, -75.2057300047)],
+
+
+['Town of Otsego', '', 'http://townofotsego.com', (42.7240002579, -74.9805190359)],
+
+
+['Town of Shelby', '', 'http://www.townofshelbyny.org', (43.2146713351, -78.4113624799)],
+
+
+['Town of New Lisbon', '', 'http://townofnewlisbon.com', (42.6491900303, -75.1862550857)],
+
+
+['Town of Westford', '', 'http://www.westfordny.com', (42.5862400355, -74.836295073)],
+
+
+['Village of Gilbertsville', '', 'http://www.gilbertsville.com', (42.4404550772, -75.3648950344)],
+
+
+['Town of Edmeston', '', 'http://www.edmestonny.org', (42.6979614678, -75.2442780544)],
+
+
+
+
+
+['Town of Worcester', '', 'http://www.townofworcesterny.com', (42.5923860965, -74.7513485488)],
+
+
+['Town of Roseboom', '', 'http://www.townofroseboom.com', (42.8632199399, -74.7526350355)],
+
+
+['Town of Plainfield', '', 'http://townofplainfieldny.org/', (42.835891574, -75.1943032525)],
+
+
+['Village of Cold Spring', '', 'http://users.bestweb.net/~vcsclerk/', (41.4178516519, -73.9579185307)],
+
+
+['Town of Hartwick', 'https://townhartwick.digitaltowpath.org:10113/content/JobCategories', 'http://www.townofhartwick.org', (42.6600291528, -75.0440912484)],
+
+
+
+
+['Village of Cooperstown', 'https://www.cooperstownny.org/employment/', 'http://www.cooperstownny.org', (42.7001796838, -74.9226674811)],
+
+
+
+['Village of Richfield Springs', '', 'http://www.villageofrichfieldsprings-ny.com', (42.8538216724, -74.9882603486)],
+
+
+['Town of Patterson', '', 'http://www.pattersonny.org/', (41.5138545308, -73.6046303818)],
+
+
+['Town of Berlin', '', 'http://berlin-ny.us/', (42.6795750816, -73.3310850431)],
+
+
+['Town of Southeast', '', 'http://www.southeast-ny.gov', (41.3944116555, -73.6193986956)],
+
+
+
+['Town of Oneonta', '', 'http://www.townofoneonta.org', (42.4703715126, -75.112138174)],
+
+
+
+['Village of Nelsonville', '', 'http://www.villageofnelsonville.org', (41.4239416327, -73.9487985904)],
+
+
+
+['Town of Kent', '', 'http://www.townofkentny.gov/', (41.479231507, -73.6697730666)],
+
+
+['Village of Hoosick Falls', '', 'http://www.hoosickfalls.com/', (42.9008212828, -73.3502687224)],
+
+
+['Town of Hoosick', 'http://townofhoosick.org/employmentopportunities.shtml', 'http://townofhoosick.org', (42.8622899602, -73.3275999961)],
+
+
+
+['Town of Philipstown', '', 'http://www.philipstown.com', (41.4229216381, -73.9508285691)],
+
+
+['Town of Volney', '', 'http://www.townofvolney.com', (43.3421817327, -76.3585668303)],
+
+
+['Town of Middlefield', '', 'http://www.middlefieldny.com', (42.719310039, -74.9029500189)],
+
+
+['Town of East Greenbush', 'https://www.eastgreenbush.org/departments/human-resources/employment-opportunities', 'http://www.eastgreenbush.org', (42.617351421, -73.7312185505)],
+
+
+
+
+['County of Putnam', 'https://putnam.munisselfservice.com/employmentopportunities/default.aspx', 'http://www.putnamcountyny.gov', (41.4262934574, -73.6788680935)],
+
+
+
+['Village of Brewster', '', 'http://www.brewstervillage-ny.gov/', (41.3952915971, -73.6070186469)],
+
+
+
+['Town of Carmel', '', 'http://www.carmelny.org', (41.3812450326, -73.7523200503)],
+
+
+['Village of Sloatsburg', '', 'http://www.sloatsburgny.com', (41.1577816686, -74.1920185207)],
+
+
+['Town of Ballston', '', 'http://www.townofballstonny.org', (42.9509893099, -73.9052059994)],
+
+
+['Town of Charlton', '', 'http://www.townofcharlton.org', (42.9345214477, -73.9631648669)],
+
+
+['Village of Wesley Hills', '', 'http://www.wesleyhills.org/', (41.1541261502, -74.0700849628)],
+
+
+['Town of Moreau', 'http://www.townofmoreau.org/job_opportunities.asp', 'http://www.townofmoreau.org', (43.2526791279, -73.6555730577)],
+
+
+
+
+['Town of Corinth', '', 'http://townofcorinthny.org', (43.2460978083, -73.8152335318)],
+
+
+['Town of Northumberland', '', 'http://www.townofnorthumberland.org', (43.1979499061, -73.6832000692)],
+
+
+['Village of South Glens Falls', '', 'http://www.sgfny.com/', (43.2855699699, -73.6385150519)],
+
+
+['Town of Saratoga', '', 'http://www.townofsaratoga.com', (43.0998724604, -73.5796870902)],
+
+
+['Village of Schuylerville', '', 'http://villageofschuylerville.org/', (43.1042449706, -73.5832180518)],
+
+
+['Town of Day', 'https://www.tax.ny.gov/about/empopps/default.htm', 'http://www.townofday.com', (43.3047520669, -74.0178946481)],
+
+
+
+
+['Village of Stillwater', 'https://www.stillwaterny.org/employment-opportunities/', 'http://www.stillwaterny.org/', (42.9987899531, -73.6628200392)],
+
+
+
+['Town of Providence', '', 'http://townofprovidence.org/', (43.0469249493, -74.0423300328)],
+
+
+
+['Town of Milton', '', 'http://www.townofmiltonny.org', (43.044858951, -73.8526866303)],
+
+
+['Village of Delanson', '', 'http://www.delanson.net', (42.8290600004, -74.2497550275)],
+
+
+['Town of Stillwater', '', 'http://stillwaterny.org/', (42.9987899531, -73.6628200392)],
+
+
+['Town of Waterford', 'http://www.town.waterford.ny.us/employment-opportunities.html', 'http://www.town.waterford.ny.us', (42.790442278, -73.6784862383)],
+
+
+
+
+['Village of Victory', '', 'http://www.villageofvictory.org', (43.0879849392, -73.5937700925)],
+
+
+
+['Town of Duanesburg', 'https://www.duanesburg.net/human-resources', 'http://www.duanesburg.net', (42.765322018, -74.1468943128)],
+
+
+
+
+['Village of Scotia', 'https://www.villageofscotia.org/employment-opportunities/', 'http://www.villageofscotia.org/', (42.8265969702, -73.9642569322)],
+
+
+
+['Town of Wilton', '', 'http://www.townofwilton.com', (43.1677853699, -73.7171195879)],
+
+
+['Village of Waterford', '', 'http://www.waterfordny.org', (42.8113056106, -73.6999601388)],
+
+
+['Town of Glenville', 'https://www.townofglenville.org/home/pages/employment-opportunities', 'http://www.townofglenville.org', (42.8681788917, -73.9273192032)],
+
+
+
+['Town of Niskayuna', 'https://www.niskayuna.org/home/pages/employment-opportunities', 'http://www.niskayuna.org', (42.805724958, -73.8744000943)],
+
+
+
+['Town of Rotterdam', '', 'http://www.rotterdamny.org', (42.8073549345, -74.0356150187)],
+
+
+['Town of Malta', '', 'http://www.malta-town.org', (42.9755809676, -73.7911673553)],
+
+
+['Town of Stony Point', '', 'http://www.townofstonypoint.org/', (41.2283416684, -73.984728548)],
+
+
+['Town of Esperance', '', 'http://www.townofesperance.org/', (42.7019900331, -74.380870057)],
+
+
+['Town of Cayuta', '', 'http://www.townofcayuta.org/', (42.2941216062, -76.7201874954)],
+
+
+['Town of Dix', '', 'http://www.townofdix.com/', (42.3489450276, -76.8336099655)],
+
+
+
+['Village of Watkins Glen', 'http://www.watkinsglen.us/employment-opportunities.php', 'http://www.watkinsglen.us', (42.3809615816, -76.8741574265)],
+
+
+
+['Town of Montour', '', 'http://townofmontour.com/', (42.3489450276, -76.8336099655)],
+
+
+['Village of Burdett', '', 'http://burdettny.us/', (42.4189254261, -76.8494904521)],
+
+
+
+['Town of Covert', '', 'http://www.townofcovert.org', (42.6138654038, -76.7242557573)],
+
+
+['Town of Catharine', '', 'http://www.townofcatharine.com/', (42.3381015542, -76.7703575401)],
+
+
+['Village of Montour Falls', '', 'http://villageofmontourfalls.com/', (42.3457315853, -76.8497474501)],
+
+
+['Town of Orange', '', 'http://townoforangeny.org/', (42.3043880156, -77.0486149604)],
+
+
+
+['Village of Interlaken', 'http://www.interlaken-ny.us/jobs.html', 'http://www.villageofinterlaken.org/', (42.6186661694, -76.7245753487)],
+
+
+
+
+['Town of Edinburg', '', 'http://www.edinburgny.com', (43.2216301694, -74.103675529)],
+
+
+['Town of Princetown', 'https://townprincetown.digitaltowpath.org:10095/content/JobCategories', 'http://princetown.net', (42.7805813288, -74.0333884519)],
+
+
+
+
+['Town of Junius', '', 'http://www.townofjunius.org/', (42.9766440582, -76.9351749236)],
+
+
+['Town of Seneca Falls', '', 'http://www.senecafalls.com/', (42.9077257207, -76.8027875275)],
+
+
+['Town of Lodi', '', 'http://lodiny.com/', (42.615254543, -76.8233278441)],
+
+
+['Town of Ovid', '', 'http://www.townofovid.org/', (42.6562040852, -76.8253580024)],
+
+
+['Village of Round Lake', '', 'http://www.roundlakevillage.org', (42.9367570025, -73.7949053064)],
+
+
+['County of Seneca', 'https://seneca-portal.mycivilservice.com/', 'http://www.co.seneca.ny.us', (42.9097847627, -76.8430784072)],
+
+
+
+['Town of Greenfield', '', 'http://greenfieldny.org/', (43.1282640867, -73.8457935198)],
+
+
+['Village of Savona', '', 'http://www.villageofsavona.com/', (42.3176950264, -77.1878349309)],
+
+
+['Town of Reading', '', 'https://sites.google.com/site/townofreadingschuylercountyny', (42.4437300099, -76.9466049764)],
+
+
+
+['Town of Bath', '', 'http://www.townofbathny.org/', (42.3492350755, -77.3425949179)],
+
+
+['Village of Waterloo', '', 'http://www.waterloony.com', (42.9042404801, -76.8650435698)],
+
+
+['Town of Tyre', '', 'http://www.tyreny.com/', (42.9679713659, -76.828555158)],
+
+
+
+['Village of Addison', '', 'http://www.villageofaddison.info/', (42.1036266507, -77.2375809273)],
+
+
+['Town of Cohocton', '', 'http://www.townofcohocton.com/', (42.5003414259, -77.4949525824)],
+
+
+
+['Village of Suffern', '', 'http://www.suffernvillage.com/', (41.1140716957, -74.1501885251)],
+
+
+
+['Town of Hadley', '', 'http://www.townofhadley.org', (43.3231749894, -74.0055050183)],
+
+
+
+['Town of Romulus', '', 'http://www.romulustown.com/', (42.6834050234, -76.8702199558)],
+
+
+['Town of Corning', '', 'http://www.townofcorningny.org', (42.1219140411, -77.0348307877)],
+
+
+
+['Town of Campbell', '', 'http://www.campbellny.com/', (42.2401629158, -77.1311949736)],
+
+
+['Town of Erwin', '', 'http://www.erwinny.org', (42.1607450624, -77.1338899449)],
+
+
+['Town of Caton', '', 'http://www.townofcaton.com', (42.1302750887, -77.0356949537)],
+
+
+['Town of Dansville', '', 'http://townofdansvilleny.com', (42.4486757778, -77.6543473225)],
+
+
+['Village of Painted Post', '', 'http://www.paintedpostny.com/', (42.1607450624, -77.1338899449)],
+
+
+['Town of Rathbone', '', 'http://www.townofrathbone.com', (42.1874350617, -77.3668099826)],
+
+
+['Town of Hornellsville', '', 'http://www.townofhornellsville.com', (42.3929722826, -77.6953175107)],
+
+
+
+['Village of North Hornell', '', 'http://www.northhornell.com/', (42.3444570514, -77.6617919075)],
+
+
+['Village of Cohocton', '', 'http://www.cohoctonny.com/', (42.4984363196, -77.4948123252)],
+
+
+['Town of Halfmoon', 'https://www.townofhalfmoon-ny.gov/home/pages/job-opportunities', 'http://www.townofhalfmoon.org', (42.8538289634, -73.7254720147)],
+
+
+['Town of Urbana', '', 'http://www.townofurbana.com', (42.3895430343, -77.2596848314)],
+
+
+['Town of Wayne', '', 'http://www.townofwayneny.com', (42.4671990577, -77.1580389643)],
+
+
+['Town of Wayland', 'https://townwayland.digitaltowpath.org:10163/content/JobCategories', 'http://townofwayland.org', (42.5395700563, -77.6281949636)],
+
+
+
+
+['Town of Canton', '', 'http://www.cantonnewyork.us', (44.5800399073, -75.1491600139)],
+
+
+['Town of Woodhull', '', 'http://www.woodhullny.com/', (42.0564350415, -77.4332999743)],
+
+
+['Town of Colton', '', 'http://www.townofcolton.com', (44.5146099818, -74.9347850096)],
+
+
+['Town of Fremont', '', 'http://www.fremontnewyork.us/', (42.3944973631, -77.6270583018)],
+
+
+['Town of Fowler', '', 'http://www.fowlerny.com/', (44.3095949683, -75.4464100448)],
+
+
+['Town of Clifton', '', 'http://townofcliftonny.org', (44.222988224, -74.8370819722)],
+
+
+
+['Town of Gouverneur', '', 'http://gouverneurny.com', (44.19434993, -75.5312700317)],
+
+
+['Town of Pulteney', '', 'http://www.pulteneyny.com', (42.5248700555, -77.16160993)],
+
+
+['Town of Fine', 'https://townfine.digitaltowpath.org:10054/content/JobCategories', 'http://www.townoffine.org', (44.1647367012, -75.0459947301)],
+
+
+
+['Village of Gouverneur', '', 'http://www.villageofgouverneur.org/', (44.3361837338, -75.4699697093)],
+
+
+['Village of Norwood', '', 'http://www.norwoodny.org', (44.753349927, -74.9858900965)],
+
+
+['Town of Hopkinton', '', 'http://www.townofhopkinton.com/', (44.6981340685, -74.7016675458)],
+
+
+['Town of Madrid', '', 'http://townofmadrid.org', (44.7725049297, -75.1547400273)],
+
+
+['Town of Lisbon', '', 'http://www.lisbonny.net/', (44.7405949121, -75.2789400014)],
+
+
+['Village of Hammondsport', '', 'http://www.hammondsport.com/', (42.4078155048, -77.2234664412)],
+
+
+
+['Town of Varick', '', 'http://www.varickny.com/', (42.7946438774, -76.8438013113)],
+
+
+
+['Town of Morristown', '', 'http://www.townofmorristownny.org', (44.5843899918, -75.6455150379)],
+
+
+['Village of Heuvelton', 'http://www.heuveltonny.com/employment-opportunities.html', 'http://www.heuveltonny.com/', (44.6188339973, -75.41173311)],
+
+
+
+['City of Lockport', '', 'http://elockport.com/city-index.php', (43.1695629342, -78.695646266)],
+
+
+
+['Town of Hammond', 'https://townofhammondny.com/employment/', 'http://townofhammondny.com', (44.4495407618, -75.6944492927)],
+
+
+
+['Town of Norfolk', '', 'http://www.norfolkny.us', (44.7995588725, -74.9869234912)],
+
+
+['Town of Parishville', '', 'http://www.parishvilleny.us', (44.6286974898, -74.813548546)],
+
+
+['Town of Oswegatchie', '', 'http://townofoswegatchie.org/', (44.6208753707, -75.4114050832)],
+
+
+
+['Town of Pitcairn', '', 'http://www.townofpitcairn.com', (44.1817448678, -75.2817615815)],
+
+
+['Village of Potsdam', '', 'http://www.vi.potsdam.ny.us/', (44.6694172899, -74.9826266144)],
+
+
+
+['Town of Pierrepont', '', 'http://www.townofpierrepont.com', (44.5417881882, -75.0105178864)],
+
+
+['Town of Stockholm', '', 'http://stockholm-ny.com', (44.7920343643, -74.7903652894)],
+
+
+['Town of Allen', '', 'http://www.alleganyco.com/local_govt/Allen/', (42.3494299997, -77.987814909)],
+
+
+
+
+['Town of Russell', '', 'http://www.russellny.org', (44.3828199523, -75.0341150071)],
+
+
+['County of St Lawrence', 'https://www.stlawco.org/Departments/HumanResources/CountyJobPostings', 'http://www.stlawco.org', (44.5800399073, -75.1491600139)],
+
+
+['Village of Waddington', '', 'http://www.villageofwaddington.org', (44.8606821423, -75.2056282562)],
+
+
+['Town of Potsdam', '', 'http://www.potsdamny.us', (44.669637821, -74.9871715551)],
+
+
+['Town of Babylon', '', 'http://www.townofbabylon.com', (40.7053417345, -73.374818826)],
+
+
+['Town of Massena', '', 'http://www.massenaworks.com/town/index.asp', (44.9312448013, -74.8932627886)],
+
+
+
+['Village of Bath', '', 'http://www.villageofbath.org/', (42.3357917422, -77.3177596631)],
+
+
+['Village of Belle Terre', '', 'http://www.belleterre.us', (40.950063881, -73.0614434751)],
+
+
+['Village of East Hampton', '', 'http://www.easthamptonvillage.org', (40.9618416311, -72.1863391721)],
+
+
+['Village of Poquott', '', 'http://www.poquott.org', (40.9350400234, -73.1065000879)],
+
+
+['Village of Brightwaters', '', 'http://www.villageofbrightwaters.com', (40.7303017914, -73.2718188298)],
+
+
+['Village of Babylon', '', 'http://www.villageofbabylonny.gov', (40.695738023, -73.3262341102)],
+
+
+['Village of Patchogue', '', 'http://www.patchoguevillage.org', (40.7616517427, -73.0121888736)],
+
+
+['Village of Amityville', 'http://amityville.com/employment-opportunities/', 'http://www.amityville.com', (40.6787717347, -73.4182588387)],
+
+
+
+['Village of Saltaire', '', 'http://www.saltaire.org', (40.640378576, -73.198257468)],
+
+
+['Village of Ocean Beach', '', 'http://www.villageofoceanbeach.org', (40.6487900475, -73.1578100904)],
+
+
+['Village of Head Of The Harbor', '', 'http://villagehohny.org/', (0.0, 0.0)],
+
+
+
+['Village of Shoreham', '', 'http://www.shorehamvillage.org', (40.9594653448, -72.9087617621)],
+
+
+
+['Village of Old Field', '', 'http://www.oldfieldny.org', (40.9350400234, -73.1065000879)],
+
+
+['Village of The Branch', '', 'http://villageofthebranch.homestead.com/', (40.8518550724, -73.2107250872)],
+
+
+['Village of Islandia', '', 'http://newvillageofislandia.com', (40.8068117224, -73.1640888404)],
+
+
+
+['Town of Shelter Island', '', 'http://www.shelterislandtown.us/', (41.0698635504, -72.3389526073)],
+
+
+['Village of Nissequogue', '', 'http://nissequogueny.gov', (40.8990649717, -73.1944589142)],
+
+
+
+['Village of Quogue', '', 'http://www.villageofquogue.com', (40.8167680019, -72.609998975)],
+
+
+['Village of North Haven', '', 'http://northhavenny.us', (41.0314892279, -72.3123183059)],
+
+
+['Village of Sagaponack', '', 'http://www.sagaponackvillage.org', (0.0, 0.0)],
+
+
+['Village of Sag Harbor', '', 'http://www.sagharborny.gov', (41.0009316859, -72.2948191628)],
+
+
+
+['Village of Westhampton Beach', '', 'http://www.westhamptonbeach.org', (40.8149630578, -72.6446080045)],
+
+
+['Village of Southampton', '', 'http://www.southamptonvillage.org', (40.884781669, -72.3898891489)],
+
+
+['Village of Northport', '', 'http://www.northportny.gov', (40.9005217314, -73.3473587773)],
+
+
+['Village of Greenport', 'https://www.greenport.com/jobs-board', 'http://www.greenport.com', (41.1024772094, -72.3631550374)],
+
+
+
+
+['Town of Southold', '', 'http://www.southoldtownny.gov', (41.0634816932, -72.4313890551)],
+
+
+
+['Town of Carrollton', '', 'http://www.carrolltonny.org/index.htm', (42.0491000722, -78.6465699268)],
+
+
+
+['Town of Bethel', '', 'http://www.town.bethel.ny.us', (41.6362050514, -74.8740500621)],
+
+
+['Town of Barker', '', 'http://www.gobroomecounty.com/files/community/pdfs/TownofBarker.pdf', (42.2531900918, -75.9071249281)],
+
+
+
+['Village of Cattaraugus', '', 'http://www.cattaraugusny.org/html/vgov.html', (42.330066068, -78.8686291691)],
+
+
+
+['Town of Fallsburgh', '', 'http://www.townoffallsburg.com', (0.0, 0.0)],
+
+
+
+['Town of Delaware', '', 'http://www.townofdelaware-ny.us/', (41.7812200841, -75.0225650264)],
+
+
+['Town of Callicoon', '', 'http://townofcallicoon.org', (41.7833481603, -74.9316320088)],
+
+
+['Village of Liberty', '', 'http://www.libertyvillageny.org', (41.8022590771, -74.7469085876)],
+
+
+['Town of Cochecton', '', 'http://townofcochectonny.org', (41.6797250851, -74.9350750544)],
+
+
+['Town of Lumberland', '', 'http://www.townoflumberland.org', (43.2237449886, -76.4241699157)],
+
+
+['Village of Wurtsboro', '', 'http://www.mamakating.org/villageofwurtsboro.php', (41.5844000825, -74.5212650403)],
+
+
+
+['Village of West Hampton Dunes', '', 'http://www.whdunes.org', (40.8295750107, -72.6858950336)],
+
+
+['Town of Highland', '', 'http://www.townofhighlandny.com', (41.5400800492, -74.8979750867)],
+
+
+['Town of Forestburgh', '', 'http://www.forestburgh.net', (41.5538100049, -74.7169650156)],
+
+
+['Town of Liberty', '', 'http://www.townofliberty.org', (41.8012217258, -74.7473796221)],
+
+
+['Village of Monticello', '', 'http://www.villageofmonticello.com', (41.6540713416, -74.6818793853)],
+
+
+['Town of Mamakating', '', 'http://www.mamakating.org', (41.5663718046, -74.497035879)],
+
+
+['Town of Barton', '', 'http://www.townofbarton.org', (42.0095467986, -76.5066282696)],
+
+
+['Town of Berkshire', '', 'http://www.berkshireny.net', (42.3001468109, -76.1876636973)],
+
+
+
+['County of Sullivan', 'https://sullivan-portal.mycivilservice.com/jobopps', 'http://www.co.sullivan.ny.us', (41.6584171483, -74.6918582066)],
+
+
+
+
+['Town of Thompson', '', 'http://www.townofthompson.com', (41.6685341129, -74.672026423)],
+
+
+['Town of Tusten', '', 'http://www.tusten.org', (41.5913750609, -74.9820450602)],
+
+
+
+['Village of Newark Valley', '', 'http://villagenv.com/', (42.223008223, -76.1831693907)],
+
+
+
+['Village of Lloyd Harbor', '', 'http://lloydharbor.org', (40.8858917472, -73.4585187644)],
+
+
+['Town of Richford', '', 'http://www.richfordny.com', (42.3827850495, -76.1953449798)],
+
+
+['Town of Rockland', '', 'http://www.townofrocklandny.com', (41.8812750453, -74.8549600125)],
+
+
+['Village of Waverly', '', 'http://www.waverlybarton.com', (42.0009214147, -76.5390398176)],
+
+
+['Town of Fremont', '', 'http://www.fremontnewyork.us', (42.3944973631, -77.6270583018)],
+
+
+['Town of Neversink', 'http://www.townofneversink.org/town-positions.html', 'http://www.townofneversink.org', (41.847348376, -74.5481598292)],
+
+
+
+['Village of Huntington Bay', '', 'http://www.huntingtonbay.org', (40.8991850722, -73.4658250873)],
+
+
+['Village of Cayuga Heights', '', 'http://www.cayuga-heights.ny.us', (42.4454850661, -76.5180349008)],
+
+
+['Town of Groton', '', 'http://www.townofgrotonny.org', (42.5902246801, -76.3696417776)],
+
+
+['Town of Caroline', '', 'http://www.townofcaroline.org', (42.4016350236, -76.3551699281)],
+
+
+['Town of Owego', 'http://townofowego.com/employment/', 'http://www.townofowego.com', (42.1005500934, -76.2455839328)],
+
+
+
+['Village of Dryden', '', 'http://www.dryden-ny.org', (42.4895547514, -76.2979435075)],
+
+
+['Village of Asharoken', '', 'http://www.asharoken.com', (40.9181916246, -73.3512283136)],
+
+
+['Village of Groton', '', 'http://www.grotonny.org', (42.5911808511, -76.3660600317)],
+
+
+['Village of Owego', '', 'http://www.villageofowego.com', (42.1034580303, -76.2622912756)],
+
+
+['Village of Port Jefferson', '', 'http://www.portjeff.com', (40.9458138392, -73.0717174142)],
+
+
+['Town of Ledyard', 'https://mycivilservice.cayugacounty.us/exams', 'http://www.cayugacounty.us/towns/H-P/Ledyard.aspx', (42.7356632048, -76.6668674628)],
+
+
+
+
+['County of Tompkins', '', 'http://tompkinscountyny.gov/assessment', (42.4422926175, -76.4973344654)],
+
+
+['Town of Danby', '', 'http://town.danby.ny.us', (42.3539607405, -76.4820580531)],
+
+
+
+['Town of Denning', '', 'http://www.denning.us', (41.9042700726, -74.6024950039)],
+
+
+['Town of Enfield', '', 'http://www.townofenfield.org', (42.4380752013, -76.6312150334)],
+
+
+
+['Town of Ithaca', '', 'http://www.town.ithaca.ny.us', (42.4411816738, -76.4966856999)],
+
+
+['Town of Kingston', '', 'http://www.townkingstonny.us', (41.9865172466, -74.033545481)],
+
+
+['Town of Ulysses', '', 'http://www.ulysses.ny.us', (42.5412128612, -76.6612631819)],
+
+
+['Town of Marlborough', '', 'http://www.marlboroughny.com', (41.637846491, -73.9626650262)],
+
+
+['Village of New Paltz', '', 'http://www.villageofnewpaltz.org', (41.7543800244, -74.0934800782)],
+
+
+
+
+['Town of Hurley', '', 'http://www.townofhurley.org', (41.9255439683, -74.0671253947)],
+
+
+
+['Town of Lloyd', '', 'http://www.townoflloyd.com', (41.7192660111, -73.9657456387)],
+
+
+['Town of Marbletown', '', 'http://www.marbletown.net', (41.8701250246, -74.1759000987)],
+
+
+['Village of Freeville', '', 'http://freevilleny.org', (42.4988450749, -76.3572299205)],
+
+
+
+['Town of Esopus', '', 'http://www.esopus.com', (41.9062100748, -73.981545033)],
+
+
+['Village of Trumansburg', '', 'http://www.trumansburg-ny.gov', (42.5410809369, -76.660198577)],
+
+
+['Town of New Paltz', '', 'http://www.townofnewpaltz.org', (41.7565202036, -74.0826452034)],
+
+
+['Village of Lake Grove', '', 'http://www.lakegroveny.gov', (40.8581550521, -73.117560096)],
+
+
+['Town of Dryden', '', 'http://www.dryden.ny.us', (42.4912505428, -76.2861872887)],
+
+
+['Town of Rochester', '', 'http://www.townofrochester.net', (41.7858768207, -74.2377531624)],
+
+
+['Village of Lansing', '', 'http://www.vlansing.org', (42.4881305536, -76.4884785439)],
+
+
+['Town of Lansing', '', 'http://www.lansingtown.com', (42.6253100711, -76.5757499955)],
+
+
+['Town of Gardiner', '', 'http://www.townofgardiner.org', (41.6682250755, -74.1837000635)],
+
+
+['Town of Newfield', '', 'http://newfieldny.org', (42.3432050642, -76.6146499777)],
+
+
+['Town of Rosendale', '', 'http://www.townofrosendale.com', (41.8439895214, -74.0833997359)],
+
+
+['Town of Argyle', '', 'http://www.argyleny.com', (43.2344692526, -73.4906566192)],
+
+
+
+['Town of Cambridge', '', 'http://townofcambridgeny.org', (42.9943753139, -73.4551067304)],
+
+
+['Town of Easton', '', 'http://eastonny.org', (43.0861849167, -73.4958350658)],
+
+
+['Town of Fort Ann', '', 'http://www.fortann.us', (43.4450799884, -73.5070900056)],
+
+
+['Town of Greenwich', 'https://www.greenwichny.org/home/job-openings/', 'http://www.greenwichny.org', (43.0914925267, -73.5023876861)],
+
+
+
+['Village of Cambridge', '', 'http://www.cambridgeny.gov', (43.0269660211, -73.3842762838)],
+
+
+
+['Village of Greenwich', '', 'http://www.villageofgreenwich.org', (43.0914436845, -73.5030750367)],
+
+
+['Town of Hampton', '', 'http://www.hamptonny.org', (43.476734934, -73.2576750173)],
+
+
+['Village of Fort Edward', '', 'http://villageoffortedward.com', (43.268029751, -73.5853614714)],
+
+
+['Town of Hebron', '', 'http://www.hebronny.com', (43.2291197698, -73.374779434)],
+
+
+['Town of Kingsbury', '', 'http://www.kingsburyny.gov', (43.3024762925, -73.5851957529)],
+
+
+
+['Town of Fort Edward', '', 'http://www.fortedward.net', (43.268029751, -73.5853614714)],
+
+
+['Village of Hudson Falls', '', 'http://www.villageofhudsonfalls.com', (43.3030117272, -73.5845948846)],
+
+
+['Village of Newark', 'https://www.villageofnewark.com/employment-opportunities.html', 'https://www.villageofnewark.com', (43.0047699104, -77.0964549649)],
+
+
+
+['County of Washington', 'https://washingtoncountyny.gov/jobs.aspx', 'http://www.co.washington.ny.us', (43.2638899821, -73.6209250709)],
+
+
+
+
+['Town of Stony Creek', '', 'http://www.stonycreekny.com', (43.4243840247, -73.927427046)],
+
+
+['Town of Lake Luzerne', '', 'http://www.townoflakeluzerne.com', (43.3205309862, -73.8413160118)],
+
+
+['Town of Queensbury', 'https://www.queensbury.net/government/employment/', 'http://www.queensbury.net', (43.3597112246, -73.6565085884)],
+
+
+
+['Village of Granville', '', 'http://granvillevillage.com', (43.3700350036, -73.3173200149)],
+
+
+
+['Town of Van Etten', 'https://www.chemungcountyny.gov/employment/index.php', 'http://www.chemungcounty.com/index.asp?pageId=242', (42.2526600623, -76.6294349116)],
+
+
+
+
+['Village of Argyle', '', 'http://www.argyle-village.org', (43.2447499688, -73.460765019)],
+
+
+['Town of Warrensburg', '', 'http://townofwarrensburg.org', (43.4934012009, -73.7710984584)],
+
+
+
+['Village of McGraw', '', 'http://www.cortland-co.org/towns/Mcgrawvillage.htm', (42.6027250772, -76.0640349282)],
+
+
+
+['Village of Clyde', '', 'http://www.clydeny.com', (42.9993999197, -76.9288449471)],
+
+
+['Town of Macedon', '', 'http://macedontown.net', (43.0674613815, -77.3073972831)],
+
+
+['Village of Lyons', '', 'http://villageoflyons.com', (43.0644713556, -76.991517398)],
+
+
+['Town of Salem', '', 'http://www.salem-ny.com', (43.173830229, -73.3276886304)],
+
+
+['Town of Galen', 'https://towngalen.digitaltowpath.org:10476/content/JobCategories', 'http://www.townofgalen.org', (43.0835713457, -76.8704774484)],
+
+
+
+
+['Town of Marion', '', 'http://www.townofmarionny.com', (43.14336138, -77.1891773143)],
+
+
+['Town of Huron', '', 'http://townofhuron.org/content', (43.2353413145, -76.8682373965)],
+
+
+
+
+['Town of Palmyra', '', 'http://www.palmyrany.com/government/town/home.htm', (43.0522449673, -77.23337091)],
+
+
+['Village of Palmyra', '', 'http://www.palmyrany.com/government/village/home.htm', (43.0632214116, -77.2319573485)],
+
+
+['Town of Ontario', '', 'http://www.ontariotown.org', (43.2235515965, -77.2916013027)],
+
+
+['Village of Buchanan', '', 'http://www.villageofbuchanan.com', (41.2610817407, -73.9393987305)],
+
+
+['Town of Thurman', '', 'http://www.thurman-ny.com/', (43.4855249234, -73.8842850313)],
+
+
+['Village of Croton-on-Hudson', '', 'http://village.croton-on-hudson.ny.us', (41.2135550873, -73.8836050192)],
+
+
+['Town of Williamson', 'http://town.williamson.ny.us/employment-opportunities/', 'http://town.williamson.ny.us', (43.231096645, -77.1870621788)],
+
+
+
+
+['Village of Bronxville', 'https://www.villageofbronxville.com/clerk/pages/employment-opportunities2', 'http://www.villageofbronxville.com', (40.935522609, -73.831472152)],
+
+
+
+
+['Village of Ardsley', 'https://www.ardsleyvillage.com/home/pages/employment-opportunities-0', 'http://www.ardsleyvillage.com', (41.011592504, -73.8460631346)],
+
+
+
+
+['Town of Bedford', '', 'http://www.bedfordny.gov', (41.2366148039, -73.7098257234)],
+
+
+['Village of Dobbs Ferry', 'https://www.dobbsferry.com/home/pages/job-opportunities', 'http://www.dobbsferry.com', (41.0150511023, -73.8746757402)],
+
+
+
+['Village of Tuckahoe', '', 'http://www.tuckahoe.com', (40.94727019, -73.8245060746)],
+
+
+['Village of Elmsford', '', 'http://www.elmsfordny.org', (41.0537209845, -73.8201314932)],
+
+
+['Town of Lyons', '', 'http://www.lyonsny.com/', (43.0688714002, -76.9898673417)],
+
+
+
+['Village of Tarrytown', '', 'http://www.tarrytowngov.com', (41.0824700435, -73.8585500945)],
+
+
+
+['Town of Walworth', '', 'http://www.townofwalworthny.gov/', (43.1341613654, -77.2886372297)],
+
+
+['Town of Lewisboro', 'http://www.lewisborogov.com/jobs', 'http://www.lewisborogov.com', (41.2756325163, -73.5558531841)],
+
+
+
+['Village of Hastings-on-Hudson', '', 'http://hastingsgov.org', (40.9953080073, -73.8832390732)],
+
+
+
+
+['Village of Mount Kisco', '', 'http://www.mountkisco.org', (41.2061231529, -73.7270800266)],
+
+
+
+['Village of Irvington', '', 'http://www.irvingtonny.gov', (41.0391735112, -73.8669099111)],
+
+
+['Town of Mamaroneck', '', 'http://www.townofmamaroneck.org', (40.9428968541, -73.741382784)],
+
+
+
+['Village of Sodus Point', '', 'http://www.soduspoint.info', (43.2600149791, -76.9953099632)],
+
+
+
+['Village of Mamaroneck', 'http://www.village.mamaroneck.ny.us/village-manager/pages/job-openings', 'http://www.village.mamaroneck.ny.us', (40.9493177993, -73.7328772462)],
+
+
+
+['Town of Pelham', '', 'http://www.townofpelham.com', (40.9116938073, -73.8091812017)],
+
+
+['Town of Pound Ridge', 'http://www.townofpoundridge.com/jobs', 'http://www.townofpoundridge.com', (41.1980566679, -73.5687685097)],
+
+
+
+['Village of Port Chester', '', 'http://www.portchesterny.com', (40.9899257823, -73.667160346)],
+
+
+
+['Village of Pleasantville', '', 'http://www.pleasantville-ny.gov', (41.1338347054, -73.7916926775)],
+
+
+['Village of Harrison', '', 'http://www.harrison-ny.gov', (40.9698921729, -73.7128775359)],
+
+
+
+['Village of Briarcliff Manor', '', 'http://www.briarcliffmanor.org', (41.1489095589, -73.8286229423)],
+
+
+['Village of Sleepy Hollow', 'https://www.sleepyhollowny.gov/home/pages/employment-opportunities', 'http://www.sleepyhollowny.gov', (41.0849187782, -73.8594731485)],
+
+
+
+
+['Town of Rye', '', 'http://www.townofryeny.com', (40.9899258097, -73.6671603811)],
+
+
+['Town of New Castle', '', 'http://www.mynewcastle.org', (41.1554186963, -73.7746266459)],
+
+
+
+['Town of Mount Pleasant', '', 'http://www.mtpleasantny.com/', (41.0964495055, -73.7775992091)],
+
+
+['Village of Rye Brook', '', 'http://www.ryebrook.org', (41.0346831565, -73.6746420044)],
+
+
+
+['Village of Scarsdale', '', 'http://www.scarsdale.com', (40.9883283374, -73.7974469368)],
+
+
+['Village of Pelham', '', 'http://www.pelhamgov.com', (40.9089824023, -73.8116488856)],
+
+
+['Town of Perry', '', 'http://www.townofperryny.com', (42.7355900664, -78.0046049811)],
+
+
+
+['Town of North Castle', 'http://www.northcastleny.com/human-resources', 'http://www.northcastleny.com', (41.12478745, -73.7127459758)],
+
+
+
+
+['Town of North Salem', '', 'http://www.northsalemny.org', (41.3291968219, -73.5979615154)],
+
+
+
+['Village of Arcade', '', 'http://www.villageofarcade.org', (42.5345396553, -78.4246815014)],
+
+
+['Town of Covington', '', 'http://www.townofcovington.com', (42.8541116902, -78.012997601)],
+
+
+['Village of Perry', 'http://www.villageofperry.com/jobs', 'http://www.villageofperry.com', (42.7173563534, -78.003309395)],
+
+
+
+['Town of Somers', 'https://www.somersny.com/postings', 'http://www.somersny.com', (41.3283527969, -73.6858080794)],
+
+
+
+['Town of Sheldon', '', 'http://www.townofsheldon.com', (42.7371072403, -78.3891004147)],
+
+
+['Town of Barrington', '', 'http://www.townofbarrington.org', (42.6673400165, -77.0521849839)],
+
+
+['Town of Jerusalem', '', 'http://www.jerusalem-ny.org', (42.5991015747, -77.1587473506)],
+
+
+['Town of Milo', '', 'http://www.townofmilo.com', (42.662021494, -77.0538674398)],
+
+
+['Village of Corinth', '', 'http://www.villageofcorinthny.com', (43.2448938757, -73.8323536025)],
+
+
+['Town of Benton', '', 'http://www.townofbenton.us', (42.6673400165, -77.0521849839)],
+
+
+['Village of Penn Yan', '', 'http://www.villageofpennyan.com', (42.6611115463, -77.0543174358)],
+
+
+['Town of Union Vale', '', 'http://www.unionvaleny.us', (41.6659050068, -73.7271300366)],
+
+
+['Town of Middlesex', '', 'http://www.middlesexny.org', (42.7047668245, -77.2716504309)],
+
+
+['Town of Warsaw', '', 'http://www.villageofwarsaw.org', (42.7395000393, -78.1712998996)],
+
+
+['Town of Long Lake', 'https://mylonglake.com/jobs/', 'http://mylonglake.com/long-lake/ll-local-government/', (43.9791899103, -74.5669050195)],
+
+
+
+
+['County of Herkimer', 'http://herkimercounty.org/employment/personnel-civil-service/job-postings.php', 'http://herkimercounty.org/content', (43.0289612799, -74.9882181643)],
+
+
+
+['Village of Morrisville', 'https://www.madisoncounty.ny.gov/Jobs.aspx', 'https://www.madisoncounty.ny.gov/village-morrisville/home', (42.9223899508, -75.6713550822)],
+
+
+
+['Town of Middlebury', '', 'http://www.middleburyny.com', (42.7395000393, -78.1712998996)],
+
+
+['Town of Harrisburg', '', 'http://www.tughillcouncil.com/harrisburg.htm', (43.7797499126, -75.4977950884)],
+
+
+
+['Village of Barker', '', 'http://villageofbarker.org/content', (43.3298469495, -78.5531334257)],
+
+
+
+['Village of Harriman', 'https://www.orangecountygov.com/Jobs.aspx', 'http://www.orangecountygov.com/content/124/1362/1460/10182/10438/10684.aspx', (41.3042700361, -74.1458450506)],
+
+
+
+['Town of Scriba', '', 'http://scribany.org/home.html', (43.4682313439, -76.4298529675)],
+
+
+
+['County of Oswego', 'https://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exams___recruitments.php', 'http://www.oswegocounty.com/rpts.shtml', (43.4576318017, -76.5061447062)],
+
+
+
+
+['Village of Montgomery', '', 'http://www.villageofmontgomery.org/index.php/links.html', (41.526206766, -74.2367095838)],
+
+
+
+['Town of Parish', '', 'http://www.townofparish-ny.us/index.shtml', (43.4062950752, -76.1244968379)],
+
+
+
+['Village of Ballston Spa', 'http://saratoga.myjobzone.net/jobzone-jobs-search.asp', 'http://www.saratoga.org/community/towns-cities/village-of-ballston-spa', (43.0025696294, -73.8511244599)],
+
+
+
+['Village of South Blooming Grove', '', 'http://villageofsouthbloominggrove.com/1.html', (41.3680677233, -74.1890270054)],
+
+
+
+['Town of Carlisle', 'https://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml', 'http://www.schohariecounty-ny.gov/CountyWebSite/towncar/index.jsp', (42.7713999655, -74.4776500785)],
+
+
+
+
+['Town of Dekalb', '', 'http://townofdekalb.org/content', (44.5047529654, -75.2732458263)],
+
+
+
+['Village of Candor', 'http://www.tiogacountyny.com/departments/personnel-civil-service/', 'http://www.tiogacountyny.com/towns-villages/candor-village-of.html', (42.2318414316, -76.3416423264)],
+
+
+
+
+['Town of Hector', '', 'http://home.htva.net/~townofhector/home.html', (42.4638940003, -76.7761575596)],
+
+
+
+['Town of Genesee Falls', 'http://www.wyomingco.net/Jobs.aspx', 'http://www.wyomingco.net/towns/townofgeneseefalls.htm', (42.6396451815, -77.9982565173)],
+
+
+
+
+['Village of Wolcott', '', 'http://www.wolcottny.org/Village/villageindex.php', (43.2197813733, -76.8154174159)],
 
 
 

@@ -1,7 +1,5 @@
-['City of Salamanca', '', 'http://www.salmun.com', (42.1568122724, -78.7074083921)],
-https://cattco-portal.mycivilservice.com/jobopps
-http://www.cattco.org/human-resources
-http://www.cattco.org/human-resources/other-employment
+['City of Salamanca', 'https://cattco-portal.mycivilservice.com/', 'http://www.salmun.com', (42.1568122724, -78.7074083921)],
+
 
 
 ['City of Hudson', '', 'http://www.cityofhudson.org', (42.2492858918, -73.785717693)],
@@ -20,36 +18,36 @@ http://www.cattco.org/human-resources/other-employment
 
 
 ['City of Hornell', '', 'http://www.cityofhornell.com', (42.3277498303, -77.6614328321)],
-https://public.coderedweb.com/CNE/en-US/207672C9393A
+
 
 
 ['City of Geneva', '', 'http://visitgenevany.com', (42.8676953111, -76.9826892272)],
-http://cityofgenevany.com/
+
 
 
 ['City of Mechanicville', '', 'http://www.mechanicvilleny.gov', (42.9036815273, -73.6852842975)],
 
 
 ['City of New York City', '', 'http://www.nyc.gov', (0.0, 0.0)],
-https://www1.nyc.gov/
+
 
 
 ['City of Plattsburgh', '', 'http://www.cityofplattsburgh.com', (44.6922362704, -73.4544196285)],
 
 
 ['City of Cortland', '', 'http://www.cortland.org/', (42.5990905595, -76.1783437374)],
-http://www.cortland.org/DocumentCenter/View/686/Cortland-BOA-workshop-poster1
+
 
 
 ['City of Binghamton', '', 'http://www.cityofbinghamton.com', (42.096111616, -75.9118477851)],
-http://binghamton-ny.gov/
+
 
 
 ['Village of Ravena', '', 'http://www.villageofRavena.com', (42.4730475749, -73.8148364099)],
 
 
 ['City of Fulton', '', 'http://www.cityoffulton.com', (43.3208530475, -76.4154790307)],
-https://fulton.ny.gov/
+
 
 
 ['Town of Berne', '', 'http://berneny.org', (42.6211800914, -74.2250550942)],
@@ -58,12 +56,12 @@ https://fulton.ny.gov/
 ['Town of Rensselaerville', '', 'http://www.rensselaerville.com', (42.4568758048, -74.1369822302)],
 
 
-['Town of Green Island', '', 'http://www.villageofgreenisland.com/town/', (42.741554656, -73.6910802677)],
-http://www.villageofgreenisland.com/employment/
+['Town of Green Island', 'http://www.villageofgreenisland.com/employment/', 'http://www.villageofgreenisland.com/town/', (42.741554656, -73.6910802677)],
+
 
 
 ['City of Johnstown', '', 'http://www.cityofjohnstown-ny.com', (43.007121272, -74.3700183349)],
-https://cityofjohnstown.ny.gov/
+
 
 
 ['Town of Alfred', '', 'http://www.townofalfred.com/', (42.2534100076, -77.7674649392)],
@@ -88,7 +86,7 @@ https://cityofjohnstown.ny.gov/
 
 
 ['Town of Almond', '', 'http://www.almondny.us', (42.3167121717, -77.7412362542)],
-http://almondny.org/
+
 
 
 ['Village of Angelica', '', 'http://www.angelicany.com/', (42.3066039785, -78.0157489249)],
@@ -112,13 +110,13 @@ http://almondny.org/
 ['Town of Friendship', '', 'http://www.townoffriendship-ny.com/', (42.1914700176, -78.1464299168)],
 
 
-['Town of Andover', '', 'http://www.alleganyco.com/local_govt/Andover/', (42.157626977, -77.7952459146)],
-https://www.alleganyco.com/departments/employment-and-training/
-https://www.alleganyco.com/venue/andover-central-school/
+['Town of Andover', 'https://www.alleganyco.com/departments/employment-and-training/', 'http://www.alleganyco.com/local_govt/Andover/', (42.157626977, -77.7952459146)],
+
+
 
 
 ['Town of Angelica', '', 'http://www.alleganyco.com/local_govt/Angelica/', (42.3494299997, -77.987814909)],
-https://www.alleganyco.com/organizer/angelica-civil-war-enablers/
+
 
 
 ['Village of Menands', '', 'http://www.villageofmenands.com', (42.6932700928, -73.7236974306)],
@@ -143,7 +141,7 @@ https://www.alleganyco.com/organizer/angelica-civil-war-enablers/
 
 
 ['Town of Coeymans', '', 'http://www.coeymans.org', (42.4693388844, -73.8091313941)],
-https://coeymans.org/2020/01/08/notice-joint-village-town-workshop-meeting-jan-13/
+
 
 
 ['Town of Rushford', '', 'http://www.rushfordny.org', (42.3839600177, -78.2481499118)],
@@ -165,7 +163,7 @@ https://coeymans.org/2020/01/08/notice-joint-village-town-workshop-meeting-jan-1
 
 
 ['Town of Genesee', '', 'http://www.alleganyco.com/local_govt/Genesee/', (41.999889095, -78.2663889579)],
-https://www.alleganyco.com/venue/genesee-pa/
+
 
 
 ['Town of Conklin', '', 'http://www.townofconklin.org', (42.0331000009, -75.8186400293)],
@@ -190,7 +188,7 @@ https://www.alleganyco.com/venue/genesee-pa/
 
 
 ['Village of Allegany', '', 'http://www.allegany.org/index.php?Village%20of%20Allegany', (42.0866911608, -78.4897490579)],
-http://www.allegany.org/index.php?RESPONSIBILITIES%20AND%20PERSONNEL
+
 
 
 ['Town of Allegany', '', 'http://www.allegany.org/index.php?Town%20of%20Allegany', (42.0912623873, -78.4956287121)],
@@ -209,7 +207,7 @@ http://www.allegany.org/index.php?RESPONSIBILITIES%20AND%20PERSONNEL
 
 
 ['Town of Colesville', '', 'http://townofcolesville.org/', (42.2646950057, -75.673000038)],
-https://towncolesville.digitaltowpath.org:10004/content
+
 
 
 ['Town of Ashford', '', 'http://ashfordny.org', (42.4214000838, -78.6416749168)],
@@ -228,8 +226,8 @@ https://towncolesville.digitaltowpath.org:10004/content
 
 
 ['Town of Maine', '', 'http://townofmaine.org/', (42.2364600713, -76.0557149238)],
-https://townmaine.digitaltowpath.org:10018/content
-https://townmaine.digitaltowpath.org:10018/content/News/View/403
+
+
 
 
 ['Town of Binghamton', '', 'http://www.townofbinghamton.com', (42.0686416183, -75.9110877708)],
@@ -241,8 +239,8 @@ https://townmaine.digitaltowpath.org:10018/content/News/View/403
 ['Town of Hinsdale', '', 'http://hinsdaleny.org', (42.2538621085, -78.4154698957)],
 
 
-['City of Sherrill', '', 'http://www.sherrillny.org', (43.0690666949, -75.6018829703)],
-https://sherrillny.org/city-hall/employment/
+['City of Sherrill', 'https://sherrillny.org/city-hall/employment/', 'http://www.sherrillny.org', (43.0690666949, -75.6018829703)],
+
 
 
 ['Town of Leon', '', 'http://www.leonny.org', (42.2223850153, -79.0717098986)],
@@ -264,7 +262,7 @@ https://sherrillny.org/city-hall/employment/
 
 
 ['Town of Nanticoke', '', 'http://townofnanticokeny.com', (42.2364600713, -76.0557149238)],
-http://townofnanticokeny.com/announcements/2018/4/16/rabies-clinic-opening
+
 
 
 ['Town of Napoli', '', 'http://www.napoliny.org/', (42.2030549332, -78.8914773577)],
@@ -295,11 +293,11 @@ http://townofnanticokeny.com/announcements/2018/4/16/rabies-clinic-opening
 
 
 ['Town of Randolph', '', 'http://randolphny.net/', (42.1627566482, -78.973160715)],
-http://www.randolphny.com/
+
 
 
 ['Village of Weedsport', '', 'http://villageofweedsport.org/', (43.0479236644, -76.5612696579)],
-https://villageweedsport.digitaltowpath.org:10273/content
+
 
 
 ['Village of Aurora', '', 'http://www.auroranewyork.us/', (42.7580387155, -76.7032500194)],
@@ -309,14 +307,14 @@ https://villageweedsport.digitaltowpath.org:10273/content
 
 
 ['Town of Fleming', '', 'http://www.cayugacounty.us/portals/1/fleming', (42.861587053, -76.5787164409)],
-https://www.cayugacounty.us/156/Towns-Villages
+
 
 
 ['Town of Mentz', '', 'http://www.townofmentz.com/', (43.058139911, -76.6582449516)],
 
 
 ['Town of South Valley', '', 'http://southvalleyny.org', (42.032853544, -78.9946116554)],
-https://www.lineskull.com/explore/best
+
 
 
 ['Town of Carroll', '', 'http://carrollny.org/', (42.0529141909, -79.1599119511)],
@@ -362,7 +360,7 @@ https://www.lineskull.com/explore/best
 
 
 ['Town of Clymer', '', 'http://www.townofclymer.org/', (42.0208140612, -79.6278259288)],
-https://www.clymer.org/
+
 
 
 ['Town of Mina', '', 'http://www.townofmina.info/', (42.1245950703, -79.7401149527)],
@@ -378,11 +376,11 @@ https://www.clymer.org/
 
 
 ['Village of Westfield', '', 'http://www.villageofwestfield.org/', (42.3222016965, -79.5760065773)],
-https://westfieldny.com/village-westfield/village-westfield
+
 
 
 ['Town of Westfield', '', 'http://www.townofwestfield.org', (42.3222016965, -79.5760065773)],
-https://westfieldny.com/town-westfield/town-westfield
+
 
 
 ['Village of Wellsburg', '', 'http://villageofwellsburg.com/blog/', (42.0115259327, -76.7287556661)],
@@ -395,7 +393,7 @@ https://westfieldny.com/town-westfield/town-westfield
 
 
 ['Town of Pomfret', '', 'http://www.townofpomfretny.com/', (42.4408616576, -79.3313166939)],
-https://townofpomfretny.org/
+
 
 
 ['Town of Catlin', '', 'http://townofcatlin.com', (42.2526830657, -77.0340368918)],
@@ -435,7 +433,7 @@ https://townofpomfretny.org/
 
 
 ['Village of Elmira Heights', '', 'http://www.elmiraheights.org/', (42.1278013373, -76.8221350781)],
-https://businesstipsforall.weebly.com/
+
 
 
 ['Town of Big Flats', '', 'http://www.bigflatsny.gov', (42.1410521878, -76.9350312079)],
@@ -454,7 +452,7 @@ https://businesstipsforall.weebly.com/
 
 
 ['Village of Oxford', '', 'http://www.oxfordny.com/government/village/index.php', (42.440460069, -75.6294900965)],
-http://www.oxfordny.com/business/pon/join-pon.php
+
 
 
 ['Town of Greene', '', 'http://www.nygreene.com/', (42.3297871951, -75.7709636724)],
@@ -515,14 +513,14 @@ http://www.oxfordny.com/business/pon/join-pon.php
 
 
 ['Village of Chatham', '', 'http://www.villageofchatham.com', (42.3636263566, -73.594797144)],
-https://villageofchatham.com/zoning-board-of-appeals-positions-available/
+
 
 
 ['Town of Copake', '', 'http://townofcopake.org/', (42.1113584739, -73.5567071322)],
 
 
 ['Town of North Harmony', '', 'http://www.townofnorthharmony.com', (42.1550150911, -79.406039923)],
-http://townofnorthharmony.com/2019/12/zoning-board-of-appeals-vacancy/
+
 
 
 ['Town of Ghent', '', 'http://townofghent.org', (42.2969750046, -73.6406850448)],
@@ -532,7 +530,7 @@ http://townofnorthharmony.com/2019/12/zoning-board-of-appeals-vacancy/
 
 
 ['Town of Austerlitz', '', 'http://www.austerlitzny.com', (42.3176250948, -73.4910200906)],
-http://www.austerlitzny.com/community/town-news-notices/49-join-the-2020-census-team.html
+
 
 
 ['Village of Silver Creek', '', 'http://www.silvercreekny.com/', (42.5456716108, -79.1694566975)],
@@ -569,7 +567,7 @@ http://www.austerlitzny.com/community/town-news-notices/49-join-the-2020-census-
 
 
 ['Town of Ancram', '', 'http://www.townofancram.org', (42.0806850715, -73.6552250891)],
-https://www.ancramny.org/
+
 
 
 ['Town of Clermont', '', 'http://www.clermontny.org', (42.0868587674, -73.8252404562)],
@@ -597,7 +595,7 @@ https://www.ancramny.org/
 
 
 ['Town of Livingston', '', 'http://livingstontown.com', (42.1422400946, -73.7783600142)],
-http://www.townoflivingston.org/
+
 
 
 ['Village of Hancock', '', 'http://www.co.delaware.ny.us/external/villages/hancockvillage.htm', (41.9539545685, -75.2775754579)],
@@ -613,11 +611,11 @@ http://www.townoflivingston.org/
 
 
 ['Town of Delhi', '', 'http://townofdelhiny.com/', (42.2721151238, -74.9212571887)],
-http://townofdelhiny.com/content/personnel-committee
+
 
 
 ['Town of Colchester', '', 'http://www.colchesterchamber.com/', (42.0591300755, -75.0174800933)],
-http://www.colchesterchamber.com/join-support/
+
 
 
 ['Town of Stuyvesant', '', 'http://www.stuyvesantny.us/', (42.3895900749, -73.7776022414)],
@@ -636,7 +634,7 @@ http://www.colchesterchamber.com/join-support/
 
 
 ['Town of Virgil', '', 'http://www.virgilny.com', (42.5086887088, -76.1981164684)],
-https://virgilny.org/
+
 
 
 ['Village of Hobart', '', 'http://www.co.delaware.ny.us/external/villages/hobartvillage.htm', (42.3331400882, -74.6459900663)],
@@ -658,7 +656,7 @@ https://virgilny.org/
 
 
 ['Town of Sidney', '', 'http://www.sidneychamber.org/', (42.3221350379, -75.3956900218)],
-http://www.sidneychamber.org/why-join/
+
 
 
 ['Town of Tompkins', '', 'http://townoftompkins.org', (42.1644600052, -75.1664750267)],
@@ -671,7 +669,7 @@ http://www.sidneychamber.org/why-join/
 
 
 ['Village of Millerton', '', 'http://www.villageofmillerton.com/', (41.9552465996, -73.5097033308)],
-http://www.villageofmillerton.net/
+
 
 
 ['Town of Hyde Park', '', 'http://www.hydeparkny.us', (41.7796900263, -73.9204350286)],
@@ -681,26 +679,24 @@ http://www.villageofmillerton.net/
 
 
 ['Village of Fishkill', '', 'http://www.vofishkill.com', (41.5356456714, -73.9028927917)],
-https://www.vofishkill.us/
+
 
 
 ['Town of Pleasant Valley', '', 'http://pleasantvalley-ny.gov', (41.7427226147, -73.82839409)],
 
 
 ['Town of Amenia', '', 'http://www.ameniany.gov', (41.8631900059, -73.5644650848)],
-http://www.ameniany.gov/community/147-town-updates/919-open-volunteer-positions-town-historian,-cac,-water-committee.html
+
 
 
 ['Village of Red Hook', '', 'http://www.redhooknyvillage.org/', (41.9792069627, -73.8831240169)],
-http://www.redhookvillage.org/
+
 
 
 ['Village of Wappingers Falls', '', 'http://www.wappingersfallsny.gov/', (41.5970243403, -73.9175311838)],
 
 
 ['Town of Pawling', '', 'http://www.pawling.org', (41.5691937853, -73.5995282143)],
-http://www.pawling.org/?start=5
-http://www.pawling.org/45-did-you-know-we-joined-sound-cloud.html
 
 
 ['Town of Red Hook', '', 'http://www.redhook.org', (41.9792069627, -73.8831240169)],
@@ -742,8 +738,8 @@ http://www.pawling.org/45-did-you-know-we-joined-sound-cloud.html
 ['Town of Concord', '', 'http://townofconcordny.com/', (42.5095087985, -78.6662587197)],
 
 
-['Town of Grand Island', '', 'http://www.grand-island.ny.us', (43.0228965799, -78.9650837465)],
-http://www.grand-island.ny.us/residents/employment/index.php
+['Town of Grand Island', 'http://www.grandislandny.us/residents/employment/index.php', 'http://www.grand-island.ny.us', (43.0228965799, -78.9650837465)],
+
 
 
 ['Town of Collins', '', 'http://www.townofcollins.com', (42.5047950539, -78.8725099862)],
@@ -753,11 +749,11 @@ http://www.grand-island.ny.us/residents/employment/index.php
 
 
 ['Village of Angola', '', 'http://www.villageofangola.org/', (42.6375457755, -79.028767845)],
-http://www.villageofangola.org/index.html
+
 
 
 ['Village of Springville', '', 'http://www.villageofspringvilleny.com/', (42.5088250316, -78.6675810286)],
-http://www.bostontrails.com/
+
 
 
 ['Village of North Collins', '', 'http://www.northcollinsny.org/', (42.5948492044, -78.9405290148)],
@@ -767,11 +763,7 @@ http://www.bostontrails.com/
 
 
 ['Village of Pawling', '', 'http://www.villageofpawling.org/', (41.5624500776, -73.600667761)],
-http://www.villageofpawling.org/index.php/2019/12/31/pawling-joint-sewer-commission-12/
-http://www.villageofpawling.org/index.php/2019/11/21/pawling-joint-sewer-commission-10/
-http://www.villageofpawling.org/index.php/2019/09/16/pawling-joint-sewer-commission-9/
-http://www.villageofpawling.org/index.php/2019/10/15/pawling-joint-sewer-commission-11/
-http://www.villageofpawling.org/index.php/pawling-joint-sewer-commission/
+
 
 
 ['Town of Aurora', '', 'http://www.townofaurora.com', (42.7599617828, -78.6123372215)],
@@ -787,7 +779,7 @@ http://www.villageofpawling.org/index.php/pawling-joint-sewer-commission/
 
 
 ['Village of Akron', '', 'http://www.erie.gov/akron', (43.0197698751, -78.5018929943)],
-http://www2.erie.gov/akron/index.php?q=composting
+
 
 
 ['Town of Cheektowaga', '', 'http://tocny.org', (42.9035640605, -78.7525961014)],
@@ -815,7 +807,7 @@ http://www2.erie.gov/akron/index.php?q=composting
 
 
 ['Town of Crown Point', '', 'http://townofcrownpoint.com/', (43.9572549501, -73.5189050382)],
-https://townofcrownpointny.gov/
+
 
 
 ['Town of St Armand', '', 'http://www.co.essex.ny.us/starmand.asp', (44.4078096998, -74.0866613061)],
@@ -825,7 +817,7 @@ https://townofcrownpointny.gov/
 
 
 ['Village of Lake Placid', '', 'http://villageoflakeplacid.ny.gov/', (44.2822734829, -73.9824911064)],
-http://villageoflakeplacid.ny.gov/content
+
 
 
 ['Village of Kenmore', '', 'http://www.villageofkenmore.org/', (42.9636910128, -78.8697615625)],
@@ -865,8 +857,7 @@ http://villageoflakeplacid.ny.gov/content
 
 
 ['Town of Essex', '', 'http://www.essexnewyork.org', (44.3094459904, -73.3516430421)],
-https://www.essexonlakechamplain.com/
-https://www.essexny.us/events/fort-fever-series/
+
 
 
 ['Town of Gerry', '', 'http://gerryny.us/', (42.2272750209, -79.1734199104)],
@@ -879,7 +870,7 @@ https://www.essexny.us/events/fort-fever-series/
 
 
 ['Town of North Hudson', '', 'http://northhudsonny.com', (43.998849973, -73.7997100944)],
-http://northhudsonny.com/news-events
+
 
 
 ['Town of Ephratah', '', 'http://www.ephratah-town.org', (43.0106899219, -74.3890800489)],
@@ -895,16 +886,14 @@ http://northhudsonny.com/news-events
 
 
 ['Town of Caroga', '', 'http://www.carogalakeny.com', (43.1834549203, -74.5095500149)],
-http://townofcaroga.com/
+
 
 
 ['Town of Perth', '', 'http://www.perthny.com', (43.0181249708, -74.1919499228)],
 
 
-['Town of Mayfield', '', 'http://www.mayfieldny.org', (43.1095512734, -74.2641483569)],
-https://townmayfield.digitaltowpath.org:10052/content/JobCategories
-https://townmayfield.digitaltowpath.org:10052/content
-https://townmayfield.digitaltowpath.org:10052/content/JobCategories/Home/:item=2&field=jobs;/content/Jobs/View/2
+['Town of Mayfield', 'https://townmayfield.digitaltowpath.org:10052/content/JobCategories', 'http://www.mayfieldny.org', (43.1095512734, -74.2641483569)],
+
 
 
 ['Town of Alexander', '', 'http://www.townofalexander.com', (42.9013421147, -78.2033574316)],
@@ -913,10 +902,8 @@ https://townmayfield.digitaltowpath.org:10052/content/JobCategories/Home/:item=2
 ['Town of Stratford', '', 'http://www.stratfordny.com', (43.1801512839, -74.6914782211)],
 
 
-['County of Franklin', '', 'http://www.franklincony.org', (44.8491624234, -74.2953066759)],
-https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50
-https://countyfranklin.digitaltowpath.org:10078/content
-https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/162
+['County of Franklin', 'https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50', 'http://www.franklincony.org', (44.8491624234, -74.2953066759)],
+
 
 
 ['Town of Bergen', '', 'http://www.bergenny.org', (43.0893604488, -77.9420138994)],
@@ -937,14 +924,12 @@ https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field
 ['Town of Pavilion', '', 'http://www.townofpavilion.com', (42.8769580547, -78.0266407909)],
 
 
-['Village of Oakfield', '', 'http://www.oakfield.govoffice.com', (43.0670924789, -78.2721935842)],
-http://oakfield.govoffice.com/index.asp?SEC=716FA332-2833-43C7-B9DB-7EE27E52AD13&Type=B_JOB
+['Village of Oakfield', 'https://oakfield.govoffice.com/index.asp?SEC=716FA332-2833-43C7-B9DB-7EE27E52AD13&Type=B_JOB', 'http://www.oakfield.govoffice.com', (43.0670924789, -78.2721935842)],
 
 
-['Town of Bethany', '', 'http://www.townofbethany.com', (42.9079524287, -78.1332831467)],
-http://www.co.genesee.ny.us/employment.php
-http://www.co.genesee.ny.us/
-http://www.co.genesee.ny.us/departments/office_for_the_aging/employment_programs.php
+
+['Town of Bethany', 'http://www.co.genesee.ny.us/employment.php', 'http://www.townofbethany.com', (42.9079524287, -78.1332831467)],
+
 
 
 ['Town of Johnstown', '', 'http://townofjohnstown.org/', (43.0106899219, -74.3890800489)],
@@ -953,42 +938,42 @@ http://www.co.genesee.ny.us/departments/office_for_the_aging/employment_programs
 ['Town of Darien', '', 'http://www.townofdarienny.com', (42.9025618346, -78.3889795005)],
 
 
-['Town of Elba', '', 'http://www.elbanewyork.com', (43.0799025416, -78.1886338147)],
-http://elbanewyork.com/index.php/job-openings/
+['Town of Elba', 'http://elbanewyork.com/index.php/job-openings/', 'http://www.elbanewyork.com', (43.0799025416, -78.1886338147)],
+
 
 
 ['Town of Oakfield', '', 'http://www.townofoakfieldny.com', (43.066024946, -78.2707299748)],
 
 
 ['Village of Catskill', '', 'http://www.villageofcatskill.net', (42.2204724953, -73.8657920414)],
-http://www.villageofcatskill.net/index.asp?SEC=7B4BF4AF-8850-4F8E-ACF5-68FFFE532539&Type=B_JOB
+
 
 
 ['Town of Batavia', '', 'http://www.townofbatavia.com', (43.0096574647, -78.2288414304)],
 
 
 ['Village of Athens', '', 'http://www.visithistoricathens.com', (42.2625297051, -73.8107996943)],
-https://athensvillageny.com/
 
 
-['Town of Cairo', '', 'http://www.townofcairo.com', (42.3004822968, -73.999480681)],
-https://townofcairo.com/employment/
+
+['Town of Cairo', 'https://townofcairo.com/employment/', 'http://www.townofcairo.com', (42.3004822968, -73.999480681)],
+
 
 
 ['Town of Stafford', '', 'http://www.townofstafford.com', (42.9744949638, -78.0800749953)],
-https://townofstafford.org/
+
 
 
 ['Village of Mayfield', '', 'http://www.villageofmayfield.com', (43.1021912939, -74.2614483559)],
-https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://sites.google.com/a/villageofmayfield.com/www&followup=https://sites.google.com/a/villageofmayfield.com/www
+
 
 
 ['Town of Coxsackie', '', 'http://www.coxsackie.org', (42.3515917238, -73.796347747)],
 
 
 ['Village of Corfu', '', 'http://www.corfuny.com', (42.96251911, -78.390990369)],
-http://corfuny.com/government-and-services/personnel/
-http://corfuny.com/about-corfu/downloads/
+
+
 
 
 ['Town of Malone', '', 'http://www.malonetown.com', (44.7281199535, -74.2771800816)],
@@ -1010,11 +995,11 @@ http://corfuny.com/about-corfu/downloads/
 
 
 ['Town of Lexington', '', 'http://www.lexingtonny.com', (42.2446830781, -74.3800102536)],
-http://www.lexingtonny.com/index.html
+
 
 
 ['Town of Halcott', '', 'http://www.townofhalcott.org', (42.1830300213, -74.5412150382)],
-https://halcottcenter.wordpress.com/
+
 
 
 ['Town of Pembroke', '', 'http://www.townofpembroke.org', (42.9933508729, -78.404704449)],
@@ -1027,11 +1012,11 @@ https://halcottcenter.wordpress.com/
 
 
 ['Village of Hunter', '', 'http://villageofhunterny.org', (42.2325750723, -74.2616950624)],
-https://villagehunter.digitaltowpath.org:10152/content
+
 
 
 ['Town of Benson', '', 'http://www.hamiltoncounty.com/municipalities/benson', (43.3247849795, -74.2919950885)],
-http://www.hamiltoncounty.com/health-human-services/mental-health/prevention/staff
+
 
 
 ['Town of Arietta', '', 'http://www.townofarietta.com', (0.0, 0.0)],
@@ -1050,42 +1035,39 @@ http://www.hamiltoncounty.com/health-human-services/mental-health/prevention/sta
 
 
 ['Town of Prattsville', '', 'http://www.prattsville.org', (42.3254600231, -74.4843200407)],
-http://prattsvilleny.com/
 
 
-['Village of Coxsackie', '', 'http://www.villageofcoxsackie.com', (42.3560198426, -73.8074971667)],
-http://villageofcoxsackie.com/job-archive-page/
+
+['Village of Coxsackie', 'http://villageofcoxsackie.com/job-archive-page/', 'http://www.villageofcoxsackie.com', (42.3560198426, -73.8074971667)],
 
 
-['Town of Indian Lake', '', 'http://townofindianlake.org', (43.7862589542, -74.2726030657)],
-https://townindianlake.digitaltowpath.org:10201/content/JobCategories
-https://townindianlake.digitaltowpath.org:10201/content
+
+['Town of Indian Lake', 'https://townindianlake.digitaltowpath.org:10201/content/JobCategories', 'http://townofindianlake.org', (43.7862589542, -74.2726030657)],
+
+
 
 
 ['Town of Lake Pleasant', '', 'http://www.lakepleasantny.org', (43.4799537702, -74.3917670968)],
-https://townlakepleasant.digitaltowpath.org:10804/content
+
 
 
 ['Town of Frankfort', '', 'http://www.townoffrankfort.com', (43.0492249305, -75.1167000806)],
 
 
 ['Town of Wells', '', 'http://townofwells.org', (43.466014937, -74.2936700171)],
-https://townwells.digitaltowpath.org:10197/content/News/View/64
-https://townwells.digitaltowpath.org:10197/content
+
 
 
 ['Village of Frankfort', '', 'http://villageoffrankfortny.org/', (43.0389046005, -75.0700936141)],
-https://villagefrankfort.digitaltowpath.org:10088/content
+
 
 
 ['Town of Inlet', '', 'http://www.townofinlet.org/', (43.7687019169, -74.813163071)],
-http://townofinlet.org/?cat=13
-http://townofinlet.org/?p=2143
+
 
 
 ['Town of Danube', '', 'http://www.townofdanube.com', (42.9849612717, -74.8051282288)],
-https://towndanube.digitaltowpath.org:10011/content
-https://towndanube.digitaltowpath.org:10011/content/News/View/67
+
 
 
 ['Town of Hunter', '', 'http://www.townofhuntergov.com', (42.2132000617, -74.1190800226)],
@@ -1098,17 +1080,16 @@ https://towndanube.digitaltowpath.org:10011/content/News/View/67
 
 
 ['Village of Herkimer', '', 'http://village.herkimer.ny.us/', (43.0269267628, -74.9869378288)],
-https://villageherkimer.digitaltowpath.org:10038/content
 
 
-['Village of Newport', '', 'http://www.villageofnewportny.org/', (42.5936950958, -75.1930650091)],
-http://www.villageofnewportny.org/job-opportunities
+
+['Village of Newport', 'http://www.villageofnewportny.org/job-opportunities', 'http://www.villageofnewportny.org/', (42.5936950958, -75.1930650091)],
 
 
-['County of Greene', '', 'http://www.discovergreene.com', (42.2199935943, -73.866162019)],
-https://www.greenegovernment.com/departments/human-resources-and-civil-service/available-positions
-https://greenegovernment.com/departments/human-resources-and-civil-service#civil-service
-https://www.greenegovernment.com/
+
+['County of Greene', 'https://www.greenegovernment.com/departments/human-resources-and-civil-service/available-positions', 'http://www.discovergreene.com', (42.2199935943, -73.866162019)],
+
+
 
 
 ['Town of Schuyler', '', 'http://townofschuyler.com', (43.1117779674, -75.1905382263)],
@@ -1118,25 +1099,22 @@ https://www.greenegovernment.com/
 
 
 ['Village of Poland', '', 'http://villageofpolandny.org/', (43.2133749847, -75.0948400458)],
-https://villagepoland.digitaltowpath.org:10110/content
 
 
-['Town of Russia', '', 'http://www.townofrussia.com', (43.2278104221, -75.0642902505)],
-https://townrussia.digitaltowpath.org:10221/content
-https://townrussia.digitaltowpath.org:10221/content/JobCategories
+
+['Town of Russia', 'https://townrussia.digitaltowpath.org:10221/content/JobCategories', 'http://www.townofrussia.com', (43.2278104221, -75.0642902505)],
+
+
 
 
 ['Town of Windham', '', 'http://www.townofwindham.com/', (42.2912817502, -74.2176252378)],
-https://thompsonhouse.com/
-https://docs.google.com/forms/d/e/1FAIpQLSfh6EhFc6YkiArPd7KqhqBTMYtvJe4gCcTRAqSUTTarNcQQkQ/viewform?usp=send_form
 
 
 ['Town of Adams', '', 'http://www.townofadams.com', (43.8075041889, -76.0249969286)],
 
 
 ['Village of Speculator', '', 'http://villageofspeculator.org/', (43.5018409244, -74.3643339462)],
-https://www.villageofspeculator.com/
-https://alert.ny.gov/
+
 
 
 ['Village of Ilion', '', 'http://www.ilionny.com/', (43.0147194427, -75.0376818372)],
@@ -1155,19 +1133,17 @@ https://alert.ny.gov/
 
 
 ['Town of Newport', '', 'http://www.townofnewport.net', (43.1776085343, -75.0154771266)],
-https://townnewport.digitaltowpath.org:10794/content
-https://townnewport.digitaltowpath.org:10794/content/News/View/81
 
 
 ['Town of Webb', '', 'http://townofwebb.org', (43.8384799055, -75.0771200917)],
-https://townwebb.digitaltowpath.org:10086/content
+
 
 
 ['Town of LeRay', '', 'http://www.townofleray.org', (44.091334965, -75.8152650783)],
 
 
 ['Village of Clayton', '', 'http://www.villageofclayton.org', (44.2209399136, -76.1006049675)],
-https://villageclayton.digitaltowpath.org:10001/content
+
 
 
 ['Town of Cape Vincent', '', 'http://townofcapevincent.org', (44.1193434491, -76.3317976279)],
@@ -1177,8 +1153,6 @@ https://villageclayton.digitaltowpath.org:10001/content
 
 
 ['Town of Norway', '', 'http://www.townofnorway.net/', (43.2048813027, -74.9451781526)],
-https://townofnorway.net/2018-annual-election-of-the-poland-joint-fire-district/
-http://townofnorway.net/2018-annual-election-of-the-newport-joint-fire-district/
 
 
 ['Town of Lorraine', '', 'http://townoflorraine.com', (43.7666053584, -75.9543599504)],
@@ -1202,9 +1176,9 @@ http://townofnorway.net/2018-annual-election-of-the-newport-joint-fire-district/
 ['Town of Theresa', '', 'http://www.townoftheresany.com', (44.2147856747, -75.7966473138)],
 
 
-['Village of West Carthage', '', 'http://villageofwestcarthage.org/', (43.9696578123, -75.623328698)],
-https://villagewestcarthage.digitaltowpath.org:10087/content
-https://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories
+['Village of West Carthage', 'https://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories', 'http://villageofwestcarthage.org/', (43.9696578123, -75.623328698)],
+
+
 
 
 ['Town of Rodman', '', 'http://www.townofrodmanny.org', (43.8406699841, -75.8970599595)],
@@ -1220,41 +1194,36 @@ https://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories
 
 
 ['Town of Greig', '', 'http://townofgreig.org/', (43.6896049599, -75.2919500924)],
-https://towngreig.digitaltowpath.org:10072/content
+
 
 
 ['Town of Sodus', '', 'http://sodusny.org/', (43.2353229236, -77.062021085)],
-http://sodusny.org/join-us.html
+
 
 
 ['Town of Martinsburg', '', 'http://townofmartinsburg.org/', (43.737376878, -75.4686475043)],
 
 
 ['Town of Leyden', '', 'http://townofleyden.org/', (43.5344512541, -75.3678598847)],
-https://townleyden.digitaltowpath.org:10229/content
+
 
 
 ['Town of Watson', '', 'http://www.townofwatsonny.com/', (43.804123207, -75.3633010631)],
 
 
 ['Village of Brownville', '', 'http://www.villageofbrownvilleny.org/', (44.0034449451, -75.98317494)],
-https://www.renewableenergyworld.com/2019/07/04/its-time-for-energy-freedom-in-alabama/
-https://villageofbrownvilleny.org/page/2/
-https://villageofbrownvilleny.org/page/3/
-https://villageofbrownvilleny.org/page/4/
 
 
-['Town of Clayton', '', 'http://www.townofclayton.com', (44.242551102, -76.0867775901)],
-https://townofclayton.com/departments/humanresources/
-https://townofclayton.com/2019/11/invitation-for-letters-of-interest-for-town-board-vacancy/
+
+['Town of Clayton', 'https://townofclayton.com/departments/humanresources/', 'http://www.townofclayton.com', (44.242551102, -76.0867775901)],
+
+
 
 
 ['Town of New Bremen', '', 'http://townofnewbremen.weebly.com', (43.8851049165, -75.4578400199)],
 
 
 ['Village of Lowville', '', 'http://villageoflowville.org/', (43.7970731828, -75.4846706337)],
-https://villagelowville.digitaltowpath.org:10082/content
-https://villagelowville.digitaltowpath.org:10082/content/News/View/23
 
 
 ['Village of Avon', '', 'http://www.avon-ny.org/index_village.html', (42.9106842722, -77.7455381086)],
@@ -1266,9 +1235,9 @@ https://villagelowville.digitaltowpath.org:10082/content/News/View/23
 ['Village of Caledonia', '', 'http://www.villageofcaledoniany.org/', (42.9733003089, -77.8547870372)],
 
 
-['Town of Pinckney', '', 'http://townofpinckney.org', (43.8943199398, -75.7595550332)],
-https://townpinckney.digitaltowpath.org:10161/content/JobCategories
-https://townpinckney.digitaltowpath.org:10161/content
+['Town of Pinckney', 'https://townpinckney.digitaltowpath.org:10161/content/JobCategories', 'http://townofpinckney.org', (43.8943199398, -75.7595550332)],
+
+
 
 
 ['Village of Geneseo', '', 'http://www.geneseony.org/', (42.7951616152, -77.8166298643)],
@@ -1286,19 +1255,17 @@ https://townpinckney.digitaltowpath.org:10161/content
 ['Village of Livonia', '', 'http://www.livoniany.org/contactus.html', (42.8192225966, -77.6695509425)],
 
 
-['Town of Conesus', '', 'http://www.town.conesus.ny.us', (42.7190851379, -77.6762748566)],
-https://townconesus.digitaltowpath.org:10010/content/JobCategories
-https://townconesus.digitaltowpath.org:10010/content
-https://townconesus.digitaltowpath.org:10010/content/JobCategories/Home/:item=2&field=jobs;/content/Jobs/View/5
+['Town of Conesus', 'https://townconesus.digitaltowpath.org:10010/content/JobCategories', 'http://www.town.conesus.ny.us', (42.7190851379, -77.6762748566)],
+
 
 
 ['Village of Mount Morris', '', 'http://www.villageofmountmorris.com', (42.7242205616, -77.8725493255)],
-https://johnduwors.wordpress.com/
 
 
-['Village of Lima', '', 'http://www.townoflima.org', (42.9055102027, -77.6105948229)],
-https://www.lima-ny.org/
-https://www.lima-ny.org/position-postings
+
+['Village of Lima', 'https://www.lima-ny.org/position-postings', 'http://www.townoflima.org', (42.9055102027, -77.6105948229)],
+
+
 
 
 ['County of Lewis', '', 'http://www.lewiscountyny.org', (43.7907877556, -75.4956221444)],
@@ -1317,54 +1284,36 @@ https://www.lima-ny.org/position-postings
 
 
 ['Town of Mount Morris', '', 'http://mtmorrisny.com', (42.7245582824, -77.87308765)],
-https://www.mountmorris-ny.com/
+
 
 
 ['Town of York', '', 'http://www.yorkny.org', (42.8719848954, -77.8856876401)],
 
 
 ['Town of Brookfield', '', 'http://www.brookfieldny.com', (42.815924921, -75.3510700486)],
-https://www.hugedomains.com/domain_profile.cfm?d=brookfieldny&e=com
+
 
 
 ['Village of De Ruyter', '', 'http://www.deruyteronline.com/', (42.7557150467, -75.8925469791)],
 
 
-['Town of Leicester', '', 'http://www.townofleicester.org', (42.7720154498, -77.8985785669)],
-http://www.townofleicester.org/community/employment-opportunities/
+['Town of Leicester', 'http://www.townofleicester.org/community/employment-opportunities/', 'http://www.townofleicester.org', (42.7720154498, -77.8985785669)],
+
 
 
 ['Town of Nunda', '', 'http://www.town.nunda.ny.us', (42.5929850233, -77.8878699495)],
 
 
-['Town of Springwater', '', 'http://www.townofspringwaterny.org', (42.6348980925, -77.5972425025)],
-https://townspringwater.digitaltowpath.org:10071/content/JobCategories
-https://townspringwater.digitaltowpath.org:10071/content
+['Town of Springwater', 'https://townspringwater.digitaltowpath.org:10071/content/JobCategories', 'http://www.townofspringwaterny.org', (42.6348980925, -77.5972425025)],
 
 
-['County of Livingston', '', 'http://www.livingstoncounty.us', (42.8004697824, -77.8165874932)],
-http://www.livingstoncounty.us/jobs.aspx
-http://www.livingstoncounty.us/jobs.aspx?CommunityJobs=False&CatID=Personnel-DepartmentCounty-Jobs-98
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=ADVANCED-LIFE-SUPPORT-TECHNICIAN-Continu-10
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Account-Clerk-Series-Continuous-Recruitm-992
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=CERTIFIED-OCCUPATIONAL-THERAPY-ASSISTANT-18
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Clerk-Continuous-Recruitment-993
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=ClerkTypist-Continuous-Recruitment-994
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Custodian-Continuous-Recruitment-995
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Emergency-Medical-Technician-Continuous--99
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Library-Aide-Continuous-Recruitment-996
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Occupational-Therapist-Continuous-Recrui-21
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Physical-Therapist-Continuous-Recruitmen-22
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Telephone-Operator-Continuous-Recruitmen-997
-http://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=WaterWastewater-Treatment-Plant-Operator-998
-http://www.livingstoncounty.us/540/EmploymentExam-Policies
-http://www.livingstoncounty.us/539/Employment-Application-and-other-Forms
-http://www.livingstoncounty.us/CivicAlerts.aspx?AID=404
-http://www.livingstoncounty.us/DocumentCenter/View/10137/Livingston-Co-2020-2021-TA-SNAP-Employment-Plan
+
+
+['County of Livingston', 'https://www.livingstoncounty.us/jobs.aspx', 'http://www.livingstoncounty.us', (42.8004697824, -77.8165874932)],
 
 
 ['Town of West Sparta', '', 'http://townofwestsparta.org/', (42.6209426648, -77.7915095238)],
-https://townwestsparta.digitaltowpath.org:10278/content
+
 
 
 ['Town of Eaton', '', 'http://townofeaton.com/', (42.9223899508, -75.6713550822)],
@@ -1383,14 +1332,14 @@ https://townwestsparta.digitaltowpath.org:10278/content
 
 
 ['Village of Dansville', '', 'http://www.dansvilleny.org', (42.5595878548, -77.6956915149)],
-https://www.dansvilleny.us/
+
 
 
 ['Town of Hamilton', '', 'http://www.townofhamiltonny.org/', (42.8262972417, -75.5442926766)],
 
 
 ['Town of Lincoln', '', 'http://townoflincoln.org/', (43.0430182941, -75.7449198489)],
-https://townlincoln.digitaltowpath.org:10106/content
+
 
 
 ['Town of De Ruyter', '', 'http://www.deruyternygov.us/', (42.7589398119, -75.8847234592)],
@@ -1406,7 +1355,7 @@ https://townlincoln.digitaltowpath.org:10106/content
 
 
 ['Town of Smithfield', '', 'http://townofsmithfield.org/', (42.9311829704, -75.6899890259)],
-https://townsmithfield.digitaltowpath.org:10150/content
+
 
 
 ['Village of East Rochester', '', 'http://www.eastrochester.org', (43.112759322, -77.4862160545)],
@@ -1415,13 +1364,13 @@ https://townsmithfield.digitaltowpath.org:10150/content
 ['Town of Henrietta', '', 'http://www.townofhenrietta.org', (43.0661955215, -77.6262489622)],
 
 
-['Town of Sullivan', '', 'http://townofsullivan.org/', (43.0865684927, -75.8728907169)],
-https://townsullivan.digitaltowpath.org:10021/content
-https://townsullivan.digitaltowpath.org:10021/content/JobCategories
+['Town of Sullivan', 'https://townsullivan.digitaltowpath.org:10021/content/JobCategories', 'http://townofsullivan.org/', (43.0865684927, -75.8728907169)],
 
 
-['Village of Spencerport', '', 'http://www.vil.spencerport.ny.us', (43.1915231574, -77.8020851088)],
-http://www.vil.spencerport.ny.us/government/job-opportunities.html
+
+
+['Village of Spencerport', 'http://www.vil.spencerport.ny.us/government/job-opportunities.html', 'http://www.vil.spencerport.ny.us', (43.1915231574, -77.8020851088)],
+
 
 
 ['Town of Clarkson', '', 'http://www.clarksonny.org', (43.2326680961, -77.9276512803)],
@@ -1436,26 +1385,16 @@ http://www.vil.spencerport.ny.us/government/job-opportunities.html
 ['Village of Honeoye Falls', '', 'http://www.villageofhoneoyefalls.org/', (42.9557410052, -77.5898193192)],
 
 
-['Town of Parma', '', 'http://www.parmany.org', (43.2523171096, -77.7898968832)],
-http://www.monroecounty.gov/careers
-http://www.monroecounty.gov/hr-index.php
-https://2020census.gov/en/jobs/job-details.html
-http://www.parmany.org/personnel.php
-https://www.census.gov/about/census-careers/opportunities/location/regional-office-careers.html
-https://2020census.gov/en/jobs.html
-https://2020census.gov/en/jobs/how-to-apply.html
-https://www.usajobs.gov/
-https://2020census.gov/en/jobs/pay-and-locations.html
-http://parmany.org/index.php
-http://www.monroecounty.gov/des-stormwater-coalition
+['Town of Parma', 'http://www.parmany.org/personnel.php', 'http://www.parmany.org', (43.2523171096, -77.7898968832)],
 
 
-['Town of Gates', '', 'http://www.townofgates.org', (43.1492768245, -77.6944677253)],
-https://www.townofgates.org/employment-job-postings/
+
+['Town of Gates', 'https://www.townofgates.org/employment-job-postings/', 'http://www.townofgates.org', (43.1492768245, -77.6944677253)],
+
 
 
 ['Village of Pittsford', '', 'http://www.villageofpittsford.org', (43.091849366, -77.5151747088)],
-https://www.readyhosting.com/help
+
 
 
 ['Village of Fairport', '', 'http://www.village.fairport.ny.us/', (43.1006477575, -77.4415786951)],
@@ -1471,46 +1410,46 @@ https://www.readyhosting.com/help
 
 
 ['Town of Rush', '', 'http://www.townofrush.com', (42.995410265, -77.6463440896)],
-http://townofrush.com/forms-applications/category/26-other?download=1170%3Aemployment-application
+
 
 
 ['Town of Sweden', '', 'http://www.townofsweden.org', (43.2140922764, -77.9378582505)],
 
 
-['Village of Brockport', '', 'http://www.brockportny.org', (43.2143455828, -77.9363985831)],
-http://www.brockportny.org/departments-services/employment-opportunities
+['Village of Brockport', 'http://www.brockportny.org/departments-services/employment-opportunities', 'http://www.brockportny.org', (43.2143455828, -77.9363985831)],
+
 
 
 ['Village of Webster', '', 'http://www.villageofwebster.com', (43.2119854657, -77.4314136534)],
 
 
 ['Town of Cazenovia', '', 'http://www.townofcazenovia.org', (42.9302806892, -75.8585452755)],
-https://towncazenovia.digitaltowpath.org:10079/content
+
 
 
 ['Village of Scottsville', '', 'http://www.scottsvilleny.org/', (43.0200522772, -77.7496272308)],
 
 
 ['Town of Lebanon', '', 'http://townoflebanon.org/', (42.7219250452, -75.558380058)],
-https://townlebanon.digitaltowpath.org:10233/content
+
 
 
 ['Town of Charleston', '', 'http://www.townofcharleston.org/', (42.8423199698, -74.4540400894)],
 
 
 ['Village of Remsen', '', 'http://villageofremsen.org/', (43.3256973732, -75.1854178294)],
-https://villageremsen.digitaltowpath.org:10043/content
+
 
 
 ['Village of Canajoharie', '', 'http://villageofcanajoharie.org/', (42.8250199442, -74.6709350821)],
-https://villagecanajoharie.digitaltowpath.org:10120/content
+
 
 
 ['Town of Mohawk', '', 'http://www.townofmohawkny.com/', (42.9904149042, -74.4646250123)],
 
 
 ['Town of Florida', '', 'http://www.co.montgomery.ny.us/florida/', (42.9127999668, -74.2028650475)],
-https://townofflorida.com/
+
 
 
 ['Town of Wheatland', '', 'http://www.townofwheatland.org', (43.0200522772, -77.7496272308)],
@@ -1532,68 +1471,65 @@ https://townofflorida.com/
 
 
 ['Village of East Rockaway', '', 'http://www.villageofeastrockaway.org/', (40.6463017711, -73.6638987045)],
-http://www.villageofeastrockaway.org/road_opening_permit_requests/index.php
+
 
 
 ['Village of Garden City', '', 'http://www.gardencityny.net/', (40.7261417474, -73.638528701)],
 
 
-['Village of Fonda', '', 'http://villageoffonda.ny.gov/', (42.9545480117, -74.3743210914)],
-https://villagefonda.digitaltowpath.org:10193/content/JobCategories
-https://villagefonda.digitaltowpath.org:10193/content/JobCategories/Home/:item=1&field=jobs;/content/Jobs/View/1
-https://villagefonda.digitaltowpath.org:10193/content
+['Village of Fonda', 'https://villagefonda.digitaltowpath.org:10193/content/JobCategories', 'http://villageoffonda.ny.gov/', (42.9545480117, -74.3743210914)],
 
 
-['Town of Minden', '', 'http://townofminden.org/', (42.9284284994, -74.6426757148)],
-http://townofminden.org/employment-volunteer-opportunities/
+
+['Town of Minden', 'http://townofminden.org/employment-volunteer-opportunities/', 'http://townofminden.org/', (42.9284284994, -74.6426757148)],
+
 
 
 ['Village of Bellerose', '', 'http://www.bellerosevillage.org/', (40.7338600495, -73.7076500255)],
 
 
-['Village of Floral Park', '', 'http://www.fpvillage.org/', (40.7265900207, -73.7086600362)],
-https://fpvillage.org/village-info/employment-opportunities/
+['Village of Floral Park', 'https://fpvillage.org/village-info/employment-opportunities/', 'http://www.fpvillage.org/', (40.7265900207, -73.7086600362)],
 
 
-['Village of Freeport', '', 'http://www.freeportny.com/', (40.6583017609, -73.5865786865)],
-https://www.freeportny.gov/jobs.aspx
-https://www.freeportny.gov/
+
+['Village of Freeport', 'https://www.freeportny.gov/jobs.aspx', 'http://www.freeportny.com/', (40.6583017609, -73.5865786865)],
 
 
-['Town of Ogden', '', 'http://www.ogdenny.com', (43.1707325216, -77.8022248886)],
-http://www.ogdenny.com/TownDepartments/Personnel.aspx
 
 
-['Village of Hempstead', '', 'http://www.villageofhempstead.org', (40.7102217999, -73.6227286987)],
-http://www.villageofhempstead.org/CivicAlerts.aspx?AID=161
-http://www.seia.org/
-http://www.villageofhempstead.org/CivicAlerts.aspx?AID=135
+['Town of Ogden', 'http://www.ogdenny.com/TownDepartments/Personnel.aspx', 'http://www.ogdenny.com', (43.1707325216, -77.8022248886)],
 
 
-['Village of Hamilton', '', 'http://www.hamilton-ny.gov/', (42.8272051622, -75.5429114351)],
-https://hamilton-ny.gov/jobs/
+
+['Village of Hempstead', 'https://www.villageofhempstead.org/197/Employment-Opportunities', 'http://www.villageofhempstead.org', (40.7102217999, -73.6227286987)],
+
+
+
+
+['Village of Hamilton', 'https://hamilton-ny.gov/jobs/', 'http://www.hamilton-ny.gov/', (42.8272051622, -75.5429114351)],
+
 
 
 ['Town of Caledonia', '', 'http://www.townofcaledoniany.com/', (42.9689027269, -77.8635351457)],
-https://townofcaledoniany.org/
+
 
 
 ['Village of East Williston', '', 'http://www.eastwilliston.org/', (40.7568079968, -73.6381880458)],
 
 
 ['Village of Lynbrook', '', 'http://www.lynbrookvillage.com', (40.6577314742, -73.6741536904)],
-http://www.lynbrookvillage.net/
 
 
-['Village of Island Park', '', 'http://www.villageofislandpark.com/', (40.6010617988, -73.6556087519)],
-http://villageofislandpark.com/employment/
+
+['Village of Island Park', 'http://villageofislandpark.com/employment/', 'http://www.villageofislandpark.com/', (40.6010617988, -73.6556087519)],
+
 
 
 ['Village of South Floral Park', '', 'http://www.southfloralpark.org/', (40.7139917707, -73.7002687391)],
 
 
-['Village of Great Neck Plaza', '', 'http://www.greatneckplaza.net/', (40.7873700221, -73.7229600933)],
-http://www.greatneckplaza.net/Employment%20Opportunities.html
+['Village of Great Neck Plaza', 'http://www.greatneckplaza.net/Employment%20Opportunities.html', 'http://www.greatneckplaza.net/', (40.7873700221, -73.7229600933)],
+
 
 
 ['Village of Kings Point', '', 'http://www.villageofkingspoint.org/', (40.8151610778, -73.7567349244)],
@@ -1642,11 +1578,11 @@ http://www.greatneckplaza.net/Employment%20Opportunities.html
 
 
 ['Village of Great Neck Estates', '', 'http://www.vgne.com/', (40.7864150623, -73.7287750904)],
-http://www.greatneckestates-ny.gov/
+
 
 
 ['Village of Roslyn', '', 'http://www.historicroslyn.org', (40.8007417229, -73.652348721)],
-https://www.roslynny.gov/
+
 
 
 ['Village of Sands Point', '', 'http://www.sandspoint.org', (40.851647021, -73.7187260931)],
@@ -1668,7 +1604,7 @@ https://www.roslynny.gov/
 
 
 ['Village of Brookville', '', 'http://www.villageofbrookville.com/', (40.8195299535, -73.5862175043)],
-http://www.villageofbrookville.com/index.html
+
 
 
 ['Village of Munsey Park', '', 'http://www.munseypark.org', (40.7954317399, -73.6795087071)],
@@ -1689,9 +1625,9 @@ http://www.villageofbrookville.com/index.html
 ['Village of Lattingtown', '', 'http://villageoflattingtown.org', (0.0, 0.0)],
 
 
-['Village of Stewart Manor', '', 'http://www.stewartmanor.us', (40.7201728586, -73.6886141536)],
-https://villagestewartmanor.digitaltowpath.org:10254/content
-https://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories
+['Village of Stewart Manor', 'https://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories', 'http://www.stewartmanor.us', (40.7201728586, -73.6886141536)],
+
+
 
 
 ['Village of Atlantic Beach', '', 'http://www.villageofatlanticbeach.com', (40.5886018019, -73.737418682)],
@@ -1700,9 +1636,9 @@ https://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories
 ['Village of Upper Brookville', '', 'http://www.upperbrookville.org', (40.8594550096, -73.5063150786)],
 
 
-['Village of Laurel Hollow', '', 'http://laurelhollow.org/', (40.8732246919, -73.4843109224)],
-https://villagelaurelhollow.digitaltowpath.org:10216/content
-https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories
+['Village of Laurel Hollow', 'https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories', 'http://laurelhollow.org/', (40.8732246919, -73.4843109224)],
+
+
 
 
 ['Village of Sea Cliff', '', 'http://www.seacliff-ny.gov', (40.8493464304, -73.6476203581)],
@@ -1718,14 +1654,14 @@ https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories
 
 
 ['Village of Plandome Manor', '', 'http://plandomemanor.com/', (40.8130021922, -73.702826621)],
-https://plandomemanor.com/village-staff/
+
 
 
 ['Town of Hartland', '', 'http://townofhartland.org/', (43.2420914911, -78.5327258015)],
 
 
 ['Village of Old Brookville', '', 'http://www.oldbrookville.net', (40.8278824094, -73.6153102836)],
-http://oldbrookville.net/news/mayor-ryba-joins-elected-officials-in-calling-for-reduction-in-air-traffic-over-the-village/
+
 
 
 ['Village of Oyster Bay Cove', '', 'http://www.oysterbaycove.net/', (40.8717717014, -73.530418766)],
@@ -1743,27 +1679,25 @@ http://oldbrookville.net/news/mayor-ryba-joins-elected-officials-in-calling-for-
 ['Town of Niagara', '', 'http://www.townofniagara.com', (43.1217154166, -78.9843049491)],
 
 
-['Town of Lewiston', '', 'http://www.townoflewiston.us/', (43.1794827167, -78.9844651237)],
-http://www.townoflewiston.us/employment-opportunities
+['Town of Lewiston', 'http://www.townoflewiston.us/employment-opportunities', 'http://www.townoflewiston.us/', (43.1794827167, -78.9844651237)],
 
 
-['Village of Middleport', '', 'http://villageofmiddleport.org/', (43.2121577079, -78.476738889)],
-https://villagemiddleport.digitaltowpath.org:10141/content/JobCategories/Home/:item=3&field=jobs;/content/Jobs/View/2
-https://villagemiddleport.digitaltowpath.org:10141/content/JobCategories
-https://villagemiddleport.digitaltowpath.org:10141/content
+
+['Village of Middleport', 'https://villagemiddleport.digitaltowpath.org:10141/content/JobCategories', 'http://villageofmiddleport.org/', (43.2121577079, -78.476738889)],
 
 
-['County of Nassau', '', 'http://www.nassaucountyny.gov', (40.7379207812, -73.6398427983)],
-http://www.nassaucountyny.gov/1682/Employment-Opportunities
-http://www.nassaucountyny.gov/1683/Equal-Opportunity-Employment-Policy-Info
+
+['County of Nassau', 'http://www.nassaucountyny.gov/1682/Employment-Opportunities', 'http://www.nassaucountyny.gov', (40.7379207812, -73.6398427983)],
+
+
 
 
 ['Village of Williston Park', '', 'http://www.villageofwillistonpark.org/', (40.7574377895, -73.6452707388)],
 
 
-['Town of Wheatfield', '', 'http://www.wheatfield.ny.us', (43.0859619114, -78.8936704048)],
-http://www.wheatfield.ny.us/Jobs.aspx
-https://wheatfield.ny.us/MyAccount?from=url&url=/Jobs.aspx?action=profile
+['Town of Wheatfield', 'http://www.wheatfield.ny.us/Jobs.aspx', 'http://www.wheatfield.ny.us', (43.0859619114, -78.8936704048)],
+
+
 
 
 ['Town of Wilson', '', 'http://www.wilsonnewyork.com', (43.3073230111, -78.8264346036)],
@@ -1772,32 +1706,32 @@ https://wheatfield.ny.us/MyAccount?from=url&url=/Jobs.aspx?action=profile
 ['Town of Porter', '', 'http://www.townofporter.net', (43.2575914875, -79.0085567319)],
 
 
-['Town of Royalton', '', 'http://www.townofroyalton.org', (43.1617537932, -78.5391888411)],
-https://townroyalton.digitaltowpath.org:10057/content/JobCategories
-https://townroyalton.digitaltowpath.org:10057/content
+['Town of Royalton', 'https://townroyalton.digitaltowpath.org:10057/content/JobCategories', 'http://www.townofroyalton.org', (43.1617537932, -78.5391888411)],
+
+
 
 
 ['Town of Somerset', '', 'http://www.somersetny.org', (43.3369966785, -78.550125081)],
 
 
-['Village of Wilson', '', 'http://villageofwilson.org/', (43.3073230111, -78.8264346036)],
-https://villagewilson.digitaltowpath.org:10199/content
-https://villagewilson.digitaltowpath.org:10199/content/JobCategories
+['Village of Wilson', 'https://villagewilson.digitaltowpath.org:10199/content/JobCategories', 'http://villageofwilson.org/', (43.3073230111, -78.8264346036)],
+
+
 
 
 ['Village of Camden', '', 'http://www.camdenny.com', (43.3360508112, -75.7461276683)],
 
 
 ['Town of Annsville', '', 'http://townofannsville.org', (43.2934877083, -75.6103137385)],
-https://townannsville.digitaltowpath.org:10103/content
+
 
 
 ['Village of Oriskany Falls', '', 'http://villageoforiskanyfalls.org/', (42.9401713663, -75.4605279728)],
-https://villageoriskanyfalls.digitaltowpath.org:10181/content
+
 
 
 ['Town of Ava', '', 'http://townofava.org', (43.4162703996, -75.4805978208)],
-https://townava.digitaltowpath.org:10016/content
+
 
 
 ['Village of Youngstown', '', 'http://youngstownnewyork.us/', (43.2507448418, -79.0468322824)],
@@ -1810,81 +1744,71 @@ https://townava.digitaltowpath.org:10016/content
 
 
 ['Village of Waterville', '', 'http://www.watervilleny.com/vilofwaterville.htm', (42.9299088831, -75.3773039014)],
-https://www.hugedomains.com/domain_profile.cfm?d=watervilleny&e=com
+
 
 
 ['Town of Floyd', '', 'http://town.floyd.ny.us', (43.2215612891, -75.336478035)],
-https://townfloyd.digitaltowpath.org:10012/content
+
 
 
 ['Village of Plandome Heights', '', 'http://www.plandomeheights-ny.gov/', (40.7985462862, -73.698708724)],
 
 
-['Town of Pendleton', '', 'http://www.pendletonny.us', (43.108716894, -78.7738978018)],
-https://pendletonny.us/employment/
+['Town of Pendleton', 'https://pendletonny.us/employment/', 'http://www.pendletonny.us', (43.108716894, -78.7738978018)],
 
 
-['Town of Deerfield', '', 'http://www.townofdeerfield.org', (43.1670441245, -75.1462688766)],
-https://towndeerfield.digitaltowpath.org:10063/content
-https://towndeerfield.digitaltowpath.org:10063/content/JobCategories
+
+['Town of Deerfield', 'https://towndeerfield.digitaltowpath.org:10063/content/JobCategories', 'http://www.townofdeerfield.org', (43.1670441245, -75.1462688766)],
+
+
 
 
 ['Town of Bridgewater', '', 'http://townofbridgewaterny.org/', (42.8782299764, -75.2511500707)],
-https://townbridgewater.digitaltowpath.org:10084/content
+
 
 
 ['Town of Kirkland', '', 'http://townofkirkland.org', (43.0418949594, -75.3803200049)],
-https://townkirkland.digitaltowpath.org:10014/content
+
 
 
 ['Town of Forestport', '', 'http://www.townofforestport.org', (43.434063891, -75.1981311763)],
-https://townforestport.digitaltowpath.org:10104/content
 
 
-['Town of Marcy', '', 'http://www.townofmarcy.org', (43.1571912864, -75.2846479915)],
-https://townmarcy.digitaltowpath.org:10019/content
-https://townmarcy.digitaltowpath.org:10019/content/JobCategories
-https://townmarcy.digitaltowpath.org:10019/content/JobCategories/Home/:item=12&field=jobs;/content/Jobs/View/14
+
+['Town of Marcy', 'https://townmarcy.digitaltowpath.org:10019/content/JobCategories', 'http://www.townofmarcy.org', (43.1571912864, -75.2846479915)],
 
 
 ['Town of Lee', '', 'http://townofleeny.org', (43.3017223262, -75.5028065145)],
-https://townlee.digitaltowpath.org:10076/content
+
 
 
 ['Town of Marshall', '', 'http://townofmarshall.com', (42.9922881016, -75.4295335832)],
-https://townmarshall.digitaltowpath.org:10183/content
-https://townmarshall.digitaltowpath.org:10183/content/Generic/View/8
 
 
-['Village of New York Mills', '', 'http://nymills.com/', (43.1035720665, -75.2928887237)],
-https://villagenewyorkmills.digitaltowpath.org:10028/content
-https://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories
+['Village of New York Mills', 'https://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories', 'http://nymills.com/', (43.1035720665, -75.2928887237)],
 
 
-['Town of New Hartford', '', 'http://www.newhartfordtown.com', (43.0733713082, -75.2886280627)],
-https://www.townofnewhartfordny.gov/jobs
-https://www.townofnewhartfordny.gov/
-https://www.townofnewhartfordny.gov/news/post/5043/
-https://www.townofnewhartfordny.gov/home-news
-https://www.townofnewhartfordny.gov/news/post/7754/
 
 
-['Village of New Hartford', '', 'http://www.villageofnewhartford.com', (43.0733713082, -75.2886280627)],
-https://villagenewhartford.digitaltowpath.org:10114/content
-https://villagenewhartford.digitaltowpath.org:10114/content/JobCategories
+['Town of New Hartford', 'https://www.townofnewhartfordny.gov/jobs', 'http://www.newhartfordtown.com', (43.0733713082, -75.2886280627)],
+
+
+
+
+['Village of New Hartford', 'https://villagenewhartford.digitaltowpath.org:10114/content/JobCategories', 'http://www.villageofnewhartford.com', (43.0733713082, -75.2886280627)],
+
+
 
 
 ['Town of Vernon', '', 'http://www.townofvernon.com', (43.0882349187, -75.5124650201)],
 
 
-['Town of Paris', '', 'http://town.paris.ny.us/', (43.0002599699, -75.2678050686)],
-https://townparis.digitaltowpath.org:10026/content
-https://townparis.digitaltowpath.org:10026/content/JobCategories
+['Town of Paris', 'https://townparis.digitaltowpath.org:10026/content/JobCategories', 'http://town.paris.ny.us/', (43.0002599699, -75.2678050686)],
+
+
 
 
 ['Town of Remsen', '', 'http://town.remsen.ny.us/', (43.3345749538, -75.1888130265)],
-https://townremsen.digitaltowpath.org:10027/content
-https://townremsen.digitaltowpath.org:10027/content/Generic/View/3
 
 
 ['Village of Prospect', '', 'http://villageofprospect.org/', (43.3028700024, -75.1532500221)],
@@ -1894,38 +1818,36 @@ https://townremsen.digitaltowpath.org:10027/content/Generic/View/3
 
 
 ['Town of Sangerfield', '', 'http://www.sangerfieldny.com', (42.9328542436, -75.3752096598)],
-https://townsangerfield.digitaltowpath.org:10352/content
+
 
 
 ['Village of Holland Patent', '', 'http://village.holland-patent.ny.us/', (43.2771349672, -75.2867400706)],
-https://villagehollandpatent.digitaltowpath.org:10039/content
+
 
 
 ['Town of Steuben', '', 'http://www.town.steuben.ny.us', (43.3493149708, -75.1904850787)],
-https://townsteuben.digitaltowpath.org:10030/content
-https://townsteuben.digitaltowpath.org:10030/content/News/View/12
 
 
 ['Village of Vernon', '', 'http://www.villageofvernonny.org/', (43.0882349187, -75.5124650201)],
-https://www.villageofvernonny.org/page/page/8509301.htm
 
 
-['Town of Trenton', '', 'http://www.town.trenton.ny.us', (43.2371299525, -75.1647700247)],
-https://towntrenton.digitaltowpath.org:10031/content/JobCategories
-https://towntrenton.digitaltowpath.org:10031/content
+
+['Town of Trenton', 'https://towntrenton.digitaltowpath.org:10031/content/JobCategories', 'http://www.town.trenton.ny.us', (43.2371299525, -75.1647700247)],
 
 
-['Town of Verona', '', 'http://townverona.org', (43.1712013288, -75.6479794269)],
-https://townverona.digitaltowpath.org:10032/content/JobCategories
-https://townverona.digitaltowpath.org:10032/content
+
+
+['Town of Verona', 'https://townverona.digitaltowpath.org:10032/content/JobCategories', 'http://townverona.org', (43.1712013288, -75.6479794269)],
+
+
 
 
 ['Town of Clay', '', 'http://www.townofclay.org', (43.1862998865, -76.2124651698)],
-http://www.townofclay.org/assessor/real-job
+
 
 
 ['Village of Camillus', '', 'http://villageofcamillus-ny.gov', (43.0388848488, -76.3088317489)],
-https://villageofcamillusny.com/
+
 
 
 ['Village of East Syracuse', '', 'http://www.villageofeastsyracuse.com', (43.0647013456, -76.0705476422)],
@@ -1937,14 +1859,12 @@ https://villageofcamillusny.com/
 ['Town of Camillus', '', 'http://townofcamillus.com', (43.0455713598, -76.248657635)],
 
 
-['Town of Whitestown', '', 'http://www.town.whitestown.ny.us', (43.1061759329, -75.322202118)],
-https://townwhitestown.digitaltowpath.org:10034/content/JobCategories
-https://townwhitestown.digitaltowpath.org:10034/content
-https://townwhitestown.digitaltowpath.org:10034/content/News/View/406
+['Town of Whitestown', 'https://townwhitestown.digitaltowpath.org:10034/content/JobCategories', 'http://www.town.whitestown.ny.us', (43.1061759329, -75.322202118)],
 
 
-['Town of Cicero', '', 'http://ciceronewyork.net', (43.1692813081, -76.1150276585)],
-https://ciceronewyork.net/employment/
+
+['Town of Cicero', 'https://ciceronewyork.net/employment/', 'http://ciceronewyork.net', (43.1692813081, -76.1150276585)],
+
 
 
 ['Village of Solvay', '', 'http://villageofsolvay.com', (43.0610043153, -76.2128751725)],
@@ -1966,7 +1886,7 @@ https://ciceronewyork.net/employment/
 
 
 ['Village of Yorkville', '', 'http://villageofyorkvilleny.org/', (43.1116516893, -75.2786318818)],
-https://villageyorkville.digitaltowpath.org:10191/content
+
 
 
 ['Village of Jordan', '', 'http://www.villageofjordan.org', (43.0656713492, -76.4721775498)],
@@ -1975,8 +1895,8 @@ https://villageyorkville.digitaltowpath.org:10191/content
 ['Village of Skaneateles', '', 'http://www.villageofskaneateles.com', (42.9453613504, -76.4277675278)],
 
 
-['Town of Van Buren', '', 'http://www.townofvanburen.com', (43.1368513325, -76.3230075441)],
-http://townofvanburen.com/employment/
+['Town of Van Buren', 'http://townofvanburen.com/employment/', 'http://www.townofvanburen.com', (43.1368513325, -76.3230075441)],
+
 
 
 ['Village of Bloomfield', '', 'http://www.bloomfieldny.org', (42.9017374252, -77.4210885105)],
@@ -1989,12 +1909,10 @@ http://townofvanburen.com/employment/
 
 
 ['Town of East Bloomfield', '', 'http://www.townofeastbloomfield.com', (42.898114949, -77.4319357292)],
-https://www.hugedomains.com/domain_profile.cfm?d=townofeastbloomfield&e=com
+
 
 
 ['Town of Geneva', '', 'http://www.townofgeneva.com', (42.759144915, -77.0847899919)],
-http://www.townofgeneva.com/news_detail_T4_R241.php
-http://www.townofgeneva.com/departments/trash_recycling_and_composting.php
 
 
 ['Village of Manchester', '', 'http://www.villageofmanchester.org', (42.9686372037, -77.2335205985)],
@@ -2013,7 +1931,7 @@ http://www.townofgeneva.com/departments/trash_recycling_and_composting.php
 
 
 ['Town of Seneca', '', 'http://www.townofseneca.com', (42.7583549061, -77.1470349138)],
-https://2020census.gov/en/jobs
+
 
 
 ['Town of Spafford', '', 'http://www.townofspafford.com', (42.8688824193, -76.3386669043)],
@@ -2022,9 +1940,9 @@ https://2020census.gov/en/jobs
 ['Village of Clifton Springs', '', 'http://cliftonspringsny.org', (42.9612673731, -77.1384079361)],
 
 
-['Town of Richmond', '', 'http://townofrichmond.org/', (42.7442350184, -77.5043829605)],
-https://townrichmond.digitaltowpath.org:10135/content
-https://townrichmond.digitaltowpath.org:10135/content/JobCategories
+['Town of Richmond', 'https://townrichmond.digitaltowpath.org:10135/content/JobCategories', 'http://townofrichmond.org/', (42.7442350184, -77.5043829605)],
+
+
 
 
 ['Village of Shortsville', '', 'http://www.villageofshortsvilleny.us', (42.9740099893, -77.2823849252)],
@@ -2034,11 +1952,11 @@ https://townrichmond.digitaltowpath.org:10135/content/JobCategories
 
 
 ['Village of Phelps', '', 'http://www.phelpsny.com/community/village/', (42.9575110384, -77.0571978988)],
-https://www.phelpsny.com/village/
+
 
 
 ['Town of Phelps', '', 'http://www.phelpsny.com/community/town/', (42.9573000068, -77.0572958575)],
-https://www.phelpsny.com/town/
+
 
 
 ['Town of South Bristol', '', 'http://www.southbristolny.org', (42.6596900205, -77.4949499176)],
@@ -2054,12 +1972,9 @@ https://www.phelpsny.com/town/
 
 
 ['Town of Victor', '', 'http://www.victorny.org/index.aspx?NID=27', (42.9823670925, -77.4077468063)],
-http://www.co.ontario.ny.us/
-https://www.victorny.org/27/Government
-
 
 ['Village of Victor', '', 'http://www.victorny.org/index.aspx?NID=92', (42.9825531776, -77.4100291523)],
-https://www.victorny.org/92/Village-Government
+
 
 
 ['Town of Chester', '', 'http://thetownofchester.org', (41.3398490744, -74.2755453151)],
@@ -2077,9 +1992,9 @@ https://www.victorny.org/92/Village-Government
 ['Town of Blooming Grove', '', 'http://www.townofbloominggroveny.com', (41.4081100631, -74.1922491201)],
 
 
-['Town of Canandaigua', '', 'http://www.townofcanandaigua.org', (42.8455649254, -77.3076599588)],
-http://www.townofcanandaigua.org/page.asp?id=92&name=Human%20Resources
-http://www.townofcanandaigua.org/page.asp?id=90
+['Town of Canandaigua', 'http://www.townofcanandaigua.org/page.asp?id=90', 'http://www.townofcanandaigua.org', (42.8455649254, -77.3076599588)],
+
+
 
 
 ['Village of Unionville', '', 'http://www.unionvilleny.org', (41.3015600115, -74.5620600563)],
@@ -2089,7 +2004,7 @@ http://www.townofcanandaigua.org/page.asp?id=90
 
 
 ['Town of Crawford', '', 'http://townofcrawford.org/Home.aspx', (41.6226450428, -74.3996300084)],
-http://townofcrawford.org/
+
 
 
 ['Village of Goshen', '', 'http://www.villageofgoshen-ny.gov', (41.4055074323, -74.317130571)],
@@ -2108,14 +2023,14 @@ http://townofcrawford.org/
 
 
 ['Town of Hamptonburgh', '', 'http://townofhamptonburgh.org', (41.4571660257, -74.2721050926)],
-https://townhamptonburgh.digitaltowpath.org:10051/content
+
 
 
 ['Village of Tuxedo Park', '', 'http://www.tuxedopark-ny.gov', (41.2123131188, -74.1993468712)],
 
 
-['Town of Newburgh', '', 'http://townofnewburgh.org', (41.5322430845, -74.0632817699)],
-http://townofnewburgh.org/cn/Employment/?tpid=12612
+['Town of Newburgh', 'http://townofnewburgh.org/cn/Employment/?tpid=12612', 'http://townofnewburgh.org', (41.5322430845, -74.0632817699)],
+
 
 
 ['Town of Cornwall', '', 'http://www.cornwallny.gov', (41.4389486333, -74.0282085873)],
@@ -2124,34 +2039,21 @@ http://townofnewburgh.org/cn/Employment/?tpid=12612
 ['Town of Highlands', '', 'http://www.highlands-ny.gov', (41.3693820754, -73.9658446834)],
 
 
-['Town of Manchester', '', 'http://manchesterny.org', (42.958414963, -77.1445899627)],
-http://manchesterny.org/employment-opportunities
+['Town of Manchester', 'http://manchesterny.org/employment-opportunities', 'http://manchesterny.org', (42.958414963, -77.1445899627)],
+
 
 
 ['Town of Deerpark', '', 'http://www.townofdeerpark.org', (41.4429950825, -74.6524650841)],
 
 
 ['Town of Montgomery', '', 'http://www.townofmontgomery.com', (41.5221628037, -74.1992864829)],
-http://www.townofmontgomery.com/?start=40
-http://www.townofmontgomery.com/?start=44
-http://www.townofmontgomery.com/community/news-notices/67-town-of-montgomery-job-postings-part-time-dial-a-ride-transportation-drivers.html
-http://www.townofmontgomery.com/?start=48
-http://www.townofmontgomery.com/community/news-notices/163-town-seeking-applicants-for-vacant-board-positions.html
-http://www.townofmontgomery.com/?start=4
-http://www.townofmontgomery.com/?start=8
-http://www.townofmontgomery.com/?start=12
-http://www.townofmontgomery.com/?start=16
-http://www.townofmontgomery.com/?start=20
-http://www.townofmontgomery.com/?start=24
-http://www.townofmontgomery.com/?start=28
-http://www.townofmontgomery.com/?start=32
-http://www.townofmontgomery.com/?start=36
 
 
-['Village of Otisville', '', 'http://www.villageofotisville.com', (41.4667640805, -74.5384714061)],
-https://villageotisville.digitaltowpath.org:10202/content
-https://villageotisville.digitaltowpath.org:10202/content/News/View/215
-https://villageotisville.digitaltowpath.org:10202/content/JobCategories
+
+
+
+['Village of Otisville', 'https://villageotisville.digitaltowpath.org:10202/content/JobCategories', 'http://www.villageofotisville.com', (41.4667640805, -74.5384714061)],
+
 
 
 ['Town of Tuxedo', '', 'http://www.tuxedogov.org', (41.2055650941, -74.2254500514)],
@@ -2169,17 +2071,17 @@ https://villageotisville.digitaltowpath.org:10202/content/JobCategories
 ['Town of Wawayanda', '', 'http://www.townofwawayanda.com', (41.3848150024, -74.474500046)],
 
 
-['Town of Mount Hope', '', 'http://townofmounthope.org', (41.467690033, -74.5390400543)],
-https://townofmounthope.org/employment/
+['Town of Mount Hope', 'https://townofmounthope.org/employment/', 'http://townofmounthope.org', (41.467690033, -74.5390400543)],
+
 
 
 ['Village of Woodbury', '', 'http://villageofwoodbury.com/home', (41.3666250583, -74.0923900338)],
-http://villageofwoodbury.com/?start=4
-http://villageofwoodbury.com/?start=8
+
+
 
 
 ['Town of Woodbury', '', 'http://www.townofwoodbury.com', (41.3471740713, -74.1264622829)],
-http://www.townofwoodbury.com/50-community/committees-commissions/105-open-positions-for-parks-committee-and-board-of-assessment.html
+
 
 
 ['Village of Walden', '', 'http://www.villageofwalden.org', (41.5655900799, -74.1735051021)],
@@ -2188,8 +2090,8 @@ http://www.townofwoodbury.com/50-community/committees-commissions/105-open-posit
 ['Village of Greenwood Lake', '', 'http://www.villageofgreenwoodlake.org', (41.2211170211, -74.2914580488)],
 
 
-['Village of Holley', '', 'http://www.villageofholley.org', (43.2252205431, -78.0250840456)],
-http://www.villageofholley.org/jobs.cfm
+['Village of Holley', 'http://www.villageofholley.org/jobs.cfm', 'http://www.villageofholley.org', (43.2252205431, -78.0250840456)],
+
 
 
 ['Town of Warwick', '', 'http://www.townofwarwick.org/', (41.2576325245, -74.3588055956)],
@@ -2199,7 +2101,7 @@ http://www.villageofholley.org/jobs.cfm
 
 
 ['Town of Hopewell', '', 'http://www.townofhopewell.org', (42.9001787203, -77.1842066602)],
-https://townhopewell.digitaltowpath.org:10073/content
+
 
 
 ['Town of Yates', '', 'http://townofyates.org', (43.3210820288, -78.3890378689)],
@@ -2212,12 +2114,10 @@ https://townhopewell.digitaltowpath.org:10073/content
 
 
 ['Town of Carlton', '', 'http://www.townofcarlton.com', (43.3232618885, -78.1925113059)],
-https://townofcarlton.org/
-https://townofcarlton.org/officials-personnel/
 
 
-['Town of Hannibal', '', 'http://hannibalny.org', (43.3134449267, -76.5498799814)],
-http://hannibalny.org/?page_id=2779
+['Town of Hannibal', 'http://hannibalny.org/?page_id=2779', 'http://hannibalny.org', (43.3134449267, -76.5498799814)],
+
 
 
 ['Town of Gaines', '', 'http://www.townofgaines.org', (43.2328749797, -78.2127899127)],
@@ -2236,12 +2136,11 @@ http://hannibalny.org/?page_id=2779
 
 
 ['Town of Clarendon', '', 'http://www.townofclarendon.org', (43.1914938327, -78.0596794975)],
-https://townofclarendon.org/home/
-https://townofclarendon.org/home/joint-youth-recreation/
+
 
 
 ['Town of Granby', '', 'http://www.towngranby.org', (43.2849518821, -76.4634187768)],
-https://towngranby.digitaltowpath.org:10013/content
+
 
 
 ['Town of Albion', '', 'http://www.townofalbion-ny.us', (43.2386624955, -78.178039816)],
@@ -2260,7 +2159,7 @@ https://towngranby.digitaltowpath.org:10013/content
 
 
 ['Town of Constantia', '', 'http://www.townconstantia.org', (43.2492940616, -76.0017558737)],
-http://townofconstantia-ny.us/
+
 
 
 ['Town of Ridgeway', '', 'http://www.townridgeway.org', (43.2213272569, -78.3898839449)],
@@ -2279,33 +2178,33 @@ http://townofconstantia-ny.us/
 
 
 ['Village of Mexico', '', 'http://mexicovillage.net', (43.4599424769, -76.2272480481)],
-http://mexicony.net/
+
 
 
 ['Village of Phoenix', '', 'http://villageofphoenix-ny.gov', (43.2292966204, -76.2990427303)],
 
 
 ['Town of Schroeppel', '', 'http://www.townofschroeppel.com', (43.223145975, -76.2840910614)],
-https://townschroeppel.digitaltowpath.org:10268/content
 
 
-['Village of Pulaski', '', 'http://www.villagepulaski.org', (43.5701167412, -76.1254029131)],
-https://villagepulaski.digitaltowpath.org:10789/content
-https://villagepulaski.digitaltowpath.org:10789/content/JobCategories
+
+['Village of Pulaski', 'https://villagepulaski.digitaltowpath.org:10789/content/JobCategories', 'http://www.villagepulaski.org', (43.5701167412, -76.1254029131)],
+
+
 
 
 ['Village of Parish', '', 'http://www.villageofparish-ny.us', (43.4062950752, -76.1244968379)],
 
 
 ['Village of Tully', '', 'http://www.tullyny.org', (42.7912658664, -76.1160651335)],
-https://www.tullyny.org/tag/support/
+
 
 
 ['Town of Milford', '', 'http://townofmilford.org', (42.5378850408, -74.9674500615)],
 
 
 ['Town of West Monroe', '', 'http://www.townofwestmonroe-ny.us', (43.284063184, -76.0650874017)],
-https://townwestmonroe.digitaltowpath.org:10358/content
+
 
 
 ['Town of Otego', '', 'http://townofotego.com', (42.372535044, -75.2057300047)],
@@ -2327,13 +2226,9 @@ https://townwestmonroe.digitaltowpath.org:10358/content
 
 
 ['Town of Edmeston', '', 'http://www.edmestonny.org', (42.6979614678, -75.2442780544)],
-http://www.edmestonny.org/page/6/
-http://www.edmestonny.org/notice-of-vacancy-highway-department-2/
-http://www.edmestonny.org/page/3/
-http://www.edmestonny.org/notice-of-vacancy-2/
-http://www.edmestonny.org/page/2/
-http://www.edmestonny.org/page/4/
-http://www.edmestonny.org/page/5/
+
+
+
 
 
 ['Town of Worcester', '', 'http://www.townofworcesterny.com', (42.5923860965, -74.7513485488)],
@@ -2348,13 +2243,13 @@ http://www.edmestonny.org/page/5/
 ['Village of Cold Spring', '', 'http://users.bestweb.net/~vcsclerk/', (41.4178516519, -73.9579185307)],
 
 
-['Town of Hartwick', '', 'http://www.townofhartwick.org', (42.6600291528, -75.0440912484)],
-https://townhartwick.digitaltowpath.org:10113/content
-https://townhartwick.digitaltowpath.org:10113/content/JobCategories
+['Town of Hartwick', 'https://townhartwick.digitaltowpath.org:10113/content/JobCategories', 'http://www.townofhartwick.org', (42.6600291528, -75.0440912484)],
 
 
-['Village of Cooperstown', '', 'http://www.cooperstownny.org', (42.7001796838, -74.9226674811)],
-https://www.cooperstownny.org/employment/
+
+
+['Village of Cooperstown', 'https://www.cooperstownny.org/employment/', 'http://www.cooperstownny.org', (42.7001796838, -74.9226674811)],
+
 
 
 ['Village of Richfield Springs', '', 'http://www.villageofrichfieldsprings-ny.com', (42.8538216724, -74.9882603486)],
@@ -2367,15 +2262,15 @@ https://www.cooperstownny.org/employment/
 
 
 ['Town of Southeast', '', 'http://www.southeast-ny.gov', (41.3944116555, -73.6193986956)],
-http://www.brewstersoutheastjfd.com/
+
 
 
 ['Town of Oneonta', '', 'http://www.townofoneonta.org', (42.4703715126, -75.112138174)],
-http://www.townofoneonta.org/town
+
 
 
 ['Village of Nelsonville', '', 'http://www.villageofnelsonville.org', (41.4239416327, -73.9487985904)],
-https://www.nelsonvilleny.gov/
+
 
 
 ['Town of Kent', '', 'http://www.townofkentny.gov/', (41.479231507, -73.6697730666)],
@@ -2384,8 +2279,8 @@ https://www.nelsonvilleny.gov/
 ['Village of Hoosick Falls', '', 'http://www.hoosickfalls.com/', (42.9008212828, -73.3502687224)],
 
 
-['Town of Hoosick', '', 'http://townofhoosick.org', (42.8622899602, -73.3275999961)],
-http://townofhoosick.org/employmentopportunities.shtml
+['Town of Hoosick', 'http://townofhoosick.org/employmentopportunities.shtml', 'http://townofhoosick.org', (42.8622899602, -73.3275999961)],
+
 
 
 ['Town of Philipstown', '', 'http://www.philipstown.com', (41.4229216381, -73.9508285691)],
@@ -2397,26 +2292,20 @@ http://townofhoosick.org/employmentopportunities.shtml
 ['Town of Middlefield', '', 'http://www.middlefieldny.com', (42.719310039, -74.9029500189)],
 
 
-['Town of East Greenbush', '', 'http://www.eastgreenbush.org', (42.617351421, -73.7312185505)],
-https://www.eastgreenbush.org/departments/human-resources/employment-opportunities
-https://www.eastgreenbush.org/news/job-posting-planner
-https://www.eastgreenbush.org/news/job-posting-dpw-heavy-equipment-operator
-https://www.eastgreenbush.org/police/employment
+['Town of East Greenbush', 'https://www.eastgreenbush.org/departments/human-resources/employment-opportunities', 'http://www.eastgreenbush.org', (42.617351421, -73.7312185505)],
 
 
-['County of Putnam', '', 'http://www.putnamcountyny.gov', (41.4262934574, -73.6788680935)],
-https://www.putnamcountyny.com/
-https://www.putnamcountyny.com/environmental-health-aide-job-opening/
-https://www.putnamcountyny.com/it-systems-specialist-job-opening/
+
+
+['County of Putnam', 'https://putnam.munisselfservice.com/employmentopportunities/default.aspx', 'http://www.putnamcountyny.gov', (41.4262934574, -73.6788680935)],
+
 
 
 ['Village of Brewster', '', 'http://www.brewstervillage-ny.gov/', (41.3952915971, -73.6070186469)],
-http://www.brewsterfiredepartment.org/
+
 
 
 ['Town of Carmel', '', 'http://www.carmelny.org', (41.3812450326, -73.7523200503)],
-https://www.ci.carmel.ny.us/
-https://www.ci.carmel.ny.us/home/news/notice-of-vacancies-planning-board-and-board-of-assessment
 
 
 ['Village of Sloatsburg', '', 'http://www.sloatsburgny.com', (41.1577816686, -74.1920185207)],
@@ -2426,16 +2315,14 @@ https://www.ci.carmel.ny.us/home/news/notice-of-vacancies-planning-board-and-boa
 
 
 ['Town of Charlton', '', 'http://www.townofcharlton.org', (42.9345214477, -73.9631648669)],
-http://www.townofcharlton.org/home/news/2020-census-taker-jobs
-https://www.townofcharlton.org/subscribe
 
 
 ['Village of Wesley Hills', '', 'http://www.wesleyhills.org/', (41.1541261502, -74.0700849628)],
 
 
-['Town of Moreau', '', 'http://www.townofmoreau.org', (43.2526791279, -73.6555730577)],
-https://www.saratogacountyny.gov/departments/personnel/current-exams-and-job-postings/
-http://www.townofmoreau.org/job_opportunities.asp
+['Town of Moreau', 'http://www.townofmoreau.org/job_opportunities.asp', 'http://www.townofmoreau.org', (43.2526791279, -73.6555730577)],
+
+
 
 
 ['Town of Corinth', '', 'http://townofcorinthny.org', (43.2460978083, -73.8152335318)],
@@ -2453,17 +2340,17 @@ http://www.townofmoreau.org/job_opportunities.asp
 ['Village of Schuylerville', '', 'http://villageofschuylerville.org/', (43.1042449706, -73.5832180518)],
 
 
-['Town of Day', '', 'http://www.townofday.com', (43.3047520669, -74.0178946481)],
-https://www.tax.ny.gov/about/empopps/default.htm
-https://www.tax.ny.gov/pit/property/star/star-exemption-program.htm
+['Town of Day', 'https://www.tax.ny.gov/about/empopps/default.htm', 'http://www.townofday.com', (43.3047520669, -74.0178946481)],
 
 
-['Village of Stillwater', '', 'http://www.stillwaterny.org/', (42.9987899531, -73.6628200392)],
-https://www.stillwaterny.org/employment-opportunities/
+
+
+['Village of Stillwater', 'https://www.stillwaterny.org/employment-opportunities/', 'http://www.stillwaterny.org/', (42.9987899531, -73.6628200392)],
+
 
 
 ['Town of Providence', '', 'http://townofprovidence.org/', (43.0469249493, -74.0423300328)],
-https://townprovidence.digitaltowpath.org:10105/content
+
 
 
 ['Town of Milton', '', 'http://www.townofmiltonny.org', (43.044858951, -73.8526866303)],
@@ -2475,22 +2362,22 @@ https://townprovidence.digitaltowpath.org:10105/content
 ['Town of Stillwater', '', 'http://stillwaterny.org/', (42.9987899531, -73.6628200392)],
 
 
-['Town of Waterford', '', 'http://www.town.waterford.ny.us', (42.790442278, -73.6784862383)],
-http://www.town.waterford.ny.us/employment-opportunities.html
-http://www.town.waterford.ny.us/?start=4
+['Town of Waterford', 'http://www.town.waterford.ny.us/employment-opportunities.html', 'http://www.town.waterford.ny.us', (42.790442278, -73.6784862383)],
+
+
 
 
 ['Village of Victory', '', 'http://www.villageofvictory.org', (43.0879849392, -73.5937700925)],
-https://www.villageofvictory.com/
 
 
-['Town of Duanesburg', '', 'http://www.duanesburg.net', (42.765322018, -74.1468943128)],
-https://www.duanesburg.net/human-resources
-https://www.duanesburg.net/human-resources/webforms/employment-application
+
+['Town of Duanesburg', 'https://www.duanesburg.net/human-resources', 'http://www.duanesburg.net', (42.765322018, -74.1468943128)],
 
 
-['Village of Scotia', '', 'http://www.villageofscotia.org/', (42.8265969702, -73.9642569322)],
-https://www.villageofscotia.org/employment-opportunities/
+
+
+['Village of Scotia', 'https://www.villageofscotia.org/employment-opportunities/', 'http://www.villageofscotia.org/', (42.8265969702, -73.9642569322)],
+
 
 
 ['Town of Wilton', '', 'http://www.townofwilton.com', (43.1677853699, -73.7171195879)],
@@ -2499,16 +2386,12 @@ https://www.villageofscotia.org/employment-opportunities/
 ['Village of Waterford', '', 'http://www.waterfordny.org', (42.8113056106, -73.6999601388)],
 
 
-['Town of Glenville', '', 'http://www.townofglenville.org', (42.8681788917, -73.9273192032)],
-https://www.townofglenville.org/home/pages/employment-opportunities
-http://www.townofglenville.org/home/news/seasonal-employment-opportunity-0
-https://www.townofglenville.org/environmental-conservation-commission/pages/home-composting-information
+['Town of Glenville', 'https://www.townofglenville.org/home/pages/employment-opportunities', 'http://www.townofglenville.org', (42.8681788917, -73.9273192032)],
 
 
-['Town of Niskayuna', '', 'http://www.niskayuna.org', (42.805724958, -73.8744000943)],
-https://www.niskayuna.org/home/pages/employment-opportunities
-https://www.niskayuna.org/sites/niskayunany/files/uploads/youth_employment_student_reg_form.pdf
-https://www.niskayuna.org/sites/niskayunany/files/uploads/resident_youth_employment_form.pdf
+
+['Town of Niskayuna', 'https://www.niskayuna.org/home/pages/employment-opportunities', 'http://www.niskayuna.org', (42.805724958, -73.8744000943)],
+
 
 
 ['Town of Rotterdam', '', 'http://www.rotterdamny.org', (42.8073549345, -74.0356150187)],
@@ -2527,18 +2410,18 @@ https://www.niskayuna.org/sites/niskayunany/files/uploads/resident_youth_employm
 
 
 ['Town of Dix', '', 'http://www.townofdix.com/', (42.3489450276, -76.8336099655)],
-http://www.townofdix.com/bulletins.html
 
 
-['Village of Watkins Glen', '', 'http://www.watkinsglen.us', (42.3809615816, -76.8741574265)],
-http://www.watkinsglen.us/employment-opportunities.php
+
+['Village of Watkins Glen', 'http://www.watkinsglen.us/employment-opportunities.php', 'http://www.watkinsglen.us', (42.3809615816, -76.8741574265)],
+
 
 
 ['Town of Montour', '', 'http://townofmontour.com/', (42.3489450276, -76.8336099655)],
 
 
 ['Village of Burdett', '', 'http://burdettny.us/', (42.4189254261, -76.8494904521)],
-http://burdettny.us/945/Village-of-Burdett
+
 
 
 ['Town of Covert', '', 'http://www.townofcovert.org', (42.6138654038, -76.7242557573)],
@@ -2551,20 +2434,20 @@ http://burdettny.us/945/Village-of-Burdett
 
 
 ['Town of Orange', '', 'http://townoforangeny.org/', (42.3043880156, -77.0486149604)],
-https://townorange.digitaltowpath.org:10205/content
 
 
-['Village of Interlaken', '', 'http://www.villageofinterlaken.org/', (42.6186661694, -76.7245753487)],
-http://www.interlaken-ny.us/jobs.html
-http://www.interlaken-ny.us/
+
+['Village of Interlaken', 'http://www.interlaken-ny.us/jobs.html', 'http://www.villageofinterlaken.org/', (42.6186661694, -76.7245753487)],
+
+
 
 
 ['Town of Edinburg', '', 'http://www.edinburgny.com', (43.2216301694, -74.103675529)],
 
 
-['Town of Princetown', '', 'http://princetown.net', (42.7805813288, -74.0333884519)],
-https://townprincetown.digitaltowpath.org:10095/content/JobCategories
-https://townprincetown.digitaltowpath.org:10095/content
+['Town of Princetown', 'https://townprincetown.digitaltowpath.org:10095/content/JobCategories', 'http://princetown.net', (42.7805813288, -74.0333884519)],
+
+
 
 
 ['Town of Junius', '', 'http://www.townofjunius.org/', (42.9766440582, -76.9351749236)],
@@ -2582,10 +2465,8 @@ https://townprincetown.digitaltowpath.org:10095/content
 ['Village of Round Lake', '', 'http://www.roundlakevillage.org', (42.9367570025, -73.7949053064)],
 
 
-['County of Seneca', '', 'http://www.co.seneca.ny.us', (42.9097847627, -76.8430784072)],
-https://seneca-portal.mycivilservice.com/
-http://www.co.seneca.ny.us/departments/admin-operations/personnel-department/
-https://www.co.seneca.ny.us/departments/dhs-administration/workforce-department/
+['County of Seneca', 'https://seneca-portal.mycivilservice.com/', 'http://www.co.seneca.ny.us', (42.9097847627, -76.8430784072)],
+
 
 
 ['Town of Greenfield', '', 'http://greenfieldny.org/', (43.1282640867, -73.8457935198)],
@@ -2595,7 +2476,7 @@ https://www.co.seneca.ny.us/departments/dhs-administration/workforce-department/
 
 
 ['Town of Reading', '', 'https://sites.google.com/site/townofreadingschuylercountyny', (42.4437300099, -76.9466049764)],
-https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/site/townofreadingschuylercountyny/&followup=https://sites.google.com/site/townofreadingschuylercountyny/
+
 
 
 ['Town of Bath', '', 'http://www.townofbathny.org/', (42.3492350755, -77.3425949179)],
@@ -2605,33 +2486,29 @@ https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continu
 
 
 ['Town of Tyre', '', 'http://www.tyreny.com/', (42.9679713659, -76.828555158)],
-https://tyreny.com/planning-board-alternate-member-vacancy/
-https://tyreny.com/zoning-board-of-appeals-vacancy/
+
 
 
 ['Village of Addison', '', 'http://www.villageofaddison.info/', (42.1036266507, -77.2375809273)],
 
 
 ['Town of Cohocton', '', 'http://www.townofcohocton.com/', (42.5003414259, -77.4949525824)],
-http://nebula.wsimg.com/941c1e0caaf4a9591bad8956a48c1b75?AccessKeyId=B00A5174C5C9F8F91E68&disposition=0&alloworigin=1
+
 
 
 ['Village of Suffern', '', 'http://www.suffernvillage.com/', (41.1140716957, -74.1501885251)],
-http://04163de.netsolhost.com/
+
 
 
 ['Town of Hadley', '', 'http://www.townofhadley.org', (43.3231749894, -74.0055050183)],
-https://townhadley.digitaltowpath.org:10096/content
+
 
 
 ['Town of Romulus', '', 'http://www.romulustown.com/', (42.6834050234, -76.8702199558)],
 
 
 ['Town of Corning', '', 'http://www.townofcorningny.org', (42.1219140411, -77.0348307877)],
-https://townofcorningny.org/fire-study-2017/
-https://townofcorningny.org/legal-and-agreement-postings/
-https://townofcorningny.org/2019/11/04/special-meeting-notice-joint-fire-district/
-https://townofcorningny.org/2019/01/31/joint-fire-district-postings/
+
 
 
 ['Town of Campbell', '', 'http://www.campbellny.com/', (42.2401629158, -77.1311949736)],
@@ -2653,7 +2530,7 @@ https://townofcorningny.org/2019/01/31/joint-fire-district-postings/
 
 
 ['Town of Hornellsville', '', 'http://www.townofhornellsville.com', (42.3929722826, -77.6953175107)],
-http://www.townofhornellsville.com/index.html
+
 
 
 ['Village of North Hornell', '', 'http://www.northhornell.com/', (42.3444570514, -77.6617919075)],
@@ -2662,10 +2539,7 @@ http://www.townofhornellsville.com/index.html
 ['Village of Cohocton', '', 'http://www.cohoctonny.com/', (42.4984363196, -77.4948123252)],
 
 
-['Town of Halfmoon', '', 'http://www.townofhalfmoon.org', (42.8538289634, -73.7254720147)],
-https://www.townofhalfmoon-ny.gov/
-https://www.townofhalfmoon-ny.gov/home/pages/job-opportunities
-https://www.townofhalfmoon-ny.gov/sites/halfmoonny/files/uploads/job_application.pdf
+['Town of Halfmoon', 'https://www.townofhalfmoon-ny.gov/home/pages/job-opportunities', 'http://www.townofhalfmoon.org', (42.8538289634, -73.7254720147)],
 
 
 ['Town of Urbana', '', 'http://www.townofurbana.com', (42.3895430343, -77.2596848314)],
@@ -2674,14 +2548,12 @@ https://www.townofhalfmoon-ny.gov/sites/halfmoonny/files/uploads/job_application
 ['Town of Wayne', '', 'http://www.townofwayneny.com', (42.4671990577, -77.1580389643)],
 
 
-['Town of Wayland', '', 'http://townofwayland.org', (42.5395700563, -77.6281949636)],
-https://townwayland.digitaltowpath.org:10163/content
-https://townwayland.digitaltowpath.org:10163/content/JobCategories
+['Town of Wayland', 'https://townwayland.digitaltowpath.org:10163/content/JobCategories', 'http://townofwayland.org', (42.5395700563, -77.6281949636)],
+
+
 
 
 ['Town of Canton', '', 'http://www.cantonnewyork.us', (44.5800399073, -75.1491600139)],
-https://cantonny.gov/
-https://cantonny.gov/chamber/join-the-chamber/
 
 
 ['Town of Woodhull', '', 'http://www.woodhullny.com/', (42.0564350415, -77.4332999743)],
@@ -2697,7 +2569,7 @@ https://cantonny.gov/chamber/join-the-chamber/
 
 
 ['Town of Clifton', '', 'http://townofcliftonny.org', (44.222988224, -74.8370819722)],
-https://townclifton.digitaltowpath.org:10155/content
+
 
 
 ['Town of Gouverneur', '', 'http://gouverneurny.com', (44.19434993, -75.5312700317)],
@@ -2706,10 +2578,8 @@ https://townclifton.digitaltowpath.org:10155/content
 ['Town of Pulteney', '', 'http://www.pulteneyny.com', (42.5248700555, -77.16160993)],
 
 
-['Town of Fine', '', 'http://www.townoffine.org', (44.1647367012, -75.0459947301)],
-https://townfine.digitaltowpath.org:10054/content/JobCategories/Home/:item=5&field=jobs;/content/Jobs/View/15
-https://townfine.digitaltowpath.org:10054/content/JobCategories
-https://townfine.digitaltowpath.org:10054/content
+['Town of Fine', 'https://townfine.digitaltowpath.org:10054/content/JobCategories', 'http://www.townoffine.org', (44.1647367012, -75.0459947301)],
+
 
 
 ['Village of Gouverneur', '', 'http://www.villageofgouverneur.org/', (44.3361837338, -75.4699697093)],
@@ -2728,26 +2598,26 @@ https://townfine.digitaltowpath.org:10054/content
 
 
 ['Village of Hammondsport', '', 'http://www.hammondsport.com/', (42.4078155048, -77.2234664412)],
-https://hammondsport.us/
+
 
 
 ['Town of Varick', '', 'http://www.varickny.com/', (42.7946438774, -76.8438013113)],
-http://www.varickny.com/default.php
+
 
 
 ['Town of Morristown', '', 'http://www.townofmorristownny.org', (44.5843899918, -75.6455150379)],
 
 
-['Village of Heuvelton', '', 'http://www.heuveltonny.com/', (44.6188339973, -75.41173311)],
-http://www.heuveltonny.com/employment-opportunities.html
+['Village of Heuvelton', 'http://www.heuveltonny.com/employment-opportunities.html', 'http://www.heuveltonny.com/', (44.6188339973, -75.41173311)],
+
 
 
 ['City of Lockport', '', 'http://elockport.com/city-index.php', (43.1695629342, -78.695646266)],
-http://elockport.com
 
 
-['Town of Hammond', '', 'http://townofhammondny.com', (44.4495407618, -75.6944492927)],
-https://townofhammondny.com/employment/
+
+['Town of Hammond', 'https://townofhammondny.com/employment/', 'http://townofhammondny.com', (44.4495407618, -75.6944492927)],
+
 
 
 ['Town of Norfolk', '', 'http://www.norfolkny.us', (44.7995588725, -74.9869234912)],
@@ -2757,15 +2627,14 @@ https://townofhammondny.com/employment/
 
 
 ['Town of Oswegatchie', '', 'http://townofoswegatchie.org/', (44.6208753707, -75.4114050832)],
-https://townoswegatchie.digitaltowpath.org:10236/content
+
 
 
 ['Town of Pitcairn', '', 'http://www.townofpitcairn.com', (44.1817448678, -75.2817615815)],
 
 
 ['Village of Potsdam', '', 'http://www.vi.potsdam.ny.us/', (44.6694172899, -74.9826266144)],
-http://vi.potsdam.ny.us/content
-http://www.vi.potsdam.ny.us/content/News/View/57
+
 
 
 ['Town of Pierrepont', '', 'http://www.townofpierrepont.com', (44.5417881882, -75.0105178864)],
@@ -2775,18 +2644,14 @@ http://www.vi.potsdam.ny.us/content/News/View/57
 
 
 ['Town of Allen', '', 'http://www.alleganyco.com/local_govt/Allen/', (42.3494299997, -77.987814909)],
-http://www.alleganyco.com/departments/human-resources-civil-service/
-http://www.alleganyco.com
+
+
 
 
 ['Town of Russell', '', 'http://www.russellny.org', (44.3828199523, -75.0341150071)],
 
 
-['County of St Lawrence', '', 'http://www.stlawco.org', (44.5800399073, -75.1491600139)],
-https://www.stlawco.org/Departments/HumanResources/
-https://www.stlawco.org/Departments/HumanResources/CountyJobPostings
-https://www.stlawco.org/Departments/HumanResources/ContinuousRecruitmentExams
-https://www.stlawco.org//Forms/Search.asp?searchfield=formname&searchstring=Exam+Application&deptname=&search=search
+['County of St Lawrence', 'https://www.stlawco.org/Departments/HumanResources/CountyJobPostings', 'http://www.stlawco.org', (44.5800399073, -75.1491600139)],
 
 
 ['Village of Waddington', '', 'http://www.villageofwaddington.org', (44.8606821423, -75.2056282562)],
@@ -2799,7 +2664,7 @@ https://www.stlawco.org//Forms/Search.asp?searchfield=formname&searchstring=Exam
 
 
 ['Town of Massena', '', 'http://www.massenaworks.com/town/index.asp', (44.9312448013, -74.8932627886)],
-http://www.massenaworks.com/author/admin/
+
 
 
 ['Village of Bath', '', 'http://www.villageofbath.org/', (42.3357917422, -77.3177596631)],
@@ -2823,8 +2688,8 @@ http://www.massenaworks.com/author/admin/
 ['Village of Patchogue', '', 'http://www.patchoguevillage.org', (40.7616517427, -73.0121888736)],
 
 
-['Village of Amityville', '', 'http://www.amityville.com', (40.6787717347, -73.4182588387)],
-http://amityville.com/employment-opportunities/
+['Village of Amityville', 'http://amityville.com/employment-opportunities/', 'http://www.amityville.com', (40.6787717347, -73.4182588387)],
+
 
 
 ['Village of Saltaire', '', 'http://www.saltaire.org', (40.640378576, -73.198257468)],
@@ -2834,11 +2699,11 @@ http://amityville.com/employment-opportunities/
 
 
 ['Village of Head Of The Harbor', '', 'http://villagehohny.org/', (0.0, 0.0)],
-http://villagehohny.org/v2/pageon.php?b=home
+
 
 
 ['Village of Shoreham', '', 'http://www.shorehamvillage.org', (40.9594653448, -72.9087617621)],
-http://www.shorehamvillage.org/Bldg&Demolish_Permits_10-14/Bldg&Demolish_Instructn&Forms_10-14.html
+
 
 
 ['Village of Old Field', '', 'http://www.oldfieldny.org', (40.9350400234, -73.1065000879)],
@@ -2848,14 +2713,14 @@ http://www.shorehamvillage.org/Bldg&Demolish_Permits_10-14/Bldg&Demolish_Instruc
 
 
 ['Village of Islandia', '', 'http://newvillageofislandia.com', (40.8068117224, -73.1640888404)],
-http://newvillageofislandia.com/pages/releases/022709.php
+
 
 
 ['Town of Shelter Island', '', 'http://www.shelterislandtown.us/', (41.0698635504, -72.3389526073)],
 
 
 ['Village of Nissequogue', '', 'http://nissequogueny.gov', (40.8990649717, -73.1944589142)],
-http://nissequogueny.gov/pageon.php?b=home
+
 
 
 ['Village of Quogue', '', 'http://www.villageofquogue.com', (40.8167680019, -72.609998975)],
@@ -2868,7 +2733,7 @@ http://nissequogueny.gov/pageon.php?b=home
 
 
 ['Village of Sag Harbor', '', 'http://www.sagharborny.gov', (41.0009316859, -72.2948191628)],
-http://www.sagharborny.gov/CivicAlerts.aspx?AID=38
+
 
 
 ['Village of Westhampton Beach', '', 'http://www.westhamptonbeach.org', (40.8149630578, -72.6446080045)],
@@ -2880,40 +2745,32 @@ http://www.sagharborny.gov/CivicAlerts.aspx?AID=38
 ['Village of Northport', '', 'http://www.northportny.gov', (40.9005217314, -73.3473587773)],
 
 
-['Village of Greenport', '', 'http://www.greenport.com', (41.1024772094, -72.3631550374)],
-https://www.greenport.com/jobs-board
-https://www.greenport.com/latest-jobs
-https://www.greenport.com/latest-jobs/premium-jobs/marketing-and-audience-development-executive
-https://www.boatingbusiness.com/latest-jobs/premium-jobs/marketing-and-audience-development-executive
-https://www.greenport.com/latest-jobs/premium-jobs/digital-media-designer
-https://www.greenport.com/latest-jobs/premium-jobs/sales-executive4
-https://www.greenport.com/latest-jobs/premium-jobs
-https://www.boatingbusiness.com/latest-jobs/premium-jobs/digital-media-designer
-https://www.mercatormedia.com/jobs
-https://www.mercatormedia.com/
+['Village of Greenport', 'https://www.greenport.com/jobs-board', 'http://www.greenport.com', (41.1024772094, -72.3631550374)],
+
+
 
 
 ['Town of Southold', '', 'http://www.southoldtownny.gov', (41.0634816932, -72.4313890551)],
-http://www.southoldtownny.gov/187/Legal-Public-Notices
+
 
 
 ['Town of Carrollton', '', 'http://www.carrolltonny.org/index.htm', (42.0491000722, -78.6465699268)],
-http://www.carrolltonny.org
+
 
 
 ['Town of Bethel', '', 'http://www.town.bethel.ny.us', (41.6362050514, -74.8740500621)],
 
 
 ['Town of Barker', '', 'http://www.gobroomecounty.com/files/community/pdfs/TownofBarker.pdf', (42.2531900918, -75.9071249281)],
-http://www.gobroomecounty.com
+
 
 
 ['Village of Cattaraugus', '', 'http://www.cattaraugusny.org/html/vgov.html', (42.330066068, -78.8686291691)],
-http://www.cattaraugusny.org
+
 
 
 ['Town of Fallsburgh', '', 'http://www.townoffallsburg.com', (0.0, 0.0)],
-http://www.townoffallsburg.com/Pages/Accounting_Personnel.html
+
 
 
 ['Town of Delaware', '', 'http://www.townofdelaware-ny.us/', (41.7812200841, -75.0225650264)],
@@ -2932,7 +2789,7 @@ http://www.townoffallsburg.com/Pages/Accounting_Personnel.html
 
 
 ['Village of Wurtsboro', '', 'http://www.mamakating.org/villageofwurtsboro.php', (41.5844000825, -74.5212650403)],
-http://www.mamakating.org/241/Village-of-Wurtsboro
+
 
 
 ['Village of West Hampton Dunes', '', 'http://www.whdunes.org', (40.8295750107, -72.6858950336)],
@@ -2957,25 +2814,23 @@ http://www.mamakating.org/241/Village-of-Wurtsboro
 
 
 ['Town of Berkshire', '', 'http://www.berkshireny.net', (42.3001468109, -76.1876636973)],
-http://www.berkshireny.net/index.html
 
 
-['County of Sullivan', '', 'http://www.co.sullivan.ny.us', (41.6584171483, -74.6918582066)],
-https://sullivan-portal.mycivilservice.com/jobopps
-http://sullivanny.us/
-https://sullivan-portal.mycivilservice.com/default/show_accountment/22185
+
+['County of Sullivan', 'https://sullivan-portal.mycivilservice.com/jobopps', 'http://www.co.sullivan.ny.us', (41.6584171483, -74.6918582066)],
+
+
 
 
 ['Town of Thompson', '', 'http://www.townofthompson.com', (41.6685341129, -74.672026423)],
 
 
 ['Town of Tusten', '', 'http://www.tusten.org', (41.5913750609, -74.9820450602)],
-http://www.townoftusten.org/
+
 
 
 ['Village of Newark Valley', '', 'http://villagenv.com/', (42.223008223, -76.1831693907)],
-http://villagenv.com/residents/youth-program/
-https://www.facebook.com/jointsummerrecreation/?__xts__[0]=68.ARBVR9xLpcTLEkvu4-zSgNIXKRyXcFmN_8PNc_DjdwPwC9GE9tK3IszqU6bS3q9_XaVH0tml7RtwOhepYJVv0J5PjLRBvE5aWQ3lRp_wbByykTdHB3hD7AV_OQEBZN1efGaEKrdSOlgEFaAsM5BL3CUZDxdHY9qR7nTyBhdQL93ejSXcIDZ1Nv36xEHbk3zZqKGjZtBjMliHcVgxaF5KpEh63fJUZNX4HPCLWSU3pT_vRYgLn_aBWXP9xkyWvqiseP0hHXDDPQkwGRofrA2MGjuA1Ht_p6liXs2ayQoNFj6DFc-lV7HiFF3RdjuBIQSs-bjclTcBQLHfdj03O84CG3rljA&__tn__=HHH-R
+
 
 
 ['Village of Lloyd Harbor', '', 'http://lloydharbor.org', (40.8858917472, -73.4585187644)],
@@ -2993,8 +2848,8 @@ https://www.facebook.com/jointsummerrecreation/?__xts__[0]=68.ARBVR9xLpcTLEkvu4-
 ['Town of Fremont', '', 'http://www.fremontnewyork.us', (42.3944973631, -77.6270583018)],
 
 
-['Town of Neversink', '', 'http://www.townofneversink.org', (41.847348376, -74.5481598292)],
-http://www.townofneversink.org/town-positions.html
+['Town of Neversink', 'http://www.townofneversink.org/town-positions.html', 'http://www.townofneversink.org', (41.847348376, -74.5481598292)],
+
 
 
 ['Village of Huntington Bay', '', 'http://www.huntingtonbay.org', (40.8991850722, -73.4658250873)],
@@ -3009,8 +2864,8 @@ http://www.townofneversink.org/town-positions.html
 ['Town of Caroline', '', 'http://www.townofcaroline.org', (42.4016350236, -76.3551699281)],
 
 
-['Town of Owego', '', 'http://www.townofowego.com', (42.1005500934, -76.2455839328)],
-http://townofowego.com/employment/
+['Town of Owego', 'http://townofowego.com/employment/', 'http://www.townofowego.com', (42.1005500934, -76.2455839328)],
+
 
 
 ['Village of Dryden', '', 'http://www.dryden-ny.org', (42.4895547514, -76.2979435075)],
@@ -3028,24 +2883,23 @@ http://townofowego.com/employment/
 ['Village of Port Jefferson', '', 'http://www.portjeff.com', (40.9458138392, -73.0717174142)],
 
 
-['Town of Ledyard', '', 'http://www.cayugacounty.us/towns/H-P/Ledyard.aspx', (42.7356632048, -76.6668674628)],
-https://mycivilservice.cayugacounty.us/exams
-http://www.cayugacounty.us/1210/Human-Resources
-http://www.cayugacounty.us
+['Town of Ledyard', 'https://mycivilservice.cayugacounty.us/exams', 'http://www.cayugacounty.us/towns/H-P/Ledyard.aspx', (42.7356632048, -76.6668674628)],
+
+
 
 
 ['County of Tompkins', '', 'http://tompkinscountyny.gov/assessment', (42.4422926175, -76.4973344654)],
 
 
 ['Town of Danby', '', 'http://town.danby.ny.us', (42.3539607405, -76.4820580531)],
-https://towndanbyus.digitaltowpath.org:10769/content
+
 
 
 ['Town of Denning', '', 'http://www.denning.us', (41.9042700726, -74.6024950039)],
 
 
 ['Town of Enfield', '', 'http://www.townofenfield.org', (42.4380752013, -76.6312150334)],
-http://townofenfield.org/subscribe-for-updates/
+
 
 
 ['Town of Ithaca', '', 'http://www.town.ithaca.ny.us', (42.4411816738, -76.4966856999)],
@@ -3061,11 +2915,12 @@ http://townofenfield.org/subscribe-for-updates/
 
 
 ['Village of New Paltz', '', 'http://www.villageofnewpaltz.org', (41.7543800244, -74.0934800782)],
-https://www.villageofnewpaltz.org/village-board-1-8-2020-joint-meeting-agenda/
+
+
 
 
 ['Town of Hurley', '', 'http://www.townofhurley.org', (41.9255439683, -74.0671253947)],
-https://townhurley.digitaltowpath.org:10077/content
+
 
 
 ['Town of Lloyd', '', 'http://www.townoflloyd.com', (41.7192660111, -73.9657456387)],
@@ -3075,7 +2930,7 @@ https://townhurley.digitaltowpath.org:10077/content
 
 
 ['Village of Freeville', '', 'http://freevilleny.org', (42.4988450749, -76.3572299205)],
-http://www.freevilleny.org/community/freeville-listserv/
+
 
 
 ['Town of Esopus', '', 'http://www.esopus.com', (41.9062100748, -73.981545033)],
@@ -3112,7 +2967,7 @@ http://www.freevilleny.org/community/freeville-listserv/
 
 
 ['Town of Argyle', '', 'http://www.argyleny.com', (43.2344692526, -73.4906566192)],
-https://www.hugedomains.com/domain_profile.cfm?d=argyleny&e=com
+
 
 
 ['Town of Cambridge', '', 'http://townofcambridgeny.org', (42.9943753139, -73.4551067304)],
@@ -3124,12 +2979,12 @@ https://www.hugedomains.com/domain_profile.cfm?d=argyleny&e=com
 ['Town of Fort Ann', '', 'http://www.fortann.us', (43.4450799884, -73.5070900056)],
 
 
-['Town of Greenwich', '', 'http://www.greenwichny.org', (43.0914925267, -73.5023876861)],
-https://www.greenwichny.org/home/job-openings/
+['Town of Greenwich', 'https://www.greenwichny.org/home/job-openings/', 'http://www.greenwichny.org', (43.0914925267, -73.5023876861)],
+
 
 
 ['Village of Cambridge', '', 'http://www.cambridgeny.gov', (43.0269660211, -73.3842762838)],
-https://v3.cambridgeny.gov/
+
 
 
 ['Village of Greenwich', '', 'http://www.villageofgreenwich.org', (43.0914436845, -73.5030750367)],
@@ -3145,7 +3000,7 @@ https://v3.cambridgeny.gov/
 
 
 ['Town of Kingsbury', '', 'http://www.kingsburyny.gov', (43.3024762925, -73.5851957529)],
-http://www.ecode360.com/KI0871
+
 
 
 ['Town of Fort Edward', '', 'http://www.fortedward.net', (43.268029751, -73.5853614714)],
@@ -3154,17 +3009,13 @@ http://www.ecode360.com/KI0871
 ['Village of Hudson Falls', '', 'http://www.villageofhudsonfalls.com', (43.3030117272, -73.5845948846)],
 
 
-['Village of Newark', '', 'https://www.villageofnewark.com', (43.0047699104, -77.0964549649)],
-https://www.villageofnewark.com/employment-opportunities.html
-https://www.villageofnewark.com/submitted-employment-opportunities.html
-https://www.villageofnewark.com/submit-a-job-opening.html
+['Village of Newark', 'https://www.villageofnewark.com/employment-opportunities.html', 'https://www.villageofnewark.com', (43.0047699104, -77.0964549649)],
 
 
-['County of Washington', '', 'http://www.co.washington.ny.us', (43.2638899821, -73.6209250709)],
-https://washingtoncountyny.gov/jobs.aspx
-https://washingtoncountyny.gov/jobs.aspx?CommunityJobs=False&CatID=Employment-Opportunities-100
-https://washingtoncountyny.gov/
-https://washingtoncountyny.gov/1073/Application-for-Exam-or-Employment
+
+['County of Washington', 'https://washingtoncountyny.gov/jobs.aspx', 'http://www.co.washington.ny.us', (43.2638899821, -73.6209250709)],
+
+
 
 
 ['Town of Stony Creek', '', 'http://www.stonycreekny.com', (43.4243840247, -73.927427046)],
@@ -3173,31 +3024,28 @@ https://washingtoncountyny.gov/1073/Application-for-Exam-or-Employment
 ['Town of Lake Luzerne', '', 'http://www.townoflakeluzerne.com', (43.3205309862, -73.8413160118)],
 
 
-['Town of Queensbury', '', 'http://www.queensbury.net', (43.3597112246, -73.6565085884)],
-https://www.queensbury.net/government/employment/
+['Town of Queensbury', 'https://www.queensbury.net/government/employment/', 'http://www.queensbury.net', (43.3597112246, -73.6565085884)],
+
 
 
 ['Village of Granville', '', 'http://granvillevillage.com', (43.3700350036, -73.3173200149)],
-https://villageofgranvilleny.com/
 
 
-['Town of Van Etten', '', 'http://www.chemungcounty.com/index.asp?pageId=242', (42.2526600623, -76.6294349116)],
-https://www.chemungcountyny.gov/departments/a_-_f_departments/civil_service_personnel/job_opening_calendar.php
-https://www.chemungcountyny.gov/
-https://www.chemungcountyny.gov/employment/index.php
+
+['Town of Van Etten', 'https://www.chemungcountyny.gov/employment/index.php', 'http://www.chemungcounty.com/index.asp?pageId=242', (42.2526600623, -76.6294349116)],
+
+
 
 
 ['Village of Argyle', '', 'http://www.argyle-village.org', (43.2447499688, -73.460765019)],
 
 
 ['Town of Warrensburg', '', 'http://townofwarrensburg.org', (43.4934012009, -73.7710984584)],
-http://www.overthemoongraphics.com
+
 
 
 ['Village of McGraw', '', 'http://www.cortland-co.org/towns/Mcgrawvillage.htm', (42.6027250772, -76.0640349282)],
-http://www.cortland-co.org
-http://www.cortland-co.org/CivicAlerts.aspx?AID=167
-http://www.cortland-co.org/DocumentCenter/View/7126/Understanding-Alzheimers
+
 
 
 ['Village of Clyde', '', 'http://www.clydeny.com', (42.9993999197, -76.9288449471)],
@@ -3212,17 +3060,17 @@ http://www.cortland-co.org/DocumentCenter/View/7126/Understanding-Alzheimers
 ['Town of Salem', '', 'http://www.salem-ny.com', (43.173830229, -73.3276886304)],
 
 
-['Town of Galen', '', 'http://www.townofgalen.org', (43.0835713457, -76.8704774484)],
-https://towngalen.digitaltowpath.org:10476/content
-https://towngalen.digitaltowpath.org:10476/content/JobCategories
+['Town of Galen', 'https://towngalen.digitaltowpath.org:10476/content/JobCategories', 'http://www.townofgalen.org', (43.0835713457, -76.8704774484)],
+
+
 
 
 ['Town of Marion', '', 'http://www.townofmarionny.com', (43.14336138, -77.1891773143)],
 
 
 ['Town of Huron', '', 'http://townofhuron.org/content', (43.2353413145, -76.8682373965)],
-https://townhuron.digitaltowpath.org:10083/content/Generic/View/21
-https://townhuron.digitaltowpath.org:10083/content
+
+
 
 
 ['Town of Palmyra', '', 'http://www.palmyrany.com/government/town/home.htm', (43.0522449673, -77.23337091)],
@@ -3243,142 +3091,130 @@ https://townhuron.digitaltowpath.org:10083/content
 ['Village of Croton-on-Hudson', '', 'http://village.croton-on-hudson.ny.us', (41.2135550873, -73.8836050192)],
 
 
-['Town of Williamson', '', 'http://town.williamson.ny.us', (43.231096645, -77.1870621788)],
-http://town.williamson.ny.us/employment-opportunities/
-http://town.williamson.ny.us/category/employment-opportunities/
+['Town of Williamson', 'http://town.williamson.ny.us/employment-opportunities/', 'http://town.williamson.ny.us', (43.231096645, -77.1870621788)],
 
 
-['Village of Bronxville', '', 'http://www.villageofbronxville.com', (40.935522609, -73.831472152)],
-http://humanresources.westchestergov.com/
-https://www.villageofbronxville.com/clerk/pages/employment-opportunities2
 
 
-['Village of Ardsley', '', 'http://www.ardsleyvillage.com', (41.011592504, -73.8460631346)],
-https://www.ardsleyvillage.com/home/pages/employment-opportunities-0
-http://www.ardsleyvillage.com/home/pages/employment-opportunities
+['Village of Bronxville', 'https://www.villageofbronxville.com/clerk/pages/employment-opportunities2', 'http://www.villageofbronxville.com', (40.935522609, -73.831472152)],
+
+
+
+
+['Village of Ardsley', 'https://www.ardsleyvillage.com/home/pages/employment-opportunities-0', 'http://www.ardsleyvillage.com', (41.011592504, -73.8460631346)],
+
+
 
 
 ['Town of Bedford', '', 'http://www.bedfordny.gov', (41.2366148039, -73.7098257234)],
 
 
-['Village of Dobbs Ferry', '', 'http://www.dobbsferry.com', (41.0150511023, -73.8746757402)],
-https://www.dobbsferry.com/home/pages/job-opportunities
-http://www.dobbsferry.com/recreation-department/pages/employment-applications
-https://docs.google.com/forms/d/e/1FAIpQLSeUkaAU4sj3uCSl9tAIyFefbFyCwSudtCF8KWplSWjXaYhg4g/viewform?usp=sf_link
-https://www.dobbsferry.com/sites/dobbsferryny/files/uploads/employment_application_0.pdf
+['Village of Dobbs Ferry', 'https://www.dobbsferry.com/home/pages/job-opportunities', 'http://www.dobbsferry.com', (41.0150511023, -73.8746757402)],
+
 
 
 ['Village of Tuckahoe', '', 'http://www.tuckahoe.com', (40.94727019, -73.8245060746)],
-http://www.tuckahoe.com/police-department/pages/employment
-https://www.tuckahoe.com/sites/tuckahoeny/files/uploads/employment_application_2018_no_salary_req.pdf
 
 
 ['Village of Elmsford', '', 'http://www.elmsfordny.org', (41.0537209845, -73.8201314932)],
 
 
 ['Town of Lyons', '', 'http://www.lyonsny.com/', (43.0688714002, -76.9898673417)],
-https://lyonsny.com/membership-join/
+
 
 
 ['Village of Tarrytown', '', 'http://www.tarrytowngov.com', (41.0824700435, -73.8585500945)],
-http://www.tarrytowngov.com/home/news/we-want-you-to-join-the-150th-anniversary-committee-12919
+
 
 
 ['Town of Walworth', '', 'http://www.townofwalworthny.gov/', (43.1341613654, -77.2886372297)],
 
 
-['Town of Lewisboro', '', 'http://www.lewisborogov.com', (41.2756325163, -73.5558531841)],
-http://www.lewisborogov.com/jobs
+['Town of Lewisboro', 'http://www.lewisborogov.com/jobs', 'http://www.lewisborogov.com', (41.2756325163, -73.5558531841)],
+
 
 
 ['Village of Hastings-on-Hudson', '', 'http://hastingsgov.org', (40.9953080073, -73.8832390732)],
-http://hastingsgov.org/recreation-department/pages/employment
-http://hastingsgov.org/youth-employment-services
+
+
 
 
 ['Village of Mount Kisco', '', 'http://www.mountkisco.org', (41.2061231529, -73.7270800266)],
-http://www.mountkiscony.gov/
-http://www.mountkiscony.gov/residents/opening_a_business/index.php
+
 
 
 ['Village of Irvington', '', 'http://www.irvingtonny.gov', (41.0391735112, -73.8669099111)],
 
 
 ['Town of Mamaroneck', '', 'http://www.townofmamaroneck.org', (40.9428968541, -73.741382784)],
-https://www.townofmamaroneckny.org/
+
 
 
 ['Village of Sodus Point', '', 'http://www.soduspoint.info', (43.2600149791, -76.9953099632)],
-https://soduspoint.info/state-and-federal-representatives/
 
 
-['Village of Mamaroneck', '', 'http://www.village.mamaroneck.ny.us', (40.9493177993, -73.7328772462)],
-http://www.village.mamaroneck.ny.us/parks-recreation/pages/job-opportunities
-http://www.village.mamaroneck.ny.us/public-works/pages/dpw-job-openings
-http://www.village.mamaroneck.ny.us/village-manager/pages/job-openings
-https://www.village.mamaroneck.ny.us/sites/mamaroneckny/files/uploads/employapp.pdf
+
+['Village of Mamaroneck', 'http://www.village.mamaroneck.ny.us/village-manager/pages/job-openings', 'http://www.village.mamaroneck.ny.us', (40.9493177993, -73.7328772462)],
+
 
 
 ['Town of Pelham', '', 'http://www.townofpelham.com', (40.9116938073, -73.8091812017)],
 
 
-['Town of Pound Ridge', '', 'http://www.townofpoundridge.com', (41.1980566679, -73.5687685097)],
-http://www.townofpoundridge.com/jobs
+['Town of Pound Ridge', 'http://www.townofpoundridge.com/jobs', 'http://www.townofpoundridge.com', (41.1980566679, -73.5687685097)],
+
 
 
 ['Village of Port Chester', '', 'http://www.portchesterny.com', (40.9899257823, -73.667160346)],
-http://www.portchesterny.com/sites/portchesterny/files/uploads/2019-6-19_fbc_presentation_to_boards_and_commissions.pdf
+
 
 
 ['Village of Pleasantville', '', 'http://www.pleasantville-ny.gov', (41.1338347054, -73.7916926775)],
 
 
 ['Village of Harrison', '', 'http://www.harrison-ny.gov', (40.9698921729, -73.7128775359)],
-https://www.harrison-ny.gov/sites/harrisonny/files/file/file/harrisonemploymentform.pdf
+
 
 
 ['Village of Briarcliff Manor', '', 'http://www.briarcliffmanor.org', (41.1489095589, -73.8286229423)],
 
 
-['Village of Sleepy Hollow', '', 'http://www.sleepyhollowny.gov', (41.0849187782, -73.8594731485)],
-https://www.sleepyhollowny.gov/home/pages/employment-opportunities
-http://www.sleepyhollowny.gov/home/pages/volunteeremployment-opportunities
+['Village of Sleepy Hollow', 'https://www.sleepyhollowny.gov/home/pages/employment-opportunities', 'http://www.sleepyhollowny.gov', (41.0849187782, -73.8594731485)],
+
+
 
 
 ['Town of Rye', '', 'http://www.townofryeny.com', (40.9899258097, -73.6671603811)],
 
 
 ['Town of New Castle', '', 'http://www.mynewcastle.org', (41.1554186963, -73.7746266459)],
-http://www.mynewcastle.org/250/Boards-Commissions
+
 
 
 ['Town of Mount Pleasant', '', 'http://www.mtpleasantny.com/', (41.0964495055, -73.7775992091)],
 
 
 ['Village of Rye Brook', '', 'http://www.ryebrook.org', (41.0346831565, -73.6746420044)],
-https://ryebrook.org/event/trivia-night/
+
 
 
 ['Village of Scarsdale', '', 'http://www.scarsdale.com', (40.9883283374, -73.7974469368)],
 
 
 ['Village of Pelham', '', 'http://www.pelhamgov.com', (40.9089824023, -73.8116488856)],
-https://www.pelhamgov.com/mayor-board-trustees/webforms/serve-boardcommittee
-https://www.pelhamgov.com/sites/pelhamny/files/uploads/street_opening_instructions.pdf
 
 
 ['Town of Perry', '', 'http://www.townofperryny.com', (42.7355900664, -78.0046049811)],
-https://www.townofperry.com/help-desk-support.php
-https://www.townofperry.com/
 
 
-['Town of North Castle', '', 'http://www.northcastleny.com', (41.12478745, -73.7127459758)],
-http://www.northcastleny.com/human-resources/webforms/employment-application
-http://www.northcastleny.com/human-resources
+
+['Town of North Castle', 'http://www.northcastleny.com/human-resources', 'http://www.northcastleny.com', (41.12478745, -73.7127459758)],
+
+
 
 
 ['Town of North Salem', '', 'http://www.northsalemny.org', (41.3291968219, -73.5979615154)],
-http://www.northsalemny.org/home/news/committee-vacancies
+
 
 
 ['Village of Arcade', '', 'http://www.villageofarcade.org', (42.5345396553, -78.4246815014)],
@@ -3387,15 +3223,12 @@ http://www.northsalemny.org/home/news/committee-vacancies
 ['Town of Covington', '', 'http://www.townofcovington.com', (42.8541116902, -78.012997601)],
 
 
-['Village of Perry', '', 'http://www.villageofperry.com', (42.7173563534, -78.003309395)],
-http://www.villageofperry.com/jobs
+['Village of Perry', 'http://www.villageofperry.com/jobs', 'http://www.villageofperry.com', (42.7173563534, -78.003309395)],
 
 
-['Town of Somers', '', 'http://www.somersny.com', (41.3283527969, -73.6858080794)],
-https://www.somersny.com/postings
-https://www.somersny.com/postings/parks-recreation-employment-opportunities
-https://townofsomers.seamlessdocs.com/f/employment_application
-https://www.somersny.com/resources/employment
+
+['Town of Somers', 'https://www.somersny.com/postings', 'http://www.somersny.com', (41.3283527969, -73.6858080794)],
+
 
 
 ['Town of Sheldon', '', 'http://www.townofsheldon.com', (42.7371072403, -78.3891004147)],
@@ -3428,106 +3261,82 @@ https://www.somersny.com/resources/employment
 ['Town of Warsaw', '', 'http://www.villageofwarsaw.org', (42.7395000393, -78.1712998996)],
 
 
-['Town of Long Lake', '', 'http://mylonglake.com/long-lake/ll-local-government/', (43.9791899103, -74.5669050195)],
-http://mylonglake.com
-https://mylonglake.com/jobs/
+['Town of Long Lake', 'https://mylonglake.com/jobs/', 'http://mylonglake.com/long-lake/ll-local-government/', (43.9791899103, -74.5669050195)],
 
 
-['County of Herkimer', '', 'http://herkimercounty.org/content', (43.0289612799, -74.9882181643)],
-https://www.herkimercounty.org/employment/working-solutions.php
-http://herkimercounty.org/employment/personnel-civil-service/job-postings.php
-http://herkimercounty.org
-http://herkimercounty.org/employment/
-https://tractorsupply.jobs/jobs/search#/main
 
 
-['Village of Morrisville', '', 'https://www.madisoncounty.ny.gov/village-morrisville/home', (42.9223899508, -75.6713550822)],
-https://www.madisoncounty.ny.gov/Jobs.aspx
-https://www.madisoncounty.ny.gov/jobs.aspx?CommunityJobs=False&CatID=1-Current-Vacancies-99
-https://www.madisoncounty.ny.gov/jobs.aspx?CommunityJobs=False&CatID=3-Continuous-Recruitment-Exams-100
-https://www.madisoncounty.ny.gov
-https://www.madisoncounty.ny.gov/DocumentCenter/View/9888/Application-ExamEmployment
+['County of Herkimer', 'http://herkimercounty.org/employment/personnel-civil-service/job-postings.php', 'http://herkimercounty.org/content', (43.0289612799, -74.9882181643)],
+
+
+
+['Village of Morrisville', 'https://www.madisoncounty.ny.gov/Jobs.aspx', 'https://www.madisoncounty.ny.gov/village-morrisville/home', (42.9223899508, -75.6713550822)],
+
 
 
 ['Town of Middlebury', '', 'http://www.middleburyny.com', (42.7395000393, -78.1712998996)],
 
 
 ['Town of Harrisburg', '', 'http://www.tughillcouncil.com/harrisburg.htm', (43.7797499126, -75.4977950884)],
-http://www.tughillcouncil.com
+
 
 
 ['Village of Barker', '', 'http://villageofbarker.org/content', (43.3298469495, -78.5531334257)],
-http://villageofbarker.org
 
 
-['Village of Harriman', '', 'http://www.orangecountygov.com/content/124/1362/1460/10182/10438/10684.aspx', (41.3042700361, -74.1458450506)],
-https://www.orangecountygov.com/Jobs.aspx
-http://www.orangecountygov.com/1606/Employment-Opportunities
-http://www.orangecountygov.com/1649/Human-Resource-and-Employment-Policies
-http://www.orangecountygov.com
-https://www.orangecountygov.com/DocumentCenter/View/6332/Application-for-Employment--Examination-PDF?bidId=
+
+['Village of Harriman', 'https://www.orangecountygov.com/Jobs.aspx', 'http://www.orangecountygov.com/content/124/1362/1460/10182/10438/10684.aspx', (41.3042700361, -74.1458450506)],
+
 
 
 ['Town of Scriba', '', 'http://scribany.org/home.html', (43.4682313439, -76.4298529675)],
-http://scribany.org
 
 
-['County of Oswego', '', 'http://www.oswegocounty.com/rpts.shtml', (43.4576318017, -76.5061447062)],
-http://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exam___employment_information.php
-http://www.oswegocounty.com/departments/human_services/social_services/financial_assistance_programs/index.php
-http://www.oswegocounty.com/departments/finance_and_personnel/human_resources/index.php
-http://www.oswegocounty.com/departments/finance_and_personnel/index.php
-http://www.oswegocounty.com
-https://drive.google.com/file/d/1TXAAWdBCtSH7saqqbsZvL7NmhwfuKhFz/view?ts=5c182b6d
+
+['County of Oswego', 'https://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exams___recruitments.php', 'http://www.oswegocounty.com/rpts.shtml', (43.4576318017, -76.5061447062)],
+
+
 
 
 ['Village of Montgomery', '', 'http://www.villageofmontgomery.org/index.php/links.html', (41.526206766, -74.2367095838)],
-http://www.villageofmontgomery.org
+
 
 
 ['Town of Parish', '', 'http://www.townofparish-ny.us/index.shtml', (43.4062950752, -76.1244968379)],
-http://www.townofparish-ny.us
 
 
-['Village of Ballston Spa', '', 'http://www.saratoga.org/community/towns-cities/village-of-ballston-spa', (43.0025696294, -73.8511244599)],
-http://saratoga.myjobzone.net/jobzone-register.asp?type=employer
-http://MyJobZone.net
-http://saratoga.myjobzone.net/jobzone-jobs-category.asp
-https://chamber.saratoga.org/member/newmemberapp
-https://chamber.saratoga.org/jobs/
-http://saratoga.myjobzone.net/
-http://www.saratoga.org
-https://www.saratoga.org/staff/
+
+['Village of Ballston Spa', 'http://saratoga.myjobzone.net/jobzone-jobs-search.asp', 'http://www.saratoga.org/community/towns-cities/village-of-ballston-spa', (43.0025696294, -73.8511244599)],
+
 
 
 ['Village of South Blooming Grove', '', 'http://villageofsouthbloominggrove.com/1.html', (41.3680677233, -74.1890270054)],
-http://villageofsouthbloominggrove.com
 
 
-['Town of Carlisle', '', 'http://www.schohariecounty-ny.gov/CountyWebSite/towncar/index.jsp', (42.7713999655, -74.4776500785)],
-https://www4.schohariecounty-ny.gov/
-https://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml
+
+['Town of Carlisle', 'https://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml', 'http://www.schohariecounty-ny.gov/CountyWebSite/towncar/index.jsp', (42.7713999655, -74.4776500785)],
+
+
 
 
 ['Town of Dekalb', '', 'http://townofdekalb.org/content', (44.5047529654, -75.2732458263)],
-http://townofdekalb.org
 
 
-['Village of Candor', '', 'http://www.tiogacountyny.com/towns-villages/candor-village-of.html', (42.2318414316, -76.3416423264)],
-http://www.tiogacountyny.com/departments/personnel-civil-service/
-http://www.tiogacountyny.com
+
+['Village of Candor', 'http://www.tiogacountyny.com/departments/personnel-civil-service/', 'http://www.tiogacountyny.com/towns-villages/candor-village-of.html', (42.2318414316, -76.3416423264)],
+
+
 
 
 ['Town of Hector', '', 'http://home.htva.net/~townofhector/home.html', (42.4638940003, -76.7761575596)],
-https://www.htva.net/
 
 
-['Town of Genesee Falls', '', 'http://www.wyomingco.net/towns/townofgeneseefalls.htm', (42.6396451815, -77.9982565173)],
-http://www.wyomingco.net/Jobs.aspx
-http://www.wyomingco.net/DocumentCenter/Index/33
-http://www.wyomingco.net
+
+['Town of Genesee Falls', 'http://www.wyomingco.net/Jobs.aspx', 'http://www.wyomingco.net/towns/townofgeneseefalls.htm', (42.6396451815, -77.9982565173)],
+
+
 
 
 ['Village of Wolcott', '', 'http://www.wolcottny.org/Village/villageindex.php', (43.2197813733, -76.8154174159)],
-http://www.wolcottny.org
+
 
