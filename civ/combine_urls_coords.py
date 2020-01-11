@@ -1,4 +1,8 @@
 
+# FIX: orgs with identical names will use incorrect coords
+
+
+
 # Desc:
 # Get URLs for counties, cities, towns, and villages
 # Get coordinates for counties, cities, towns, and villages

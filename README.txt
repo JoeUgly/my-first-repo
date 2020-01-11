@@ -1,5 +1,11 @@
-help wanted
-work with
+
+to do:
+use redirects in dbs
+find ems for all civ counties and cities
+find dups in dbs
+
+
+add jbws: help wanted, work with
 
 
 civ:
