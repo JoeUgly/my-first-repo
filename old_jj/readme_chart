@@ -1,0 +1,28 @@
+
+
+keep sch and chart seperate?
+
+
+Step 1: Get raw html - raw_html_chart.txt
+    http://www.p12.nysed.gov/psc/csdirectory/CSLaunchPage.html
+
+
+Step 2: Get org name and home url from raw html - get_org_name_chart.py
+    output_get_org_chart
+
+
+Step 3: Combine org name and home url with employ url - 
+
+
+Step 4: Get coords from street addr and combine with step 3 - 
+
+
+
+Grand Unified Database - grudb_chart
+    
+
+
+
+
+
+

@@ -1,0 +1,2410 @@
+
+# http://www.p12.nysed.gov/psc/csdirectory/CSLaunchPage.html
+
+
+
+
+
+<tbody>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AcademicLeadershipCharterSchool/home.html">Academic Leadership Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AcademyCharterSchool/home.html">Academy Charter School</a></td>
+                    <td valign="middle" align="center">Hempstead UFSD</td>
+                    <td valign="middle" align="center">Long Island </td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="AcademyCSUniondale/home.html">Academy Charter School-Uniondale</a> </td>
+                    <td valign="middle" align="center">Uniondale UFSD</td>
+                    <td valign="middle" align="center">Long Island </td>
+                    <td valign="middle" align="center"><p>1</p>                    </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="AcadHealthSciencesCS/home.html">Academy of Health Sciences Charter School</a> </td>
+                    <td valign="middle" align="center">Rochester City </td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AcademyOfTheCityCharterSchool/home.html">Academy of the City Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 30</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstApolloCharterSchool/home.html">Achievement First Apollo Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstAspireCharterSchool/home.html">Achievement First Aspire Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr valign="middle">
+                    <td align="center"><a href="../csdirectory/AchievementFirstBrownsvilleCharterSchoolAFBCS/home.html">Achievement First Brownsville Charter School</a></td>
+                    <td align="center">NYC CSD 23</td>
+                    <td align="center">New York City</td>
+                    <td align="center">11</td>
+                    <td align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstBushwickCharterSchool/home.html">Achievement First Bushwick Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 32</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstCharterSchool10/home.html">Achievement First Charter School 10</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019  </td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstCharterSch11/home.html">Achievement First Charter School 11</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstCrownHeightsCharterSchool/home.html">Achievement First Crown Heights Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 17</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstEastNewYorkCharterSchool/home.html">Achievement First East New York Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstEndeavorCharterSchool/home.html">Achievement First Endeavor Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstLindenCharterSchool/home.html">Achievement First Linden Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 19 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstNorthBrooklynPrepCharterSchool/home.html">Achievement First North Brooklyn Prep Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 32 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AchievementFirstVoyagerMiddleCharterSchool/Home.html">Achievement First Voyager Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 17</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="AECIIINYCCHS/home.html">AECI II: NYC Charter High School for Computer Engineering and Innovation</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AlbanyCommunityCharterSchool/home.html">Albany Community Charter School </a></td>
+                    <td valign="middle" align="center">Albany City</td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AlbanyLeadershipCharterHighSchoolForGirls/home.html">Albany Leadership Charter High School for Girls</a></td>
+                    <td valign="middle" align="center">Albany City</td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AlomaDJohnsonCharterSchool/home.html">Aloma D. Johnson Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AmaniPublicCharterSchool/home.html">Amani Public Charter School</a></td>
+                    <td valign="middle" align="center">Mount Vernon City </td>
+                    <td valign="middle" align="center">Hudson Valley </td>
+                    <td valign="middle" align="center"> 8 </td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="AmberCharterSchoolEastHarlem/home.html">Amber Charter School East Harlem</a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="AmberCharterSchoolKingsbridge/home.html">Amber Charter School Kingsbridge </a> </td>
+                    <td valign="middle" align="center">NYC CSD 10 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/AmericanDreamCharterSchool/home.html">American Dream Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="B" id="B"></a><a href="../csdirectory/AtmosphereAcademyPublicCharterSchool/home.html">Atmosphere Academy Public Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 10 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BedfordStuyvesantCollegiateCharterSchool/home.html">Bedford Stuyvesant Collegiate Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BedfordStuyvesantNewBeginningsCharterSchool/home.html">Bedford Stuyvesant New Beginnings Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BeginningWithChildrenIICharterSchool/home.html">Beginning with Children Charter School 2 </a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BoldCS/home.html">Bold Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 12 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BoysPreparatoryCharterSchoolOfNewYork/home.html">Boys Preparatory Charter School of New York</a></td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BridgePrepCS/home.html">Bridge Preparatory Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 31 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrighterChoiceCharterSchoolForBoys/home.html">Brighter Choice Charter School for Boys</a></td>
+                    <td valign="middle" align="center">Albany City</td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">17</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrighterChoiceCharterSchoolForGirls/home.html">Brighter Choice Charter School for Girls</a></td>
+                    <td valign="middle" align="center">Albany City</td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">17</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BrillaCaritasCS/home.html">Brilla Caritas Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2020 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrillaCollegePreparatoryCharterSchool/home.html">Brilla College Preparatory Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BrillaCollegePrepCharterSchoolVeritas/home.html">Brilla College Preparatory Charter School Veritas </a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BrillaPaxCS/home.html">Brilla Pax Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2020 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxAcademyOfPromiseCharterSchool/home.html">Bronx Academy of Promise Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 9</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BronxArtsScienceCS/home.html">Bronx Arts and Science Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 10 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolForBetterLearning/home.html">Bronx Charter School for Better Learning</a></td>
+                    <td valign="middle" align="center">NYC CSD 11</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolforBetterLearningII/home.html">Bronx Charter School for Better Learning II</a> </td>
+                    <td valign="middle" align="center">NYC CSD 11 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolForChildren/home.html">Bronx Charter School for Children</a> (The)</td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolForExcellence/home.html">Bronx Charter School for Excellence</a></td>
+                    <td valign="middle" align="center">NYC CSD 11</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolforExcellence2/home.html">Bronx Charter School for Excellence 2</a> </td>
+                    <td valign="middle" align="center">NYC CSD 11 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolforExcellence3/home.html">Bronx Charter School for Excellence 3</a> </td>
+                    <td valign="middle" align="center">NYC CSD 11</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolforExcellence4/home.html">Bronx Charter School for Excellence 4</a> </td>
+                    <td valign="middle" align="center">NYC CSD 11 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolforExcellence5/home.html">Bronx Charter School for Excellence 5</a> </td>
+                    <td valign="middle" align="center">NYC CSD 10 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCharterSchoolForTheArts/home.html">Bronx Charter School for the Arts</a></td>
+                    <td valign="middle" align="center">NYC CSD 8</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxCommunityCharterSchoolBCCS/home.html">Bronx Community Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 10</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxGlobalLearningInstituteForGirlsCharterSchool/home.html">Bronx Global Learning Institute for Girls Charter School, The Shirley Rodriguez-Remeneski School</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxLighthouseCharterSchool/home.html">Bronx Lighthouse Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 12</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BronxPreparatoryCharterSchool/home.html">Bronx Preparatory Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 9</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">18</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynAscendCharterSchoolBACS/home.html">Brooklyn Ascend Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 18</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynCharterSchool/home.html">Brooklyn Charter School (The)</a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynDreamsCharterSchool/home.html">Brooklyn Dreams Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 22</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynEastCollegiateCharterSchool/home.html">Brooklyn East Collegiate Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynEmergingLeadersAcademyCharterSch/home.html">Brooklyn Emerging Leaders Academy Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 16 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynExcelsiorCharterSchool/home.html">Brooklyn Excelsior Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynLaboratoryCharterSchool/home.html">Brooklyn Laboratory Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 13 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BrooklynProspectCharterSchoolDowntown/home13.html">Brooklyn Prospect Charter School - CSD 13 </a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BrooklynProspectCharterSchool/home15.html">Brooklyn Prospect Charter School - CSD 15</a> </td>
+                    <td valign="middle" align="center"> NYC CSD 15</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BrooklynProspect15.2/home.html">Brooklyn Prospect Charter School - CSD 15.2</a> </td>
+                    <td valign="middle" align="center">NYC CSD 15 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BrooklynRiseCS/home.html">Brooklyn RISE Charter School</a> </td>
+                    <td valign="middle" align="center">TBD</td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynScholarsCharterSchool/home.html">Brooklyn Scholars Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynUrbanGardenCharterSchool/home.html">Brooklyn Urban Garden Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 15</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BroomeStreetAcademyCharterHighSchool/home.html">Broome Street Academy Charter High School</a></td>
+                    <td valign="middle" align="center">NYC CSD 2</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrownsvilleAscendCharterSchool/home.html">Brownsville Ascend Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 23 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrownsvilleCollegiateCharterSchool/home.html">Brownsville Collegiate Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 23</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BuffaloAcademyOfScienceCharterSchool/home.html">Buffalo Academy of Science Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="BuffaloCollegiateCharterSchool/home.html">Buffalo Collegiate Charter School</a> </td>
+                    <td valign="middle" align="center">Buffalo City </td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BuffaloUnitedCharterSchool/home.html">Buffalo United Charter School </a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="C" id="C"></a><a href="../csdirectory/BushwickAscendCharterSchool/home.html">Bushwick Ascend Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 32 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CanarsieAscendCharterSchool/home.html">Canarsie Ascend Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 18</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="CapPrepBronx/home.html">Capital Preparatory Bronx Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 12 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2020</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CapitalPrepHarlemCharterSchool/home.html">Capital Preparatory Harlem Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 4 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="CardinalMcCloskeyCommCS/home.html">Cardinal McCloskey Community Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 10 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CentralBrooklynAscendCharterSchool/home.html">Central Brooklyn Ascend Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 22 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="CentralBrooklynAscendCharterSchool3/home.html">Central Brooklyn Ascend Charter School 3</a> </td>
+                    <td valign="middle" align="center">NYC CSD 19 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="CentralBrooklynAscend4/home.html">Central Brooklyn Ascend Charter School 4</a> </td>
+                    <td valign="middle" align="center">NYC CSD 17</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="CentralBrooklynAscend5/home.html">Central Brooklyn Ascend Charter School 5</a> </td>
+                    <td valign="middle" align="center">NYC CSD 17</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CentralQueensAcademyCharterSchool/home.html">Central Queens Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 24</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ChallengePreparatoryCharterSchool/home.html">Challenge Preparatory Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 27</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CharterHighSchoolForLawAndSocialJustice/home.html">Charter High School for Law and Social Justice</a></td>
+                    <td valign="middle" align="center">NYC CSD 10</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CharterSchoolForAppliedTechnologies/home.html">Charter School for Applied Technologies</a></td>
+                    <td valign="middle" align="center">Kenmore-Tonawanda UFSD</td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">18</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CharterSchoolOfEducationalExcellence/home.html">Charter School of Educational Excellence</a></td>
+                    <td valign="middle" align="center">Yonkers City </td>
+                    <td valign="middle" align="center">Hudson Valley </td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CharterSchoolofInquiry/home.html">Charter School of Inquiry </a></td>
+                    <td valign="middle" align="center">Buffalo City </td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="ChildrensAidCollegePrepCharterSchool/home.html">Children's Aid College Prep Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 12</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CollegiateAcademyforMathematicsandPersonalAwarenessCharterSchool/home.html">Collegiate Academy for Mathematics and Personal Awareness Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CommunityPartnershipCharterSchool/home.html">Community Partnership Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CommunityRootsCharterSchool/home.html">Community Roots Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CompassCharterSchool/home.html">Compass Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ConeyIslandPreparatoryPublicCharterSchool/home.html">Coney Island Preparatory Public Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 21</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="CreoCollegePrepCS/home.html">Creo College Preparatory Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 12 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/CulturalArtsAcademyCharterSchoolAtSpringCreek/home.html">Cultural Arts Academy Charter School At Spring Creek </a></td>
+                    <td valign="middle" align="center">NYC CSD 18</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="D" id="D"></a><a href="CypressHillsAscendCharterSchool/home.html">Cypress Hills  Ascend Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 19 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/DemocracyPreparatoryCharterSchool/home.html">Democracy Preparatory Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/DemocracyPreparatoryEnduranceCharterSchool/home.html">Democracy Preparatory Endurance Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td align="center" valign="middle">New York City</td>
+                    <td align="center" valign="middle">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/DemocracyPrepHarlemCharterSchool/home.html">Democracy Preparatory Harlem Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/DiscoveryCharterSchool/home.html">Discovery Charter School</a></td>
+                    <td valign="middle" align="center"> Greece CSD </td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/DrRichardIzquierdoHealthAndScienceCharterSchool/home.html">Dr. Richard Izquierdo Health and Science Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 12</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="E" id="E"></a><a href="../csdirectory/DreamCharterSchool/home.html">Dream Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td height="58" align="center" valign="middle"><a href="DreamCSHuntsPoint/home.html">Dream Charter School Hunts Point </a></td>
+                    <td valign="middle" align="center">NYC CSD 8 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2021</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="DreamCSMottHaven/home.html">Dream Charter School Mott Haven</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="EducationUnlimitedLyceumCS/home.html">Education Unlimited Lyceum Charter School </a></td>
+                    <td valign="middle" align="center">TBD</td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/EastHarlemScholarsAcademyCharterSchool/home.html">East Harlem Scholars Academy Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/EastHarlemScholarsAcademyCharterSchoolII/home.html">East Harlem Scholars Academy Charter School II </a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/BrooklynLaboratoryCharterHighSchool/home.html">Edmund W. Gordon Brooklyn Laboratory Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="ElmCommunityCharterSchool/home.html">Elm Community Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 25 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ElmwoodVillageCharterSchool/home.html">Elmwood Village Charter School Days Park </a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="ElmwoodVillageCharterSchoolHertel/home.html">Elmwood Village Charter School Hertel </a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="EmberCharterSchool/home.html">Ember Charter School for Mindful Education, Innovation and Transformation</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="EmblazeAcademyCS/home.html">Emblaze Academy Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 11 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/EnterpriseCharterSchool/home.html">Enterprise Charter School </a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">Buffalo BoE </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/EqualityCharterSchool/home.html">Equality Charter School (The)</a></td>
+                    <td valign="middle" align="center">NYC CSD 11</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/EquityProjectCharterSchool(The)/home.html">Equity Project Charter School (The)</a></td>
+                    <td valign="middle" align="center">NYC CSD 6</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/EugenioMariadeHostosCharterSchool/home.html">Eugenio Maria de Hostos Charter School</a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/EvergreenCharterSchool/home.html">Evergreen Charter School</a></td>
+                    <td valign="middle" align="center">Hempstead UFSD</td>
+                    <td valign="middle" align="center">Long Island </td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExcellenceBoysCharterSchoolOfBedfordStuyvesant/home.html">Excellence Boys Charter School of Bedford Stuyvesant</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExcellenceGirlsCharterSchool/home.html">Excellence Girls Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExplorationElementaryCharterSchoolforScienceandTechnology/home.html">Exploration Elementary Charter School for Science and Technology</a></td>
+                    <td valign="middle" align="center">Rochester City </td>
+                    <td valign="middle" align="center">Finger Lakes</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExploreCharterSchool/home.html">Explore Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 17 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">17</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExploreEmpowerCharterSchool/home.html">Explore Empower Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 17</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExploreEnrichCharterSchool/home.html">Explore Enrich Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 17</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2023</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExploreEnvisionCharterSchool/home.html">Explore Envision Charter School</a> </td>
+                    <td valign="middle" align="center"><p align="center" style="margin-top: 0; margin-bottom: 0">NYC CSD 17</p>                    </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2022</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ExploreExceedCharterSchool/home.html">Explore Exceed Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 17 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="ExploreExcelCharterSchool/home.html">Explore Excel Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 18 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/FamilyLifeAcademyCharterSchool/home.html">Family Life Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 9</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">18</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/FamilyLifeAcademyCharterSchoolII/home.html">Family Life Academy Charter School II </a></td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/FamilyLifeCharterSchoolIII/home.html">Family Life Academy Charter School III </a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/FinnAcademyAnElmiraCharterSchool/home.html">Finn Academy:&nbsp; An Elmira Charter School</a> </td>
+                    <td valign="middle" align="center">Elmira City </td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/FortePreparatoryAcademyCharterSchool/home.html">Forte Preparatory Academy Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 24 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/FutureLeadersInstituteCharterSchool/home.html">Future Leaders Institute Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 3</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="G" id="G"></a><a href="../csdirectory/GeneseeCommunityCharterSchool/home.html">Genesee Community Charter School</a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes</td>
+                    <td valign="middle" align="center">18</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GirlsPreparatoryCharterSchoolOfTheBronx/home.html">Girls Preparatory Charter School - Bronx</a></td>
+                    <td valign="middle" align="center">NYC CSD 8</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GirlsPreparatoryCharterSchoolOfNewYork/home.html">Girls Preparatory Charter School - New York</a></td>
+                    <td valign="middle" align="center">NYC CSD 1</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GlobalCommunityCharterSchool/home.html">Global Community Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GlobalConceptsCharterSchool/home.html">Global Concepts Charter School</a></td>
+                    <td valign="middle" align="center">Lackawanna City</td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">17</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GrandConcourseAcademyCharterSchool/home.html">Grand Concourse Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 8 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GreatOaksCharterSchool/GreatOaksCharterSchoolhome.html">Great Oaks Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 1 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GreenTechCharterHighSchool/home.html">Green Tech High Charter School</a></td>
+                    <td valign="middle" align="center">Albany City</td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="H" id="H"></a><a href="../csdirectory/GrowingUpGreenCharterSchool/home.html">Growing Up Green Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 30</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/GrowingUpGreenCharterSchoolII/home.html">Growing Up Green Charter School II</a> </td>
+                    <td valign="middle" align="center">NYC CSD 28 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HarborScienceandArtsCharterSchool/home.html">Harbor Science and Arts Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HarlemChildrensZonePromiseAcademyCharterSchool/home.html">Harlem Children's Zone Promise Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HarlemChildrensZonePromiseAcademyIICharterSchool/home.html">Harlem Children's Zone Promise Academy II Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HarlemHebrewLanguageAcademyCharterSchool/home.html">Harlem Hebrew Language Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 3 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HarlemLinkCharterSchool/home.html">Harlem Link Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 3</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HarlemPreparatoryCharterSchool/home.html">Harlem Prep Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="HarlemVillageAcademyEastCharterSchool/home.html">Harlem Village Academy East Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="HarlemVillageAcademyWestCharterSchool/home.html">Harlem Village Academy West Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="HarlemVillageAcademyWest2/home.html">Harlem Village Academy West 2 Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 5 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HarrietTubmanCharterSchool/home.html">Harriet Tubman Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 9</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">17</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HealthSciencesCharterSchool/home.html">Health Sciences Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HebrewLanguageAcademyCharterSchool/home.html">Hebrew Language Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 22</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HebrewLangugeAcademyCharterSch2/home.html">Hebrew Language Academy Charter School 2</a> </td>
+                    <td valign="middle" align="center">NYC CSD 21 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HeketiCommunityCharterSchool/home.html">Heketi Community Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HellenicClassicalCharterSchool/home.html">Hellenic Classical Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 15</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="HellenicClassicalStatenIsland/home.html">Hellenic Classical Charter School - Staten Island </a></td>
+                    <td valign="middle" align="center">NYC CSD 31 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HenryJohnsonCharterSchool/home.html">Henry Johnson Charter School</a></td>
+                    <td valign="middle" align="center">Albany City</td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">12</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HydeLeadershipCharterSchool/home.html">Hyde Leadership Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 8</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/HydeLeadershipCharterSchoolBrooklyn/home.html">Hyde Leadership Charter School - Brooklyn</a></td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="I" id="I"></a><a href="../csdirectory/IcahnCharterSchool1/home.html">Icahn Charter School 1</a></td>
+                    <td valign="middle" align="center">NYC CSD 9</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">18</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/IcahnCharterSchool2/home.html">Icahn Charter School 2</a></td>
+                    <td valign="middle" align="center">NYC CSD 11 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">12</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/IcahnCharterSchool3/home.html">Icahn Charter School 3</a></td>
+                    <td valign="middle" align="center">NYC CSD 11 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/IcahnCharterSchool4/home.html">Icahn Charter School 4</a></td>
+                    <td valign="middle" align="center">NYC CSD 11</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/IcahnCharterSchool5/home.html">Icahn Charter School 5</a></td>
+                    <td valign="middle" align="center">NYC CSD 11</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/IcahnCharterSchool6/home.html">Icahn Charter School 6</a></td>
+                    <td valign="middle" align="center">NYC CSD 9</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/IcahnCharterSchool7/home.html">Icahn Charter School 7</a></td>
+                    <td valign="middle" align="center">NYC CSD 8 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ImagineMeLeadershipCharterSchool/home.html">Imagine Me Leadership Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"> <a href="../csdirectory/InternationalCharterSchoolofNewYorkThe/home.html">International Charter School of New York (The) </a></td>
+                    <td valign="middle" align="center">NYC CSD 13 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="InternationalLeadershipCharterHighSchool/home2.html">International Leadership Charter High School </a></td>
+                    <td valign="middle" align="center">NYC CSD 10</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/InwoodAcademyforLeadershipCharterSchool/home.html">Inwood Academy for Leadership Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 6</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="IvyHillPrepCS/home.html">Ivy Hill Preparatory Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 23 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="J" id="J"></a><a href="../csdirectory/JohnVLindsayWildcatAcademyCharterSchool/home.html">John V. Lindsay Wildcat Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 2</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/JohnWLavellePreparatoryCharterSchool/home.html">John W. Lavelle Preparatory Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 31</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="KeyCollegiateCS/home.html">Key Collegiate Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 23 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="K" id="K"></a><a href="../csdirectory/KingCenterCharterSchool/home.html">King Center Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/KingsCollegiateCharterSchool/home.html">Kings Collegiate Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 18</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">12</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/KIPPAcademyCharterSchool/home.html">KIPP Academy Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/KIPPAlwaysMentallyPreparedCharterSchool/home.html">KIPP AMP Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 17</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="KIPPBronxII/home.html">KIPP Bronx Charter School II </a> </td>
+                    <td valign="middle" align="center">TBD</td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="KIPPBronxIII/home.html">KIPP Bronx  Charter School III </a></td>
+                    <td valign="middle" align="center">TBD</td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="KippFreedomBronxCS/home.html">KIPP Freedom  Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 10 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/KIPPInfinityCharterSchool/home.html">KIPP Infinity Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/KIPPNYCWashingtonHeightsAcademyICharterSchool/home.html">KIPP NYC Washington Heights Academy Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 6</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/KIPPSTARCollegePrepCharterSchool/home.html">KIPP S.T.A.R College Preparatory Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="L" id="L"></a><a href="../csdirectory/KIPPTechValleyCharterSchool/home.html">KIPP Tech Valley Charter School</a></td>
+                    <td valign="middle" align="center">Albany City</td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/LaCimaCharterSchool/home.html">La Cima Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="LamadAcademyCS/home.html">Lamad Academy Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 18 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/LaunchExpeditionaryLearningCharterSchool/home.html">Launch Expeditionary Learning Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/LeadershipPreparatoryBedfordStuyvesantCharterSchool/home.html">Leadership Preparatory Bedford Stuyvesant Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/LeadershipPreparatoryBrownsvilleCharterSchool/home.html">Leadership Preparatory Brownsville Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 23</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/LeadershipPreparatoryCanarsieCharterSchool/home.html">Leadership Preparatory Canarsie Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 18</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/LeadershipPreparatoryOceanHillCharterSchool/home.html">Leadership Preparatory Ocean Hill Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 23</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="LEEPDualLangAcadCS/home.html">LEEP Dual Language Academy Charter School </a></td>
+                    <td valign="middle" align="center">TBD</td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="M" id="M"></a><a href="../csdirectory/LegacyCollegePreparatoryCharterSchool/home.html">Legacy College Preparatory Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="LewisKatzNewRenaissanceBasketballAcademy/home.html">Lewis Katz New Renaissance Basketball Academy</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2020</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="LoisRichardNicotraECCS/home.html">Lois &amp; Richard Nicotra Early College Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 31 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ManhattanCharterSchool/home.html">Manhattan Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 1</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/ManhattanCharterSchoolII/home.html">Manhattan Charter School 2 </a></td>
+                    <td valign="middle" align="center">NYC CSD 1</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/MathEngineeringandScienceAcademyCharterHighSchool/home.html">Math, Engineering, and Science Academy Charter High School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 32 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/MerrickAcademyQueensPublicCharterSchool/home.html">Merrick Academy - Queens Public Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 29</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/MetropolitanLighthouseCharterSchool/home.html">Metropolitan Lighthouse Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/MiddleVillagePrepCharterSchool/home.html">Middle Village Preparatory Charter School </a></td>
+                    <td align="center" valign="middle">NYC CSD 24 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/MottHallCharterSchool/home.html">Mott Hall Charter School </a></td>
+                    <td align="center" valign="middle">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="N" id="N"></a><a href="../csdirectory/MottHavenAcademyCharterSchool/home.html">Mott Haven Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="NeighborhoodCSBronx/home.html">Neighborhood Charter School: Bronx</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NeighborhoodCharterSchoolOfHarlem/home.html">Neighborhood Charter School of Harlem (The)</a></td>
+                    <td valign="middle" align="center">NYC CSD 5 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewAmericanAcademyCharterSchool/home.html">New American Academy Charter School (The) </a></td>
+                    <td valign="middle" align="center">NYC CSD 18</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewDawnCharterHighSchool/home.html">New Dawn Charter High School</a></td>
+                    <td valign="middle" align="center">NYC CSD 15</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="NewDawnCHSII/home.html">New Dawn Charter High School II </a></td>
+                    <td valign="middle" align="center">NYC CSD 27 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewHeightsAcademyCharterSchool/home.html">New Heights Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 6</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewRootsCharterSchool/home.html">New Roots Charter School </a></td>
+                    <td valign="middle" align="center">Ithaca City</td>
+                    <td valign="middle" align="center">Central NY </td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVenturesCharterSchool/home.html">New Ventures Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 31</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="NewVisionsAIMCharterSchoolI/home.html">New Visions AIM Charter High School I </a></td>
+                    <td valign="middle" align="center">NYC CSD 23</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="NewVisionsAIMCharterSchoolII/home.html">New Visions AIM  Charter High School II </a></td>
+                    <td valign="middle" align="center">NYC CSD 12</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolForAdvancedMathandScience/home.html">New Visions Charter High School for Advanced Math and Science</a></td>
+                    <td valign="middle" align="center">NYC CSD 10</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolForAdvanceMathandScienceII/home.html">New Visions Charter High School for Advanced Math and Science II</a></td>
+                    <td valign="middle" align="center">NYC CSD 8 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolforAdvancedMathandScienceIII/home.html">New Visions Charter High School for Advanced Math and Science III</a></td>
+                    <td valign="middle" align="center">NYC CSD 22 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolforAdvancedMathandScienceIV/home.html">New Visions Charter High School for Advanced Math and Science IV</a></td>
+                    <td valign="middle" align="center">NYC CSD 27 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolForTheHumanities/home.html">New Visions Charter High School for the Humanities</a></td>
+                    <td valign="middle" align="center">NYC CSD 10</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolForTheHumanitiesII/home.html">New Visions Charter High School for the Humanities II</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolfortheHumanitiesIII/home.html">New Visions Charter High School for the Humanities III</a></td>
+                    <td valign="middle" align="center">NYC CSD 22 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewVisionsCharterHighSchoolfortheHumanitiesIV/home.html">New Visions Charter High School for the Humanities IV</a></td>
+                    <td valign="middle" align="center">NYC CSD 27 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewWorldPreparatoryCharterSchool/home.html">New World Preparatory Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 31</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewYorkCenterForAutismCharterSchool/home.html">New York Center for Autism Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewYorkCenterForAutismCharterSchBronx/home.html">New York Center for Autism Charter School Bronx</a> </td>
+                    <td valign="middle" align="center">NYC CSD 12 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NYCCharterHighSchoolForArchitectureEngineeringAndConstructionIndustries/home.html">New York City Charter High School for Architecture, Engineering &amp; Construction Industries</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewYorkCityCharterSchoolOftheArts/home.html">New York City Charter School of the Arts</a></td>
+                    <td valign="middle" align="center">NYC CSD 2 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="NewYorkCityMontessoriCharterSchool/home.html">New York City Montessori Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NewYorkFrenchAmericanCharterSchool/home.html">New York French-American Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 3 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/NiagaraCharterSchool/home.html">Niagara Charter School</a></td>
+                    <td valign="middle" align="center">Niagara-Wheatfield</td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="O" id="O"></a><a href="../csdirectory/NorthsideCharterHighSchool/home.html">Northside Charter High School</a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/OceanHillCollegiateCharterSchool/home.html">Ocean Hill Collegiate Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 23</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/OnTECHCharterHighSchool/home.html">OnTECH Charter High School</a> </td>
+                    <td valign="middle" align="center">Syracuse City SD </td>
+                    <td valign="middle" align="center">Central NY </td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/OpportunityCharterSchool/home.html">Opportunity Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 3</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/OurWorldNeighborhoodCharterSchool/home.html">Our World Neighborhood Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 30</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">17</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="P" id="P"></a><a href="../csdirectory/OurWorldNeighborhoodCharterSchool2/home.html">Our World Neighborhood Charter School 2</a> </td>
+                    <td valign="middle" align="center">NYC CSD 27 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="OurWorldNeighborhoodCS3/home.html">Our World Neighborhood Charter School 3</a> </td>
+                    <td valign="middle" align="center">NYC CSD 30 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2020</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/PAVEAcademyCharterSchool/home.html">PAVE Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 15</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="R" id="R"></a><a href="../csdirectory/PeninsulaPreparatoryAcademyCharterSchool/home.html">Peninsula Preparatory Academy Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 27</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="PersistencePrepAcademyCS/home.html">Persistence Preparatory Academy Charter School</a> </td>
+                    <td valign="middle" align="center">Buffalo City </td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/REACHAcademy/home.html">REACH Academy Charter School</a> </td>
+                    <td valign="middle" align="center">Buffalo City </td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RenaissanceAcademyCharterSchooloftheArts/home.html">Renaissance Academy Charter School of the Arts</a> </td>
+                    <td valign="middle" align="center">Greece CSD </td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RenaissanceCharterHighSchoolForInnovation/home.html">Renaissance Charter High School for Innovation (The)</a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RenaissanceCharterSchool/home.html">Renaissance Charter School (The)</a></td>
+                    <td valign="middle" align="center">NYC CSD 30</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="RenaissanceCharterSchool2/home.html">Renaissance Charter School 2 (The)</a> </td>
+                    <td valign="middle" align="center">NYC CSD 30 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2020 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="RichmondPrepCS/home.html">Richmond Preparatory Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 31 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2020 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RiverheadCharterSchool/home.html">Riverhead Charter School</a></td>
+                    <td valign="middle" align="center">Riverhead Central </td>
+                    <td valign="middle" align="center">Long Island </td>
+                    <td valign="middle" align="center">18</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RivertonStreetCharterSchool/home.html">Riverton Street Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 29</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="ROCAchieveCharterSchool/home.html">ROC Achieve Charter School</a> </td>
+                    <td valign="middle" align="center">Rochester City </td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RochdaleEarlyAdvantageCharterSchool/home.html">Rochdale Early Advantage Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 28</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RochesterAcademyCharterSchool/home.html">Rochester Academy Charter School</a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RochesterPrepCharterSchool3/home.html">Rochester Preparatory Charter School 3</a> </td>
+                    <td valign="middle" align="center">Rochester City </td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/RooseveltChildrensAcademyCharterSchool/home.html">Roosevelt Children's Academy Charter School </a></td>
+                    <td valign="middle" align="center">Roosevelt UFSD</td>
+                    <td valign="middle" align="center">Long Island </td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="S" id="S"></a><a href="../csdirectory/RosalynYalowCharterSchool/home.html">Rosalyn Yalow Charter School (The)</a></td>
+                    <td valign="middle" align="center">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SchoolintheSquarePublicCharterSchool/home.html">School in the Square Public Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 6 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SisuluWalkerCharterSchoolOfHarlem/home.html">Sisulu-Walker Charter School of Harlem</a></td>
+                    <td valign="middle" align="center">NYC CSD 3</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">20</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBronxCharterSchoolForInternationalCulturesAndTheArts/home.html">South Bronx Charter School for International Cultures and the Arts</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBronxClassicalCharterSchool/home.html">South Bronx Classical Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 12</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBronxClassicalII/home.html">South Bronx Classical Charter School II</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBronxClassicalCharterSchoolIII/home.html">South Bronx Classical Charter School III</a></td>
+                    <td valign="middle" align="center">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBronxClassicalCharterSchoolIV/home.html">South Bronx Classical Charter School IV</a> </td>
+                    <td valign="middle" align="center">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBronxCommunityCharterHighSchool/home.html">South Bronx Community Charter High School </a></td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBronxEarlyCollegeAcademyCharterSchool/home.html">South Bronx Early College Academy Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 8 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthBuffaloCharterSchool/home.html">South Buffalo Charter School </a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY </td>
+                    <td valign="middle" align="center">19</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SouthsideAcademyCharterSchool/home.html">Southside Academy Charter School</a></td>
+                    <td valign="middle" align="center">Syracuse City SD </td>
+                    <td valign="middle" align="center">Central NY </td>
+                    <td valign="middle" align="center">17</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/StHopeLeadershipAcademyCharterSchool/home.html">St. Hope Leadership Academy Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="StatenIslandHebrewPublicCS/home.html">Staten Island Hebrew Public Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 31 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2020 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/StorefrontAcademyCharterSchool/home.html">Storefront Academy Charter School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="StorefrontAcademyHarlemCharterSchool/home.html">Storefront Academy Harlem Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 5 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="StradfordPrepCSforBoys/home.html">Stradford Preparatory Charter School for Boys</a> </td>
+                    <td valign="middle" align="center">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2020 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolBedStuy1/home.html">Success Academy Charter School - Bed Stuy 1 </a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolBedStuy2/home.html">Success Academy Charter School - Bed Stuy 2</a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC9BedStuy3/home.html">Success Academy Charter School - Bed-Stuy 3 </a></td>
+                    <td valign="middle" align="center">NYC CSD 16</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolBensonhurst/home.html">Success Academy Charter School - Bensonhurst</a> </td>
+                    <td valign="middle" align="center">NYC CSD 21</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolBergenBeach/home.html">Success Academy Charter School - Bergen Beach</a> </td>
+                    <td valign="middle" align="center">NYC CSD 22</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolBronx1/home.html">Success Academy Charter School - Bronx 1</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolBronx2/home.html">Success Academy Charter School - Bronx 2</a></td>
+                    <td valign="middle" align="center">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolBronx3/home.html">Success Academy Charter School - Bronx 3</a> </td>
+                    <td valign="middle" align="center">NYC CSD 8 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="SuccessAcademyCharterSchoolBronx4/home.html">Success Academy Charter School - Bronx 4</a></td>
+                    <td valign="middle" align="center">NYC CSD 8 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC10Bushwick/home.html">Success Academy Charter School - Bushwick </a></td>
+                    <td valign="middle" align="center">NYC CSD 32</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolCobbleHill/home.html">Success Academy Charter School - Cobble Hill</a></td>
+                    <td valign="middle" align="center">NYC CSD 15</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolCrownHeights/home.html">Success Academy Charter School - Crown Heights</a></td>
+                    <td valign="middle" align="center">NYC CSD 17 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="SuccessAcademyCharterSchoolNYC4FarRockaway/home.html">Success Academy Charter School - Far Rockaway</a> </td>
+                    <td valign="middle" align="center">NYC CSD 27</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolFortGreene/home.html">Success Academy Charter School - Fort Greene</a> </td>
+                    <td valign="middle" align="center">NYC CSD 13 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC8Flatbush/home.html">Success Academy Charter School - Flatbush</a> </td>
+                    <td valign="middle" align="center">NYC CSD 17 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolHarlem1/home.html">Success Academy Charter School - Harlem 1</a></td>
+                    <td valign="middle" align="center">NYC CSD 3</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolHarlem2/home.html">Success Academy Charter School - Harlem 2</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolHarlem3/home.html">Success Academy Charter School - Harlem 3</a></td>
+                    <td valign="middle" align="center">NYC CSD 4</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolHarlem4/home.html">Success Academy Charter School - Harlem 4</a></td>
+                    <td valign="middle" align="center">NYC CSD 3</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolHarlem5/home.html">Success Academy Charter School - Harlem 5</a></td>
+                    <td valign="middle" align="center">NYC CSD 5</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="SuccessAcademyCharterSchoolHarlem6/home.html">Success Academy Charter School - Harlem 6 </a> </td>
+                    <td valign="middle" align="center">NYC CSD 5 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolHellsKitchen/home.html">Success Academy Charter School - Hell's Kitchen</a> </td>
+                    <td valign="middle" align="center">NYC CSD 2</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="SuccessAcademyCharterSchoolNYC1HudsonYards/home.html">Success Academy Charter School - Hudson Yards </a> </td>
+                    <td valign="middle" align="center">NYC CSD 2</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC3/home.html">Success Academy Charter School - NYC 3</a> </td>
+                    <td valign="middle" align="center">NYC CSD 9 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2022</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC5/home.html">Success Academy Charter School - NYC 5</a> </td>
+                    <td valign="middle" align="center">NYC CSD 13 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2021</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC6/home.html">Success Academy Charter School - NYC 6</a> </td>
+                    <td valign="middle" align="center">NYC CSD 14 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2022</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC7/home.html">Success Academy Charter School - NYC 7</a> </td>
+                    <td valign="middle" align="center">NYC CSD 15 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2021</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC11/home.html">Success Academy Charter School - NYC 11</a></td>
+                    <td valign="middle" align="center">NYC CSD 23</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2022</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC12/home.html">Success Academy Charter School - NYC 12</a> </td>
+                    <td valign="middle" align="center">NYC CSD 24</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2021</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolNYC14/home.html">Success Academy Charter School - NYC 14</a> </td>
+                    <td valign="middle" align="center">NYC CSD 30 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2021</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolProspectHeights/home.html">Success Academy Charter School - Prospect Heights</a> </td>
+                    <td valign="middle" align="center">NYC CSD 17 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolRosedale/home.html">Success Academy Charter School - Rosedale</a> <span class="urgentmessage"> </span></td>
+                    <td valign="middle" align="center">NYC CSD 29</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="SuccessAcademyCharterSchoolNYC13SJamaica/home.html">Success Academy Charter School - South Jamaica</a> </td>
+                    <td valign="middle" align="center">NYC CSD 27</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">3</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolSpringfieldGardens/home.html">Success Academy Charter School - Springfield Gardens</a>  </td>
+                    <td valign="middle" align="center">NYC CSD 29</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolUnionSquare/home.html">Success Academy Charter School - Union Square</a> </td>
+                    <td valign="middle" align="center">NYC CSD 2 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolUpperWest/home.html">Success Academy Charter School - Upper West</a></td>
+                    <td valign="middle" align="center">NYC CSD 3</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolWashingtonHeight/home.html">Success Academy Charter School - Washington Heights</a></td>
+                    <td valign="middle" align="center">NYC CSD 6 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">4</td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SuccessAcademyCharterSchoolWilliamsburg/home.html">Success Academy Charter School - Williamsburg</a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SummitAcademyCharterSchool/home.html">Summit Academy Charter School </a></td>
+                    <td valign="middle" align="center">NYC CSD 15</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/SyracuseAcademyofScienceandCitizenship/home.html">Syracuse Academy of Science and Citizenship Charter School</a> </td>
+                    <td valign="middle" align="center">Syracuse City SD </td>
+                    <td valign="middle" align="center">Central NY </td>
+                    <td valign="middle" align="center">2</td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="T" id="T"></a><a href="../csdirectory/SyracuseAcademyOfScienceCharterSchool/home.html">Syracuse Academy of Science Charter School</a></td>
+                    <td valign="middle" align="center">Syracuse City SD </td>
+                    <td valign="middle" align="center">Central NY </td>
+                    <td valign="middle" align="center">16</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/TapestryCharterSchool/home.html">Tapestry Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">18</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/TrueNorthRochesterPreparatoryCharterSchool/home.html">True North Rochester Preparatory Charter School</a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">13</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/TrueNorthRochesterPreparatoryCharterSchoolWestCampus/home.html">True North Rochester Preparatory Charter School - West Campus</a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">8</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="U" id="U"></a><a href="../csdirectory/TrueNorthTroyPreparatoryCharterSchool/home.html">True North Troy Preparatory Charter school</a></td>
+                    <td valign="middle" align="center">Troy City </td>
+                    <td valign="middle" align="center">Capital Region </td>
+                    <td valign="middle" align="center">10</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="TruxtonAcademyCharterSchool/home.html">Truxton Academy Charter School</a> </td>
+                    <td valign="middle" align="center">Homer Central School District </td>
+                    <td valign="middle" align="center">Central NY </td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UncommonNewYorkCityCharterSchool#1/home.html">Uncommon New York City Charter School #1</a></td>
+                    <td valign="middle" align="center">NYC CSD 13 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UFTCharterSchool/home.html">UFT Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 19</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UnityPreparatoryCharterSchoolofBrooklyn/home.html">Unity Preparatory Charter School of Brooklyn</a> </td>
+                    <td valign="middle" align="center">NYC CSD 13 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UniversityPrepCharterHighSchool/home.html">University Prep Charter High School</a></td>
+                    <td valign="middle" align="center">NYC CSD 7</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="UniversityPrepCharterMiddleSchool/home.html">University Prep Charter Middle School</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UniversityPreparatoryCharterSchoolForYoungMen/home.html">University Preparatory Charter School for Young Men</a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes </td>
+                    <td valign="middle" align="center">9</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UrbanAssemblyCharterSchoolforComputerScience/home.html">Urban Assembly Charter School for Computer Science</a> </td>
+                    <td valign="middle" align="center">NYC CSD 12 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1</td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UrbanChoiceCharterSchool/home.html">Urban Choice Charter School</a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UrbanDoveCharterSchool/home.html">Urban Dove Team Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 13</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="UrbanDoveCharterSchoolII/home.html">Urban Dove Team Charter School II</a> </td>
+                    <td valign="middle" align="center">NYC CSD 7 </td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">1 </td>
+                    <td valign="middle" align="center">Board of Regents </td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/UticaAcademyofScienceCharterSchool/home.html">Utica Academy of Science Charter School</a> </td>
+                    <td valign="middle" align="center">Utica City </td>
+                    <td valign="middle" align="center">Mohawk Valley </td>
+                    <td valign="middle" align="center">6</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="ValenceCollPrepCS/home.html">Valence College Preparatory Charter School</a> </td>
+                    <td valign="middle" align="center">CSD 24 </td>
+                    <td valign="middle" align="center">New York City </td>
+                    <td valign="middle" align="center">Opening Fall 2019 </td>
+                    <td valign="middle" align="center">SUNY</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="V" id="V"></a><a href="../csdirectory/VertusCharterSchool/home.html">Vertus Charter School </a></td>
+                    <td valign="middle" align="center">Rochester City</td>
+                    <td valign="middle" align="center">Finger Lakes</td>
+                    <td valign="middle" align="center">5</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/VOICECharterSchoolOfNewYork/home.html">VOICE Charter School of New York</a></td>
+                    <td valign="middle" align="center">NYC CSD 30</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">11</td>
+                    <td valign="middle" align="center">NYCDoE</td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a name="W" id="W"></a><a href="../csdirectory/WestBuffaloCharterSchool/home.html">West Buffalo Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+                  </tr>
+				  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/WesternNewYorkMaritimeCharterSchool/home.html">Western New York Maritime Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+				  </tr>
+                  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/WestminsterCommunityCharterSchool/home.html">Westminster Community Charter School</a></td>
+                    <td valign="middle" align="center">Buffalo City</td>
+                    <td valign="middle" align="center">Western NY</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">Buffalo BoE</td>
+                  </tr>
+				  <tr>
+				    <td valign="middle" align="center"><a href="../csdirectory/WHINMusicCommunityCharterSch/home.html">WHIN Music Community Charter School</a> </td>
+				    <td valign="middle" align="center">NYC CSD 6 </td>
+				    <td valign="middle" align="center">New York City</td>
+				    <td valign="middle" align="center">2</td>
+				    <td valign="middle" align="center">Board of Regents</td>
+				    </tr>
+				  <tr>
+				    <td valign="middle" align="center"><a href="WildflowerNYCharterSchool/home.html">Wildflower New York Charter School</a> </td>
+				    <td valign="middle" align="center">NYC CSD 9 </td>
+				    <td valign="middle" align="center">New York City </td>
+				    <td valign="middle" align="center">Opening Fall 2019</td>
+				    <td valign="middle" align="center">SUNY</td>
+				    </tr>
+				  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/WilliamsburgCharterHighSchool/home.html">Williamsburg Charter High School </a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">15</td>
+                    <td valign="middle" align="center">Board of Regents   </td>
+				  </tr>
+				  <tr>
+                    <td valign="middle" align="center"><a href="../csdirectory/WilliamsburgCollegiateCharterSchool/home.html">Williamsburg Collegiate Charter School</a></td>
+                    <td valign="middle" align="center">NYC CSD 14</td>
+                    <td valign="middle" align="center">New York City</td>
+                    <td valign="middle" align="center">14</td>
+                    <td valign="middle" align="center">SUNY</td>
+				  </tr>
+				  <tr>
+                    <td valign="middle" align="center"><a name="Y" id="Y"></a><a href="../csdirectory/YoungWomensCollegePrepCharterSchoolOfRochester/home.html">Young Women's College Prep Charter School of Rochester</a></td>
+                    <td valign="middle" align="center">Greece CSD </td>
+                    <td valign="middle" align="center">Finger Lakes</td>
+                    <td valign="middle" align="center">7</td>
+                    <td valign="middle" align="center">Board of Regents</td>
+				  </tr>
+				  <tr>
+				    <td valign="middle" align="center"><a name="Z" id="Z"></a><a href="ZetaCSInwood1/home.html">Zeta Charter Schools - Inwood 1</a> </td>
+				    <td valign="middle" align="center">NYC CSD 6 </td>
+				    <td valign="middle" align="center">New York City</td>
+				    <td valign="middle" align="center">1</td>
+				    <td valign="middle" align="center">SUNY</td>
+				    </tr>
+				  <tr>
+				    <td valign="middle" align="center"><a href="ZetaCSBronx1/home.html">Zeta Charter Schools - Bronx 1 </a> </td>
+				    <td valign="middle" align="center">NYC CSD 7 </td>
+				    <td valign="middle" align="center">New York City</td>
+				    <td valign="middle" align="center">1 </td>
+				    <td valign="middle" align="center">SUNY</td>
+				    </tr>
+		    </tbody>

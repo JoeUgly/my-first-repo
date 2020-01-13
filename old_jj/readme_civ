@@ -1,0 +1,23 @@
+
+
+
+Step 1: Get raw html - raw_html_civ.txt
+    https://labor.ny.gov/stats/cslist.shtm
+
+
+Step 2: Get org name and home url from raw html - get_org_name_civ.py
+
+
+Step 3: Combine org name and home url with employ url - combine_home_employ_civ2.py
+
+
+Step 4: Get street address from coords and combine with step 3 - get_addr_from_coords_civ.py
+    need to get output and place in grudb
+
+
+Grand Unified Database - grudb_civ
+
+
+    COMPLETE
+
+

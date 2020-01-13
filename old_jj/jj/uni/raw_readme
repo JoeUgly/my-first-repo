@@ -1,0 +1,37 @@
+
+
+
+how go from raw at:
+
+http://eservices.nysed.gov/collegedirectory/index.htm
+
+to python list using search and replace
+
+
+
+
+
+Judicial.*
+Back to Top\n.
+ \t.*\n.*\.*\n.*\n.*
+\n\(.*\n
+\n\n+
+\n\n            '],\n\n['
+\n[^[].*[^]]
+http://'        _URL_NOT_FOUND_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

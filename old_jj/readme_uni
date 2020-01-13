@@ -1,0 +1,28 @@
+
+
+
+Step 1: Get raw html - raw_html_uni.txt
+    https://www.4icu.org/us/
+    this will have all unis in country
+
+
+Step 2: Get org name and home url from raw html - get_org_name_uni.py
+    I may have not saved the output. It is in get_org_and_addr_uni.py.
+
+
+Step 3: Combine org name and home url with employ url - /home/joepers/code/combine_uni_employ.py
+
+
+Step 4: Get coords from street addr and combine with step 3 - /home/joepers/code/get_coords_uni.py
+
+
+
+Grand Unified Database - grudb_uni
+    
+    
+    COMPLETE
+
+
+
+
+

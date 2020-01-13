@@ -1,0 +1,34 @@
+
+
+keep sch and chart seperate?
+
+
+Step 1: Get raw html - raw_html_sch.txt
+    Using:
+    http://www.newyorkschools.com/public-schools/
+
+    Other source, multiple pages:
+    https://data.nysed.gov/lists.php?start=65&type=district
+    https://data.nysed.gov/lists.php?start=90&type=district
+
+
+Step 2: Get org name and home url from raw html - get_org_name_sch.py
+    output_get_org_sch
+
+
+Step 3: Combine org name and home url with employ url - 
+    use new_and_old... and output_get_org
+
+
+Step 4: Get coords from street addr and combine with step 3 - 
+
+
+
+Grand Unified Database - grudb_sch
+    
+
+
+
+
+
+
