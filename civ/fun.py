@@ -8,9 +8,6 @@
 
 
 
-
-
-
 new_l = [
 ['City of Albany', 'https://jobs.albanyny.gov/jobopps', 'http://www.albanyny.org', (42.6573000189, -73.7464300179)],
 ['City of Amsterdam', '', 'http://www.amsterdamny.gov/', (42.9387508724, -74.1884322486)],
@@ -1847,8 +1844,42 @@ for i in old_l:
 print(count)
 
 
+
+# Check for dup entries
 for i in new_l:
-    if new_l.count(i) > 1: print('\n\nDUP', i)
+    count = 0
+
+
+    for ii in new_l:
+        
+        if i[0] == ii[0]:
+            count += 1
+
+    if count > 1:
+        print('\n\nDUP', count, i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
