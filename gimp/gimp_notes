@@ -1,0 +1,108 @@
+
+# Desc: Apply GIMP effects to video
+
+
+# To do:
+# find alternative to using literals in gimp args + -b "(file-png-save-defaults 1 1 2 \"$name\" \"rrr\")" +
+# this will remove sound. could save audio then reapply it at end
+# adjust filter settings throughout video. need to use variable and math
+# seperate files for notes and code
+# set zero pads dynamically +
+# run script all at once
+# splice new vid back into orig vid at correct location. can be done in kdenlive
+
+
+# Concerns:
+
+
+
+
+Cool effects:
+wind/blast
+spokes? supernova?
+white flame?
+kal
+fractal trace
+illusion
+
+Individual:
+sharpen = color distort, saturate
+engrave = retro atari
+lens distortion = distort and darken edge of screen
+vignette = best darken edge of screen
+image gradient = ghostly
+soft glow = edge brighten
+line nova = comic book chroma spokes
+
+Groups:
+tiling = mosiac, cubism, oilfy, glass tile
+psychodelic = kal, newsprint, predator, fractal trace, recursive transform, tile seamless, illusion
+
+
+
+# Determine amount of zero padding required
+zero_pads=$(echo "l($(ffprobe -i ~/Videos/DS3/plunge/DARK\ SOULS™\ III_\ The\ Fire\ Fades™\ Edition_20200628151553.mp4 -v error -select_streams v:0 -show_entries stream=nb_frames -of default=nokey=1:noprint_wrappers=1))/l(10) + 1" | bc -l | cut -d \. -f1)
+echo zero_pads = $zero_pads
+
+    # Convert video to images
+ffmpeg -ss 01:44 -i xxx.mp4 -t 00:14 ttt_%0"$zero_pads"d.png
+
+
+
+    # New dir to put results into
+mkdir -p new
+
+    # Apply GIMP filter to a selection of each image
+for i in $(find . -maxdepth 1 -type f | sort -V)            # Loop through each file in pwd
+
+do gimp --gegl-threads=4 -i "$i"                           `# Open each file in GIMP using 4 threads` \
+-b '(gimp-image-select-rectangle 1 0 20 15 800 700)'       `# Select an area of the image` \
+-b '(plug-in-wind 1 1 2 10 2 60 0 0)'                      `# Apply filter to selection. (run-mode image drawable threshold direction strength algorithm edge)` \
+-b "(file-png-save-defaults 1 1 2 \"new/$i\" \"rrr\")"     `# Save file in new dir` \
+-b '(gimp-quit 0)'                                          # Close GIMP
+
+echo
+done
+
+
+    # Move images into one dir -
+    # must use -not -path ./new otherwise it will go into newly created dir and move files again
+ttt=1
+mkdir new
+start_dir=$PWD
+for i in $(find . -mindepth 1 -type d -not -path ./new | sort -V); do cd $i; for ii in $(ls); do mv -v $ii $start_dir/new/$ttt.png; ((ttt++)); done; cd $start_dir; done
+
+
+    # Delete empty dirs -
+find . -type d -empty -delete
+
+
+    # Rename images with zero pading so ffmpeg gets the correct order. gives errors but works
+cd new
+for i in $(ls); do mv $i `printf "%0"$zero_pads"d\n\n" $i`.png; done
+
+
+    # Convert images into video
+ffmpeg -framerate 29.97 -pattern_type glob -i '*.png' -c:v libx264 -preset slow -crf 19 out4.mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
