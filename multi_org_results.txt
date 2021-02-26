@@ -1,0 +1,47 @@
+
+# Figure out a way to allow multiplpe orgs to use same url.
+
+# to do
+# create new dirs and copy results to them
+
+
+l = [
+["Asa College, Inc.", "https://www.asa.edu/jobs/", "http://www.asa.edu"],
+["Berkeley College - Main Campus", "https://berkeleycollege.edu/index.html", "http://www.berkeleycollege.edu"],
+["Berkeley College - Westchester", "", "http://www.berkeleycollege.edu"],
+["Bryant & Stratton Business College - North Syracuse", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Bryant & Stratton College - Albany", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Bryant & Stratton College - Buffalo", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Bryant & Stratton College - Greece", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Bryant & Stratton College - Henrietta", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Bryant & Stratton College - Southtowns Campus", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Bryant & Stratton College- Amherst", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Bryant Stratton College - Syracuse", "https://www.bryantstratton.edu/careers", "http://www.bryantstratton.edu"],
+["Christie's Education, Inc", "", "http://www.christies.edu"],
+["The College of Westchester", "", "http://www.cw.edu"],
+["Devry College of New York", "https://www.devry.edu/about/careers-at-devry.html", "http://www.devry.edu/"],
+["Elmira Business Inst", "", "http://www.ebi.edu"],
+["Elmira Business Institute - Vestal Executive Park", "", "http://www.ebi.edu"]
+]
+
+
+# url as key, all org names using that url as values
+copy_d = {}
+
+
+## use primary org name as key? -
+## use em url?
+for i in l:
+    try:
+        copy_d[i[2]].append(i[0])
+    except:
+        copy_d[i[2]] = [i[0]]
+
+
+# url is used more than once
+for k,v in copy_d.items():
+    if len(v) > 1: print(k,v)
+
+
+
+
