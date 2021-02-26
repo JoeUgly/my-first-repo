@@ -1,0 +1,71 @@
+
+
+How to get all home urls and coordinates for jj dbs
+
+
+
+All coords:
+http://eservices.nysed.gov/sedreports/list?id=1
+10/20?
+
+
+
+
+sch home urls:
+http://eservices.nysed.gov/sedreports/list?id=1
+
+
+
+civ home urls:
+https://data.ny.gov/Government-Finance/New-York-State-Locality-Hierarchy-with-Websites/55k6-h6qq
+9/19
+
+
+
+uni home urls:
+http://eservices.nysed.gov/collegedirectory/index.htm
+
+
+
+
+
+To do:
+compare your org names to online org names
+compare your home urls to online home urls
+scrape for updated em urls
+compare your coords to online coords
+
+
+
+
+
+
+
+
+
+
+
+OUTDATED!:
+Civ
+home urls:
+Google org name:
+for url in list(i[0], tld='com.pk', lang='es', stop=1):
+	print('\n\n', i[0], '\n', url)
+
+
+
+Sch
+home urls:
+https://portal.nysed.gov/pls/sedrefpublic/sed_inst_qry_vw$sed_inst_qry_v.actionquery
+
+addrs:
+http://www.nysed.gov/admin/admindex.html
+
+
+
+
+
+
+
+
+
