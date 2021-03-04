@@ -7,11 +7,11 @@ import urllib.request, datetime
 from http.cookiejar import CookieJar
 from bs4 import BeautifulSoup
 
-startTime = datetime.datetime.now()
+#startTime = datetime.datetime.now()
 
 
 
-url = 'http://townhartwick.digitaltowpath.org:10113'
+url = 'https://www.amazon.com/PlayStation-5-Console/dp/B08FC5L3RG?ref_=ast_sto_dp'
 
 domain = '/'.join(url.split('/')[:3])
 
@@ -26,15 +26,18 @@ red_url = html.geturl()
 
 h = html.read()
 
+'''
 print('redurl=', red_url)
 print('html=', html)
 print('\n\n\n\n\nh=', h)
-
 '''
+
 soup = BeautifulSoup(h, 'html5lib')
 
-#vis = soup.find('body').text
+vis = soup.find('body').text
+print(vis)
 
+'''
 ## soup has decomposed elems
 # Search for pagination class before checking crawl level
 for i in soup.find_all(class_='pagination'):
@@ -53,7 +56,7 @@ for i in soup.find_all(class_='pagination'):
             print('~~~', abspath)
 '''
 
-print(datetime.datetime.now() - startTime)
+#print(datetime.datetime.now() - startTime)
 
 
 

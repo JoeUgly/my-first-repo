@@ -4,11 +4,14 @@
 
 
 # to do:
+# retry loop +
 # command='--disable-private-mode --disable-browser-caches --slots 32', detach=True
 #--restart on-failure[:max-retries]
 #Docker --restart option won’t work without -d.
 #--memory
-# dont call to run jj_scraper if called by jj_scraper +
+# term_out is still written to after starting new term_out
+# make sure this program ends when scraper starts
+# kill -9 pid if deactivating
 
 
 
@@ -30,6 +33,7 @@ if [ $(systemctl --user is-active docker) == "inactive" ]; then
             break
         fi
         echo ...
+        systemctl --user restart docker
     done
 
 # Restart Docker to free memory
@@ -38,11 +42,9 @@ else
     echo Restarting Docker ...
     systemctl --user restart docker
 
-    # Retry on error
-    if [[ $? -ne 0 ]]; then
-        sleep 3
-        systemctl --user restart docker
-    fi
+    # Kill all child procs
+    #pkill -9 python3 # might be overkill
+    #pkill -P $$
 
     while true; do
         sleep 1
@@ -50,6 +52,7 @@ else
             break
         fi
         echo ...
+        systemctl --user restart docker
     done
 
 fi
@@ -70,11 +73,48 @@ mkdir -p $dater_dir
 
 
 # Start Python scraper if not already running
-if $(pgrep -f jj_scraper22.py > /dev/null); then
-echo jj_scraper22.py is already running
+#if $(pgrep -f jj_scraper22.py > /dev/null); then
+#echo jj_scraper22.py is already running
+# Use --nostart to start Docker but not jj_scraper
+if [[ $1 = "--nostart" ]]; then
+    echo Not starting jj_scraper
+
 else
-python3.8 -u /home/joepers/code/jj_v22/jj_scraper22.py 2>&1 | tee $dater_dir/term_out
+
+    # Check if log file name already exists
+    inc=0
+    while true; do
+        if [[ -e $dater_dir/term_out$inc ]]; then
+            ((inc++))
+        else
+            break
+        fi
+    done
+
+# -u is unbuffered output. Redirect stderr to stdout and send them to both console and text file
+python3.8 -u /home/joepers/code/jj_v22/jj_scraper22.py 2>&1 | tee $dater_dir/term_out$inc
+
+
 fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

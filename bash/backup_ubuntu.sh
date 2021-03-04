@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
-# Description: Copy certain directories and files to monthly directory in backup drive
+# Description: Copy files to monthly directory in backup drive
 
-# Certain dirs = ~/code/, ~/Documents/, vsftpd, ~/.ssh
-# Certain files = words.txt, info, ubuntu_notes, python3_notes, conky, .bashrc
-# if orig file is deleted this program will not delete the backup file
-# Addresses backup disk and mount point by UUID
+
+# if orig file is deleted, this program will not delete the backup file
+# uses UUID to address backup disk and mount point
 
 # Use manual backups for: keepass, photos, Downloads, taxes, crypto, torrents, converted vids, old anarcho texts, diaro, PS4
 
 
 # To do:
 # determine what needs rolling backups vs one copy
-# "code" and "other" structure sucks +
+# merge taxes and financials
+
 
 
 
@@ -53,22 +53,20 @@ fi
 
 
 
-
 # Copy code dir
-sudo cp -ruv /home/joepers/code/ $mon_dir_dest/
+#sudo cp -ruv /home/joepers/code/ $mon_dir_dest/
+
+# Copy code dir without git dirs
+rsync -ruv /home/joepers/code/ $mon_dir_dest/code/ --exclude .git
 
 
-# Copy files in ~/Documents/ dir
+# Copy files in Documents dir
 sudo cp -ruv /home/joepers/Documents/ $mon_dir_dest/
 
 
-# Copy ~/Desktop/ files
+# Copy Desktop files
 cd /home/joepers/Desktop/
-sudo cp -uv info words.txt ubuntu_notes python3_notes $mon_dir_dest/Desktop
-
-
-# Copy vsftpd files
-sudo cp -ruv /etc/vsftpd.* $mon_dir_dest/vsftpd
+sudo cp -uv info words.txt ubuntu_notes python3_notes workout.ods $mon_dir_dest/Desktop
 
 
 # Copy conky file
@@ -80,10 +78,6 @@ sudo cp -uv /home/joepers/.bashrc $mon_dir_dest/
 
 # Copy SSH keys
 sudo cp -ruv /home/joepers/.ssh $mon_dir_dest/
-
-
-# Copy webpages and CGI scripts
-#sudo cp -ruv /srv/http/ $mon_dir_dest/code/
 
 
 # Unmount if backup drive was originally unmounted

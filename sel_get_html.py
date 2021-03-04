@@ -23,7 +23,7 @@ import datetime, sys, time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-startTime = datetime.datetime.now()
+#startTime = datetime.datetime.now()
 
 
 
@@ -35,7 +35,7 @@ driver = webdriver.Firefox(options=options, executable_path=r'/home/joepers/Down
 
 
 
-sel_url = 'https://www.whatismybrowser.com/detect/what-is-my-user-agent'
+sel_url = 'https://www.westhillschools.org/teacherpage.cfm?teacher=448'
 
 # http://lackawannany.gov/government/civil-service/
 # https://web.co.wayne.ny.us/index.php/human-resources/current-job-openings/
@@ -60,7 +60,7 @@ while True:
         print('html iframe not found at count:', count)
         break
 
-print('zzzzz\n', comb_html, '\nzzzzzzz')
+#print('zzzzz\n', comb_html, '\nzzzzzzz')
 
 
 
@@ -71,7 +71,12 @@ driver.switch_to.default_content()
 
 # Get visible text
 sel_text = driver.find_element_by_css_selector("body").text
+html_t = driver.find_element_by_css_selector("body")
 
+
+print(html_t)
+
+'''
 # Switch to xpath if css fails
 if not str(sel_text).strip():
     sel_text = driver.find_element_by_xpath("/html/body").text
@@ -81,6 +86,7 @@ if not str(sel_text).strip():
         print('\nCSS and Xpath selectors have failed:', sel_url)
         driver.close()
         sys.exit()
+'''
 
 
 #print('\ndefualt vis:', sel_text)
@@ -114,8 +120,8 @@ while True:
         break
 
 
-print(comb_html, '\n\nvis:', comb_vis)
-
+#print(comb_html, '\n\nvis:', comb_vis)
+#print('~~~~~~~\n', comb_html)
 
 
 
@@ -159,7 +165,7 @@ driver.close()
 # Close browser
 #driver.quit()
 
-print(datetime.datetime.now() - startTime)
+#print(datetime.datetime.now() - startTime)
 
 
 

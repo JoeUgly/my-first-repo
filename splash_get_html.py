@@ -8,11 +8,11 @@ from bs4 import BeautifulSoup
 
 
 
-workingurl = 'https://www.lafayetteschools.org/teacherpage.cfm?teacher=247'
+workingurl = 'https://www.nowinstock.net/videogaming/consoles/sonyps5/'
 
 
 
-
+'''
 
 # Must run Docker daemon with: systemctl start docker
 # Must run Docker with sudo and without VPN
@@ -38,7 +38,7 @@ while True:
 
 # Get container name
 container = client.containers.get('jj_con')
-
+'''
 
 
 
@@ -47,7 +47,7 @@ container = client.containers.get('jj_con')
 ## "connection reset by peer" and "broken pipe" errors fixed by lowering json wait
 resp = requests.post('http://localhost:8050/render.json', json={
     'url': workingurl,
-    'headers': {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'}, 
+    'headers': {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0'}, 
     'plugins_enabled': 'true', # May help with rendering
     'indexeddb_enabled': 'true', # May help with rendering
     'wait': 0.01, # Wait for dyanamic content to render.
@@ -107,17 +107,69 @@ soup = soup.find('body')
 # Keep a soup for finding links and another for saving visible text
 vis_soup = soup
 
+
+
+# Compile regex paterns for reducing whitespace in written files
+white_reg = re.compile("\s{2,}")
+
+# Compile regex paterns for finding hidden HTML elements
+style_reg = re.compile("(display\s*:\s*(none|block);?|visibility\s*:\s*hidden;?)")
+class_reg = re.compile('(hidden-sections?|dropdown|has-dropdown|sw-channel-dropdown|dropdown-toggle)')
+
+
+
 # Remove script, style, and empty elements
 for i in vis_soup(["script", "style"]):
     i.decompose()
 
+## unn
+# Iterate through and remove all of the hidden style attributes
+r = vis_soup.find_all('', {"style" : style_reg})
+for x in r:
+    #print(os.getpid(), 'Decomposed:', workingurl, x)
+    x.decompose()
+
+# Type="hidden" attribute
+r = vis_soup.find_all('', {"type" : 'hidden'})
+for x in r:
+    #print(os.getpid(), 'Decomposed:', workingurl, x)
+    x.decompose()
+
+# Hidden section(s) and dropdown classes
+for x in vis_soup(class_=class_reg):
+    #print(os.getpid(), 'Decomposed:', workingurl, x)
+    x.decompose()
+
+
+## This preserves whitespace across lines. Prevents: 'fire departmentapparatuscode compliance'
+# Remove unnecessary whitespace. eg: multiple newlines, spaces, and tabs
+vis_soup = str(vis_soup.text)
+vis_soup = re.sub(white_reg, " ", vis_soup)
+
+
+
+
+
+for i in soup.find_all('div'):
+    try:
+        if len(i.text.lower()) > 999: continue
+        if 'add to cart' in i.text.lower():
+            i.click()
+    except: pass
+
+
+
+
+
+
 
 #print(html_text, '\n~~~~~~ end of plain html\n\n\n\n\n\n')
 
-print(vis_soup)
+#print(vis_soup)
+#print('\n\n~~~~~~', rendered_html)
 
 
-container.stop()
+#container.stop()
 
 
 

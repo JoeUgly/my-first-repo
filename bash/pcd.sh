@@ -243,7 +243,7 @@ filename=${filename%.*}.mkv
 
     ## probably should have listed good extenions instead. - no, then weird file formats won't be converted
     # Skip non-video files
-    if [[ "$extension" =~ ^('txt'|'srt'|'jpg'|'sub'|'nfo'|'idx'|'png'|'JPG'|'sfv')$ ]]; then
+    if [[ "$extension" =~ ^('txt'|'srt'|'jpg'|'sub'|'nfo'|'idx'|'png'|'JPG'|'sfv'|'exe')$ ]]; then
 
     # Print skip message if verbose
     "$verb_opt" && {

@@ -6,6 +6,7 @@
 # To do:
 # use unique tarball filenames - unn
 # use diff dirs than jj results. at server also - unn
+# send only results and errorlog?
 
 
 
