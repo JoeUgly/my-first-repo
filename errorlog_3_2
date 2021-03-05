@@ -1,0 +1,591 @@
+{
+"http://www.cortland.org/jobs.aspx": [["City of Cortland", "civ", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.cityoflittlefalls.net/index.cfm?section=home&page=job-postings": [["City of Little Falls", "civ", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://cityofglensfalls.com/55/Human-Resources-Department": [["City of Glens Falls", "civ", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.schuylercounty.us/119/Civil-Service": [["County of Schuyler", "civ", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://warrencountyny.gov/civilservice/current_vacancies": [["County of Warren", "civ", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://web.co.wayne.ny.us/": [["County of Wayne", "civ", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.wyomingco.net/164/Civil-Service": [["County of Wyoming", "civ", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://washingtoncountyny.gov/jobs.aspx": [["County of Washington", "civ", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://humanresources.westchestergov.com/job-seekers/current-job-openings": [["County of Westchester", "civ", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.townofbrighton.org/219/Human-Resources": [["Town of Brighton (Monroe)", "civ", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.townofellicott.com/html/jobs.html": [["Town of Ellicott", "civ", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.townofleicester.org/community/employment-opportunities/": [["Town of Leicester", "civ", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://manchesterny.org/employment-opportunities": [["Town of Manchester", "civ", 0], [["502 Connection closed", "jj_error 5"]]],
+
+"https://townsullivan.digitaltowpath.org:10021/content/JobCategories": [["Town of Sullivan", "civ", 0], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townsullivan.digitaltowpath.org%3A10021/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townsullivan.digitaltowpath.org%3A10021.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townsullivan.digitaltowpath.org%3A10021/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townsullivan.digitaltowpath.org%3A10021.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townsullivan.digitaltowpath.org%3A10021/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townsullivan.digitaltowpath.org%3A10021.", "jj_error 8"], ["HTTPSConnectionPool(host='townsullivan.digitaltowpath.org' port=10021): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efb62430>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townsullivan.digitaltowpath.org' port=10021): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efb439d0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townsullivan.digitaltowpath.org' port=10021): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efb43d30>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://townroyalton.digitaltowpath.org:10057/content/JobCategories": [["Town of Royalton", "civ", 0], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townroyalton.digitaltowpath.org%3A10057/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townroyalton.digitaltowpath.org%3A10057.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townroyalton.digitaltowpath.org%3A10057/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townroyalton.digitaltowpath.org%3A10057.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townroyalton.digitaltowpath.org%3A10057/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townroyalton.digitaltowpath.org%3A10057.", "jj_error 8"], ["HTTPSConnectionPool(host='townroyalton.digitaltowpath.org' port=10057): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef4b88b0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townroyalton.digitaltowpath.org' port=10057): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef48a0a0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townroyalton.digitaltowpath.org' port=10057): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef48a850>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://townspringwater.digitaltowpath.org:10071/content/JobCategories": [["Town of Springwater", "civ", 0], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townspringwater.digitaltowpath.org%3A10071/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townspringwater.digitaltowpath.org%3A10071.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townspringwater.digitaltowpath.org%3A10071/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townspringwater.digitaltowpath.org%3A10071.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townspringwater.digitaltowpath.org%3A10071/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townspringwater.digitaltowpath.org%3A10071.", "jj_error 8"], ["HTTPSConnectionPool(host='townspringwater.digitaltowpath.org' port=10071): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef25cee0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townspringwater.digitaltowpath.org' port=10071): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef258b20>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townspringwater.digitaltowpath.org' port=10071): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef277310>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://villagefonda.digitaltowpath.org:10193/content/JobCategories": [["Village of Fonda", "civ", 0], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagefonda.digitaltowpath.org%3A10193/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagefonda.digitaltowpath.org%3A10193.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagefonda.digitaltowpath.org%3A10193/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagefonda.digitaltowpath.org%3A10193.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagefonda.digitaltowpath.org%3A10193/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagefonda.digitaltowpath.org%3A10193.", "jj_error 8"], ["HTTPSConnectionPool(host='villagefonda.digitaltowpath.org' port=10193): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef2d6d00>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagefonda.digitaltowpath.org' port=10193): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef80d670>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagefonda.digitaltowpath.org' port=10193): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef2d6730>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://villageofcoxsackie.com/job-archive-page/": [["Village of Coxsackie", "civ", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories": [["Village of Laurel Hollow", "civ", 0], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagelaurelhollow.digitaltowpath.org%3A10216/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagelaurelhollow.digitaltowpath.org%3A10216.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagelaurelhollow.digitaltowpath.org%3A10216/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagelaurelhollow.digitaltowpath.org%3A10216.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagelaurelhollow.digitaltowpath.org%3A10216/content/JobCategories&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagelaurelhollow.digitaltowpath.org%3A10216.", "jj_error 8"], ["HTTPSConnectionPool(host='villagelaurelhollow.digitaltowpath.org' port=10216): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef2489d0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagelaurelhollow.digitaltowpath.org' port=10216): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef23f1f0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagelaurelhollow.digitaltowpath.org' port=10216): Max retries exceeded with url: /content/JobCategories (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef23f9a0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"http://www.vil.spencerport.ny.us/government/job-opportunities.html": [["Village of Spencerport", "civ", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.villageofsloan.org/emply.htm": [["Village of Sloan", "civ", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.arkportcsd.org:443/Page/121": [["Arkport Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.aecsd.education/districtpage.cfm?pageid=1458": [["Auburn City School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.averillpark.k12.ny.us/district-information/job-vacancies": [["Averill Park Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.bville.org/teacherpage.cfm?teacher=99": [["Baldwinsville Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.avoncsd.org/jobs.cfm": [["Avon Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.bataviacsd.org:443/Page/574": [["Batavia City School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.broctoncsd.org:443/Page/1907": [["Brocton Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.clydesavannah.org/district/employment_opportunities": [["Clyde-Savannah Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.cortlandschools.org/teacherpage.cfm?teacher=814": [["Cortland City School District", "sch", 0], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.emoschools.org:443/Employment.aspx?AspxAutoDetectCookieSupport=1": [["East Moriches Union Free School District", "sch", 0], [["502 Redirection limit reached", "jj_error 5"], ["502 Redirection limit reached", "jj_error 5"], ["502 Redirection limit reached", "jj_error 5"], ["Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//www.emoschools.org/Employment.aspx%3FAspxAutoDetectCookieSupport%3D1&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//www.emoschools.org/Employment.aspx%3FAspxAutoDetectCookieSupport%3D1&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//www.emoschools.org/Employment.aspx%3FAspxAutoDetectCookieSupport%3D1&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.", "jj_error 8"], ["Exceeded 30 redirects.", "jj_error 9"], ["Exceeded 30 redirects.", "jj_error 9"], ["Exceeded 30 redirects.", "jj_error 9"]], ["jj_final_error", "fallback_success"]],
+
+"https://jobs.albanyny.gov/default/show_accountment/5900": [["City of Albany", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://auburnny.us18.list-manage.com/subscribe?u=07b125b08de36f4b59af21415&id=6166c854a9": [["City of Auburn", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://jobs.albanyny.gov/default/show_accountment/5791": [["City of Albany", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://jobs.albanyny.gov/default/show_accountment/5884": [["City of Albany", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://jobs.albanyny.gov/default/show_accountment/5998": [["City of Albany", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.newrochelleny.com/Jobs.aspx": [["City of New Rochelle", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.middletown-ny.com/en/departments/civil-service/75-civil-service.html": [["City of Middletown", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://cityofglensfalls.com/DocumentCenter/View/2384/Exam-Application-PDF": [["City of Glens Falls", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.middletown-ny.com/en/doc-center/civil-service/259-civil-service-application.html": [["City of Middletown", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.yonkersny.gov/home/showpublisheddocument?id=15351": [["City of Yonkers", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.yonkersny.gov/home/showpublisheddocument?id=11034": [["City of Yonkers", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.norwichnewyork.net/hr/employment.php": [["City of Norwich", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"http://www.saratoga-springs.org/list.aspx": [["City of Saratoga Springs", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.westchestergov.com": [["City of Peekskill", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.cityofpeekskill.com/human-resources/files/application-for-employment": [["City of Peekskill", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.norwichnewyork.net/hr/civil-service-exams.php": [["City of Norwich", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.albanycounty.com/home/showpublisheddocument?id=54": [["County of Albany", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=ADVANCED-LIFE-SUPPORT-TECHNICIAN-Continu-10": [["County of Livingston", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.livingstoncounty.us": [["County of Livingston", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.falconercsd.org:443/domain/368": [["Falconer Central School District", "sch", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Caseworker-Trainee-Continuous-Recruitmen-1049": [["County of Livingston", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["Empty vis text", "jj_error 7a"]]],
+
+"https://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=CERTIFIED-OCCUPATIONAL-THERAPY-ASSISTANT-18": [["County of Livingston", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.cityofrochester.gov/join911/": [["City of Rochester", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.gobroomecounty.com/personnel/employment_application": [["County of Broome", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=ClerkTypist-Continuous-Recruitment-994": [["County of Livingston", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.oneonta.ny.us/departments/personnel/police-recruiting/": [["City of Oneonta", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.nassaucountyny.gov/1683/Equal-Opportunity-Employment-Policy-Info": [["County of Nassau", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.fallsburgcsd.net": [["Fallsburg Central School District", "sch", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.madisoncounty.ny.gov/DocumentCenter/View/483": [["County of Madison", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://townofpoundridge.com/townclerk/employment-application": [["Town of Pound Ridge", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"http://www.ci.webster.ny.us/DocumentCenter/View/4653/Employment-Application-2020": [["Town of Webster", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.townofriverheadny.gov/docview.aspx?docid=50132": [["Town of Riverhead", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.townoflewiston.us/content.php": [["Town of Lewiston", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.somersny.com/postings/parks-recreation-employment-opportunities": [["Town of Somers", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://warrencountyny.gov/civilservice/exam_announcements": [["County of Warren", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://townofsomers.seamlessdocs.com/f/employment_application": [["Town of Somers", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://townspringwater.digitaltowpath.org:10071": [["Town of Springwater", "civ", -1], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townspringwater.digitaltowpath.org%3A10071/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townspringwater.digitaltowpath.org%3A10071.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townspringwater.digitaltowpath.org%3A10071/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townspringwater.digitaltowpath.org%3A10071.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townspringwater.digitaltowpath.org%3A10071/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townspringwater.digitaltowpath.org%3A10071.", "jj_error 8"], ["HTTPSConnectionPool(host='townspringwater.digitaltowpath.org' port=10071): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efa460a0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townspringwater.digitaltowpath.org' port=10071): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efa46e20>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townspringwater.digitaltowpath.org' port=10071): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef0b9ca0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://townsullivan.digitaltowpath.org:10021": [["Town of Sullivan", "civ", -1], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townsullivan.digitaltowpath.org%3A10021/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townsullivan.digitaltowpath.org%3A10021.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townsullivan.digitaltowpath.org%3A10021/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townsullivan.digitaltowpath.org%3A10021.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townsullivan.digitaltowpath.org%3A10021/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townsullivan.digitaltowpath.org%3A10021.", "jj_error 8"], ["HTTPSConnectionPool(host='townsullivan.digitaltowpath.org' port=10021): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef2bc5b0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townsullivan.digitaltowpath.org' port=10021): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5eeb9ad60>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townsullivan.digitaltowpath.org' port=10021): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5eebb3910>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://www.townofriverheadny.gov/docview.aspx?docid=36714": [["Town of Riverhead", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.cliftonpark.org/index.php/document-center/employment-information/1827-employment-application-1/file": [["Town of Clifton Park", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://villagefonda.digitaltowpath.org:10193": [["Village of Fonda", "civ", -1], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagefonda.digitaltowpath.org%3A10193/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagefonda.digitaltowpath.org%3A10193.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagefonda.digitaltowpath.org%3A10193/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagefonda.digitaltowpath.org%3A10193.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagefonda.digitaltowpath.org%3A10193/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagefonda.digitaltowpath.org%3A10193.", "jj_error 8"], ["HTTPSConnectionPool(host='villagefonda.digitaltowpath.org' port=10193): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efae8e50>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagefonda.digitaltowpath.org' port=10193): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efae8f40>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagefonda.digitaltowpath.org' port=10193): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5eec236d0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://www.village.mamaroneck.ny.us/parks-recreation/files/employment-application-2021": [["Village of Mamaroneck", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.cliftonpark.org/document-center/employment-information/3318-2021-summer-camp-counselor-employment-application.html": [["Town of Clifton Park", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.co.montgomery.ny.us/employment.asp": [["County of Montgomery", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.cliftonpark.org/document-center/employment-information/3312-2021-lifeguard-employment-application.html": [["Town of Clifton Park", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.village.mamaroneck.ny.us/village-attorney/links/job-opening-village-attorney": [["Village of Mamaroneck", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.smithtownny.gov/Jobs.aspx?UniqueId=101&From=All&CommunityJobs=False&JobID=Seasonal-Job-Opportunities-for-2021-128": [["Town of Smithtown", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.village.mamaroneck.ny.us/village-manager/files/employment-application": [["Village of Mamaroneck", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.townofriverheadny.gov/employment.aspx?id=3720&catid=118": [["Town of Riverhead", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.smithtownny.gov/Jobs.aspx": [["Town of Smithtown", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"http://www.e1b.org/WNYRIC/WNYRIC-Top-Nav/Services/Applicant-Tracking": [["Alfred-Almond Central School District", "sch", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.madisoncounty.ny.gov/DocumentCenter/View/9888/Application-ExamEmployment": [["Village of Morrisville", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://jobs.atlasprofessionals.com/job/rigger-CM-116170": [["Village of Greenport", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.reed.co.uk/jobs/caretaker-cleaner/42074718": [["Village of Greenport", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.madisoncounty.ny.gov/jobs.aspx?CommunityJobs=False&CatID=1-Current-Vacancies-99": [["Village of Morrisville", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://5il.co/7rnq": [["Andover Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://villagelaurelhollow.digitaltowpath.org:10216": [["Village of Laurel Hollow", "civ", -1], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagelaurelhollow.digitaltowpath.org%3A10216/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagelaurelhollow.digitaltowpath.org%3A10216.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagelaurelhollow.digitaltowpath.org%3A10216/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagelaurelhollow.digitaltowpath.org%3A10216.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//villagelaurelhollow.digitaltowpath.org%3A10216/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20villagelaurelhollow.digitaltowpath.org%3A10216.", "jj_error 8"], ["HTTPSConnectionPool(host='villagelaurelhollow.digitaltowpath.org' port=10216): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef235a30>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagelaurelhollow.digitaltowpath.org' port=10216): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef21b160>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='villagelaurelhollow.digitaltowpath.org' port=10216): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef21b280>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"http://wellsvilleny.com/humanresources.html": [["Village of Wellsville", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.townofwallkill.com/documents/human-resources/1458-employment-application.html": [["Town of Wallkill", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.bethlehemschools.org/": [["Bethlehem Central School District", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.dobbsferry.com/home/files/employment-application": [["Village of Dobbs Ferry", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://townroyalton.digitaltowpath.org:10057": [["Town of Royalton", "civ", -1], [["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["502 Connection refused", "jj_error 5"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townroyalton.digitaltowpath.org%3A10057/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townroyalton.digitaltowpath.org%3A10057.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townroyalton.digitaltowpath.org%3A10057/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townroyalton.digitaltowpath.org%3A10057.", "jj_error 8"], ["Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//townroyalton.digitaltowpath.org%3A10057/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20townroyalton.digitaltowpath.org%3A10057.", "jj_error 8"], ["HTTPSConnectionPool(host='townroyalton.digitaltowpath.org' port=10057): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5efa462e0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townroyalton.digitaltowpath.org' port=10057): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef41e5e0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"], ["HTTPSConnectionPool(host='townroyalton.digitaltowpath.org' port=10057): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc5ef41ebe0>: Failed to establish a new connection: [Errno 111] Connection refused'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://mycivilservice.rocklandgov.com/default/linkapps ": [["County of Rockland", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"http://www.olasjobs.org/": [["Amityville Union Free School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"http://www.rvcny.us/pdfredirect.php?pdf=Jobs/EmploymentApplicationFillIn": [["Village of Rockville Centre", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.adirondackcsd.org/community/community_resources/student_employment_info": [["Adirondack Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.edencsd.org:443/site/Default.aspx?PageID=42": [["Eden Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://t.co/gGCDmudo0D": [["East Greenbush Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.cortlandschools.org/teacherpage.cfm?teacher=4203": [["Cortland City School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.orangecountygov.com/DocumentCenter/View/6332": [["County of Orange", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://5il.co/pg7p": [["Canisteo-Greenwood Csd", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.bufsd.org/cms/One.aspx?portalId=1176797&pageId=21050376": [["Brentwood Union Free School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"http://rocklandgov.com/download_file/view/5640/472/476/": [["County of Rockland", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.townofbrighton.org/DocumentCenter/View/10613/TOB-application-1-13-20-REVISED-2_18_20": [["Town of Brighton (Monroe)", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Medical-Typist-Continuous-Recruitment-OC-1099": [["County of Livingston", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://washingtoncountyny.gov/jobs.aspx?CommunityJobs=False&CatID=Civil-Service-Exams-99": [["County of Washington", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.townofbrighton.org/319/Job-Openings": [["Town of Brighton (Monroe)", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://orleanscountyny.com/category/personnel/continuous-recruitment-exams/": [["County of Orleans", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://washingtoncountyny.gov/jobs.aspx?CommunityJobs=False&CatID=Employment-Opportunities-100": [["County of Washington", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.livingstoncounty.us/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Occupational-Therapist-Continuous-Recrui-21": [["County of Livingston", "civ", 1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.townofguilderland.org/employment-opportunities": [["Town of Guilderland", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.rensco.com/press/2-26-21-rensselaer-county-earns-special-funding-from-federal-government-for-health-and-safety-work-at-van-rensselaer-manor/": [["County of Rensselaer", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.niskayuna.org/community-programs/files/youth-employment-service-employer-registration": [["Town of Niskayuna", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://washingtoncountyny.gov/1073/Application-for-Exam-or-Employment": [["County of Washington", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://washingtoncountyny.gov": [["County of Washington", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.niskayuna.org/community-programs/files/youth-employment-service-student-registration": [["Town of Niskayuna", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.townofhalfmoon-ny.gov/home/files/job-application": [["Town of Halfmoon", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.lakeshorecsd.org:443/Page/282": [["Evans-Brant Central School District (Lake Shore)", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.heightsschools.com/employment.cfm": [["Elmira Heights Central School District", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.elmiracityschools.com/employment/Employment_Application": [["Elmira City School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://humanresources.westchestergov.com/civil-service-exams": [["County of Westchester", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.tiogacountyny.com/jobopps": [["County of Tioga", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.fondafultonvilleschools.org/about/employment/": [["Fonda-Fultonville Central School District", "sch", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.albanycounty.com/home/showdocument?id=54": [["Town of Green Island", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.livingstoncounty.us/jobs.aspx?CommunityJobs=False&CatID=Personnel-DepartmentCounty-Jobs-98": [["County of Livingston", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://villageofgreenisland.com/": [["Town of Green Island", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://mycivilservice.yatescounty.org/account/index": [["County of Yates", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://mycivilservice.yatescounty.org/": [["County of Yates", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.putnamcountyny.com/employee/": [["County of Putnam", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.guilfordny.com": [["Town of Guilford", "civ", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.townofbethlehem.org/DocumentCenter/View/13040": [["Town of Bethlehem", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.colonie.org/employment.html#employment": [["Town of Colonie", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.townofglenville.org/home/files/schenectady-county-civil-service-application": [["Town of Glenville", "civ", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.colonie.org/exam-announcements.html#examannouncements": [["Town of Colonie", "civ", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://hempsteadny.gov#trSubmenu4": [["Town of Hempstead", "civ", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"http://www.fultoncsd.org/districtpage.cfm?pageid=119": [["Fulton City School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.greenburgheleven.org/employment.html": [["Greenburgh Eleven Union Free School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.hammondsportcsd.org:443/domain/65": [["Hammondsport Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.hicksvillepublicschools.org/": [["Hicksville Union Free School District", "sch", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.islandtrees.org/districtinformation/employment.htm": [["Island Trees Union Free School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.lafayetteschools.org/teacherpage.cfm?teacher=247": [["Lafayette Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://greenrockets.org/page/2610": [["Morristown Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.mtmorriscsd.org/employment--102": [["Mount Morris Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.nwcsd.org:443/Page/64": [["Niagara-Wheatfield Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.nacs1.org/cms/One.aspx?portalId=465963&pageId=1327562": [["Northern Adirondack Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.ogdensburgk12.org:443/domain/1035": [["Ogdensburg City School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.ppcsd.org/Employment": [["Pine Plains Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.pbcschools.org/districtpage.cfm?pageid=1512": [["Port Byron Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.rcscsd.org/employment-opportunities-available-at-rcs/": [["Ravena-Coeymans-Selkirk Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.poughkeepsieschools.org:443/Page/320": [["Poughkeepsie City School District", "sch", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.richfieldcsd.org:443/Page/442": [["Richfield Springs Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://ripleyelementary.weebly.com/employment-opportunities.html": [["Ripley Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.sandycreekcsd.org/department/hr": [["Sandy Creek Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"]]],
+
+"http://www.deruytercentral.org/tfiles/folder518/application%20012116%2Epdf": [["Deruyter Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.schroonschool.org/district/employment-opportunities/": [["Schroon Lake Central School District", "sch", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.shufsd.org/district/employment": [["South Huntington Union Free School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.skcs.org/Employment.aspx": [["South Kortright Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.tburgschools.org/districtpage.cfm?pageid=433": [["Trumansburg Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.valleystreamdistrict24.org/employment-opportunities-1.html": [["Valley Stream 24 Union Free School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://t.co/mZyv3wbutd": [["Georgetown-South Otselic Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://resource.echalk.com/sr/QauvHA50": [["Greenburgh-Graham Union Free School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.wgcsd.org/employment.cfm": [["Watkins Glen Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.grotoncs.org/tfiles/folder1407/Current%20Job%20Opportunities%2Epdf": [["Groton Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.hufsd.edu/hr.html#policieshook": [["Huntington Union Free School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.westfieldcsd.org:443/Page/1330": [["Westfield Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://jerichoschools.org/departments/human_resources/job_openings/": [["Jericho Union Free School District", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.lyncourtschool.org/tfiles/folder259/Employment%20Application%20REV%208%2E18%20PDF%2Epdf": [["Lyncourt Union Free School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.westhillschools.org/teacherpage.cfm?teacher=448": [["Westhill Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"http://www.lpcsd.org/forms_plus#EF": [["Lake Placid Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.lafayetteschools.org": [["Lafayette Central School District", "sch", -1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"http://www.marcellusschools.org/tfiles/folder816/Application%20for%20Employment%20%2D%20Coaching%200116%2Edoc": [["Marcellus Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://resource.echalk.com/sr/ZAaDfL90": [["Mahopac Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.wnyric.org/application": [["Letchworth Central School District", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://resource.echalk.com/sr/h0sa4u1f": [["Mahopac Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.mayfieldk12.com/reopeningplan/": [["Mayfield Central School District", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://resource.echalk.com/sr/eoe9UKw0": [["Mahopac Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.worcestercs.org/employment-opportunities.html": [["Worcester Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://resource.echalk.com:443/nl/pDrqPkdm": [["Mount Pleasant-Cottage Union Free School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://resource.echalk.com:443/nl/SMTi2YOZ": [["Mount Pleasant-Cottage Union Free School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.olasjobs.org/lhv/": [["New Rochelle City School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.newfieldschools.org/districtpage.cfm?pageid=73": [["Newfield Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"http://www.olasjobs.org/mohawk": [["New York Mills Union Free School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://t.co/O5kllJ9AWj": [["Mount Vernon School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://powerschool.emoschools.org\\public": [["East Moriches Union Free School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://resource.echalk.com:443/fl/pe0FjB3J": [["Pocantico Hills Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.pbcschools.org": [["Port Byron Central School District", "sch", -1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.wyomingcsd.org:443/Page/20": [["Wyoming Central School District", "sch", 0], [["Empty vis text", "jj_error 7a"]]],
+
+"http://www.newcombcsd.org/news/what_s_new/n_c_s_d_s_c_h_o_o_l_r_e_o_p_e_n_i_n_g_p_l_a_n": [["Newcomb Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"http://www.northshoreschools.org/employment.htm": [["North Shore Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.perucsd.org/district/human-resources/employment-opportunities/": [["Peru Central School District", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.longwood.k12.ny.us/parents/reopening_longwood__stage_ii_resources_and_updates": [["Longwood Central School District", "sch", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://resource.echalk.com:443/fl/cM0BjLWl": [["Pocantico Hills Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.skanschools.org/tfiles/folder363/Application%5Ffor%5FNon%2DInstructional%5FEmployment%5F2019%5FFillable%2Epdf": [["Skaneateles Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"http://www.skanschools.org/tfiles/folder363/Sub%5FApplication%5F2019%5FFillable%2Epdf": [["Skaneateles Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.schroonschool.org/employment-opportunities/": [["Schroon Lake Central School District", "sch", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"]]],
+
+"http://www.schenectady.k12.ny.us/about_us/strategic_initiatives/our_work_with_the_ifl/our_work_with_the_i_f_l___p_d_f_": [["Schenectady City School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.southoldufsd.com/cms/One.aspx?portalId=115260&pageId=12305999": [["Southold Union Free School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.cayuga-cc.edu/about/human-resources/": [["Cayuga Community College - Fulton Center", "uni", 0], [["502 Connection closed", "jj_error 5"]]],
+
+"http://www.sunycgcc.edu/about-cgcc/employment-cgcc": [["Columbia-Greene Community College", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.fmcc.edu/about/employment-opportunities/": [["Fulton-Montgomery Community College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www.laguardia.edu/employment/": [["Fiorello H. La Guardia Comm College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.hamilton.edu/offices/human-resources/employment/job-opportunities": [["Hamilton College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www.gcnyc.com/contact/workwithus/": [["Glasgow Caledonian New York College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://genesee.interviewexchange.com/static/clients/374GCM1/index.jsp;jsessionid=032F128C35FC8E9F02FBCB965C03D848": [["Genesee Community College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.fordham.edu/info/23411/job_opportunities": [["Fordham Univ (Rose Hill-Lincoln Ctr)", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.hartwick.edu/about-us/employment/human-resources/employment-opportunities/": [["Hartwick College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://gts.edu/job-postings": [["General Theological Seminary", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www.ftc.edu/employment": [["Five Towns College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://ehwy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions": [["Ithaca College", "uni", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.mcny.edu/human-resources/jobs/": [["Metropolitan College of Ny-Brc", "uni", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.molloy.edu/about-molloy-college/human-resources/careers-at-molloy": [["Molloy College", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.mcny.edu/": [["Metropolitan College of New York", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.monroecollege.edu/About/Employment/": [["Monroe College", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://monroecc.interviewexchange.com/static/clients/547MCM1/index.jsp;jsessionid=265A02EF8806ED68595CD2F7A81343BE": [["Monroe Community College", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.jobs.net/jobs/mildredelley/en-us/search/United-States/location/New-York/": [["Mildred Elley School", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://monroecc.interviewexchange.com/static/clients/547MCM1/index.jsp": [["Monroe Community College - Downtown Campus", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://jobs.niagara.edu/JobPostings.aspx": [["Niagara University", "uni", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["Message:", "jj_error 8"], ["Message:", "jj_error 8"], ["Message:", "jj_error 8"], ["HTTPSConnectionPool(host='jobs.niagara.edu' port=443): Max retries exceeded with url: /JobPostings.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6648db7c70> 'Connection to jobs.niagara.edu timed out. (connect timeout=15)'))", "jj_error 9"], ["HTTPSConnectionPool(host='jobs.niagara.edu' port=443): Max retries exceeded with url: /JobPostings.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6648d43490> 'Connection to jobs.niagara.edu timed out. (connect timeout=15)'))", "jj_error 9"], ["HTTPSConnectionPool(host='jobs.niagara.edu' port=443): Max retries exceeded with url: /JobPostings.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6648d43c70> 'Connection to jobs.niagara.edu timed out. (connect timeout=15)'))", "jj_error 9"]], ["jj_final_error"]],
+
+"https://sunysccc.edu/About-Us/Office-of-Human-Resources/Employment-Opportunities": [["Schenectady County Community College", "uni", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://careers.skidmore.edu/postings/search": [["Skidmore College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.sfc.edu/about/careers": [["St Francis College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.sbu.edu/jobs-at-sbu": [["St Bonaventure University", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.sarahlawrence.edu/human-resources/job-openings.html": [["Sarah Lawrence College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://sva.edu/about/about-sva/working-at-sva": [["School of Visual Arts", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.stjohns.edu/my-st-johns/recruitment": [["St Johns University-Staten Island", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["Message:", "jj_error 8"]]],
+
+"https://jobs.sjfc.edu/": [["St John Fisher College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.siena.edu/employment-opportunities/": [["Siena College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.sothebysinstitute.com/jobs": [["Sotheby's Institute of Art - NY", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.stac.edu/about-stac/jobs-stac": [["St Thomas Aquinas College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.svots.edu/about/employment": [["St Vladimir's Orthodox Theol Seminry", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www.nacs1.org/page/employment": [["Northern Adirondack Central School District", "sch", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.sjcny.edu/employment": [["St Joseph's College", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://oswego.interviewexchange.com/static/clients/313OSM1/index.jsp": [["State University College of Oswego - Metro Center", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["HTTP timeout", "jj_error 3"], ["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.stbernards.edu/job-postings": [["St. Bernard's School of Theology And Ministry", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.nwcsd.org:443/live-feed#1387855": [["Niagara-Wheatfield Central School District", "sch", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://fredonia.interviewexchange.com/static/clients/471SFM1/index.jsp;jsessionid=9975E214DCC775D2E316B2806F660F31": [["State University of New York College at Fredonia", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"http://jobs.purchase.edu/applicants/jsp/shared/frameset/Frameset.jsp": [["State University of New York College at Purchase", "uni", 0], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error", "fallback_success"]],
+
+"https://www.juilliard.edu/jobs": [["The Juilliard School", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"http://www.tkc.edu/careers-at-kings": [["The King's College", "uni", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://www.sage.edu/about/human-resources/employment-opportunities": [["The Sage Colleges", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.tompkinscortland.edu/academics/programs/human-services": [["Tompkins Cortland Community College", "uni", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"http://www.rochester.edu/working/hr/jobs/": [["University of Rochester", "uni", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://utsnyc.edu/about/careers-at-union/": [["Unification Theological Seminary", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.utica.edu/hr/employment.cfm": [["Utica College", "uni", 0], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"]]],
+
+"https://humanresources.vassar.edu/jobs/": [["Vassar College", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.webb.edu/employment/": [["Webb Insttitute", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.villa.edu/about-us/employment-opportunities/": [["Villa Maria College of Buffalo", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.vaughn.edu/jobs/": [["Vaughn College of Aeronautics And Technology", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.wells.edu/employment": [["Wells College", "uni", 0], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.shufsd.org/district/office-of-personnel-district-services": [["South Huntington Union Free School District", "sch", 0], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.cayuga-cc.edu/about/human-resources/view-job/": [["Cayuga Community College - Fulton Center", "uni", 1], [["502 Connection closed", "jj_error 5"]]],
+
+"https://home.cunyfirst.cuny.edu/psp/cnyepprd/GUEST/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=11322&SiteId=1&PostingSeq=1": [["CUNY Graduate School And University Center", "uni", 1], [["'bool' object is not subscriptable", "jj_error 6"], ["'bool' object is not subscriptable", "jj_error 6"], ["'bool' object is not subscriptable", "jj_error 6"], ["'bool' object is not subscriptable", "jj_error 8"], ["'bool' object is not subscriptable", "jj_error 8"], ["'bool' object is not subscriptable", "jj_error 8"], ["'bool' object is not subscriptable", "jj_error 9"], ["'bool' object is not subscriptable", "jj_error 9"], ["'bool' object is not subscriptable", "jj_error 9"]], ["jj_final_error"]],
+
+"https://5il.co/ltgv": [["Watkins Glen Central School District", "sch", 0], [["Forbidden content type", "jj_error 2"]], ["jj_final_error", "fallback_success"]],
+
+"https://mountsaintvincent.edu/employment-opportunities/": [["College of Mt St Vincent", "uni", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://5il.co/q57u": [["Hammondsport Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://5il.co/q4tt": [["Hammondsport Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://wd5.myworkday.com/ecc/d/task/1422$621.htmld": [["Erie Community College-City Campus", "uni", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://mountsaintvincent.edu/campus-life/campus-services/human-resources/employment-practices-and-procedures/": [["College of Mt St Vincent", "uni", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.crouse.org/careers/": [["Crouse-Irving Memorial Hospital School of Nursing", "uni", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.hilbert.edu/human-resources": [["Hilbert College", "uni", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.hilbert.edu/about/human-resources/employment-application": [["Hilbert College", "uni", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://ehwy.fa.us2.oraclecloud.com": [["Ithaca College", "uni", -1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.jobs.net/jobs": [["Mildred Elley School", "uni", 1], [["502 Forbidden", "jj_error 5"], ["502 Forbidden", "jj_error 5"], ["502 Forbidden", "jj_error 5"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://workforcenow.adp.com/mdf/recruitment/recruitment.html?cid=9553338f-c93c-40ce-9a23-04b38f1294de&lang=en_US&selectedMenuKey=CurrentOpenings": [["Mount Saint Mary College", "uni", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://mountsinai.jibeapply.com/candidatePortal": [["Mt Sinai School of Medicine", "uni", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.jobs.net": [["Mildred Elley School", "uni", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://www.mcny.edu/admissions-aid/welfare-to-careers/": [["Metropolitan College of New York", "uni", 1], [["HTTP timeout", "jj_error 3"]]],
+
+"https://apply.interfolio.com/14414/positions": [["Pratt Institute", "uni", 1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://www.rockefeller.edu/our-scientists/faculty-recruitment": [["Rockefeller University", "uni", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://5il.co/jpuh": [["Northern Adirondack Central School District", "sch", 1], [["Forbidden content type", "jj_error 2"]], ["jj_final_error"]],
+
+"https://www.stac.edu/about-stac/jobs-stac/employment-application": [["St Thomas Aquinas College", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://jobs.geneseo.edu/postings/search?page=2": [["State University of New York College at Geneseo", "uni", 0], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://jobs.cortland.edu/postings/search": [["State University of New York College at Cortland", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://oldwestbury.interviewexchange.com/static/clients/519OWM1/index.jsp": [["State University of New York College at Old Westbury", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://pa035.peopleadmin.com": [["State University of New York College at Cortland", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"http://www.cortlandasc.com/employment\n": [["State University of New York College at Cortland", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["Empty vis text", "jj_error 7a"]]],
+
+"https://www.siena.edu/employment-opportunities/why-work-at-siena/": [["Siena College", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"], ["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www.newpaltz.edu/careers/": [["State University of New York College at New Paltz", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www2.cortland.edu/offices/career-services/jobs/student-employment.dot\n": [["State University of New York College at Cortland", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.newpaltz.edu/hr/prospectiveemployees.html": [["State University of New York College at New Paltz", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.fredonia.edu/about/offices/human-resources": [["State University of New York College at Fredonia", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://suny.oneonta.edu/employment": [["State University of New York College at Oneonta", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.goer.ny.gov/exec-161/exec-161-law.cfm": [["State University of New York College at Fredonia", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.ubjobs.buffalo.edu/postings/search": [["State University of New York at Buffalo", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www.buffalo.edu/administrative-services/careers-at-ub/workplace-regs.html": [["State University of New York at Buffalo", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.sfc.edu/fs/pages/385": [["St Francis College", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.binghamton.edu/offices/human-resources/prospective/": [["State University of New York at Binghamton", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://upstate.edu/diversityinclusion/": [["State University of New York Health Science Center at Syracuse", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"http://www.albany.edu/hr/vacancy.php": [["State University of New York at Albany", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.sfc.edu/studentlife/iss/employment": [["St Francis College", "uni", 1], [["('Connection aborted.' RemoteDisconnected('Remote end closed connection without response'))", "jj_error 6"]]],
+
+"https://www.stjohns.edu/about/leadership-and-administration/administrative-offices/human-resources/federal-and-new-york-employment-posters": [["St Johns University-Staten Island", "uni", 1], [["('Connection broken: IncompleteRead(7498 bytes read 2742 more expected)' IncompleteRead(7498 bytes read 2742 more expected))", "jj_error 6"]]],
+
+"https://oswego.interviewexchange.com": [["State University College of Oswego - Metro Center", "uni", -1], [["Empty vis text", "jj_error 7a"], ["Empty vis text", "jj_error 7b"], ["Empty vis text", "jj_error 7c"]], ["jj_final_error"]],
+
+"https://wagner.edu/hr/handbook/recruitment-and-employment-policy-for-administrative-and-staff-positions/": [["Wagner College", "uni", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://www.shufsd.org/district/employment-opportunities": [["South Huntington Union Free School District", "sch", 1], [["Empty vis text", "jj_error 7a"]]],
+
+"https://jobs.niagara.edu": [["Niagara University", "uni", -1], [["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["HTTP timeout", "jj_error 3"], ["Message:", "jj_error 8"], ["Message:", "jj_error 8"], ["Message:", "jj_error 8"], ["HTTPSConnectionPool(host='jobs.niagara.edu' port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6643850370> 'Connection to jobs.niagara.edu timed out. (connect timeout=15)'))", "jj_error 9"], ["HTTPSConnectionPool(host='jobs.niagara.edu' port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6643850b20> 'Connection to jobs.niagara.edu timed out. (connect timeout=15)'))", "jj_error 9"], ["HTTPSConnectionPool(host='jobs.niagara.edu' port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f664387a6d0> 'Connection to jobs.niagara.edu timed out. (connect timeout=15)'))", "jj_error 9"]], ["jj_final_error"]]
+}
