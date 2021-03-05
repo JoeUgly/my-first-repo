@@ -1,0 +1,38 @@
+
+
+
+
+# Sel notes
+
+
+# all Iframes are embedded in main page located at: driver.switch_to.default_content()
+# must return to main page after each recursion (unless you want to explore nested iframes)
+
+
+## does not check for nested frames
+# Check all frames
+
+num = 0
+
+while True:
+    driver.switch_to.frame(num)
+    try:
+        driver.switch_to.frame(0)
+        print('yeyaaa at:', num)
+    except: pass
+    num += 1
+    driver.switch_to.default_content()
+
+
+
+
+
+
+
+
+
+
+
+
+
+

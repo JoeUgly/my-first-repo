@@ -1,0 +1,1405 @@
+
+
+
+begin: City of Albany https://jobs.albanyny.gov/jobopps
+
+
+begin: City of Amsterdam https://www.amsterdamny.gov/government/employment-opportunities
+
+
+begin: City of Auburn http://www.auburnny.gov/public_documents/auburnny_civilservice/index
+fail: http://www.auburnny.gov/public_documents/auburnny_civilservice/index 404
+fail: http://www.auburnny.gov/public_documents/auburnny_civilservice/index 404
+fail: https://www.auburnny.gov/public_documents/auburnny_civilservice/index 404
+
+
+begin: City of Batavia https://www.batavianewyork.com/bureau-of-human-resources/pages/job-openings
+
+
+begin: City of Beacon http://www.cityofbeacon.org/index.php/employment-opportunities/
+succ, new url: City of Beacon https://www.cityofbeacon.org/index.php/employment-opportunities/
+
+
+begin: City of Binghamton http://www.binghamton-ny.gov/departments/personnel/employment/employment
+
+
+begin: City of Buffalo http://www.buffalony.gov/jobs.aspx
+
+
+begin: City of Canandaigua https://www.canandaiguanewyork.gov/index.asp?SEC=90DF6C01-C88B-48D6-9985-A3703944D7D3&Type=B_BASIC
+
+
+begin: City of Cohoes https://www.ci.cohoes.ny.us/
+
+
+begin: City of Corning https://www.cityofcorning.com/employment
+
+
+begin: City of Cortland http://www.cortland.org/jobs.aspx
+
+
+begin: City of Dunkirk http://www.dunkirktoday.com/city-offices/personnel
+error: http://www.dunkirktoday.com/city-offices/personnel HTTPConnectionPool(host='www.dunkirktoday.com', port=80): Max retries exceeded with url: /city-offices/personnel (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3ecb22a2b0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+fail: http://www.dunkirktoday.com/city-offices/personnel False
+error: http://www.dunkirktoday.com/city-offices/personnel HTTPConnectionPool(host='www.dunkirktoday.com', port=80): Max retries exceeded with url: /city-offices/personnel (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3ecb22a790>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+fail: http://www.dunkirktoday.com/city-offices/personnel False
+error: https://www.dunkirktoday.com/city-offices/personnel HTTPSConnectionPool(host='www.dunkirktoday.com', port=443): Max retries exceeded with url: /city-offices/personnel (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a0a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+fail: https://www.dunkirktoday.com/city-offices/personnel False
+
+
+begin: City of Elmira https://www.cityofelmira.net/personnel/
+
+
+begin: City of Fulton https://fulton.ny.gov/exam_annoucements_
+error: https://fulton.ny.gov/exam_annoucements_ HTTPSConnectionPool(host='fulton.ny.gov', port=443): Max retries exceeded with url: /exam_annoucements_ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a3d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+fail: https://fulton.ny.gov/exam_annoucements_ False
+error: https://fulton.ny.gov/exam_annoucements_ HTTPSConnectionPool(host='fulton.ny.gov', port=443): Max retries exceeded with url: /exam_annoucements_ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a760>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+fail: https://fulton.ny.gov/exam_annoucements_ False
+error: http://fulton.ny.gov/exam_annoucements_ HTTPConnectionPool(host='fulton.ny.gov', port=80): Max retries exceeded with url: /exam_annoucements_ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3ecb22a5e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+fail: http://fulton.ny.gov/exam_annoucements_ False
+
+
+begin: City of Geneva http://cityofgenevany.com/available-positions/
+
+
+begin: City of Glen Cove http://www.cityofglencoveny.org/
+
+
+begin: City of Glens Falls https://cityofglensfalls.com/55/Human-Resources-Department
+
+
+begin: City of Gloversville http://www.cityofgloversville.com/government/employment/
+
+
+begin: City of Hornell https://www.cityofhornell.com/
+
+
+begin: City of Ithaca http://www.cityofithaca.org/294/Human-Resources
+
+
+begin: City of Jamestown http://www.jamestownny.net/employment-opportunities/
+succ, new url: City of Jamestown https://www.jamestownny.net/employment-opportunities/
+
+
+begin: City of Johnstown https://cityofjohnstown.ny.gov/employment--board-positions-available.html
+
+
+begin: City of Kingston https://kingston-ny.gov/employment
+
+
+begin: City of Lackawanna http://lackawannany.gov/government/civil-service/
+
+
+begin: City of Little Falls http://www.cityoflittlefalls.net/index.cfm?section=home&page=job-postings
+
+
+begin: City of Lockport https://lockportny.gov/current-exams-and-openings/
+
+
+begin: City of Long Beach https://www.longbeachny.gov/index.asp?type=b_basic&amp;sec={9c88689c-135f-4293-a9ce-7a50346bea23}
+succ, new url: City of Long Beach https://www.longbeachny.gov/index.asp?type=b_basic&amp;sec=%7B9c88689c-135f-4293-a9ce-7a50346bea23%7D
+
+
+begin: City of Mechanicville http://www.mechanicvilleny.gov/DocumentCenter/Index/81
+
+
+begin: City of Middletown https://www.middletown-ny.com/en/departments/civil-service.html?_sm_au_=ivvrlpv4fvqpnjqj
+
+
+begin: City of Mount Vernon https://cmvny.com/departments/civil-service/job-postings/
+
+
+begin: City of New Rochelle https://www.newrochelleny.com/362/Civil-Service
+
+
+begin: City of New York City _http://www1.nyc.gov/jobs/index.page
+error: _http://www1.nyc.gov/jobs/index.page No connection adapters were found for '_http://www1.nyc.gov/jobs/index.page'
+fail: _http://www1.nyc.gov/jobs/index.page False
+error: _http://www1.nyc.gov/jobs/index.page No connection adapters were found for '_http://www1.nyc.gov/jobs/index.page'
+fail: _http://www1.nyc.gov/jobs/index.page False
+error: _http://www1.nyc.gov/jobs/index.page No connection adapters were found for '_http://www1.nyc.gov/jobs/index.page'
+fail: _http://www1.nyc.gov/jobs/index.page False
+
+
+begin: City of Newburgh https://www.cityofnewburgh-ny.gov/civil-service
+
+
+begin: City of Niagara Falls http://niagarafallsusa.org/government/city-departments/human-resources-department/
+
+
+begin: City of North Tonawanda http://www.northtonawanda.org/public-notices
+
+
+begin: City of Norwich https://www.norwichnewyork.net/government/human-resources.php
+
+
+begin: City of Ogdensburg http://www.ogdensburg.org/97/Employment
+
+
+begin: City of Olean https://www.cityofolean.org/jobs.html
+
+
+begin: City of Oneida http://oneidacity.com/civil-service/
+
+
+begin: City of Oneonta http://www.oneonta.ny.us/departments/personnel
+
+
+begin: City of Oswego http://www.oswegony.org/government/personnel
+fail: http://www.oswegony.org/government/personnel 503
+fail: http://www.oswegony.org/government/personnel 503
+fail: https://www.oswegony.org/government/personnel 503
+
+
+begin: City of Peekskill https://www.cityofpeekskill.com/human-resources/pages/about-human-resources
+
+
+begin: City of Plattsburgh http://www.clintoncountygov.com/employment
+succ, new url: City of Plattsburgh https://www.clintoncountygov.com/employment
+
+
+begin: City of Port Jervis https://www.portjervisny.org/city-resources/job-project-postings/
+
+
+begin: City of Poughkeepsie https://cityofpoughkeepsie.com/personnel/
+
+
+begin: City of Rensselaer https://rensselaerny.gov/police-department/employment
+
+
+begin: City of Rochester http://www.cityofrochester.gov/article.aspx?id=8589936759
+succ, new url: City of Rochester https://www.cityofrochester.gov/article.aspx?id=8589936759
+
+
+begin: City of Rome https://romenewyork.com/civil-service/
+
+
+begin: City of Rye https://www.ryeny.gov/
+
+
+begin: City of Salamanca https://cattco-portal.mycivilservice.com/
+
+
+begin: City of Saratoga Springs http://www.saratoga-springs.org/jobs.aspx
+
+
+begin: City of Schenectady http://www.cityofschenectady.com/208/Human-Resources
+
+
+begin: City of Sherrill https://sherrillny.org/city-hall/employment/
+
+
+begin: City of Tonawanda https://www.tonawandacity.com/residents/civil_service.php
+
+
+begin: City of Troy http://www.troyny.gov/departments/personnel-department/
+
+
+begin: City of Utica http://www.cityofutica.com/departments/civil-service/index
+
+
+begin: City of Watertown https://www.watertown-ny.gov/index.asp?nid=791
+
+
+begin: City of Watervliet http://watervliet.com/city/civil-service.htm
+
+
+begin: City of White Plains https://www.cityofwhiteplains.com/98/Personnel
+
+
+begin: City of Yonkers https://www.yonkersny.gov/work/jobs-civil-service-exams
+
+
+begin: County of Albany https://www.albanycounty.com/departments/civil-service
+
+
+begin: County of Allegany http://www.alleganyco.com/departments/human-resources-civil-service/
+
+
+begin: County of Broome http://www.gobroomecounty.com/personnel/cs
+succ, new url: County of Broome https://www.gobroomecounty.com/personnel/cs
+
+
+begin: County of Cattaraugus http://www.cattco.org/jobs
+succ, new url: County of Cattaraugus https://cattco-portal.mycivilservice.com
+
+
+begin: County of Cayuga http://www.cayugacounty.us/community/civilservicecommission/examannouncementsvacancies.aspx
+fail: http://www.cayugacounty.us/community/civilservicecommission/examannouncementsvacancies.aspx 404
+fail: http://www.cayugacounty.us/community/civilservicecommission/examannouncementsvacancies.aspx 404
+fail: https://www.cayugacounty.us/community/civilservicecommission/examannouncementsvacancies.aspx 404
+
+
+begin: County of Chautauqua https://chqgov.com/human-resources/Human-Resources-1
+
+
+begin: County of Chemung http://www.chemungcountyny.gov/departments/a_-_f_departments/civil_service_personnel/index.php
+
+
+begin: County of Chenango http://www.co.chenango.ny.us/personnel/examinations/
+
+
+begin: County of Clinton http://www.clintoncountygov.com/employment
+succ, new url: County of Clinton https://www.clintoncountygov.com/employment
+
+
+begin: County of Columbia https://sites.google.com/a/columbiacountyny.com/civilservice/
+
+
+begin: County of Cortland http://www.cortland-co.org/263/Personnel-Civil-Service
+
+
+begin: County of Delaware http://www.co.delaware.ny.us/departments/pers/jobs.htm
+
+
+begin: County of Dutchess https://www.dutchessny.gov/CivilServiceInformationSystem/ApplicantWeb/frmAnnouncementList.aspx
+
+
+begin: County of Erie https://www2.erie.gov/employment/
+
+
+begin: County of Essex http://www.co.essex.ny.us/jobs.asp
+
+
+begin: County of Franklin http://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50
+error: http://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50 HTTPConnectionPool(host='countyfranklin.digitaltowpath.org', port=10078): Max retries exceeded with url: /content/Departments/View/6:field=services;/content/DepartmentServices/View/50 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3ecb22adc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+fail: http://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50 False
+error: http://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50 HTTPConnectionPool(host='countyfranklin.digitaltowpath.org', port=10078): Max retries exceeded with url: /content/Departments/View/6:field=services;/content/DepartmentServices/View/50 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3ecb238d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+fail: http://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50 False
+error: https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50 HTTPSConnectionPool(host='countyfranklin.digitaltowpath.org', port=10078): Max retries exceeded with url: /content/Departments/View/6:field=services;/content/DepartmentServices/View/50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ecb2425b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+fail: https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50 False
+
+
+begin: County of Fulton http://www.fultoncountyny.gov/node/5
+fail: http://www.fultoncountyny.gov/node/5 404
+fail: http://www.fultoncountyny.gov/node/5 404
+fail: https://www.fultoncountyny.gov/node/5 404
+
+
+begin: County of Genesee https://www.co.genesee.ny.us/departments/humanresources/index.php
+
+
+begin: County of Greene http://www.greenegovernment.com/departments/human-resources-and-civil-service/available-positions
+
+
+begin: County of Hamilton https://www.hamiltoncounty.com/government/departments-services
+
+
+begin: County of Herkimer https://www.herkimercounty.org/employment/personnel-civil-service/job-postings.php
+
+
+begin: County of Jefferson https://co.jefferson.ny.us/
+
+
+begin: County of Lewis https://www.lewiscounty.org/departments/human-resources/human-resources
+
+
+begin: County of Livingston https://www.livingstoncounty.us/jobs.aspx
+
+
+begin: County of Madison https://www.madisoncounty.ny.gov/287/Personnel
+
+
+begin: County of Monroe https://www2.monroecounty.gov/careers
+succ, new url: County of Monroe https://www.monroecounty.gov/hr-careers
+
+
+begin: County of Montgomery http://www.co.montgomery.ny.us/web/sites/departments/personnel/default.asp
+succ, new url: County of Montgomery https://www.co.montgomery.ny.us/web/sites/departments/personnel/default.asp
+
+
+begin: County of Nassau https://www.nassaucountyny.gov/1682/Employment-Opportunities
+
+
+begin: County of Niagara https://www.niagaracounty.com/Departments/Civil-Service
+
+
+begin: County of Oneida http://ocgov.net/personnel
+succ, new url: County of Oneida https://ocgov.net//personnel
+
+
+begin: County of Onondaga http://www.ongov.net/employment/civilService.html
+
+
+begin: County of Ontario http://www.co.ontario.ny.us/jobs.aspx
+fail: http://www.co.ontario.ny.us/jobs.aspx 404
+fail: http://www.co.ontario.ny.us/jobs.aspx 404
+fail: https://www.co.ontario.ny.us/jobs.aspx 404
+
+
+begin: County of Orange https://www.orangecountygov.com/1137/Human-Resources
+
+
+begin: County of Orleans http://www.orleansny.com/personnel/
+fail: http://www.orleansny.com/personnel/ 404
+fail: http://www.orleansny.com/personnel/ 404
+fail: https://www.orleansny.com/personnel/ 404
+
+
+begin: County of Oswego https://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exams___recruitments.php
+fail: https://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exams___recruitments.php 404
+fail: https://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exams___recruitments.php 404
+fail: http://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exams___recruitments.php 404
+
+
+begin: County of Otsego https://www.otsegocounty.com/depts/per
+
+
+begin: County of Putnam https://putnam.munisselfservice.com/employmentopportunities/default.aspx
+
+
+begin: County of Rensselaer https://www.rensco.com/county-job-assistance/
+
+
+begin: County of Rockland http://rocklandgov.com/departments/personnel/job-opportunities/
+
+
+begin: County of Saratoga https://www.saratogacountyny.gov/departments/personnel/current-exams-and-job-postings/
+
+
+begin: County of Schenectady https://mycivilservice.schenectadycounty.com/
+
+
+begin: County of Schoharie https://www4.schohariecounty-ny.gov/
+
+
+begin: County of Schuyler http://www.schuylercounty.us/119/Civil-Service
+
+
+begin: County of Seneca https://seneca-portal.mycivilservice.com/
+
+
+begin: County of St Lawrence https://www.stlawco.org/Departments/HumanResources/CountyJobPostings
+fail: https://www.stlawco.org/Departments/HumanResources/CountyJobPostings 404
+fail: https://www.stlawco.org/Departments/HumanResources/CountyJobPostings 404
+fail: http://www.stlawco.org/Departments/HumanResources/CountyJobPostings 404
+
+
+begin: County of Steuben https://www.steubencony.org/pages.asp?pgid=32
+
+
+begin: County of Suffolk https://www.suffolkcountyny.gov/Departments/Civil-Service
+
+
+begin: County of Sullivan https://sullivan-portal.mycivilservice.com/jobopps
+
+
+begin: County of Tioga http://www.tiogacountyny.com/departments/personnel-civil-service
+succ, new url: County of Tioga https://www.tiogacountyny.com/departments/personnel-civil-service
+
+
+begin: County of Tompkins https://tompkinscountyny.gov/personnel
+succ, new url: County of Tompkins https://www2.tompkinscountyny.gov/personnel
+
+
+begin: County of Ulster https://ulstercountyny.gov/personnel/index.html
+
+
+begin: County of Warren https://www.warrencountyny.gov/civilservice/exams.php
+fail: https://www.warrencountyny.gov/civilservice/exams.php 404
+fail: https://www.warrencountyny.gov/civilservice/exams.php 404
+fail: http://www.warrencountyny.gov/civilservice/exams.php 404
+
+
+begin: County of Washington https://washingtoncountyny.gov/jobs.aspx
+
+
+begin: County of Wayne https://web.co.wayne.ny.us/
+
+
+begin: County of Westchester https://humanresources.westchestergov.com/job-seekers/civil-service-exams
+fail: https://humanresources.westchestergov.com/job-seekers/civil-service-exams 404
+fail: https://humanresources.westchestergov.com/job-seekers/civil-service-exams 404
+fail: http://humanresources.westchestergov.com/job-seekers/civil-service-exams 404
+
+
+begin: County of Wyoming http://www.wyomingco.net/164/Civil-Service
+
+
+begin: County of Yates https://www.yatescounty.org/203/Personnel
+
+
+begin: Town of Alden http://www2.erie.gov/alden/index.php?q=employment-opportunities
+succ, new url: Town of Alden https://www2.erie.gov/alden/index.php?q=employment-opportunities
+
+
+begin: Town of Amherst http://www.amherst.ny.us
+succ, new url: Town of Amherst http://www.amherst.ny.us/
+
+
+begin: Town of Andover http://www.alleganyco.com/departments/employment-and-training/
+
+
+begin: Town of Baldwin http://www.chemungcountyny.gov/departments/a_-_f_departments/civil_service_personnel/job_opening_calendar.php
+
+
+begin: Town of Beekman https://www.townofbeekman.com/index.asp?Type=B_BASIC&SEC={03E912D9-3F74-4E1F-8BE3-FAB7141BE80F}
+succ, new url: Town of Beekman https://www.townofbeekman.com/index.asp?Type=B_BASIC&SEC=%7B03E912D9-3F74-4E1F-8BE3-FAB7141BE80F%7D
+
+
+begin: Town of Belfast http://www.alleganyco.com/departments/employment-and-training/
+
+
+begin: Town of Bethany https://www.co.genesee.ny.us/employment.php
+
+
+begin: Town of Bethlehem http://www.townofbethlehem.org/137/Human-Resources?_sm_au_=ivv8z8lp1wffsnv6
+
+
+begin: Town of Brighton (Monroe) https://www.townofbrighton.org/219/Human-Resources
+
+
+begin: Town of Brookhaven https://www.brookhavenny.gov/
+
+
+begin: Town of Brutus http://townbrutus.digitaltowpath.org:10148/content/JobCategories
+fail: http://townbrutus.digitaltowpath.org:10148/content/JobCategories 400
+fail: http://townbrutus.digitaltowpath.org:10148/content/JobCategories 400
+fail: https://townbrutus.digitaltowpath.org:10148/content/JobCategories 400
+
+
+begin: Town of Cairo https://townofcairo.com/employment/
+
+
+begin: Town of Canandaigua http://www.townofcanandaigua.org/page.asp?id=90
+
+
+begin: Town of Caneadea http://towncaneadea.digitaltowpath.org:10139/content/JobCategories
+error: http://towncaneadea.digitaltowpath.org:10139/content/JobCategories HTTPConnectionPool(host='towncaneadea.digitaltowpath.org', port=10139): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0910>, 'Connection to towncaneadea.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towncaneadea.digitaltowpath.org:10139/content/JobCategories False
+error: http://towncaneadea.digitaltowpath.org:10139/content/JobCategories HTTPConnectionPool(host='towncaneadea.digitaltowpath.org', port=10139): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0f10>, 'Connection to towncaneadea.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towncaneadea.digitaltowpath.org:10139/content/JobCategories False
+error: https://towncaneadea.digitaltowpath.org:10139/content/JobCategories HTTPSConnectionPool(host='towncaneadea.digitaltowpath.org', port=10139): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1a0130>, 'Connection to towncaneadea.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://towncaneadea.digitaltowpath.org:10139/content/JobCategories False
+
+
+begin: Town of Carlisle http://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml
+error: http://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml HTTPConnectionPool(host='www2.schohariecounty-ny.gov', port=80): Max retries exceeded with url: /PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3ecb242a00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+fail: http://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml False
+error: http://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml HTTPConnectionPool(host='www2.schohariecounty-ny.gov', port=80): Max retries exceeded with url: /PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3ecb22ad00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+fail: http://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml False
+fail: https://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml False
+
+
+begin: Town of Chenango http://townofchenango.com/?page_id=12
+fail: http://townofchenango.com/?page_id=12 404
+fail: http://townofchenango.com/?page_id=12 404
+fail: https://townofchenango.com/?page_id=12 404
+
+
+begin: Town of Chester (Warren) https://www.townofchesterny.org/employment-opportunities.html
+
+
+begin: Town of Chili http://www.townofchili.org/notice-category/job-postings/
+
+
+begin: Town of Cicero http://ciceronewyork.net/employment/
+
+
+begin: Town of Clarence http://www2.erie.gov/clarence/index.php?q=jobs
+succ, new url: Town of Clarence https://www2.erie.gov/clarence/index.php?q=jobs
+
+
+begin: Town of Clayton http://townofclayton.com/departments/humanresources/
+fail: http://townofclayton.com/departments/humanresources/ 404
+fail: http://townofclayton.com/departments/humanresources/ 404
+fail: https://townofclayton.com/departments/humanresources/ 404
+
+
+begin: Town of Clifton Park https://www.cliftonpark.org/services/employment-applications.html
+
+
+begin: Town of Colden http://www.townofcolden.com/employment/
+fail: http://www.townofcolden.com/employment/ 404
+fail: http://www.townofcolden.com/employment/ 404
+fail: https://www.townofcolden.com/employment/ 404
+
+
+begin: Town of Colonie https://www.colonie.org/departments/civilservice/
+
+
+begin: Town of Conesus http://townconesus.digitaltowpath.org:10010/content/JobCategories
+error: http://townconesus.digitaltowpath.org:10010/content/JobCategories HTTPConnectionPool(host='townconesus.digitaltowpath.org', port=10010): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22a820>, 'Connection to townconesus.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townconesus.digitaltowpath.org:10010/content/JobCategories False
+error: http://townconesus.digitaltowpath.org:10010/content/JobCategories HTTPConnectionPool(host='townconesus.digitaltowpath.org', port=10010): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238e50>, 'Connection to townconesus.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townconesus.digitaltowpath.org:10010/content/JobCategories False
+error: https://townconesus.digitaltowpath.org:10010/content/JobCategories HTTPSConnectionPool(host='townconesus.digitaltowpath.org', port=10010): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1a93a0>, 'Connection to townconesus.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townconesus.digitaltowpath.org:10010/content/JobCategories False
+
+
+begin: Town of Cortlandt http://www.townofcortlandt.com
+succ, new url: Town of Cortlandt https://www.townofcortlandt.com/
+
+
+begin: Town of Day https://www.tax.ny.gov/about/empopps/default.htm
+
+
+begin: Town of Deerfield http://towndeerfield.digitaltowpath.org:10063/content/JobCategories
+error: http://towndeerfield.digitaltowpath.org:10063/content/JobCategories HTTPConnectionPool(host='towndeerfield.digitaltowpath.org', port=10063): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238a30>, 'Connection to towndeerfield.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towndeerfield.digitaltowpath.org:10063/content/JobCategories False
+error: http://towndeerfield.digitaltowpath.org:10063/content/JobCategories HTTPConnectionPool(host='towndeerfield.digitaltowpath.org', port=10063): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22ae80>, 'Connection to towndeerfield.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towndeerfield.digitaltowpath.org:10063/content/JobCategories False
+error: https://towndeerfield.digitaltowpath.org:10063/content/JobCategories HTTPSConnectionPool(host='towndeerfield.digitaltowpath.org', port=10063): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb22ad00>, 'Connection to towndeerfield.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://towndeerfield.digitaltowpath.org:10063/content/JobCategories False
+
+
+begin: Town of Dover https://townofdoverny.us/employmentopportunities.cfm
+fail: https://townofdoverny.us/employmentopportunities.cfm 404
+fail: https://townofdoverny.us/employmentopportunities.cfm 404
+fail: http://townofdoverny.us/employmentopportunities.cfm 404
+
+
+begin: Town of Duanesburg https://www.duanesburg.net/human-resources
+
+
+begin: Town of East Fishkill http://eastfishkillny.gov/government/employment.htm
+
+
+begin: Town of East Greenbush http://www.eastgreenbush.org/departments/human-resources/employment-opportunities
+succ, new url: Town of East Greenbush https://www.eastgreenbush.org/departments/human-resources/employment-opportunities
+
+
+begin: Town of Eastchester http://www.eastchester.org/departments/comptoller.php
+succ, new url: Town of Eastchester https://www.eastchester.org/departments/comptoller.php
+
+
+begin: Town of Elba http://elbanewyork.com/index.php/job-openings/
+
+
+begin: Town of Ellicott http://www.townofellicott.com/html/jobs.html
+fail: http://www.townofellicott.com/html/jobs.html 404
+fail: http://www.townofellicott.com/html/jobs.html 404
+fail: https://www.townofellicott.com/html/jobs.html 404
+
+
+begin: Town of Elma http://www.elmanewyork.com/job_openings.html
+
+
+begin: Town of Evans https://townofevans.org/employment.html
+
+
+begin: Town of Fine http://townfine.digitaltowpath.org:10054/content/JobCategories
+error: http://townfine.digitaltowpath.org:10054/content/JobCategories HTTPConnectionPool(host='townfine.digitaltowpath.org', port=10054): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242af0>, 'Connection to townfine.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townfine.digitaltowpath.org:10054/content/JobCategories False
+error: http://townfine.digitaltowpath.org:10054/content/JobCategories HTTPConnectionPool(host='townfine.digitaltowpath.org', port=10054): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0160>, 'Connection to townfine.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townfine.digitaltowpath.org:10054/content/JobCategories False
+error: https://townfine.digitaltowpath.org:10054/content/JobCategories HTTPSConnectionPool(host='townfine.digitaltowpath.org', port=10054): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1a0c10>, 'Connection to townfine.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townfine.digitaltowpath.org:10054/content/JobCategories False
+
+
+begin: Town of Galen http://towngalen.digitaltowpath.org:10476/content/JobCategories
+error: http://towngalen.digitaltowpath.org:10476/content/JobCategories HTTPConnectionPool(host='towngalen.digitaltowpath.org', port=10476): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1b1370>, 'Connection to towngalen.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towngalen.digitaltowpath.org:10476/content/JobCategories False
+error: http://towngalen.digitaltowpath.org:10476/content/JobCategories HTTPConnectionPool(host='towngalen.digitaltowpath.org', port=10476): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0070>, 'Connection to towngalen.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towngalen.digitaltowpath.org:10476/content/JobCategories False
+error: https://towngalen.digitaltowpath.org:10476/content/JobCategories HTTPSConnectionPool(host='towngalen.digitaltowpath.org', port=10476): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb242eb0>, 'Connection to towngalen.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://towngalen.digitaltowpath.org:10476/content/JobCategories False
+
+
+begin: Town of Gallatin https://gallatin.yourtownhub.com/category/jobs/
+
+
+begin: Town of Gates https://www.townofgates.org/employment-job-postings/
+
+
+begin: Town of Genesee Falls http://www.wyomingco.net/Jobs.aspx
+
+
+begin: Town of Glenville https://www.townofglenville.org/home/pages/employment-opportunities
+
+
+begin: Town of Grand Island http://www.grandislandny.us/residents/employment/index.php
+
+
+begin: Town of Greece https://greeceny.gov/residents/employment-opportunities
+
+
+begin: Town of Green Island https://villageofgreenisland.com/employment/
+
+
+begin: Town of Greenburgh https://www.greenburghny.com/
+
+
+begin: Town of Greenwich https://www.greenwichny.org/home/job-openings/
+fail: https://www.greenwichny.org/home/job-openings/ 404
+fail: https://www.greenwichny.org/home/job-openings/ 404
+fail: http://www.greenwichny.org/home/job-openings/ 404
+
+
+begin: Town of Guilderland https://www.townofguilderland.org/human-resource-department?_sm_au_=ivv8z8lp1wffsnv6
+
+
+begin: Town of Guilford https://www.guilfordny.com/government/help_wanted
+
+
+begin: Town of Halfmoon https://www.townofhalfmoon-ny.gov/home/pages/job-opportunities
+
+
+begin: Town of Hammond https://townofhammondny.com/employment/
+
+
+begin: Town of Hannibal http://hannibalny.org/?page_id=2779
+
+
+begin: Town of Hartwick http://townhartwick.digitaltowpath.org:10113/content/JobCategories
+error: http://townhartwick.digitaltowpath.org:10113/content/JobCategories HTTPConnectionPool(host='townhartwick.digitaltowpath.org', port=10113): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22a850>, 'Connection to townhartwick.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townhartwick.digitaltowpath.org:10113/content/JobCategories False
+error: http://townhartwick.digitaltowpath.org:10113/content/JobCategories HTTPConnectionPool(host='townhartwick.digitaltowpath.org', port=10113): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22a130>, 'Connection to townhartwick.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townhartwick.digitaltowpath.org:10113/content/JobCategories False
+error: https://townhartwick.digitaltowpath.org:10113/content/JobCategories HTTPSConnectionPool(host='townhartwick.digitaltowpath.org', port=10113): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb2384f0>, 'Connection to townhartwick.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townhartwick.digitaltowpath.org:10113/content/JobCategories False
+
+
+begin: Town of Hempstead http://www.townofhempstead.org/civil-service-commission?_sm_au_=ivv8z8lp1wffsnv6
+fail: http://www.townofhempstead.org/civil-service-commission?_sm_au_=ivv8z8lp1wffsnv6 404
+fail: http://www.townofhempstead.org/civil-service-commission?_sm_au_=ivv8z8lp1wffsnv6 404
+fail: https://www.townofhempstead.org/civil-service-commission?_sm_au_=ivv8z8lp1wffsnv6 404
+
+
+begin: Town of Hoosick http://townofhoosick.org/employmentopportunities.shtml
+
+
+begin: Town of Huntington http://www.huntingtonny.gov/content/13753/13757/17478/17508/default.aspx?_sm_au_=ivvt78qz5w7p2qhf
+succ, new url: Town of Huntington https://www.huntingtonny.gov/content/13753/13757/17478/17508/default.aspx?_sm_au_=ivvt78qz5w7p2qhf
+
+
+begin: Town of Indian Lake http://townindianlake.digitaltowpath.org:10201/content/JobCategories
+error: http://townindianlake.digitaltowpath.org:10201/content/JobCategories HTTPConnectionPool(host='townindianlake.digitaltowpath.org', port=10201): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1b11c0>, 'Connection to townindianlake.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townindianlake.digitaltowpath.org:10201/content/JobCategories False
+error: http://townindianlake.digitaltowpath.org:10201/content/JobCategories HTTPConnectionPool(host='townindianlake.digitaltowpath.org', port=10201): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1b1a60>, 'Connection to townindianlake.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townindianlake.digitaltowpath.org:10201/content/JobCategories False
+error: https://townindianlake.digitaltowpath.org:10201/content/JobCategories HTTPSConnectionPool(host='townindianlake.digitaltowpath.org', port=10201): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb2c2df0>, 'Connection to townindianlake.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townindianlake.digitaltowpath.org:10201/content/JobCategories False
+
+
+begin: Town of Irondequoit https://www.irondequoit.org/town-departments/human-resources/town-employment-opportunities?_sm_au_=ivv8z8lp1wffsnv6
+fail: https://www.irondequoit.org/town-departments/human-resources/town-employment-opportunities?_sm_au_=ivv8z8lp1wffsnv6 404
+fail: https://www.irondequoit.org/town-departments/human-resources/town-employment-opportunities?_sm_au_=ivv8z8lp1wffsnv6 404
+fail: http://www.irondequoit.org/town-departments/human-resources/town-employment-opportunities?_sm_au_=ivv8z8lp1wffsnv6 404
+
+
+begin: Town of Islip https://islipny.gov/job-opportunities
+
+
+begin: Town of Jay https://townofjayny.gov/employment-opportunity-4/
+error: https://townofjayny.gov/employment-opportunity-4/ ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+fail: https://townofjayny.gov/employment-opportunity-4/ False
+
+
+begin: Town of Ledyard https://mycivilservice.cayugacounty.us/exams
+
+
+begin: Town of Leicester http://www.townofleicester.org/community/employment-opportunities/
+error: http://www.townofleicester.org/community/employment-opportunities/ HTTPSConnectionPool(host='www.townofleicester.org', port=443): Max retries exceeded with url: /community/employment-opportunities (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ecb242970>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+fail: http://www.townofleicester.org/community/employment-opportunities/ False
+fail: http://www.townofleicester.org/community/employment-opportunities/ 404
+fail: https://www.townofleicester.org/community/employment-opportunities/ 404
+
+
+begin: Town of Lewisboro https://www.lewisborogov.com/jobs
+error: https://www.lewisborogov.com/jobs HTTPSConnectionPool(host='www.lewisborogov.com', port=443): Max retries exceeded with url: /jobs (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a4c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+fail: https://www.lewisborogov.com/jobs False
+error: https://www.lewisborogov.com/jobs HTTPSConnectionPool(host='www.lewisborogov.com', port=443): Max retries exceeded with url: /jobs (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+fail: https://www.lewisborogov.com/jobs False
+fail: http://www.lewisborogov.com/jobs False
+
+
+begin: Town of Lewiston https://www.townoflewiston.us/employment-opportunities
+
+
+begin: Town of Long Lake https://mylonglake.com/jobs/
+
+
+begin: Town of Manchester https://manchesterny.org/employment-opportunities
+error: https://manchesterny.org/employment-opportunities ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+fail: https://manchesterny.org/employment-opportunities False
+
+
+begin: Town of Marcy http://townmarcy.digitaltowpath.org:10019/content/JobCategories
+error: http://townmarcy.digitaltowpath.org:10019/content/JobCategories HTTPConnectionPool(host='townmarcy.digitaltowpath.org', port=10019): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242d90>, 'Connection to townmarcy.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townmarcy.digitaltowpath.org:10019/content/JobCategories False
+error: http://townmarcy.digitaltowpath.org:10019/content/JobCategories HTTPConnectionPool(host='townmarcy.digitaltowpath.org', port=10019): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0670>, 'Connection to townmarcy.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townmarcy.digitaltowpath.org:10019/content/JobCategories False
+error: https://townmarcy.digitaltowpath.org:10019/content/JobCategories HTTPSConnectionPool(host='townmarcy.digitaltowpath.org', port=10019): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1b1910>, 'Connection to townmarcy.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townmarcy.digitaltowpath.org:10019/content/JobCategories False
+
+
+begin: Town of Mayfield http://townmayfield.digitaltowpath.org:10052/content/404
+error: http://townmayfield.digitaltowpath.org:10052/content/404 HTTPConnectionPool(host='townmayfield.digitaltowpath.org', port=10052): Max retries exceeded with url: /content/404 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0340>, 'Connection to townmayfield.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townmayfield.digitaltowpath.org:10052/content/404 False
+error: http://townmayfield.digitaltowpath.org:10052/content/404 HTTPConnectionPool(host='townmayfield.digitaltowpath.org', port=10052): Max retries exceeded with url: /content/404 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242b20>, 'Connection to townmayfield.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townmayfield.digitaltowpath.org:10052/content/404 False
+error: https://townmayfield.digitaltowpath.org:10052/content/404 HTTPSConnectionPool(host='townmayfield.digitaltowpath.org', port=10052): Max retries exceeded with url: /content/404 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb242ac0>, 'Connection to townmayfield.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townmayfield.digitaltowpath.org:10052/content/404 False
+
+
+begin: Town of Minden http://townofminden.org/employment-volunteer-opportunities/
+
+
+begin: Town of Monroe https://www.monroeny.org/doc-center/town-of-monroe-job-opportunities.html
+
+
+begin: Town of Moreau http://www.townofmoreau.org/job_opportunities.asp
+
+
+begin: Town of Mount Hope http://townofmounthope.org/employment/
+
+
+begin: Town of Neversink https://townofneversink.org/town-positions.html
+
+
+begin: Town of New Hartford https://www.townofnewhartfordny.gov/jobs
+
+
+begin: Town of Newburgh http://townofnewburgh.org/cn/Employment/?tpid=12612
+succ, new url: Town of Newburgh https://www.townofnewburgh.org/cn/Employment/?tpid=12612
+
+
+begin: Town of Newstead http://www2.erie.gov/newstead/index.php?q=legal-notices-job-postings
+succ, new url: Town of Newstead https://www2.erie.gov/newstead/index.php?q=legal-notices-job-postings
+
+
+begin: Town of Niskayuna https://www.niskayuna.org/home/pages/employment-opportunities
+
+
+begin: Town of North Castle https://www.northcastleny.com/human-resources
+
+
+begin: Town of North Elba http://www.northelba.org/?page=government/human-resources
+
+
+begin: Town of North Hempstead https://northhempsteadny.gov/employment-opportunities
+
+
+begin: Town of Ogden http://www.ogdenny.com/TownDepartments/Personnel.aspx
+fail: http://www.ogdenny.com/TownDepartments/Personnel.aspx 404
+fail: http://www.ogdenny.com/TownDepartments/Personnel.aspx 404
+fail: https://www.ogdenny.com/TownDepartments/Personnel.aspx 404
+
+
+begin: Town of Orangetown https://www.orangetown.com/groups/department/personnel/
+
+
+begin: Town of Orchard Park https://www.orchardparkny.org/employment/
+
+
+begin: Town of Ossining http://www.townofossining.com/cms/resources/human-resources
+fail: http://www.townofossining.com/cms/resources/human-resources 404
+fail: http://www.townofossining.com/cms/resources/human-resources 404
+fail: https://www.townofossining.com/cms/resources/human-resources 404
+
+
+begin: Town of Owego http://townofowego.com/employment/
+
+
+begin: Town of Oxford http://www.townofoxfordny.com/employment.php
+
+
+begin: Town of Oyster Bay http://oysterbaytown.com/departments/human-resources/
+succ, new url: Town of Oyster Bay https://oysterbaytown.com/departments/human-resources/
+
+
+begin: Town of Paris http://townparis.digitaltowpath.org:10026/content/JobCategories
+error: http://townparis.digitaltowpath.org:10026/content/JobCategories HTTPConnectionPool(host='townparis.digitaltowpath.org', port=10026): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22a5e0>, 'Connection to townparis.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townparis.digitaltowpath.org:10026/content/JobCategories False
+error: http://townparis.digitaltowpath.org:10026/content/JobCategories HTTPConnectionPool(host='townparis.digitaltowpath.org', port=10026): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2ccb20>, 'Connection to townparis.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townparis.digitaltowpath.org:10026/content/JobCategories False
+error: https://townparis.digitaltowpath.org:10026/content/JobCategories HTTPSConnectionPool(host='townparis.digitaltowpath.org', port=10026): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb238700>, 'Connection to townparis.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townparis.digitaltowpath.org:10026/content/JobCategories False
+
+
+begin: Town of Parma http://www.parmany.org/personnel.php
+
+
+begin: Town of Pendleton https://pendletonny.us/employment/
+
+
+begin: Town of Penfield http://www.penfield.org
+succ, new url: Town of Penfield http://www.penfield.org/
+
+
+begin: Town of Perinton http://www.perinton.org/departments/finpers
+fail: http://www.perinton.org/departments/finpers 404
+fail: http://www.perinton.org/departments/finpers 404
+fail: https://www.perinton.org/departments/finpers 404
+
+
+begin: Town of Pinckney http://townpinckney.digitaltowpath.org:10161/content/JobCategories
+error: http://townpinckney.digitaltowpath.org:10161/content/JobCategories HTTPConnectionPool(host='townpinckney.digitaltowpath.org', port=10161): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2b4700>, 'Connection to townpinckney.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townpinckney.digitaltowpath.org:10161/content/JobCategories False
+error: http://townpinckney.digitaltowpath.org:10161/content/JobCategories HTTPConnectionPool(host='townpinckney.digitaltowpath.org', port=10161): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22ae50>, 'Connection to townpinckney.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townpinckney.digitaltowpath.org:10161/content/JobCategories False
+error: https://townpinckney.digitaltowpath.org:10161/content/JobCategories HTTPSConnectionPool(host='townpinckney.digitaltowpath.org', port=10161): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb242b50>, 'Connection to townpinckney.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townpinckney.digitaltowpath.org:10161/content/JobCategories False
+
+
+begin: Town of Pittsford http://www.townofpittsford.org/home-hr?_sm_au_=ivv8z8lp1wffsnv6
+
+
+begin: Town of Poughkeepsie https://www.townofpoughkeepsie.com/human_resources/index.html?_sm_au_=ivv8z8lp1wffsnv6
+
+
+begin: Town of Pound Ridge https://www.townofpoundridge.com/jobs
+error: https://www.townofpoundridge.com/jobs HTTPSConnectionPool(host='www.townofpoundridge.com', port=443): Read timed out. (read timeout=10)
+fail: https://www.townofpoundridge.com/jobs False
+error: https://www.townofpoundridge.com/jobs HTTPSConnectionPool(host='www.townofpoundridge.com', port=443): Read timed out. (read timeout=10)
+fail: https://www.townofpoundridge.com/jobs False
+fail: http://www.townofpoundridge.com/jobs False
+
+
+begin: Town of Princetown http://townprincetown.digitaltowpath.org:10095/content/JobCategories
+error: http://townprincetown.digitaltowpath.org:10095/content/JobCategories HTTPConnectionPool(host='townprincetown.digitaltowpath.org', port=10095): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1b1790>, 'Connection to townprincetown.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townprincetown.digitaltowpath.org:10095/content/JobCategories False
+error: http://townprincetown.digitaltowpath.org:10095/content/JobCategories HTTPConnectionPool(host='townprincetown.digitaltowpath.org', port=10095): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242850>, 'Connection to townprincetown.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townprincetown.digitaltowpath.org:10095/content/JobCategories False
+error: https://townprincetown.digitaltowpath.org:10095/content/JobCategories HTTPSConnectionPool(host='townprincetown.digitaltowpath.org', port=10095): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb2cce80>, 'Connection to townprincetown.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townprincetown.digitaltowpath.org:10095/content/JobCategories False
+
+
+begin: Town of Queensbury https://www.queensbury.net/government/employment/
+
+
+begin: Town of Ramapo http://www.ramapo.org/page/personnel-30.html?_sm_au_=ivvt78qz5w7p2qhf
+
+
+begin: Town of Richmond http://townrichmond.digitaltowpath.org:10135/content/JobCategories
+error: http://townrichmond.digitaltowpath.org:10135/content/JobCategories HTTPConnectionPool(host='townrichmond.digitaltowpath.org', port=10135): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22ae50>, 'Connection to townrichmond.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townrichmond.digitaltowpath.org:10135/content/JobCategories False
+error: http://townrichmond.digitaltowpath.org:10135/content/JobCategories HTTPConnectionPool(host='townrichmond.digitaltowpath.org', port=10135): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238a30>, 'Connection to townrichmond.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townrichmond.digitaltowpath.org:10135/content/JobCategories False
+error: https://townrichmond.digitaltowpath.org:10135/content/JobCategories HTTPSConnectionPool(host='townrichmond.digitaltowpath.org', port=10135): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1a0040>, 'Connection to townrichmond.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townrichmond.digitaltowpath.org:10135/content/JobCategories False
+
+
+begin: Town of Riverhead https://www.townofriverheadny.gov/pview.aspx?id=2481&amp;catid=118&amp;_sm_au_=ivvt78qz5w7p2qhf
+
+
+begin: Town of Royalton http://townroyalton.digitaltowpath.org:10057/content/JobCategories
+error: http://townroyalton.digitaltowpath.org:10057/content/JobCategories HTTPConnectionPool(host='townroyalton.digitaltowpath.org', port=10057): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0490>, 'Connection to townroyalton.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townroyalton.digitaltowpath.org:10057/content/JobCategories False
+error: http://townroyalton.digitaltowpath.org:10057/content/JobCategories HTTPConnectionPool(host='townroyalton.digitaltowpath.org', port=10057): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238cd0>, 'Connection to townroyalton.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townroyalton.digitaltowpath.org:10057/content/JobCategories False
+error: https://townroyalton.digitaltowpath.org:10057/content/JobCategories HTTPSConnectionPool(host='townroyalton.digitaltowpath.org', port=10057): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb22aa90>, 'Connection to townroyalton.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townroyalton.digitaltowpath.org:10057/content/JobCategories False
+
+
+begin: Town of Russia http://townrussia.digitaltowpath.org:10221/content/JobCategories
+error: http://townrussia.digitaltowpath.org:10221/content/JobCategories HTTPConnectionPool(host='townrussia.digitaltowpath.org', port=10221): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2ccac0>, 'Connection to townrussia.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townrussia.digitaltowpath.org:10221/content/JobCategories False
+error: http://townrussia.digitaltowpath.org:10221/content/JobCategories HTTPConnectionPool(host='townrussia.digitaltowpath.org', port=10221): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242dc0>, 'Connection to townrussia.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townrussia.digitaltowpath.org:10221/content/JobCategories False
+error: https://townrussia.digitaltowpath.org:10221/content/JobCategories HTTPSConnectionPool(host='townrussia.digitaltowpath.org', port=10221): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1b1dc0>, 'Connection to townrussia.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townrussia.digitaltowpath.org:10221/content/JobCategories False
+
+
+begin: Town of Sardinia http://www2.erie.gov/sardinia/index.php?q=employment
+succ, new url: Town of Sardinia https://www2.erie.gov/sardinia/index.php?q=employment
+
+
+begin: Town of Smithtown https://www.smithtownny.gov/jobs.aspx?_sm_au_=ivvt78qz5w7p2qhf
+
+
+begin: Town of Smithville http://smithvilleny.com/employment.html
+
+
+begin: Town of Somers https://www.somersny.com/postings
+
+
+begin: Town of Southampton http://www.southamptontownny.gov/jobs.aspx
+
+
+begin: Town of Springwater http://townspringwater.digitaltowpath.org:10071/content/JobCategories
+error: http://townspringwater.digitaltowpath.org:10071/content/JobCategories HTTPConnectionPool(host='townspringwater.digitaltowpath.org', port=10071): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1b11f0>, 'Connection to townspringwater.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townspringwater.digitaltowpath.org:10071/content/JobCategories False
+error: http://townspringwater.digitaltowpath.org:10071/content/JobCategories HTTPConnectionPool(host='townspringwater.digitaltowpath.org', port=10071): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242640>, 'Connection to townspringwater.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townspringwater.digitaltowpath.org:10071/content/JobCategories False
+error: https://townspringwater.digitaltowpath.org:10071/content/JobCategories HTTPSConnectionPool(host='townspringwater.digitaltowpath.org', port=10071): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb2b47c0>, 'Connection to townspringwater.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townspringwater.digitaltowpath.org:10071/content/JobCategories False
+
+
+begin: Town of Sullivan http://townsullivan.digitaltowpath.org:10021/content/JobCategories
+error: http://townsullivan.digitaltowpath.org:10021/content/JobCategories HTTPConnectionPool(host='townsullivan.digitaltowpath.org', port=10021): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22aee0>, 'Connection to townsullivan.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townsullivan.digitaltowpath.org:10021/content/JobCategories False
+error: http://townsullivan.digitaltowpath.org:10021/content/JobCategories HTTPConnectionPool(host='townsullivan.digitaltowpath.org', port=10021): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238880>, 'Connection to townsullivan.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townsullivan.digitaltowpath.org:10021/content/JobCategories False
+error: https://townsullivan.digitaltowpath.org:10021/content/JobCategories HTTPSConnectionPool(host='townsullivan.digitaltowpath.org', port=10021): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1a0c40>, 'Connection to townsullivan.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townsullivan.digitaltowpath.org:10021/content/JobCategories False
+
+
+begin: Town of Trenton http://towntrenton.digitaltowpath.org:10031/content/JobCategories
+error: http://towntrenton.digitaltowpath.org:10031/content/JobCategories HTTPConnectionPool(host='towntrenton.digitaltowpath.org', port=10031): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0610>, 'Connection to towntrenton.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towntrenton.digitaltowpath.org:10031/content/JobCategories False
+error: http://towntrenton.digitaltowpath.org:10031/content/JobCategories HTTPConnectionPool(host='towntrenton.digitaltowpath.org', port=10031): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22a730>, 'Connection to towntrenton.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://towntrenton.digitaltowpath.org:10031/content/JobCategories False
+error: https://towntrenton.digitaltowpath.org:10031/content/JobCategories HTTPSConnectionPool(host='towntrenton.digitaltowpath.org', port=10031): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb2cc610>, 'Connection to towntrenton.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://towntrenton.digitaltowpath.org:10031/content/JobCategories False
+
+
+begin: Town of Union https://www.townofunion.com/
+
+
+begin: Town of Van Buren http://townofvanburen.com/employment/
+fail: http://townofvanburen.com/employment/ 404
+fail: http://townofvanburen.com/employment/ 404
+fail: https://townofvanburen.com/employment/ 404
+
+
+begin: Town of Van Etten http://www.chemungcountyny.gov/employment/index.php
+
+
+begin: Town of Verona http://townverona.digitaltowpath.org:10032/content/JobCategories
+error: http://townverona.digitaltowpath.org:10032/content/JobCategories HTTPConnectionPool(host='townverona.digitaltowpath.org', port=10032): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a02e0>, 'Connection to townverona.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townverona.digitaltowpath.org:10032/content/JobCategories False
+error: http://townverona.digitaltowpath.org:10032/content/JobCategories HTTPConnectionPool(host='townverona.digitaltowpath.org', port=10032): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2426a0>, 'Connection to townverona.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townverona.digitaltowpath.org:10032/content/JobCategories False
+error: https://townverona.digitaltowpath.org:10032/content/JobCategories HTTPSConnectionPool(host='townverona.digitaltowpath.org', port=10032): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb2421c0>, 'Connection to townverona.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townverona.digitaltowpath.org:10032/content/JobCategories False
+
+
+begin: Town of Vestal https://www.vestalny.com/departments/human_resources/job_opportunities.php
+
+
+begin: Town of Wallkill https://www.townofwallkill.com/index.php/departments/human-resources
+
+
+begin: Town of Wappinger http://townofwappingerny.gov/employment-opportunities/
+succ, new url: Town of Wappinger https://townofwappingerny.gov/employment-opportunities/
+
+
+begin: Town of Waterford http://www.town.waterford.ny.us/employment-opportunities.html
+
+
+begin: Town of Wayland http://townwayland.digitaltowpath.org:10163/content/JobCategories
+error: http://townwayland.digitaltowpath.org:10163/content/JobCategories HTTPConnectionPool(host='townwayland.digitaltowpath.org', port=10163): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238b20>, 'Connection to townwayland.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townwayland.digitaltowpath.org:10163/content/JobCategories False
+error: http://townwayland.digitaltowpath.org:10163/content/JobCategories HTTPConnectionPool(host='townwayland.digitaltowpath.org', port=10163): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1b5070>, 'Connection to townwayland.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townwayland.digitaltowpath.org:10163/content/JobCategories False
+error: https://townwayland.digitaltowpath.org:10163/content/JobCategories HTTPSConnectionPool(host='townwayland.digitaltowpath.org', port=10163): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb242b50>, 'Connection to townwayland.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townwayland.digitaltowpath.org:10163/content/JobCategories False
+
+
+begin: Town of Webster http://www.ci.webster.ny.us/85/Human-Resources
+
+
+begin: Town of West Seneca http://www.westseneca.net/jobs
+
+
+begin: Town of Wheatfield http://www.wheatfield.ny.us/Jobs.aspx
+
+
+begin: Town of Whitestown http://townwhitestown.digitaltowpath.org:10034/content/JobCategories
+error: http://townwhitestown.digitaltowpath.org:10034/content/JobCategories HTTPConnectionPool(host='townwhitestown.digitaltowpath.org', port=10034): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242cd0>, 'Connection to townwhitestown.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townwhitestown.digitaltowpath.org:10034/content/JobCategories False
+error: http://townwhitestown.digitaltowpath.org:10034/content/JobCategories HTTPConnectionPool(host='townwhitestown.digitaltowpath.org', port=10034): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22ab80>, 'Connection to townwhitestown.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://townwhitestown.digitaltowpath.org:10034/content/JobCategories False
+error: https://townwhitestown.digitaltowpath.org:10034/content/JobCategories HTTPSConnectionPool(host='townwhitestown.digitaltowpath.org', port=10034): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb238fa0>, 'Connection to townwhitestown.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://townwhitestown.digitaltowpath.org:10034/content/JobCategories False
+
+
+begin: Town of Williamson http://town.williamson.ny.us/employment-opportunities/
+succ, new url: Town of Williamson https://town.williamson.ny.us/employment-opportunities/
+
+
+begin: Town of Yorktown https://www.yorktownny.org/jobs
+
+
+begin: Village of Almond http://www.alleganyco.com/departments/human-resources-civil-service/
+
+
+begin: Village of Amityville https://amityville.com/employment-opportunities/
+
+
+begin: Village of Ardsley https://www.ardsleyvillage.com/home/pages/employment-opportunities-0
+
+
+begin: Village of Ballston Spa http://saratoga.myjobzone.net/jobzone-jobs-search.asp
+
+
+begin: Village of Brockport http://www.brockportny.org/departments-services/employment-opportunities
+
+
+begin: Village of Bronxville https://www.villageofbronxville.com/clerk/pages/employment-opportunities2
+succ, new url: Village of Bronxville https://www.villageofbronxville.com/clerk/pages/employment-opportunities
+
+
+begin: Village of Candor http://www.tiogacountyny.com/departments/personnel-civil-service/
+succ, new url: Village of Candor https://www.tiogacountyny.com/departments/personnel-civil-service/
+
+
+begin: Village of Cayuga https://mycivilservice.cayugacounty.us/exams
+
+
+begin: Village of Cooperstown https://www.cooperstownny.org/employment/
+
+
+begin: Village of Coxsackie http://villageofcoxsackie.com/job-archive-page/
+succ, new url: Village of Coxsackie https://villageofcoxsackie.com/job-archive-page/
+
+
+begin: Village of Dobbs Ferry https://www.dobbsferry.com/home/pages/job-opportunities
+
+
+begin: Village of Endicott https://endicottny.com/departments/employment/
+fail: https://endicottny.com/departments/employment/ 404
+fail: https://endicottny.com/departments/employment/ 404
+fail: http://endicottny.com/departments/employment/ 404
+
+
+begin: Village of Fleischmanns https://www.mtctelcom.com/employment
+
+
+begin: Village of Floral Park https://fpvillage.org/village-info/employment-opportunities/
+
+
+begin: Village of Fonda http://villagefonda.digitaltowpath.org:10193/content/JobCategories
+error: http://villagefonda.digitaltowpath.org:10193/content/JobCategories HTTPConnectionPool(host='villagefonda.digitaltowpath.org', port=10193): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a02e0>, 'Connection to villagefonda.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagefonda.digitaltowpath.org:10193/content/JobCategories False
+error: http://villagefonda.digitaltowpath.org:10193/content/JobCategories HTTPConnectionPool(host='villagefonda.digitaltowpath.org', port=10193): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0790>, 'Connection to villagefonda.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagefonda.digitaltowpath.org:10193/content/JobCategories False
+error: https://villagefonda.digitaltowpath.org:10193/content/JobCategories HTTPSConnectionPool(host='villagefonda.digitaltowpath.org', port=10193): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1b5610>, 'Connection to villagefonda.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagefonda.digitaltowpath.org:10193/content/JobCategories False
+
+
+begin: Village of Freeport https://www.freeportny.gov/jobs.aspx
+
+
+begin: Village of Great Neck Plaza http://www.greatneckplaza.net/Employment%20Opportunities.html
+
+
+begin: Village of Green Island https://villageofgreenisland.com/employment/
+
+
+begin: Village of Greenport https://www.greenport.com/jobs-board
+
+
+begin: Village of Hamburg https://www.villagehamburg.com/employmentopportunities
+
+
+begin: Village of Hamilton https://hamilton-ny.gov/jobs/
+
+
+begin: Village of Harriman https://www.orangecountygov.com/Jobs.aspx
+
+
+begin: Village of Hempstead https://www.villageofhempstead.org/197/Employment-Opportunities
+
+
+begin: Village of Heuvelton https://www.heuveltonny.com/employment-opportunities.html
+
+
+begin: Village of Holley http://www.villageofholley.org/jobs.cfm
+
+
+begin: Village of Homer https://www.homerny.org/government/jobs/
+
+
+begin: Village of Interlaken http://www.interlaken-ny.us/jobs.html
+
+
+begin: Village of Island Park http://villageofislandpark.com/employment/
+
+
+begin: Village of Laurel Hollow http://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories
+error: http://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories HTTPConnectionPool(host='villagelaurelhollow.digitaltowpath.org', port=10216): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0430>, 'Connection to villagelaurelhollow.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories False
+error: http://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories HTTPConnectionPool(host='villagelaurelhollow.digitaltowpath.org', port=10216): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238520>, 'Connection to villagelaurelhollow.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories False
+error: https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories HTTPSConnectionPool(host='villagelaurelhollow.digitaltowpath.org', port=10216): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb22ae80>, 'Connection to villagelaurelhollow.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories False
+
+
+begin: Village of Lima https://www.lima-ny.org/position-postings
+
+
+begin: Village of Mamaroneck https://www.village.mamaroneck.ny.us/village-manager/pages/job-openings
+
+
+begin: Village of Middleport http://villagemiddleport.digitaltowpath.org:10141/content/JobCategories
+error: http://villagemiddleport.digitaltowpath.org:10141/content/JobCategories HTTPConnectionPool(host='villagemiddleport.digitaltowpath.org', port=10141): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22a550>, 'Connection to villagemiddleport.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagemiddleport.digitaltowpath.org:10141/content/JobCategories False
+error: http://villagemiddleport.digitaltowpath.org:10141/content/JobCategories HTTPConnectionPool(host='villagemiddleport.digitaltowpath.org', port=10141): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242520>, 'Connection to villagemiddleport.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagemiddleport.digitaltowpath.org:10141/content/JobCategories False
+error: https://villagemiddleport.digitaltowpath.org:10141/content/JobCategories HTTPSConnectionPool(host='villagemiddleport.digitaltowpath.org', port=10141): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1b52e0>, 'Connection to villagemiddleport.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagemiddleport.digitaltowpath.org:10141/content/JobCategories False
+
+
+begin: Village of Morrisville https://www.madisoncounty.ny.gov/Jobs.aspx
+
+
+begin: Village of New Hartford http://villagenewhartford.digitaltowpath.org:10114/content/JobCategories
+error: http://villagenewhartford.digitaltowpath.org:10114/content/JobCategories HTTPConnectionPool(host='villagenewhartford.digitaltowpath.org', port=10114): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2429a0>, 'Connection to villagenewhartford.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagenewhartford.digitaltowpath.org:10114/content/JobCategories False
+error: http://villagenewhartford.digitaltowpath.org:10114/content/JobCategories HTTPConnectionPool(host='villagenewhartford.digitaltowpath.org', port=10114): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2cc640>, 'Connection to villagenewhartford.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagenewhartford.digitaltowpath.org:10114/content/JobCategories False
+error: https://villagenewhartford.digitaltowpath.org:10114/content/JobCategories HTTPSConnectionPool(host='villagenewhartford.digitaltowpath.org', port=10114): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a970>, 'Connection to villagenewhartford.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagenewhartford.digitaltowpath.org:10114/content/JobCategories False
+
+
+begin: Village of New Hempstead https://www.villageofhempstead.org/197/Employment-Opportunities
+
+
+begin: Village of New York Mills http://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories
+error: http://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories HTTPConnectionPool(host='villagenewyorkmills.digitaltowpath.org', port=10028): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238ac0>, 'Connection to villagenewyorkmills.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories False
+error: http://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories HTTPConnectionPool(host='villagenewyorkmills.digitaltowpath.org', port=10028): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0dc0>, 'Connection to villagenewyorkmills.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories False
+error: https://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories HTTPSConnectionPool(host='villagenewyorkmills.digitaltowpath.org', port=10028): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1b5550>, 'Connection to villagenewyorkmills.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories False
+
+
+begin: Village of Newark https://www.villageofnewark.com/employment-opportunities.html
+
+
+begin: Village of Newport http://www.villageofnewportny.org/job-opportunities
+
+
+begin: Village of Oakfield https://oakfield.govoffice.com/index.asp?SEC=716FA332-2833-43C7-B9DB-7EE27E52AD13&Type=B_JOB
+
+
+begin: Village of Ossining https://www.villageofossining.org/personnel-department
+
+
+begin: Village of Otisville http://villageotisville.digitaltowpath.org:10202/content/JobCategories
+error: http://villageotisville.digitaltowpath.org:10202/content/JobCategories HTTPConnectionPool(host='villageotisville.digitaltowpath.org', port=10202): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0ee0>, 'Connection to villageotisville.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villageotisville.digitaltowpath.org:10202/content/JobCategories False
+error: http://villageotisville.digitaltowpath.org:10202/content/JobCategories HTTPConnectionPool(host='villageotisville.digitaltowpath.org', port=10202): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2380d0>, 'Connection to villageotisville.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villageotisville.digitaltowpath.org:10202/content/JobCategories False
+error: https://villageotisville.digitaltowpath.org:10202/content/JobCategories HTTPSConnectionPool(host='villageotisville.digitaltowpath.org', port=10202): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a3d0>, 'Connection to villageotisville.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villageotisville.digitaltowpath.org:10202/content/JobCategories False
+
+
+begin: Village of Perry https://villageofperry.com/jobs/
+
+
+begin: Village of Pulaski http://villagepulaski.digitaltowpath.org:10789/content/JobCategories
+error: http://villagepulaski.digitaltowpath.org:10789/content/JobCategories HTTPConnectionPool(host='villagepulaski.digitaltowpath.org', port=10789): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb22a2b0>, 'Connection to villagepulaski.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagepulaski.digitaltowpath.org:10789/content/JobCategories False
+error: http://villagepulaski.digitaltowpath.org:10789/content/JobCategories HTTPConnectionPool(host='villagepulaski.digitaltowpath.org', port=10789): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242340>, 'Connection to villagepulaski.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagepulaski.digitaltowpath.org:10789/content/JobCategories False
+error: https://villagepulaski.digitaltowpath.org:10789/content/JobCategories HTTPSConnectionPool(host='villagepulaski.digitaltowpath.org', port=10789): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1b59a0>, 'Connection to villagepulaski.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagepulaski.digitaltowpath.org:10789/content/JobCategories False
+
+
+begin: Village of Rockville Centre http://www.rvcny.us/jobs.html?_sm_au_=ivv8z8lp1wffsnv6
+
+
+begin: Village of Saranac Lake http://saranaclakeny.gov/index.php?section=about-careers
+
+
+begin: Village of Scotia https://villageofscotia.org/employment-opportunities/
+
+
+begin: Village of Sleepy Hollow https://www.sleepyhollowny.gov/home/pages/employment-opportunities
+
+
+begin: Village of Sloan http://www.villageofsloan.org/emply.htm
+
+
+begin: Village of Spencerport http://www.vil.spencerport.ny.us/government/job-opportunities.html
+fail: http://www.vil.spencerport.ny.us/government/job-opportunities.html 404
+fail: http://www.vil.spencerport.ny.us/government/job-opportunities.html 404
+fail: https://www.vil.spencerport.ny.us/government/job-opportunities.html 404
+
+
+begin: Village of Stamford https://stamfordny.com/employment-opportunities/
+
+
+begin: Village of Stewart Manor http://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories
+error: http://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories HTTPConnectionPool(host='villagestewartmanor.digitaltowpath.org', port=10254): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb242610>, 'Connection to villagestewartmanor.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories False
+error: http://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories HTTPConnectionPool(host='villagestewartmanor.digitaltowpath.org', port=10254): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2cc2e0>, 'Connection to villagestewartmanor.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories False
+error: https://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories HTTPSConnectionPool(host='villagestewartmanor.digitaltowpath.org', port=10254): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb22abe0>, 'Connection to villagestewartmanor.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories False
+
+
+begin: Village of Stillwater https://www.stillwaterny.org/employment-opportunities/
+
+
+begin: Village of Valley Stream https://www.vsvny.org/index.asp?type=b_job&amp;sec=%7b05c716c7-40ee-49ee-b5ee-14efa9074ab9%7d&amp;_sm_au_=ivv8z8lp1wffsnv6
+succ, new url: Village of Valley Stream https://www.vsvny.org/index.asp?type=b_job&amp;sec=%7B05c716c7-40ee-49ee-b5ee-14efa9074ab9%7D&amp;_sm_au_=ivv8z8lp1wffsnv6
+
+
+begin: Village of Watkins Glen https://www.watkinsglen.us/employment-opportunities.php
+
+
+begin: Village of Wellsville http://wellsvilleny.com/html/humanresources.html
+
+
+begin: Village of West Carthage http://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories
+error: http://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories HTTPConnectionPool(host='villagewestcarthage.digitaltowpath.org', port=10087): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb2381f0>, 'Connection to villagewestcarthage.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories False
+error: http://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories HTTPConnectionPool(host='villagewestcarthage.digitaltowpath.org', port=10087): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0850>, 'Connection to villagewestcarthage.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories False
+error: https://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories HTTPSConnectionPool(host='villagewestcarthage.digitaltowpath.org', port=10087): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb1b5cd0>, 'Connection to villagewestcarthage.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories False
+
+
+begin: Village of Williamsville http://walkablewilliamsville.com/government/employment/
+
+
+begin: Village of Wilson http://villagewilson.digitaltowpath.org:10199/content/JobCategories
+error: http://villagewilson.digitaltowpath.org:10199/content/JobCategories HTTPConnectionPool(host='villagewilson.digitaltowpath.org', port=10199): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb1a0070>, 'Connection to villagewilson.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagewilson.digitaltowpath.org:10199/content/JobCategories False
+error: http://villagewilson.digitaltowpath.org:10199/content/JobCategories HTTPConnectionPool(host='villagewilson.digitaltowpath.org', port=10199): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3ecb238880>, 'Connection to villagewilson.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: http://villagewilson.digitaltowpath.org:10199/content/JobCategories False
+error: https://villagewilson.digitaltowpath.org:10199/content/JobCategories HTTPSConnectionPool(host='villagewilson.digitaltowpath.org', port=10199): Max retries exceeded with url: /content/JobCategories (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3ecb22a5e0>, 'Connection to villagewilson.digitaltowpath.org timed out. (connect timeout=10)'))
+fail: https://villagewilson.digitaltowpath.org:10199/content/JobCategories False
+
+
+redirected urls:
+['City of Beacon', 'https://www.cityofbeacon.org/index.php/employment-opportunities/'],
+['City of Jamestown', 'https://www.jamestownny.net/employment-opportunities/'],
+['City of Long Beach', 'https://www.longbeachny.gov/index.asp?type=b_basic&amp;sec=%7B9c88689c-135f-4293-a9ce-7a50346bea23%7D'],
+['City of Plattsburgh', 'https://www.clintoncountygov.com/employment'],
+['City of Rochester', 'https://www.cityofrochester.gov/article.aspx?id=8589936759'],
+['County of Broome', 'https://www.gobroomecounty.com/personnel/cs'],
+['County of Cattaraugus', 'https://cattco-portal.mycivilservice.com'],
+['County of Clinton', 'https://www.clintoncountygov.com/employment'],
+['County of Monroe', 'https://www.monroecounty.gov/hr-careers'],
+['County of Montgomery', 'https://www.co.montgomery.ny.us/web/sites/departments/personnel/default.asp'],
+['County of Oneida', 'https://ocgov.net//personnel'],
+['County of Tioga', 'https://www.tiogacountyny.com/departments/personnel-civil-service'],
+['County of Tompkins', 'https://www2.tompkinscountyny.gov/personnel'],
+['Town of Alden', 'https://www2.erie.gov/alden/index.php?q=employment-opportunities'],
+['Town of Amherst', 'http://www.amherst.ny.us/'],
+['Town of Beekman', 'https://www.townofbeekman.com/index.asp?Type=B_BASIC&SEC=%7B03E912D9-3F74-4E1F-8BE3-FAB7141BE80F%7D'],
+['Town of Clarence', 'https://www2.erie.gov/clarence/index.php?q=jobs'],
+['Town of Cortlandt', 'https://www.townofcortlandt.com/'],
+['Town of East Greenbush', 'https://www.eastgreenbush.org/departments/human-resources/employment-opportunities'],
+['Town of Eastchester', 'https://www.eastchester.org/departments/comptoller.php'],
+['Town of Huntington', 'https://www.huntingtonny.gov/content/13753/13757/17478/17508/default.aspx?_sm_au_=ivvt78qz5w7p2qhf'],
+['Town of Newburgh', 'https://www.townofnewburgh.org/cn/Employment/?tpid=12612'],
+['Town of Newstead', 'https://www2.erie.gov/newstead/index.php?q=legal-notices-job-postings'],
+['Town of Oyster Bay', 'https://oysterbaytown.com/departments/human-resources/'],
+['Town of Penfield', 'http://www.penfield.org/'],
+['Town of Sardinia', 'https://www2.erie.gov/sardinia/index.php?q=employment'],
+['Town of Wappinger', 'https://townofwappingerny.gov/employment-opportunities/'],
+['Town of Williamson', 'https://town.williamson.ny.us/employment-opportunities/'],
+['Village of Bronxville', 'https://www.villageofbronxville.com/clerk/pages/employment-opportunities'],
+['Village of Candor', 'https://www.tiogacountyny.com/departments/personnel-civil-service/'],
+['Village of Coxsackie', 'https://villageofcoxsackie.com/job-archive-page/'],
+['Village of Valley Stream', 'https://www.vsvny.org/index.asp?type=b_job&amp;sec=%7B05c716c7-40ee-49ee-b5ee-14efa9074ab9%7D&amp;_sm_au_=ivv8z8lp1wffsnv6'],
+
+
+failed urls:
+['City of Auburn', 'https://www.auburnny.gov/public_documents/auburnny_civilservice/index'],
+['City of Dunkirk', 'https://www.dunkirktoday.com/city-offices/personnel'],
+['City of Fulton', 'http://fulton.ny.gov/exam_annoucements_'],
+['City of New York City', '_http://www1.nyc.gov/jobs/index.page'],
+['City of Oswego', 'https://www.oswegony.org/government/personnel'],
+['County of Cayuga', 'https://www.cayugacounty.us/community/civilservicecommission/examannouncementsvacancies.aspx'],
+['County of Franklin', 'https://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50'],
+['County of Fulton', 'https://www.fultoncountyny.gov/node/5'],
+['County of Ontario', 'https://www.co.ontario.ny.us/jobs.aspx'],
+['County of Orleans', 'https://www.orleansny.com/personnel/'],
+['County of Oswego', 'http://www.oswegocounty.com/departments/finance_and_personnel/human_resources/exams___recruitments.php'],
+['County of St Lawrence', 'http://www.stlawco.org/Departments/HumanResources/CountyJobPostings'],
+['County of Warren', 'http://www.warrencountyny.gov/civilservice/exams.php'],
+['County of Westchester', 'http://humanresources.westchestergov.com/job-seekers/civil-service-exams'],
+['Town of Brutus', 'https://townbrutus.digitaltowpath.org:10148/content/JobCategories'],
+['Town of Caneadea', 'https://towncaneadea.digitaltowpath.org:10139/content/JobCategories'],
+['Town of Carlisle', 'https://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml'],
+['Town of Chenango', 'https://townofchenango.com/?page_id=12'],
+['Town of Clayton', 'https://townofclayton.com/departments/humanresources/'],
+['Town of Colden', 'https://www.townofcolden.com/employment/'],
+['Town of Conesus', 'https://townconesus.digitaltowpath.org:10010/content/JobCategories'],
+['Town of Deerfield', 'https://towndeerfield.digitaltowpath.org:10063/content/JobCategories'],
+['Town of Dover', 'http://townofdoverny.us/employmentopportunities.cfm'],
+['Town of Ellicott', 'https://www.townofellicott.com/html/jobs.html'],
+['Town of Fine', 'https://townfine.digitaltowpath.org:10054/content/JobCategories'],
+['Town of Galen', 'https://towngalen.digitaltowpath.org:10476/content/JobCategories'],
+['Town of Greenwich', 'http://www.greenwichny.org/home/job-openings/'],
+['Town of Hartwick', 'https://townhartwick.digitaltowpath.org:10113/content/JobCategories'],
+['Town of Hempstead', 'https://www.townofhempstead.org/civil-service-commission?_sm_au_=ivv8z8lp1wffsnv6'],
+['Town of Indian Lake', 'https://townindianlake.digitaltowpath.org:10201/content/JobCategories'],
+['Town of Irondequoit', 'http://www.irondequoit.org/town-departments/human-resources/town-employment-opportunities?_sm_au_=ivv8z8lp1wffsnv6'],
+['Town of Leicester', 'https://www.townofleicester.org/community/employment-opportunities/'],
+['Town of Lewisboro', 'http://www.lewisborogov.com/jobs'],
+['Town of Marcy', 'https://townmarcy.digitaltowpath.org:10019/content/JobCategories'],
+['Town of Mayfield', 'https://townmayfield.digitaltowpath.org:10052/content/404'],
+['Town of Ogden', 'https://www.ogdenny.com/TownDepartments/Personnel.aspx'],
+['Town of Ossining', 'https://www.townofossining.com/cms/resources/human-resources'],
+['Town of Paris', 'https://townparis.digitaltowpath.org:10026/content/JobCategories'],
+['Town of Perinton', 'https://www.perinton.org/departments/finpers'],
+['Town of Pinckney', 'https://townpinckney.digitaltowpath.org:10161/content/JobCategories'],
+['Town of Pound Ridge', 'http://www.townofpoundridge.com/jobs'],
+['Town of Princetown', 'https://townprincetown.digitaltowpath.org:10095/content/JobCategories'],
+['Town of Richmond', 'https://townrichmond.digitaltowpath.org:10135/content/JobCategories'],
+['Town of Royalton', 'https://townroyalton.digitaltowpath.org:10057/content/JobCategories'],
+['Town of Russia', 'https://townrussia.digitaltowpath.org:10221/content/JobCategories'],
+['Town of Springwater', 'https://townspringwater.digitaltowpath.org:10071/content/JobCategories'],
+['Town of Sullivan', 'https://townsullivan.digitaltowpath.org:10021/content/JobCategories'],
+['Town of Trenton', 'https://towntrenton.digitaltowpath.org:10031/content/JobCategories'],
+['Town of Van Buren', 'https://townofvanburen.com/employment/'],
+['Town of Verona', 'https://townverona.digitaltowpath.org:10032/content/JobCategories'],
+['Town of Wayland', 'https://townwayland.digitaltowpath.org:10163/content/JobCategories'],
+['Town of Whitestown', 'https://townwhitestown.digitaltowpath.org:10034/content/JobCategories'],
+['Village of Endicott', 'http://endicottny.com/departments/employment/'],
+['Village of Fonda', 'https://villagefonda.digitaltowpath.org:10193/content/JobCategories'],
+['Village of Laurel Hollow', 'https://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories'],
+['Village of Middleport', 'https://villagemiddleport.digitaltowpath.org:10141/content/JobCategories'],
+['Village of New Hartford', 'https://villagenewhartford.digitaltowpath.org:10114/content/JobCategories'],
+['Village of New York Mills', 'https://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories'],
+['Village of Otisville', 'https://villageotisville.digitaltowpath.org:10202/content/JobCategories'],
+['Village of Pulaski', 'https://villagepulaski.digitaltowpath.org:10789/content/JobCategories'],
+['Village of Spencerport', 'https://www.vil.spencerport.ny.us/government/job-opportunities.html'],
+['Village of Stewart Manor', 'https://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories'],
+['Village of West Carthage', 'https://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories'],
+['Village of Wilson', 'https://villagewilson.digitaltowpath.org:10199/content/JobCategories'],
+
+
+
+
+
+
+
+
+
+cons fail
+all of these have been updated except digitaltowpath urls
+['City of Dunkirk', 'http://www.dunkirktoday.com/city-offices/personnel']
+['County of Franklin', 'http://countyfranklin.digitaltowpath.org:10078/content/Departments/View/6:field=services;/content/DepartmentServices/View/50']
+['County of Fulton', 'http://www.fultoncountyny.gov/node/5']
+['Town of Brutus', 'http://townbrutus.digitaltowpath.org:10148/content/JobCategories']
+['Town of Carlisle', 'http://www2.schohariecounty-ny.gov/PdfPostingsWebApp/faces/ExamAnnouncementIndex.xhtml']
+['Town of Caneadea', 'http://towncaneadea.digitaltowpath.org:10139/content/JobCategories']
+['Town of Conesus', 'http://townconesus.digitaltowpath.org:10010/content/JobCategories']
+['Town of Deerfield', 'http://towndeerfield.digitaltowpath.org:10063/content/JobCategories']
+['Town of Fine', 'http://townfine.digitaltowpath.org:10054/content/JobCategories']
+['Town of Galen', 'http://towngalen.digitaltowpath.org:10476/content/JobCategories']
+['Town of Hartwick', 'http://townhartwick.digitaltowpath.org:10113/content/JobCategories']
+['Town of Indian Lake', 'http://townindianlake.digitaltowpath.org:10201/content/JobCategories']
+['Town of Marcy', 'http://townmarcy.digitaltowpath.org:10019/content/JobCategories']
+['Town of Mayfield', 'http://townmayfield.digitaltowpath.org:10052/content/404']
+['Town of Paris', 'http://townparis.digitaltowpath.org:10026/content/JobCategories']
+['Town of Pinckney', 'http://townpinckney.digitaltowpath.org:10161/content/JobCategories']
+['Town of Princetown', 'http://townprincetown.digitaltowpath.org:10095/content/JobCategories']
+['Town of Richmond', 'http://townrichmond.digitaltowpath.org:10135/content/JobCategories']
+['Town of Royalton', 'http://townroyalton.digitaltowpath.org:10057/content/JobCategories']
+['Town of Russia', 'http://townrussia.digitaltowpath.org:10221/content/JobCategories']
+['Town of Springwater', 'http://townspringwater.digitaltowpath.org:10071/content/JobCategories']
+['Town of Sullivan', 'http://townsullivan.digitaltowpath.org:10021/content/JobCategories']
+['Town of Trenton', 'http://towntrenton.digitaltowpath.org:10031/content/JobCategories']
+['Town of Verona', 'http://townverona.digitaltowpath.org:10032/content/JobCategories']
+['Town of Wayland', 'http://townwayland.digitaltowpath.org:10163/content/JobCategories']
+['Town of Whitestown', 'http://townwhitestown.digitaltowpath.org:10034/content/JobCategories']
+['Village of Fonda', 'http://villagefonda.digitaltowpath.org:10193/content/JobCategories']
+['Village of Laurel Hollow', 'http://villagelaurelhollow.digitaltowpath.org:10216/content/JobCategories']
+['Village of Middleport', 'http://villagemiddleport.digitaltowpath.org:10141/content/JobCategories']
+['Village of New Hartford', 'http://villagenewhartford.digitaltowpath.org:10114/content/JobCategories']
+['Village of New York Mills', 'http://villagenewyorkmills.digitaltowpath.org:10028/content/JobCategories']
+['Village of Otisville', 'http://villageotisville.digitaltowpath.org:10202/content/JobCategories']
+['Village of Pulaski', 'http://villagepulaski.digitaltowpath.org:10789/content/JobCategories']
+['Village of Stewart Manor', 'http://villagestewartmanor.digitaltowpath.org:10254/content/JobCategories']
+['Village of West Carthage', 'http://villagewestcarthage.digitaltowpath.org:10087/content/JobCategories']
+['Village of Wilson', 'http://villagewilson.digitaltowpath.org:10199/content/JobCategories']
+['Canton Central School District', 'http://www.ccsdk12.org']
+['Canisteo-Greenwood Csd', 'https://www.cgcsd.org:443/Page/51']
+['Central Valley Csd At Ilion-Mohawk', 'https://www.cvalleycsd.org/human-resources/']
+['Eastchester Union Free School District', 'https://district.eastchesterschools.org/m2/']
+['Edmeston Central School District', 'http://www.edmestoncentralschool.net/job-of-the-week']
+['Portville Central School District', 'http://www.portville.wnyric.org']
+['Tri-State College of Acupuncture', 'http://www.tsca.edu/site/acupuncture/contact-job-office/']
+
+
