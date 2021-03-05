@@ -1,0 +1,112 @@
+[
+["Town of Ellicott", "", "https://www.townofellicott.com/"],
+
+
+["Town of Leicester", "https://www.townofleicester.org/employment-opportunities", "https://www.townofleicester.org/"],
+
+
+["Village of Spencerport", "", "http://vil.spencerport.ny.us/vil/"],
+
+
+["Arkport Central School District", "https://www.arkportcsd.org/o/arkportcsd/page/current-openings", "http://www.arkportcsd.org"],
+
+
+["Averill Park Central School District", "https://averillpark.k12.ny.us/employment", "http://www.averillpark.k12.ny.us"],
+
+
+["Avon Central School District", "https://www.avoncsd.org/page/employment-applications", "http://www.avoncsd.org"],
+
+
+["Batavia City School District", "https://www.bataviacsd.org/page/career-opportunities", "http://www.bataviacsd.org"],
+
+
+["Brocton Central School District", "https://www.broctoncsd.org/page/employment-opportunities", "http://www.broctoncsd.org"],
+
+
+["Clyde-Savannah Central School District", "_RF_https://clydesavannahcsd.recruitfront.com/JobPostingLocation?LID=10402", "http://www.clydesavannah.org"],
+
+
+["East Moriches Union Free School District", "https://www.emoschools.org/Employment.aspx", "http://www.emoschools.org"],
+
+
+["Fulton City School District", "https://www.fultoncsd.org/domain/22", "http://www.fulton.cnyric.org"],
+
+
+["Greenburgh Eleven Union Free School District", "_OLAS_", "http://www.greenburgheleven.org"],
+
+
+["Hammondsport Central School District", "https://www.hammondsportcsd.org/page/employment-opportunities", "http://www.hammondsportcsd.org"],
+
+
+["Island Trees Union Free School District", "https://www.islandtrees.org/apps/pages/index.jsp?uREC_ID=415280&type=d", "http://www.islandtrees.org"],
+
+
+["Morristown Central School District", "http://www.greenrockets.org/apps/pages/index.jsp?uREC_ID=2065080&type=d&pREC_ID=2126970", "http://www.greenrockets.org"],
+
+
+["Mount Morris Central School District", "https://www.mtmorriscsd.org/page/employment", "http://www.mtmorriscsd.org"],
+
+
+["Niagara-Wheatfield Central School District", "https://www.nwcsd.org/page/employment-applicants", "http://www.nwcsd.org"],
+
+
+["Northern Adirondack Central School District", "https://www.nacs1.org/page/employment", "http://www.nacs1.org"],
+
+
+["Ogdensburg City School District", "https://www.ogdensburgk12.org/apps/pages/index.jsp?uREC_ID=1826144&type=d&pREC_ID=1984385", "http://www.ogdensburgk12.org"],
+
+
+["Pine Plains Central School District", "https://www.ppcsd.org/site/Default.aspx?PageID=1153", "http://www.ppcsd.org"],
+
+
+["Port Byron Central School District", "https://www.pbcschools.org/districtpage.cfm?pageid=1512", "http://www.pbcschools.org"],
+
+
+["Ravena-Coeymans-Selkirk Central School District", "_OLAS", "http://www.rcscsd.org"],
+
+
+["Richfield Springs Central School District", "https://www.richfieldcsd.org/page/employment-opportunities1", "http://www.richfieldcsd.org"],
+
+
+["Ripley Central School District", "https://www.ripleycsd.org/o/ripley/page/employment-opportunities--760", "https://www.ripleycsd.org/"],
+
+
+["South Huntington Union Free School District", "https://www.shufsd.org/district/employment-opportunities", "https://www.shufsd.org/"],
+
+
+["South Kortright Central School District", "https://www.skcs.org/page/employment-opportunities", "http://www.skcs.org"],
+
+
+["Trumansburg Central School District", "https://www.tburgschools.org/page/job-opportunities", "http://www.tburgschools.org"],
+
+
+["Valley Stream 24 Union Free School District", "_OLAS", "http://www.valleystreamdistrict24.org"],
+
+
+["Watkins Glen Central School District", "https://www.wgcsd.org/page/employment", "http://www.wgcsd.org"],
+
+
+["Westfield Central School District", "https://www.westfieldcsd.org/page/employment-opportunities", "https://www.westfieldcsd.org"],
+
+
+["Westhill Central School District", "https://www.westhillschools.org/teacherpage.cfm?teacher=448", "http://www.westhillschools.org"],
+
+
+["Worcester Central School District", "https://www.worcestercs.org/Employment.aspx", "http://www.worcestercs.org"],
+
+
+["Schenectady County Community College", "https://sunysccc.edu/About-Us/Office-of-Human-Resources/Employment-Opportunities.html", "http://sunysccc.edu"],
+
+
+["State University of New York College at Purchase", "https://jobs.purchase.edu/postings/search", "http://www.purchase.edu"]
+]
+
+
+
+
+
+
+
+
+
+
